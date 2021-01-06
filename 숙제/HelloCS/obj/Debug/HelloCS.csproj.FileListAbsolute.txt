@@ -1,0 +1,10 @@
+D:\중요\Desktop\매\HelloCS\bin\Debug\HelloCS.exe.config
+D:\중요\Desktop\매\HelloCS\bin\Debug\HelloCS.exe
+D:\중요\Desktop\매\HelloCS\bin\Debug\HelloCS.pdb
+D:\중요\Desktop\매\HelloCS\obj\Debug\HelloCS.csprojAssemblyReference.cache
+D:\중요\Desktop\매\HelloCS\obj\Debug\HelloCS.Form1.resources
+D:\중요\Desktop\매\HelloCS\obj\Debug\HelloCS.Properties.Resources.resources
+D:\중요\Desktop\매\HelloCS\obj\Debug\HelloCS.csproj.GenerateResource.cache
+D:\중요\Desktop\매\HelloCS\obj\Debug\HelloCS.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\매\HelloCS\obj\Debug\HelloCS.exe
+D:\중요\Desktop\매\HelloCS\obj\Debug\HelloCS.pdb
