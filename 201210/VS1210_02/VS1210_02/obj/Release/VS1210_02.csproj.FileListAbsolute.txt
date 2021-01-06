@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\12020\Test120701\VS1210\VS1210_02\VS1210_02\bin\Release\VS1210_02.exe.config
+C:\Users\KB\Desktop\12020\Test120701\VS1210\VS1210_02\VS1210_02\bin\Release\VS1210_02.exe
+C:\Users\KB\Desktop\12020\Test120701\VS1210\VS1210_02\VS1210_02\bin\Release\VS1210_02.pdb
+C:\Users\KB\Desktop\12020\Test120701\VS1210\VS1210_02\VS1210_02\obj\Release\VS1210_02.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\12020\Test120701\VS1210\VS1210_02\VS1210_02\obj\Release\VS1210_02.Form1.resources
+C:\Users\KB\Desktop\12020\Test120701\VS1210\VS1210_02\VS1210_02\obj\Release\VS1210_02.Properties.Resources.resources
+C:\Users\KB\Desktop\12020\Test120701\VS1210\VS1210_02\VS1210_02\obj\Release\VS1210_02.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\12020\Test120701\VS1210\VS1210_02\VS1210_02\obj\Release\VS1210_02.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\12020\Test120701\VS1210\VS1210_02\VS1210_02\obj\Release\VS1210_02.exe
+C:\Users\KB\Desktop\12020\Test120701\VS1210\VS1210_02\VS1210_02\obj\Release\VS1210_02.pdb

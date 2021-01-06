@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- textarea : 사용자의 입력을 받는 태그-->
+    <!-- textarea의 주의점 : 태그 안의 공백들도 모두 그대로 출력됨-->
+    <textarea cols="50" rows="10">
+        테스트
+    테스트    
+     테스트  
+    </textarea>
+    <!-- 일반적인 태그에서는 태그 내 공백이 없음-->
+    <!-- 줄 띄움하려면 특수문자가 필요하고 글자도 한 칸만 띄어짐-->
+    <p>
+        테                  스트
+        테스트
+    </p>
+    <!-- &nbsp : 띄어쓰기-->
+    <p>테&nbsp&nbsp&nbsp&nbsp스트</p>
+    <!-- contenteditable : 수정 가능-->
+    <p contenteditable>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur non odio tempore consequuntur, ullam optio vitae quos laudantium delectus reiciendis, ducimus placeat odit, quidem excepturi dolores consectetur ad voluptatibus recusandae.</p>
+</body>
+</html>

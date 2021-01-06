@@ -1,0 +1,65 @@
+/* Java는 하나의 클래스 안에 하나의 main 함수를 가져야 한다.
+ * utf-8
+ * 클래스 첫번째 문자는 대문자 사용
+ * Java class 이름은 파일명과 일치해야 한다.(대소문자 구별)
+ * Jaca는 하나의 프로젝트 안에 두 개의 class를 만들 수 있다.
+ */
+public class HelloJava1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// system.out.println() <- 모니터에 ""안의 내용을 출력해주는 메소드
+		System.out.println("헬로우 자바");
+		
+		// ""안에 특수문자 활용
+		System.out.println("|@@@@@@@@@@@|");
+		System.out.println("Hello Java");
+		System.out.println("|-----------|");
+		
+		// print, printf, prinln의 사용법
+		// print와 printf의 결과는 같으나 printf("내용\n")을 사용하면 자동으로 줄이 바뀐다.
+		// print("가나다") = printf("가나다")
+		// printf("가나다"\n) = println("가나다")
+		System.out.println("가나다");
+		System.out.print("가나다");
+		System.out.printf("가나다");
+		System.out.printf("가나다\n");
+		System.out.println("가나다");
+		
+		// Text(문자열), 문자(한글자), 숫자(정수, 실수)
+		// ""은 text(문자열)일때 사용, ''은 문자(한글자)일때 사용, 숫자는 없음
+		System.out.println("가나다");
+		System.out.println('가');
+		System.out.println(1);
+		System.out.println(1.5);
+		
+		// 숫자(정수, 실수) 덧셈
+		System.out.println(1.5+1);
+		System.out.println(1.5+1.5);
+		// ()를 쓰면 우선 계산 처리
+		System.out.println(1.5 + (1+5));
+		// 아스키코드 : 'a' + 'b' = 195
+		System.out.println('a' + 'b');
+		// 유니코드 : '홍' + '홍' = 89240
+		System.out.println('홍' + '홍');
+				
+		// Text(문자열)+문자(한글자)+숫자(정수, 실수)
+		System.out.println("이름 : " + "홍길동");
+		System.out.println("나이 : " + 27 + '세');
+		System.out.println("주소 : " + "조선 한양 홍대감댁 11번지");
+		System.out.println("키 : " + 1 + 8 + 0 + "cm");
+		System.out.println("몸무게 : " + (50+30+2.5) + "kg");
+		
+		// 변수
+		int num1;  // num1 정의
+		num1 = 10; // num1에 10을 넣겠다
+		
+		int num2 = 3; // num2 정의와 num2에 2를 넣겠다
+		
+		int num3 = num1 + num2; // num3은 num1과 num2의 합
+				
+		System.out.println(num1 + "+" + num2 + "=" + num3); //결과값
+
+	}
+
+}

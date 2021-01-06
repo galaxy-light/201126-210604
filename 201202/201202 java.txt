@@ -1,0 +1,11 @@
+String 무조건 S 대문자
+String : 문자열을 다루기 위해
+str : 변수
+String str = "홍길동"; -> 홍길동(문자열)을 str이라는 변수에 대입
+str 이름은 원하는대로 변경 가능/숫자는 불가능
+
+자바 변수명 스타일
+: camel 방식 ex)strTestInst(새로운 문자가 붙으면 대문자)
+
+상수변수 : 프로그램 내에서 변경이 불가능 = final
+ ex) final float pi = 3.14; -> pi는 3.14로 고정

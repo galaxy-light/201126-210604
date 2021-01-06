@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+  <!-- video-js 사용하기 위해 필요한 것(조건1)-->
+  <link rel="stylesheet" 
+  href="https://vjs.zencdn.net/7.2.3/video-js.css"/>
+  <script src="https://vjs.zencdn.net/7.2.3/video.js">
+  </script>
+  <!-- video-js 사용하기 위해 필요한 것-->
+</head>
+
+<body>
+    <video src="Wildlife.mp4" controls></video>
+
+    <!-- 여러 가지 확장자에 대한 대비(audio태그와 동일)-->
+    <!-- 크기 단위 생략시 px-->
+    <!-- autoplay muted : 자동 재생을 위한 짝꿍-->
+    <video width="640" height="360" controls autoplay muted>
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+    </video>
+    <!-- 썸네일 : poster 태그-->
+    <video poster="123.png" width="640" height="360" controls>
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+    </video>
+    <!-- 웹브라우저마다 동일한 플레이어(조건1-조건2)-->
+    <h1>video.js 플러그인 적용</h1>
+    <video width="640" height="360" controls class="video-js" data-setup="{}">
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+    </video>
+    <!-- 유튜브 영상 가져오기(소스 코드 복사)-->
+    <iframe width="1278" height="480" src="https://www.youtube.com/embed/juzrzTQqBss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="1903" height="800" src="https://www.youtube.com/embed/hDSVInZ2JCs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

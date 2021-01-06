@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3
+        {
+            /* display: inline;: 가로로 적기 위해 / 기본이 block(세로)라서 강제로 바꿈 */
+            display: inline;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <a href="table.html">table</a>
+    <a href="./table.html">table</a> <!-- ./ : 같은 폴더 -->
+    <a href="../naver.html">naver</a> <!-- ../ : 상위 폴더 -->
+    <h3>아기상어뚜뤃</h3>
+    <!-- 여기 적힌게 헤드에 적힌 스타일보다 우선 순위-->
+    <h3 style="font-size: 8px;">아기상어뚜뤃</h3>
+    <h3>아기상어뚜뤃</h3>
+</body>
+</html>

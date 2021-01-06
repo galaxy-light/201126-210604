@@ -1,0 +1,19 @@
+package t1231;
+
+public class Hap_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 0;
+		for (int i = 1; i <= 100; i++) {
+			if (i % 2 == 0) {
+			} else if (i % 2 != 0) {
+				// System.out.println(i);
+				num = num + i;
+			}
+
+		}
+		System.out.println("1~100까지 짝수를 제외한 합 : " + num);
+	}
+
+}

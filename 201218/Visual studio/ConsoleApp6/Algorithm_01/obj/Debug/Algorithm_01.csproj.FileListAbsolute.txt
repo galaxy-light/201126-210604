@@ -1,0 +1,14 @@
+C:\Users\KB\Desktop\tttttt\ConsoleApp6\Algorithm_01\bin\Debug\Algorithm_01.exe.config
+C:\Users\KB\Desktop\tttttt\ConsoleApp6\Algorithm_01\bin\Debug\Algorithm_01.exe
+C:\Users\KB\Desktop\tttttt\ConsoleApp6\Algorithm_01\bin\Debug\Algorithm_01.pdb
+C:\Users\KB\Desktop\tttttt\ConsoleApp6\Algorithm_01\obj\Debug\Algorithm_01.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\tttttt\ConsoleApp6\Algorithm_01\obj\Debug\Algorithm_01.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\tttttt\ConsoleApp6\Algorithm_01\obj\Debug\Algorithm_01.exe
+C:\Users\KB\Desktop\tttttt\ConsoleApp6\Algorithm_01\obj\Debug\Algorithm_01.pdb
+C:\Users\KB\Desktop\Desktop12\201214\Test120701\1218수업\visual studio\ConsoleApp6\Algorithm_01\bin\Debug\Algorithm_01.exe.config
+C:\Users\KB\Desktop\Desktop12\201214\Test120701\1218수업\visual studio\ConsoleApp6\Algorithm_01\bin\Debug\Algorithm_01.exe
+C:\Users\KB\Desktop\Desktop12\201214\Test120701\1218수업\visual studio\ConsoleApp6\Algorithm_01\bin\Debug\Algorithm_01.pdb
+C:\Users\KB\Desktop\Desktop12\201214\Test120701\1218수업\visual studio\ConsoleApp6\Algorithm_01\obj\Debug\Algorithm_01.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\Desktop12\201214\Test120701\1218수업\visual studio\ConsoleApp6\Algorithm_01\obj\Debug\Algorithm_01.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\Desktop12\201214\Test120701\1218수업\visual studio\ConsoleApp6\Algorithm_01\obj\Debug\Algorithm_01.exe
+C:\Users\KB\Desktop\Desktop12\201214\Test120701\1218수업\visual studio\ConsoleApp6\Algorithm_01\obj\Debug\Algorithm_01.pdb

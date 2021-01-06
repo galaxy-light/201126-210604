@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 오디오 태그-->
+    <!-- 웹 브라우저에 따라 mp3,ogg 지원하는 형식이 다름-->
+    <!-- HTML5에서는 자동 재생 기능이 지원되지 않기 때문에 audio 태그만 쓰면 재생창이 뜨지 않음-->
+    <audio src="Kalimba.mp3"></audio>
+    <!-- controls라는 태그를 써야지만 재생창이 뜸-->
+    <!-- controls 태그를 쓰는 방법은 두가지-->
+    <audio src="Kalimba.mp3" controls></audio>
+    <audio src="Kalimba.mp3" controls="controls"></audio>
+    <!-- type 태그를 사용하면 웹브라우저가 읽는 시간이 줄어듦-->
+    <audio src="Kalimba.mp3" controls type="audio/mp3"></audio>
+</body>
+</html>

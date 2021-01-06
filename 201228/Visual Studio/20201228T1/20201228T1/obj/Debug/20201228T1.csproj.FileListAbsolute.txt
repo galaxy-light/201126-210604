@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\1228\Test120701\1228 수업\비스\20201228T1\20201228T1\bin\Debug\20201228T1.exe.config
+C:\Users\KB\Desktop\1228\Test120701\1228 수업\비스\20201228T1\20201228T1\bin\Debug\20201228T1.exe
+C:\Users\KB\Desktop\1228\Test120701\1228 수업\비스\20201228T1\20201228T1\bin\Debug\20201228T1.pdb
+C:\Users\KB\Desktop\1228\Test120701\1228 수업\비스\20201228T1\20201228T1\obj\Debug\20201228T1.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\1228\Test120701\1228 수업\비스\20201228T1\20201228T1\obj\Debug\20201228T1.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\1228\Test120701\1228 수업\비스\20201228T1\20201228T1\obj\Debug\20201228T1.exe
+C:\Users\KB\Desktop\1228\Test120701\1228 수업\비스\20201228T1\20201228T1\obj\Debug\20201228T1.pdb

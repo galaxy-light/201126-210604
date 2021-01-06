@@ -1,0 +1,34 @@
+
+public class Student {
+	private String name;
+	private String tel;
+	private String email;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) { // main의 홍길동 전달 받음 / main의 최길동 전달 받음
+		this.name = name; // 오른쪽 name(홍길동)를 왼쪽 name에 대입 / 오른쪽 name(최길동)를 왼쪽 name에 대입
+	}
+	public String getTel() {
+		return tel;
+	}
+	public void setTel(String tel) { // main의 010-1234-5678 전달 받음 / main의 010-9876-5432 전달 받음
+		this.tel = tel; // 오른쪽 tel(010-1234-5678)를 왼쪽 tel에 대입 / 오른쪽 tel(010-9876-5432)를 왼쪽 tel에 대입
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) { // main의 hong@naver.com 전달 받음 / main의 choi@naver.com 전달 받음
+		this.email = email; // 오른쪽 email(hong@naver.com)를 왼쪽 email에 대입 / 오른쪽 email(choi@naver.com)를 왼쪽 email에 대입
+	}
+	
+	// 위에서 전달받음
+	public void showStudentInfo() {
+		// 인스턴스 변수 : name, tel, email
+		System.out.println("이름 : " + name); // 이때 name은 충돌하지 않아서 this가 필요없음
+		System.out.println("전화 : " + tel); // 이때 name은 충돌하지 않아서 this가 필요없음
+		System.out.println("이메일 : " + email); // 이때 name은 충돌하지 않아서 this가 필요없음
+	}
+	
+}

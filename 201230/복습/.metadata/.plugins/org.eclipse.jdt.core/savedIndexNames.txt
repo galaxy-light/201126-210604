@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\중요\Desktop\고니\.metadata\.plugins\org.eclipse.jdt.core
+2065093766.index
+3460880079.index

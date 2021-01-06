@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .example
+        {
+            color:paleturquoise;
+        }
+        h1.example /* h1태그이면서 class이름이 example인 것 */
+        {
+            color:palevioletred;
+        }
+        .example.test /* class 속성값이 example이면서 test인 것 */
+        {
+            color:olivedrab;
+        }
+    </style>
+</head>
+<body>
+    <h1>lorem</h1>
+    <!-- h1태그이면서 class이름이 example인 것 */ -->
+    <h1 class="example">lorem</h1>
+    <!-- class의 값이 2개(example, test) 들어간 것임 / 순서 상관X-->
+    <h1 class="example test">lorem</h1>
+    <h1 class="test example">lorem</h1>
+    <h1>lorem</h1>
+    <p>임시텍스트1</p>
+    <p>임시텍스트2</p>
+    <p class="example">임시텍스트3</p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+package t1231;
+
+import java.util.Scanner;
+
+public class Season {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);		
+		int num = s.nextInt();
+		switch (num) {
+		case 12,1,2:
+			System.out.println("겨울");
+			break;
+		case 3,4,5:
+			System.out.println("봄");
+		case 6,7,8:
+			System.out.println("여름");
+		case 9,10,11:
+			System.out.println("가을");
+		default:
+			System.out.println("잘못된 선택값!");
+			break;
+		
+		}
+	}
+
+}

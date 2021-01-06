@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header>h1 /* header 태그의 자손만 스타일 변경*/
+        {
+            color: red;
+        }
+        #section>h1 /* section 태그의 자손만 스타일 변경*/
+        {
+            color:orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+    <!-- h1.title-->
+    <h1 class="title">lorem</h1>
+    <div id="nav">
+        <h1>Lorem, ipsum dolor.</h1>
+        </div>
+     </div>
+     <div id="section">
+         <!-- h1.title{lorem}-->  
+         <h1 class="title">lorem</h1>         
+         <p id="section">Lorem, ipsum dolor.</p>        
+</div>
+</body>
+</html>

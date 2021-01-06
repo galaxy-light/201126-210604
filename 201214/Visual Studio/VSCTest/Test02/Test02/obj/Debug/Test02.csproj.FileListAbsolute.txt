@@ -1,0 +1,11 @@
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\bin\Debug\Test02.exe.config
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\bin\Debug\Test02.exe
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\bin\Debug\Test02.pdb
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\obj\Debug\Test02.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\obj\Debug\Test02.firstcustomcontrol.resources
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\obj\Debug\Test02.Form1.resources
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\obj\Debug\Test02.Properties.Resources.resources
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\obj\Debug\Test02.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\obj\Debug\Test02.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\obj\Debug\Test02.exe
+C:\Users\KB\Desktop\T01\VSCTest\Test02\Test02\obj\Debug\Test02.pdb

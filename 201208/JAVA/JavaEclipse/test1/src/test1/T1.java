@@ -1,0 +1,20 @@
+package test1;
+
+public class T1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(1.9+1.1);
+		System.out.println((int)(1.9+1.1));
+		System.out.println((int)(1.8+1.1));
+		System.out.println((int)(1.7+1.1));
+		System.out.println((int)(1.6+1.1));
+		System.out.println((int)(1.5+1.1));
+		System.out.println((int)(1.4+1.1));
+		System.out.println((int)(1.3+1.1));
+		System.out.println((int)(1.2+1.1));
+		System.out.println((int)(1.1+1.1));
+		
+	}
+
+}
