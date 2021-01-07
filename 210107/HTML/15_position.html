@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            width: 100px;
+            height: 100px;
+        }
+        .red
+        {
+            background-color: red;
+            /* static이 기본값이기 때문에 position: static;을 쓰는 것은 의미없음 */
+        }
+        .green
+        {
+            background-color: green;
+            position: relative; /* 상대적 좌표 */
+            left: 500px;            
+        }
+        .blue
+        {
+            background-color: blue;
+            position: fixed; /* 사용자가 입력한대로 좌측상단을 기준으로 이동 */
+            left: 100px;
+            top: 100px;
+        }
+        .pink
+        {
+            background-color: pink;
+            position: absolute; /* position: absolute; : 부모태그가 static인 경우 fixed와 동일하게 움직임 */
+            left: 20px;
+            top: 20px;
+            width: 30px;
+            height: 30px;
+        }       
+    </style>
+</head>
+<body>
+    <div class="box red"></div>
+    <div class="box green">
+        <div class="box pink"></div>
+    </div>
+    <div class="box blue"></div>
+    <div class="box red">두번째
+        <div class="box pink"></div>
+    </div>
+</body>
+</html>
