@@ -1,0 +1,28 @@
+객체지향언어 : class를 가짐 / 가비지 컬렉터가 들어가있음(인스턴스를 자동으로 제거해줌)
+
+* class : 문법
+  객체 : 이론
+
+* 메모리 공간(heap) 안의 객체를 정확히 말하면 인스턴스라고 함
+
+* 추상화 : 특징을 뽑아내는 것
+
+* 캡슐화 : 정보은닉 : 변수 정보를 보호해야할 것으로 간주
+
+* ex) class 정의
+학생 1명에 대한 정보
+Student : 클래스명
+class Student{
+	int kor;
+	int eng;
+	int math;
+}
+
+* class를 쓰기 위해서는 객체를 생성해야 됨
+
+* ex) 객체 생성
+Student : 클래스명 (사용자 임의 지정 가능) / 타입
+s : 변수명 (사용자 임의 지정 가능) / kor, eng, math를 가리킴
+Student( ); : 생성자
+new Student( ); : 객체를 생성하는 직접적인 부분(인스턴스 생성)
+Student s = new Student( );
