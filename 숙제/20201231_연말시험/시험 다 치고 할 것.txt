@@ -1,0 +1,10 @@
+if(송암전 출품함) //송암전 출품한 사람들은...
+{
+   Do First UI Test with your program; //그 작품을 가지고 UI 테스트하시고
+   then make a portfolio using bootstrap; //그 다음에 부트스트랩 활동하기
+}
+else //그렇지 않은 분들(즉 따로 테스트할 게 없는 분들)
+{
+   make a portfolio using bootstrap; //부트스트랩으로 웹페이지 하나 만들기
+   then Do UI Test with your bootstrap page; //그걸 테스트하기
+}
