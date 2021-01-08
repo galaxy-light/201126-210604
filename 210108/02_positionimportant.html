@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            width: 100px;
+            height: 100px;
+            /* position: absolute; : 사용하면 .red, .green, .blue가 body>div(부모 태그)를 무시함 */
+            position: absolute;
+        }
+        .red
+        {
+            background-color: red;
+            left: 10px;
+            top: 10px;
+        }
+        .green
+        {
+            background-color: green;           
+            left: 50px;
+            top: 50px;
+        }
+        .blue
+        {
+            background-color: blue;  
+            left: 100px;
+            top: 100px;   
+        }
+        .pink
+        {
+            background-color: pink;            
+            left: 10px;
+            top: 10px;
+            width: 30px;
+            height: 30px;
+        }
+        body>div /* body안의 첫번째 div태그에 영향을 줌*/
+        {
+            border: 10px solid black;
+            /* .box(자식태그)의 absolute 무시를 안받으려면 높이를 지정해주어야 함 */
+            height: 100px;
+            position: relative; /* position: relative; : body>div를 부모태그로 인식하게 하려고 사용*/
+            overflow: hidden; /* overflow: hidden; : body>div 영역 밖으로 나온 것을 숨겨버림 */
+            /* overflow: scroll; : body>div 영역 밖으로 나온 것을 스크롤로 보여줌  */
+        }
+        /* body div : body안의 모든 div에 영향을 줌 */
+    </style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <div>
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+    </div>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+</body>
+</html>

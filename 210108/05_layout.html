@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            width: 960px;
+            margin: 0 auto;            
+        }
+        #aside
+        {
+            width: 200px;
+            float: left;
+            background-color: seagreen;
+        }
+        #section
+        {
+            width: 740px;
+            float: right; /* aside와 section 사이의 여백을 주기 위해 width : 740px float: right;*/
+            background-color: salmon;
+        }      
+        #wrap 
+        {
+            overflow: hidden; /*footer을 밑으로 내리기 위해 */
+        } 
+    </style>
+</head>
+<body> 
+      <!-- 수평정렬공식 : 자손 float 속성을 적용하면 부모는 overflow -->
+      <div id="header">
+          <h1>Header</h1>
+      </div>
+      <div id="navigation">
+          <h1>Navigation</h1>
+      </div>
+      <div id="wrap">
+          <div id="aside">
+              <h1>Aside</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio nobis dicta sint deleniti a odit quas, aspernatur nam aliquid unde. Dolores, commodi accusantium recusandae sit id, quo veritatis dicta dolorum nemo aut, culpa ipsam deserunt hic. Dignissimos atque veritatis nesciunt quidem tenetur non neque amet? Voluptatibus ratione cupiditate exercitationem molestias ex quae harum odio provident architecto id, sapiente amet consectetur!</p>
+          </div>
+          <div id="section">
+              <h1>Section</h1>
+              <p>Lorem, ipsum.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, cupiditate recusandae. Reiciendis praesentium recusandae totam modi, eligendi quas, explicabo numquam inventore soluta molestiae nesciunt minima omnis temporibus dicta, quod vero quam! A ab eveniet autem sit quae? Magnam, obcaecati? Laborum aliquid, iste nemo ex dicta dolore mollitia placeat quidem laboriosam ipsam et praesentium, exercitationem saepe tempore inventore facere numquam quis.</p>
+          </div>
+      </div>
+      <div id="footer"></div>
+      <h1>Footer</h1>
+</body>
+</html>

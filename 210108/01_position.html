@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* static, relative : 상대 좌표 */
+        /* fixed, absolute : 절대 좌표 */       
+        .box
+        {
+            width: 100px;
+            height: 100px;
+        }
+        .red
+        {
+            background-color: red;
+            left: 10px;
+            top: 10px;
+        }
+        .green
+        {
+            background-color: green;
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+        .blue
+        {
+            background-color: blue;     
+            position: fixed; /* position: fixed; : 사용자가 지정한대로 이미지를 움직임 */
+            left: 10px;
+            top: 10px;   
+        }
+        .pink
+        {
+            background-color: pink;
+            position: absolute;  /* absolute : 부모태그가 포지션이 static이 아닌 경우 부모태그를 절대 좌표로 잡음 */
+            left: 10px;
+            top: 10px;
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- div.box.-->    
+    <div class="box red"></div>
+    <div class="box green">
+        <!-- div.box.pink -->
+        <div class="box pink"></div>
+    </div>
+    <div class="box blue"></div>
+    <!-- div.box.red -->
+    <div class="box red">두번째 <!-- box red의 포지션 상태는 static -->      
+        <div class="pink"></div> <!-- 절대 좌표 box red의 포지션 상태가 static이기 때문에 box pink의 위치가 10px, 10px -->
+        <!-- <div class="pink"></div> : pink에 box를 지워도 결과값이 똑같은 이유는 이미 .box로 먼저 할당 되어 있기 때문 -->
+    </div>
+</body>
+</html>
