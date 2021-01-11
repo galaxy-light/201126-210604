@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+
+    <style>
+         /* 초기화 코드 */
+        * { margin : 0; padding : 0;}
+        body{font-family: sans-serif;}
+        li{list-style: none;}
+        a{ text-decoration: none;}
+        img{border: 0;}        
+        
+        .title
+        {
+            /* 폰트, 색상 */
+            font-family: 'Anton', sans-serif;
+            color:#F2BA22;  
+
+            /* 텍스트 크기 */
+            font-size: 30px;
+            
+            /* 위치 */            
+            width:960px; margin:0 auto; /* 중앙 정렬 */
+
+            height : 160px;
+            position:relative;
+        }
+
+       
+        #main_header>#title 
+        {
+            position: absolute;
+            left:20px; top:30px;
+        }
+        
+       
+        
+        #main_gnb>ul {overflow:hidden}
+        #main_gnb>ul>li {float:left}
+        #main_gnb>ul>li>a {
+            display:block;
+            padding: 2px 10px;
+            border:1px solid #F2BA22;
+        }
+        #main_gnb>ul>li>a:hover
+        {
+            background : #F2BA22;
+            color:white
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header id="main_header"></header>  
+    <div class="title">
+        <h2>PLAYERUNKNOWN'S</h2>
+        <h1>BATTLEGROUNDS</h1>
+    </div> 
+    </header>
+
+    <nav id="main_gnb">
+        <ul>
+            <!-- (li>a[href=#])*4 -->
+            <li><a href="#">one</a></li>
+            <li><a href="#">two</a></li>
+            <li><a href="#">three</a></li>
+            <li><a href="#">four</a></li>
+        </ul>
+    </nav>
+   
+
+</body>
+</html>
