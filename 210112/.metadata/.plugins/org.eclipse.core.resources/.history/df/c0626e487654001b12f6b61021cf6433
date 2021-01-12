@@ -1,0 +1,7 @@
+package com.lg.carapp.car;
+
+public class Car {
+	private String model;
+	private int year;
+	private String money;
+}

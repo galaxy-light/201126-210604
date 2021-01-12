@@ -1,0 +1,17 @@
+package com.lg.carapp;
+
+import com.lg.carapp.car.Car;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 객체를 생성하면 package가 분리되어 있어서 에러가 뜸 -> car에 마우스를 대고 import 선택 -> import 자동 생성
+		Car car = new Car(); // new Car(); : 객체 생성 / Car(); : 사용자가 정의하지 않아도 java에서 자동으로 기본 생성자 생성함
+		// 지금은 Car.java에 사용자가 기본 생성자를 정의했기 때문에 그것을 불러옴
+		
+		new Car(); // new Car();을 써도 출력이 가능하지만 재사용 불가
+		new Car(); // new Car();을 써도 출력이 가능하지만 재사용 불가
+	}
+
+}

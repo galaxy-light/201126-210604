@@ -1,0 +1,12 @@
+
+public class TestArray {
+	private int sum;
+	private float avg;
+
+	public void ShowArrInfo() {
+	System.out.println("합 : " + sum);
+	avg = sum/10;
+	System.out.println("평균 : " + avg);
+	}
+
+}

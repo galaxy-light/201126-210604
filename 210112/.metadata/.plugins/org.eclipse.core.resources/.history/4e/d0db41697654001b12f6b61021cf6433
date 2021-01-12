@@ -1,0 +1,8 @@
+package com.lg.carapp.car;
+
+public class Car {
+	// 캡슐화 : private
+	private String model;
+	private int year;
+	private String money;
+}

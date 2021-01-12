@@ -1,0 +1,13 @@
+package com.lg.carapp;
+
+import com.lg.carapp.car.Car;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 객체 생성을 하면 package가 분리되어 있어서 에러가 뜸->import 선택/생성
+		Car car = new Car(); // 객체 생성
+	}
+
+}

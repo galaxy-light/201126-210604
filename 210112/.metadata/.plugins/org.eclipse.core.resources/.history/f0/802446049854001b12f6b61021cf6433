@@ -1,0 +1,34 @@
+
+public class TestArray {
+	private int sum;
+	private float avg;
+	
+	public static func(int arr[]) {
+	int arr[] = {20, 34, 22, 14, 36, 23, 67, 25, 99, 88};
+	
+	int sum = 0;
+	int avg = 0;
+	
+	for (int i = 0; i < arr.length; i++) {
+		sum += arr[i];			
+	}		
+	avg = sum/10;
+	
+	return arr;
+	
+}
+
+	public TestArray(int sum, float avg) {
+		super();
+		this.sum = sum;
+		this.avg = avg;
+	}
+
+
+	public void ShowArrInfo() {
+	System.out.println("합 : " + sum);
+	avg = sum/10;
+	System.out.println("평균 : " + avg);
+	}
+
+}

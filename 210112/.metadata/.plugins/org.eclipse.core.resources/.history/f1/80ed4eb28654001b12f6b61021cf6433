@@ -1,0 +1,7 @@
+
+public class TestArray {
+	private int hap;
+	private int avg;
+	
+	
+}

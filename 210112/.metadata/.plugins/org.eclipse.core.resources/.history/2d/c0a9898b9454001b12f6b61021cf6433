@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car car = new Car();
+		
+		car.setBrand("기아");
+		car.setColor("블랙");
+		car.setModel("K7");
+		car.setMoney("사천만원");
+		car.showCarInfo();
+		//System.out.println("대리점명 : " + car.place);		
+	}
+
+}

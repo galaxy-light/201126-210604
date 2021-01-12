@@ -1,0 +1,15 @@
+
+public class Car {
+	private String brand;
+	private String color;
+	private String money;
+	private String model;
+	
+	static String place = "동대구 영업소";
+	public void Car () {
+		brand = "기아";
+		color = "블랙";
+		money = "4천만원";
+		model = "K7";
+	}
+}

@@ -1,0 +1,48 @@
+
+public class Car {
+	private String model;
+	private int year;
+	private String money;
+	
+	// 오버로딩 : 서로 다른 두 개의 메서드
+	public Car() {
+		
+	}
+	
+	// 매개변수가 존재함
+	public Car(String model, int year, String money) {
+		super();
+		this.model = model;
+		this.year = year;
+		this.money = money;
+	}
+
+	// getter, setter
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	public String getMoney() {
+		return money;
+	}
+
+	public void setMoney(String money) {
+		this.money = money;
+	}
+	
+	
+	
+	
+}
