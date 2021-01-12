@@ -1,12 +1,16 @@
 
 public class Student {
+	// 인스턴스 변수 - 속성(특징)
 	private String name;
 	private String tel;
 	private String email;
 	
+	// getter
 	public String getName() {
 		return name;
 	}
+	
+	// setter
 	public void setName(String name) { // main의 홍길동 전달 받음 / main의 최길동 전달 받음
 		this.name = name; // 오른쪽 name(홍길동)를 왼쪽 name에 대입 / 오른쪽 name(최길동)를 왼쪽 name에 대입
 	}
