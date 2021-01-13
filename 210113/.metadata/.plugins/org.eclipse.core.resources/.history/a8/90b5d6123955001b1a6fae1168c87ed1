@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car car = new Car();
+		System.out.println("--------------");
+		System.out.println(Car.JIJUM);
+		System.out.println("--------------");
+		// 객체 안에 들어와 있는 인스턴스 정보 출력
+		car.showCarInfo();
+	}
+
+}

@@ -1,0 +1,48 @@
+
+public class NameMain {
+
+}
+
+
+class NameData {
+	
+	// 선언
+	private String first[];
+	private String mid[];
+	private String last[];
+	private String fullname;
+	
+	public NameData() {
+		nameRandom();
+		showNameInfo();
+	}
+		
+	
+	public NameData(String[] first, String[] mid, String[] last, String fullname) {
+		super();
+		this.first = first;
+		this.mid = mid;
+		this.last = last;
+		this.fullname = fullname;
+	}
+	
+	
+	public void nameRandom() {
+		int arr[] = new int [50];
+		String first[] = {"김", "박", "이", "최", "장"};
+		String mid[] = {"가", "나", "다", "라", "마"};
+		String last[] = {"바", "사", "아", "자", "차"};		
+		for (int i = 0; i < arr.length; i++) {		
+			String fullname = first[(int)(Math.random()*5)] + mid[(int)(Math.random()*5)] + last[(int)(Math.random()*5)];
+//			System.out.println(fullname);
+		}		
+		
+	}
+	
+	public void showNameInfo() {
+		nameRandom();
+	}
+	
+	
+	
+	

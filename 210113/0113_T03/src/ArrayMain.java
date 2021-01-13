@@ -1,0 +1,38 @@
+
+public class ArrayMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+		
+		// arr에 int arr[] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100}; 정보 전달 됨
+		ArrayHap hap = new ArrayHap(arr);
+		System.out.println("배열의 합 : " + hap.getSum());
+		System.out.println("배열의 평균 : " + hap.getAvg()); 
+	}
+
+}
+
+// 하나의 파일 안에 다른 class를 만들 때 public을 붙이면 안됨
+class ArrayHap{
+	private int sum;
+	private int avg;
+	
+	public ArrayHap(int arr[]) {
+		for(int i : arr) { // 향상된 for문
+			sum += i;
+		}
+		avg = sum / arr.length;
+		System.out.println("배열의 합 : " + sum); // 여기서도 바로 출력 가능
+		System.out.println("배열의 평균 : " + avg); // 여기서도 바로 출력 가능
+	}
+	
+	// Source-Generate Getter and Setters-get만 선택-Generate
+	public int getSum() {
+		return sum;
+	}
+	public int getAvg() {
+		return avg;
+	}	
+	
+}

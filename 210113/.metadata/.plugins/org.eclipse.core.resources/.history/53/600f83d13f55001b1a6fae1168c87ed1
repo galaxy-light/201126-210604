@@ -1,0 +1,14 @@
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+
+//하나의 파일 안에 다른 class를 만들 때 public을 붙이면 안됨
+class StudentScore{
+	
+}

@@ -1,0 +1,87 @@
+
+public class NameMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				
+	}
+
+}
+
+class NameData {
+//	private String first[] = {"김", "박", "이", "최", "장"};
+//	private String mid[] = {"가", "나", "다", "라", "마"};
+//	private String last[] = {"바", "사", "아", "자", "차"};
+	
+	// 선언
+	private String first[];
+	private String mid[];
+	private String last[];
+	private String fullname[];
+	
+	public NameData() {
+		makeRandom();
+		showNameInfo();
+	}
+		
+	
+	public NameData(String[] first, String[] mid, String[] last, String[] fullname) {
+		super();
+		this.first = first;
+		this.mid = mid;
+		this.last = last;
+		this.fullname = fullname;
+	}
+	
+	
+
+	// 초기화
+//	public NameData () {
+//		String first[] = {"김", "박", "이", "최", "장"};
+//		String mid[] = {"가", "나", "다", "라", "마"};
+//		String last[] = {"바", "사", "아", "자", "차"};		
+//	}
+	
+	int arr[] = new int [50];
+	public void nameRandom() {		
+		for (int i = 0; i < arr.length; i++) {
+			String first[] = {"김", "박", "이", "최", "장"};
+			String mid[] = {"가", "나", "다", "라", "마"};
+			String last[] = {"바", "사", "아", "자", "차"};		
+			String fullname = last[(int)(Math.random()*5)] + mid[(int)(Math.random()*5)] + first[(int)(Math.random()*5)];
+			System.out.println(fullname);
+		}		
+		
+	}
+	
+	public void showNameInfo() {
+		nameRandom();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+}

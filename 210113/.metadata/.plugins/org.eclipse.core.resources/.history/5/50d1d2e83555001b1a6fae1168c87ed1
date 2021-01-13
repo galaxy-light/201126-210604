@@ -1,0 +1,5 @@
+
+public class Car {
+	// static 변수는 한번만 작성
+	static final String JIJUM = "동대구 영업소"; // 상수 변수는 대문자로 작성
+}

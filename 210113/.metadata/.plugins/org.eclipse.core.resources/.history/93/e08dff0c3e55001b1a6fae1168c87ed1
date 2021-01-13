@@ -1,0 +1,30 @@
+
+public class ArrayMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+	}
+
+}
+
+class ArrayHap{
+	private int sum;
+	private int avg;
+	
+	public ArrayHap(int arr[]) {
+		
+	}
+	
+	// Source-Generate Getter and Setters-get만 선택
+	public int getSum() {
+		return sum;
+	}
+	public int getAvg() {
+		return avg;
+	}
+	
+	
+	
+	
+}

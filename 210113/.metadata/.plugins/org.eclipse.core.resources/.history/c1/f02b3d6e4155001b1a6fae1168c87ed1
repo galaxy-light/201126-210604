@@ -1,0 +1,50 @@
+import java.util.Random;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+
+//하나의 파일 안에 다른 class를 만들 때 public을 붙이면 안됨
+class StudentScore{
+	private int kor;
+	private int eng;
+	private int math;
+	private int sum;
+	private int avg;
+	private char harjum;
+	private char hakjum;
+	
+	public void makeRandom() {
+		Random r = new Random(); // 랜덤 객체 생성
+		kor = r.nextInt(101); // 101 : 0 ~ 100까지
+		eng = r.nextInt(101); // 101 : 0 ~ 100까지
+		math = r.nextInt(101); // 101 : 0 ~ 100까지
+		sum = kor + eng + math;
+		avg = sum / 3;
+	}
+	
+	public char getHakjum() {
+		if (avg <= 100 && avg >= 90) {
+			hakjum = 'A';		
+		}
+		else if (avg <= 89 && avg >= 90) {
+			hakjum = 'B';
+		}
+		else if (avg <= 79 && avg >= 70) {
+			hakjum = 'C';
+		}
+		else if (avg <= 69 && avg >= 60) {
+			hakjum = 'D';
+		}
+		else {
+			hakjum = 'F';
+		}
+		
+	}
+	
+}

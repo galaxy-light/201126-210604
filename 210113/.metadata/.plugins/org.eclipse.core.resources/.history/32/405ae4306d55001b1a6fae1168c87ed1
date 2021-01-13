@@ -1,0 +1,73 @@
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+public class NameDataRead {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class NameData {
+
+	// 선언
+	private String first[];
+	private String mid[];
+	private String last[];
+	private String fullname[] = new String[50];
+
+	public NameData() {
+		try {
+			nameRandom();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public NameData(String[] first, String[] mid, String[] last, String[] fullname) {
+		super();
+		this.first = first;
+		this.mid = mid;
+		this.last = last;
+		this.fullname = fullname;
+	}
+
+	public void nameRandom() throws IOException {
+		final String fileName = "D:/name.txt";
+		BufferedOutputStream bs = null;
+		bs = new BufferedOutputStream(new FileOutputStream(fileName));
+
+		String first[] = { "김", "박", "이", "최", "장" };
+		String mid[] = { "가", "나", "다", "라", "마" };
+		String last[] = { "바", "사", "아", "자", "차" };
+		for (int i = 0; i < fullname.length; i++) {
+			fullname[i] = first[(int) (Math.random() * 5)] + mid[(int) (Math.random() * 5)]
+					+ last[(int) (Math.random() * 5)];
+//			System.out.println(fullname);
+			bs.write(fullname[i].getBytes());
+			bs.write("/".getBytes());
+		}
+//		return fileName;
+		bs.close();
+	}
+	
+	public void nameRead() throws IOException {
+		BufferedReader br = new BufferedReader (new FileReader(new File("D:name.txt")));
+		String str = br.readLine();
+		
+		
+		StringTokenizer st = new StringTokenizer("/");
+		StringTokenizer temp = new StringTokenizer(br.readLine());
+		
+		temp.nextToken();
+	}
+}
