@@ -1,0 +1,6 @@
+@import url(01_at_rule_01.css);
+p
+{
+    background-color: tan;
+    color: teal;
+}

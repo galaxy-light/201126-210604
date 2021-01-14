@@ -1,0 +1,358 @@
+ <!-- 완전 줄이면 그리드 해제 -->
+ <!-- 동적 grid -->
+ <!-- 화면을 분할할 때 보통 12개로 나눔 -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+         /* 화면이 최대 크기가 767px일 때까진 아무것도 안 함 */
+         @media screen and (max-width: 767px) {
+             body {
+                 color: steelblue;
+             }
+         }
+         
+         /* 화면이 최소 768px부터 최대 959px일 땐 동적 그리드 적용 */
+         @media screen and (min-width: 768px) and (max-width: 959px) {
+             .container {
+                 /* 중앙 정렬 */
+                 margin: 0;
+                 padding: 0;
+             }
+
+             .row {
+                 /* 수평 정렬 */
+                 overflow: hidden;
+                 width: 100%;
+             }
+
+             .row [class*=span] {
+                 float: left;
+                 /* margin-left: 2%; : 칸과 칸사이의 공백 2% */
+                 margin-left: 2%;
+                 /* Gutter(여백) 적용함 */
+             }
+
+             /* 첫번째 칸의 왼쪽에는 공백X */
+             .row [class*=span]:first-child {
+                 margin-left: 0;
+             }
+
+             /* grid 개념 */
+             .span_1 {
+                 width: 6.5%;
+                 *width: 6%;
+                 /* * : 스타핵 : 구버전 인터넷 익스플로러 용 */
+             }
+
+             .span_2 {
+                 /* 6.5*2에 2%의 공백 추가 */
+                 width: 15%;
+                 *width: 14.5%;
+             }
+
+             .span_3 {
+                 width: 23.5%;
+                 *width: 23%;
+             }
+
+             .span_4 {
+                 width: 32%;
+                 *width: 31.5%;
+             }
+
+             .span_5 {
+                 width: 40.5%;
+                 *width: 40%;
+             }
+
+             .span_6 {
+                 width: 49%;
+                 *width: 48.5%;
+             }
+
+             .span_7 {
+                 width: 57.5%;
+                 *width: 57%;
+             }
+
+             .span_8 {
+                 width: 66%;
+                 *width: 65.5%;
+             }
+
+             .span_9 {
+                 width: 74.5%;
+                 *width: 74%;
+             }
+
+             .span_10 {
+                 width: 83%;
+                 *width: 82.5%;
+             }
+
+             .span_11 {
+                 width: 91.5%;
+                 *width: 91%;
+             }
+
+             .span_12 {
+                 width: 100%;
+                 *width: 99.5%;
+             }
+         }
+
+         /* 화면이 960xp 크기일 때부터는 정적 그리드를 적용 */
+         @media screen and (min-width: 960px) {
+             .container {
+                 width: 960px;
+                 margin: 0 auto;
+             }
+
+             .row {
+                 overflow: hidden;
+             }
+
+             .row [class*=span] {
+                 float: left;
+             }
+
+             .span_1 {
+                 width: 80px;
+             }
+
+             .span_2 {
+                 width: 160px;
+             }
+
+             .span_3 {
+                 width: 240px;
+             }
+
+             .span_4 {
+                 width: 320px;
+             }
+
+             .span_5 {
+                 width: 400px;
+             }
+
+             .span_6 {
+                 width: 480px;
+             }
+
+             .span_7 {
+                 width: 560px;
+             }
+
+             .span_8 {
+                 width: 640px;
+             }
+
+             .span_9 {
+                 width: 720px;
+             }
+
+             .span_10 {
+                 width: 800px;
+             }
+
+             .span_11 {
+                 width: 880px;
+             }
+
+             .span_12 {
+                 width: 960px;
+             }
+         }
+     </style>
+ </head>
+ <body>
+     <div class="container">
+         <div class="row">
+             <div class="span_12">
+                 <h1>header</h1>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ea inventore iure quisquam
+                     architecto! In iusto eius quidem doloribus quis, eos sapiente dignissimos, necessitatibus, optio
+                     labore eligendi asperiores vel quo sint porro cum totam soluta dolore adipisci quibusdam
+                     repudiandae ab autem accusamus? Rerum culpa tenetur quia eius dolor eaque unde.</p>
+             </div>
+         </div>
+         <div class="row">
+             <div class="span_6">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora laboriosam deleniti ratione non
+                     esse
+                     illo nisi atque dolorem in amet!</p>
+             </div>
+             <div class="span_6">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+         </div>
+         <div class="row">
+             <div class="span_2">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora laboriosam deleniti ratione non
+                     esse
+                     illo nisi atque dolorem in amet!</p>
+             </div>
+             <div class="span_2">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_2">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_2">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_2">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_2">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+         </div>
+         <div class="row">
+             <div class="span_3">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_3">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_3">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_3">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+         </div>
+         <div class="row">
+             <div class="span_4">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_4">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_4">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+         </div>
+         <div class="row">
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+             <div class="span_1">
+                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, delectus.</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt doloremque quos atque dolor ad
+                     recusandae
+                     adipisci voluptatum, doloribus placeat explicabo?</p>
+             </div>
+         </div>
+     </div>
+ </body>
+ </html>

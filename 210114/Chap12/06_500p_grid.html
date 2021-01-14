@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            /* 기본 초기화(ress css랑 같은 것) */
+            margin: 0;
+            padding: 0;
+        }
+        .container
+        {
+            /* 너비 고정, 중앙 정렬 */
+            width: 960px;
+            margin: 0 auto;
+            /* 위쪽 여백 */
+            padding-top: 10px;
+
+            /* 그리드 적용 */
+            display: grid;
+            /* fr : 비율 */
+            /* 70px 1fr 70px : 상하단에 70px를 주고 나머지를 다 사용한다는 뜻 */
+            grid-template: 70px 1fr 70px / 200px 1fr;
+            gap: 5px;
+        }
+        [class*=cell]
+        {
+            box-sizing: border-box;
+            border: 5px solid black;
+            padding: 10px;
+            border-radius: 10px;
+        }        
+        .cell-header {grid-column: 1/3;}
+        .cell-footer {grid-column: 1/3;}
+        
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="cell-header">
+            <h1>Header</h1>
+        </div>
+        <div class="cell-aside">
+            <h1>Aside</h1>
+            <p>Lorem.</p>
+            <p>Lorem, ipsum.</p>          
+        </div>
+        <div class="cell-content">
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="cell-footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>

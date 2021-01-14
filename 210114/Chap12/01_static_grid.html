@@ -1,0 +1,71 @@
+ <!-- 정적 grid -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        /* 화면을 분할할 때 보통 12개로 나눔 */
+        .container
+        {
+            /* 중앙정렬 */
+            margin: 0 auto;
+            width: 960px;
+        }
+
+        /* 수평정렬 */
+        .row /* 부모 태그 */
+        {
+            overflow: hidden;
+        }
+        .span /* 자식 태그 */
+        {
+            float: left;
+        }
+
+        /* grid 개념 */
+        .span-1  {width : 80px}
+        .span-2  {width : 160px}
+        .span-3  {width : 240px}
+        .span-4  {width : 320px}
+        .span-5  {width : 400px}
+        .span-6  {width : 480px}
+        .span-7  {width : 560px}
+        .span-8  {width : 640px}
+        .span-9  {width : 720px}
+        .span-10 {width : 800px}
+        .span-11 {width : 880px}
+        .span-12 {width : 960px}
+    </style> -->
+
+    <!-- less, css 활용 -->   
+    <link rel="stylesheet" href="02_static_grid_with_less.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="span span-12">
+                <h1>header</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ea inventore iure quisquam architecto! In iusto eius quidem doloribus quis, eos sapiente dignissimos, necessitatibus, optio labore eligendi asperiores vel quo sint porro cum totam soluta dolore adipisci quibusdam repudiandae ab autem accusamus? Rerum culpa tenetur quia eius dolor eaque unde.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span span-4">
+                <h1>content1</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem magni similique perferendis at eaque animi enim ducimus harum, sapiente rem. Velit dolorem laboriosam nemo iste sed aperiam cumque autem sit!</p>
+            </div>
+            <div class="span span-8">
+                <h1>content2</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam culpa necessitatibus consequatur officia, rem magni ipsum repudiandae error accusantium suscipit molestiae ducimus quis tenetur blanditiis nisi animi quasi ea eligendi delectus labore et sint sit facere amet. Repudiandae, error aut!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span span-12">
+                <h1>footer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut odio repellat placeat quam maxime culpa natus voluptatem, sapiente quae qui quia dolor corporis voluptate ratione, harum distinctio, asperiores cumque iusto eos praesentium facere laboriosam tempora? Quod ducimus voluptates doloribus, id officiis enim omnis, debitis voluptatibus ut est laboriosam iusto possimus laborum ratione voluptate vero, expedita aspernatur! Necessitatibus corrupti voluptates dolorum.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
