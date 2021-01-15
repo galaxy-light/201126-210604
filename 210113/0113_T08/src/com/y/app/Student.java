@@ -7,12 +7,12 @@ public class Student {
 	private static String address;
 	
 	
-	public Student(String name2, int age2, char gender2, String address2) {
+	public Student(String name, int age, char gender, String address) {
 		super();
-		this.name = name2;
-		this.age = age2;
-		this.gender = gender2;
-		this.address = address2;
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+		this.address = address;
 	}
 
 	
