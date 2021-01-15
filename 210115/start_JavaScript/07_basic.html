@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var one = 1;
+        var two= "2";
+        let three = 3;       
+        var one = 111; // 자바스크립트에서는 변수를 중복 선언해줘도 경고X
+        // alert("ㅎㅇ");
+        console.log("ㅎㅇ");
+        // let three = 333; // let : 변수를 중복 체크해줌
+        // alert("ㅎㅇ111");
+        console.log("ㅎㅇ111");
+
+        var array = [1, 2, 3, "홍", '길동 길동', '길', 5]; // 배열 안에 다른 타입 가능
+        for(var i = 0; i < array.length; i++)
+        {
+            // alert(array[i]);
+            console.log(array[i]);
+        }
+
+        array = 100 // 세미콜론이 간혈적으로 없어도 실행 가능(자바스크립트의 특징)
+        // alert(array);
+        console.log(array);
+
+        // 자바스크립트 오브젝트 노테이션
+        var obj = {
+            name : "홍길동",
+            age : 300,
+            master : "동최길",
+            123 : "박길동",
+            _ : "언더바 허용", 
+            }
+
+        // alert(obj['name']);
+        // alert(obj['age']);
+        // alert(obj['master']);
+        // alert(obj.name);
+        // alert(obj.age);
+        // alert(obj.master);
+
+        // 객체에 접근하는 방법은 [] 쓰거나 .을 찍거나 두가지가 있음
+        console.log(obj['name']);
+        console.log(obj['age']);
+        console.log(obj['master']);
+        console.log(obj.name);
+        console.log(obj.age);
+        console.log(obj.master);
+
+        console.log(obj['123']); // 변수가 숫자일 때 []는 가능하지만
+        // console.log(obj.123) // .은 안됨
+
+        console.log("자바스크립트");
+        // ver.1과 ver.2는 완전히 같진 않지만 비슷함
+        // ver.1
+        var wow = function ()
+        {
+            // alert("와우");
+            console.log("와우");
+        };
+        // ver.2
+        function wow()
+        {
+            console.log("와우");
+        }
+        wow();
+
+        console.log(wow);
+        /*
+        ƒ ()
+        {
+             // alert("와우");
+             console.log("와우");
+        }
+        */
+        console.log("!!!!!");
+        console.log(wow()); // 이건 undefined가 뜸  -> wow()자체가 리턴하는 값이 없음
+        console.log("!!!!!");
+
+        // wow(); wow() // 한 줄로 쓰고 싶으면 세미콜론을 붙여야 함
+
+        wow();
+        wow();
+
+        var devilArray = 
+        [
+            1,2,"3", { master : "홍길동", name : "최길동"}, [1,2,3]
+        ]
+        console.log(devilArray[0]);
+        console.log(devilArray[1]);
+        console.log(devilArray[2]);
+        console.log(devilArray[3]);
+        console.log(devilArray[4]);
+
+        var devilJson =
+        {
+            one : [1,2,3,4,5],
+            two : {two_one : "2",
+                    two_two : "twotwo"},
+            three : 5
+        }
+        console.log(devilJson['one']);
+        console.log(devilJson.two);
+        console.log(devilJson.three);
+       
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

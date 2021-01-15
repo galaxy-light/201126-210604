@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeCaption(cap) {
+            document.getElementById("fruit").innerText = cap;
+        }
+    </script>
+    <script>     
+        var str = "최길동";
+        str = '<br>최길동';
+        document.write(str);
+         // 큰 따옴표 안에는 작은 따옴표가 역슬래시 없이 그냥 들어갈 수 있음
+        str = "<br>'최'길동";
+        document.write(str);
+        // 작은 따옴표 안에는 큰 따옴표가 역슬래시 없이 그냥 들어갈 수 있음
+        str = '<br>"최"길동';
+        document.write(str);
+        str = '<br>\'최\'길동';
+        document.write(str);
+        str = "<br>\"최\"길동";
+        document.write(str);
+
+        var exam = '홍길동';
+        exam = '<br>"홍"길동'  // 세미클론이 없어도 출력 가능
+        document.write(exam);
+        exam = "<br>홍'길'동";
+        document.write(exam);
+        exam = "<br>홍\'길\'동";
+        document.write(exam);
+        exam = "<br>홍\"길\"동";
+        document.write(exam);
+    </script>
+</head>
+<body>
+    <h1 id="fruit">과일</h1>
+    <!-- input:button*2 -->
+    <input type="button" value="Apple" onclick="changeCaption('Apple')">
+    <input type="button" value="Orange" onclick="changeCaption('Orange')">
+</body>
+</html>

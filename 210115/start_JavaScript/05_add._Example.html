@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="num1" type="text"> <span>+</span>
+    <input id="num2" type="text"> <span>=</span>
+    <span id="result">결과</span>
+    <div>
+        <input value="더하기" type="button" onclick="sum()">
+    </div>    
+
+    <script>
+        function sum() {
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;
+            alert(Number(num1)+Number(num2));
+            document.getElementById('result').value=Number(num1)+Number(num2);
+        }  
+    </script>   
+</body>
+</html>

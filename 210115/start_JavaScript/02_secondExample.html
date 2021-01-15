@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 도큐먼트 오브젝트 모델 -->
+    <!-- dom 객체를 통해서 화면 조작 -->
+    <h1 id="para">Lorem, ipsum.</h1>
+    <h2 class="ppp">Lorem ipsum dolor sit amet.</h2>
+    <h2 class="ppp">Lorem ipsum dolor sit amet.</h2>
+
+    <script>
+        // Element : 구성 요소
+        // getElementById : id를 가져와서 .innerText=' ' : 그 텍스트를 바꾸겠다는 뜻
+        document.getElementById('para').innerText='lorem';
+        
+        // 구성 요소 중에 클래스 중 첫번째 ppp를 ..으로 바꾸겠다는 뜻
+        document.getElementsByClassName('ppp')[0].innerText="..";
+
+        document.getElementsByClassName('ppp')[1].style.color="blue";
+        // document.getElementsByClassName('ppp')[1].style.color="#0000FF";
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="num1" type="text"> <span>+</span>
+    <input id="num2" type="text"> <span>=</span>
+    <span id="result1">결과</span>
+    <div>
+        <input value="더하기" type="button" onclick="sum()">
+    </div>
+    <br>
+    <input id="num3" type="text"> <span>-</span>
+    <input id="num4" type="text"> <span>=</span>
+    <span id="result2">결과</span>
+    <div>
+        <input value="빼기" type="button" onclick="sub()">
+    </div>
+    <br>
+    <input id="num5" type="text"> <span>*</span>
+    <input id="num6" type="text"> <span>=</span>
+    <span id="result3">결과</span>
+    <div>
+        <input value="곱하기" type="button" onclick="mul()">
+    </div>
+    <br>
+    <input id="num7" type="text"> <span>/</span>
+    <input id="num8" type="text"> <span>=</span>
+    <span id="result4">결과</span>
+    <div>
+        <input value="나누기" type="button" onclick="div()">
+    </div>
+
+    <script>
+        function sum() {
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;  
+            // alert(Number(num1)-Number(num2));          
+            document.getElementById('result1').innerText=Number(num1)+Number(num2);
+        }  
+    </script>
+     <script>
+        function sub() {
+            var num3 = document.getElementById('num3').value;
+            var num4 = document.getElementById('num4').value;
+            // alert(Number(num3)-Number(num4));
+            document.getElementById('result2').innerText=Number(num3)-Number(num4);
+        }  
+    </script>
+    <script>
+        function mul() {
+            var num5 = document.getElementById('num5').value;
+            var num6 = document.getElementById('num6').value;
+            // alert(Number(num5)*Number(num6));
+            document.getElementById('result3').innerText=Number(num5)*Number(num6);
+        }  
+    </script>
+    <script>
+        function div() {
+            var num7 = document.getElementById('num7').value;
+            var num8 = document.getElementById('num8').value;
+            // alert(Number(num7)/Number(num8));
+            document.getElementById('result4').innerText=Number(num7)/Number(num8);
+        }  
+    </script>
+</body>
+</html>
