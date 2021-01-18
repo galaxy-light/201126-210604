@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 객체
+        // 함수를 빌려 쓰고 있는 객체 생성자
+        function Student(name, number) {
+            this.name = name;
+            this.number = number;
+        }
+
+        // 클래스 메서드와 같은 역할 (한번 선언해두면 재사용 가능)
+        // toString : 객체를 변환
+        Student.prototype.toString = function () {
+            return "이름 : " + this.name + "학번 : " + this.number;
+        }
+
+        var array = [];
+
+        // push = add와 같음
+        array.push(new Student("홍길동", 2021011801));
+        array.push(new Student("최길동", 2021011802));
+
+        // 동일한 문법
+        var tempStudent = new Student("이길동", 2021011803);
+        array.push(tempStudent);
+
+        var output = '';
+        for (var index in array) {
+            output += array[index] + "\n";            
+        }
+        alert(output);
+    </script>
+</body>
+</html>

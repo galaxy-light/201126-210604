@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // F12-Console
+        console.log("Hello World");
+        // 메시지창
+        alert("홍길동")
+        alert("최길동");
+        // 페이지 본문
+        document.write("이길동");
+    </script>
+    <style>
+        .redText
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="firstHeaderTag">Lorem ipsum dolor</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    
+    <script>  // 자바스크립트(=DOM 객체를 이용)
+        var fir = document.querySelector('#firstHeaderTag');
+        // 속성을 줘서 스타일 바꾸기
+        fir.setAttribute('class', 'redText');
+        // 직접 스타일 바꾸기
+        fir.style.background="yellow";
+    </script>
+
+    <script>
+        // 자바스크립트에서는 변수의 타입은 세가지 = var, let, const
+        var now = 100;
+        now = "박길동";
+        now = 100.5;
+        now = [1,2,3,4,5];
+        now = 
+        {
+            name : "김길동",
+            lover : "임길동",
+            age : 12
+        }
+       
+        // var 와 let은 엄밀성의 차이
+        var now = "중복선언해도 딱히 에러메시지 안 띄움";
+
+        // let : 변수 중복 체크
+        let letitgo = "렛잇고";
+        let letitgo = "다 잊어"
+
+        // for문 안에서는 let을 써주는게 좋음
+        // var를 써주면 for이 간혈적으로 꼬여서 let을 씀   ;
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+        }
+    </script>
+</body>
+</html>

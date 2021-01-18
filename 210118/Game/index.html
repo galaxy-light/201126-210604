@@ -1,0 +1,154 @@
+<!-- 자습시간에 혼자한 건데 중단함 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* 오버레이 실행시 뒷배경 스크롤 방지 */
+        .stop-scrolling{
+            overflow: hidden;
+        }
+
+        h1{
+            width: 360px;
+            margin: 0 auto;
+            text-align: center;
+            color: aquamarine;
+            padding-top: 20px;
+        }
+
+        .subsubject{
+            text-align: center;
+        }
+
+        p{padding: 8px 0px;}
+        
+        .container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-items: center;
+            justify-content: center;
+        }
+
+        .container>div{
+            flex-basis: 25%;
+            flex: 0;
+            margin: 8px;
+            border: 1px solid rgb(252, 252, 252);
+            padding: 8px;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        .container>div:hover{
+            border:1px solid plum;
+        }
+
+        .buttonWrapper{
+            width: 100vs;
+            text-align: center;
+        }
+
+        .more
+        {
+            width: 120px;
+            padding: 8px 15px;
+            margin: 0 auto;
+        }
+
+        /* 오버레이 설정 */
+        #overlay{
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0);
+            z-index: 999;
+
+            /* 시작시 보이지 않게 처리 */
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.5s;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: center;
+        }
+
+        /* 오버레이를 보여줄 때 사용 */
+        #overlay.show{
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .close
+        {
+            position: absolute;
+            top: 10px; right: 10px;
+            width: 36px;
+            margin: 0; padding: 0;
+            cursor: pointer;
+            margin: 8px auto;
+        }
+        
+        /* 데스크탑 */
+        .youtube
+        {
+            width: 60%;
+            height: 60%;
+        }
+
+        iframe{
+            display: block;
+            width: 100%;
+        }
+        
+        .noVideo{
+            color: white;
+        }
+
+        /* 모바일 */
+        @media(max-width: 768;){
+            .youtube{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+   <h1>The Game</h1>
+   <p class="subsubject">인생이란 건 복잡하죠. 저도... 이렇게 살 줄은 전혀 몰랐거든요. - GTA4 니코 벨릭</p>
+
+    <div class="container">
+
+    </div>
+    <div class="buttonWrapper"><button class="more">더 보기</button></div>
+    <div id="overlay">
+        <div class="youtube"></div>
+        <img src="white.png" alt="" class="close" width="36px" height="36px">
+    </div>
+
+    <script>
+        let page = 1;
+        const key = "your key";
+        const base_url = "http://image.thmb.org/t/p/w300/";
+        const container = document.querySelector(".container");
+        const youtube = document.querySelector(".youtube");
+        const overlay = document.querySelector("#overlay");
+        const closeButton = Document.querySelector(".close");
+        let currentScrolly = "";
+
+        function fetch(page) {
+            const url = ''
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="first" class="num" type="text">
+    <span>+</span>
+    <input id="second" class="num" type="text">
+    <span>=</span>
+    <span class="result">결과</span>
+    <!-- div는 디스플레이 속성이 블럭이기 때문에 한 줄을 다 차지함 -->
+    <!-- div를 지우면 결과 옆에 버튼이 붙음 -->
+    <div>
+        <input type="button" value="더하기" onclick="sum()">
+    </div>
+
+    <script>
+        function sum()
+        {
+            // 선택하는 세가지 방법
+            // class이름이 num이면서 첫번째 태그 선택
+            var one = document.getElementsByClassName('num')[0].value;
+            // console.log(one);
+            // id : 하나의 태그
+            one = document.getElementById('first').value;
+            // console.log(one);
+            // class : 여러개의 태그
+            one = document.querySelector('#first').value;
+            // console.log(one);
+
+             // class이름이 num이면서 두번째 태그 선택
+            var two = document.getElementsByClassName('num')[1].value;
+
+            // Number : 숫자라고 지정하기 위해 사용
+            document.getElementsByClassName('result')[0].innerText = Number(one)+Number(two);
+        }
+    </script>
+</body>
+</html>
