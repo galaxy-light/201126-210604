@@ -1,0 +1,11 @@
+package com.y.carApp.car;
+
+public class Car {
+	private String model;
+	private int year;
+	private String color;
+	private String company;
+	
+	
+	
+}

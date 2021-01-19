@@ -1,0 +1,8 @@
+package singletone;
+
+public class SingleTest {
+	private static singleTest inst;
+	private int data;
+	
+	public SingTest
+}

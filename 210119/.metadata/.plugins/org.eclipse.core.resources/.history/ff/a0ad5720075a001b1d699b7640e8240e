@@ -1,0 +1,22 @@
+package singletone;
+
+public class SingleTest {
+	private static SingleTest inst; // static : class 변수 / SingleTest : 타입
+	private int data;
+	
+	public SingleTest() {
+		data = (int)(Math.random()*100);
+	}
+	
+	// class 메서드
+	public static SingleTest getInstance() { // SingleTest : 리턴타입
+		if (inst == null) {
+			inst = new SingleTest(); // 최초에 한번 생성
+		}
+		return inst; // 생성된 객체를 재사용
+	}
+	
+	public int getData() {
+		
+	}
+}

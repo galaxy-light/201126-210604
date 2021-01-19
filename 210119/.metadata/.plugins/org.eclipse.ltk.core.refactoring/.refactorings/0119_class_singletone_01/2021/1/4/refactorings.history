@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;singletone.singleTest.java&apos; to &apos;SingleTest.java&apos;&#x0D;&#x0A;- Original project: &apos;0119_class_singletone_01&apos;&#x0D;&#x0A;- Original element: &apos;singletone.singleTest.java&apos;&#x0D;&#x0A;- Renamed element: &apos;singletone.SingleTest.java&apos;" description="Rename compilation unit &apos;singleTest.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;singletone{singleTest.java" name="SingleTest.java" references="false" stamp="1611026827714" version="1.0"/>
+</session>

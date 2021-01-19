@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+// https://blog.naver.com/hack4ork/221682679110
+public class Test02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1번
+		Scanner s = new Scanner(System.in);
+		
+	}
+
+}

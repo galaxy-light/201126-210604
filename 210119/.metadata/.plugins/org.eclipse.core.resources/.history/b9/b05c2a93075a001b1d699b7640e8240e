@@ -1,0 +1,13 @@
+// https://blog.naver.com/hack4ork/221670752134
+package singletone;
+
+public class SingleTestMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 인스턴스 객체 생성
+		SingleTest si1 = new SingleTest();
+		si1.getData();
+	}
+
+}

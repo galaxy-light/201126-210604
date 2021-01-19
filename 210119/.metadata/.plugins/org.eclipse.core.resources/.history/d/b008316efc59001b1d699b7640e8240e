@@ -1,0 +1,57 @@
+package com.y.carApp.car;
+
+public class Car {
+	private String model;
+	private int year;
+	private String color;
+	private String company;
+	private String price;
+	
+	// 매개변수를 사용하는 생성자
+	public Car(String model, int year, String color, String company) {
+		super();
+		this.model = model;
+		this.year = year;
+		this.color = color;
+		this.company = company;
+	}
+	
+	// getter, setter
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public String getCompany() {
+		return company;
+	}
+
+	public void setCompany(String company) {
+		this.company = company;
+	}
+	
+	
+	
+	
+	
+	
+}

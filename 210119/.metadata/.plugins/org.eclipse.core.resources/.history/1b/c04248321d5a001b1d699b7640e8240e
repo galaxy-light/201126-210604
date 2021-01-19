@@ -1,0 +1,11 @@
+// https://blog.naver.com/hack4ork/221682675581
+public class Test01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub		
+		final double pi = 3.14;
+		int num = 5;
+		System.out.println(num+"*"+num+"*"+pi+"="+num*num*pi);
+	}
+
+}

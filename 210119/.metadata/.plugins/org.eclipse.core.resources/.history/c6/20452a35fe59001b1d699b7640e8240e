@@ -1,0 +1,10 @@
+package com.y.carApp.customer;
+
+import com.y.carApp.car.Car;
+
+public class Customer {
+	private String name;
+	private String tel;
+	private String address;
+	private Car car; // import
+}
