@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <style>
+        .reverse
+        {
+            background: black;
+            color: yellow;
+        }
+    </style>  
+    <script>
+        // $(document).ready (function () {
+        $(function () { // 윗 줄의 축약형
+          // alert('하이');
+          
+          // h1태그 클릭하면 글자를 추가해주는 기능
+          // 메서드 체이닝
+          $('h1').on('click', function () {
+              $(this).html(function (index, html) { // this = h1
+                  return html+'+';
+              })
+          }).on(
+              {
+              mouseenter : function () {$(this).addClass('reverse');},
+              mouseleave : function () {$(this).removeClass('reverse');}
+              });
+        })
+    </script> 
+</head>
+<body>
+    <!-- h1{Header-$}*3 -->
+    <h1>Header-1</h1>
+    <h1>header-2</h1>
+    <h1>header-3</h1>
+</body>
+</html>
