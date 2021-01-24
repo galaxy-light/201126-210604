@@ -1,3 +1,4 @@
+// 평가(210126)폴더 참고
 import java.util.Scanner;
 
 public class Method_t09 {
