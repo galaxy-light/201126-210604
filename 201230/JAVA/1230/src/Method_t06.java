@@ -1,4 +1,4 @@
-
+// java평가(210126) 폴더 참고
 public class Method_t06 {
 
 	public static void main(String[] args) {
