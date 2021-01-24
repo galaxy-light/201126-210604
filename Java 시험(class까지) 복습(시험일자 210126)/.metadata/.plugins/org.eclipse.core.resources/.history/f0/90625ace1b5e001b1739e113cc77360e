@@ -1,0 +1,21 @@
+import java.util.Random;
+
+// https://blog.naver.com/hack4ork/221671486484
+public class Test07_method_06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int result[]; // 배열 변수 선언
+		result = arr(); // 메서드를 호출하고 메서드가 리턴한 배열을 전달 받음
+	}
+
+	public static int []arr() {
+		Random rand = new Random();
+		int temp[] = new int [6];
+		for (int i = 0; i < temp.length; i++) {
+			temp[i] = rand.nextInt(45)+1;
+//			System.out.println(temp[i]);
+		}
+		return temp;
+	}
+}

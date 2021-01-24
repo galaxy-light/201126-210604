@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Test07_method_04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		int ko = s.nextInt();
+		int en = s.nextInt();
+		int ma = s.nextInt();
+		
+
+
+	}	
+		
+	
+
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+// https://blog.naver.com/hack4ork/221671486484
+public class Test07_method_05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		int num = s.nextInt();
+		
+		func(num);
+	}
+	
+	
+	
+	
+	public static void func(int num) {
+		
+	}
+}

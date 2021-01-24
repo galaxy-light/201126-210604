@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\중요\Desktop\School\Java 시험(class까지) 복습(시험일자 210126)\.metadata\.plugins\org.eclipse.jdt.core
+3460880079.index
+2094901428.index
