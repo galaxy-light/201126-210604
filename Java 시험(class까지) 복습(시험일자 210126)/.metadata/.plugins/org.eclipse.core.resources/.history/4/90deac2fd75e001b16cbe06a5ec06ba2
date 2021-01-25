@@ -1,0 +1,28 @@
+// https://blog.naver.com/hack4ork/221671058863
+package arr;
+
+public class Array {
+	private int sum;
+	private int avg;
+	
+	public Array(int sum, int avg) {
+		super();
+		this.sum = sum;
+		this.avg = avg;
+	}
+	
+	public int getSum() {
+		return sum;
+	}
+	public void setSum(int sum) {
+		this.sum = sum;
+	}
+	public int getAvg() {
+		return avg;
+	}
+	public void setAvg(int avg) {
+		this.avg = avg;
+	}
+	
+	
+}

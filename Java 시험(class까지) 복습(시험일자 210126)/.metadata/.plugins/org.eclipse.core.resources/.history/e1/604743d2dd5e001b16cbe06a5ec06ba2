@@ -1,0 +1,28 @@
+// https://blog.naver.com/hack4ork/221671058863
+package name;
+
+public class NameMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class Randname {
+	private String first[]; 
+	private String mid[]; 
+	private String last[];
+
+	
+	public void fullname() {
+		int arr [] = new int [50];
+		private String first[] = {"김", "박", "이", "최", "장"}; 
+		private String mid[] = {"가", "나", "다", "라", "마"}; 
+		private String last[] = {"바", "사", "아", "자", "차"};
+		for (int i = 0; i < full.length; i++) {
+			full = first(Math.random()) 
+		}
+	}
+}

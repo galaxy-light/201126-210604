@@ -1,0 +1,55 @@
+package student;
+
+import java.util.Random;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[][] = new int [5][3];
+	}
+
+}
+
+
+class Student{
+	private int ko;
+	private int en;
+	private int ma;
+	private int sum;
+	private int avg;
+	private char result;
+	
+	public void makeScore() {
+		Random rand = new Random();
+		ko = rand.nextInt(101); // 101 : 0 ~ 100
+		en = rand.nextInt(101);
+		ma = rand.nextInt(101);
+		sum = ko+en+ma;
+		avg = sum / 3;
+	}
+	
+	public void getScore() {
+		if (avg<=100&&avg>=90) {
+			System.out.println('A');
+		}
+		else if (avg<=89&&avg>=80) {
+			System.out.println('B');
+		}
+		else if (avg<=79&&avg>=70) {
+			System.out.println('C');
+		}
+		else if (avg<=69&&avg>=60) {
+			System.out.println('D');
+		}
+		else if (avg<=59&&avg>=50) {
+			System.out.println('E');
+		}
+		else {
+			System.out.println('F');
+		}
+		return getScore();
+	}
+	
+	public void 
+}

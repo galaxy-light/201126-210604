@@ -1,0 +1,10 @@
+package car;
+
+public class Car {
+	private String brand;
+	private String color;
+	private String model;
+	private String price;
+	static final String place = "동대구 영업소";
+}
+	

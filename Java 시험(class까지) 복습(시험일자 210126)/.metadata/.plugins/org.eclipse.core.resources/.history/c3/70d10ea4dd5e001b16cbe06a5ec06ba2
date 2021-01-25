@@ -1,0 +1,16 @@
+package name;
+
+public class NameMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class Randname {
+	private String first[] = {"김", "박", "이", "최", "장"}; 
+	private String mid[] = {"가", "나", "다", "라", "마"}; 
+	private String last[] = {"바", "사", "아", "자", "차"}; 
+}
