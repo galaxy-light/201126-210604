@@ -1,11 +1,6 @@
-INDEX VERSION 1.131+C:\Users\KB\Desktop\tototototo\201126-210604\210112\.metadata\.plugins\org.eclipse.jdt.core
+INDEX VERSION 1.131+C:\Users\KB\Desktop\tototo\201126-210604\210112\.metadata\.plugins\org.eclipse.jdt.core
 3056136038.index
-3833425273.index
-2650212357.index
-83777983.index
 790740700.index
-2644768877.index
-78293463.index
+3833425273.index
 804632290.index
 2104769731.index
-1604272749.index
