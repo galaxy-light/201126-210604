@@ -1,0 +1,17 @@
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\bin\Debug\Shakerestaurant.exe.config
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\bin\Debug\Shakerestaurant.exe
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\bin\Debug\Shakerestaurant.pdb
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\bin\Debug\lg-UG\Shakerestaurant.resources.dll
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\MENU.csprojAssemblyReference.cache
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.firstUserControl1.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.Form1.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.JUNSIK.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.LISIK.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.Properties.Resources.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.HANSIK.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.firstUserControl1.lg-UG.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\MENU.csproj.GenerateResource.cache
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\MENU.csproj.CoreCompileInputs.cache
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\lg-UG\Shakerestaurant.resources.dll
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.exe
+E:\KB\cSharp_java_20201126\Projects\songjeontop\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.pdb

@@ -1,0 +1,15 @@
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\bin\Debug\Shakerestaurant.exe.config
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\bin\Debug\Shakerestaurant.exe
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\bin\Debug\Shakerestaurant.pdb
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\bin\Debug\lg-UG\Shakerestaurant.resources.dll
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.firstUserControl1.resources
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.Form1.resources
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.Properties.Resources.resources
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.firstUserControl1.lg-UG.resources
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.csproj.GenerateResource.cache
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\lg-UG\Shakerestaurant.resources.dll
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.exe
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.pdb
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.SecondUserControl1.resources
+D:\Documents\GitHub\Csharp\Shakerestaurant\Shakerestaurant\obj\Debug\Shakerestaurant.csprojAssemblyReference.cache

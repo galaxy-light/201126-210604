@@ -1,0 +1,100 @@
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\bin\Debug\kiosk1220.exe.config
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\bin\Debug\kiosk1220.exe
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\bin\Debug\kiosk1220.pdb
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.Form1.resources
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.Properties.Resources.resources
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.csproj.GenerateResource.cache
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.exe
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.pdb
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\bin\Debug\kiosk1220.exe.config
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\bin\Debug\kiosk1220.exe
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\bin\Debug\kiosk1220.pdb
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\kiosk1220.boonsik.resources
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\kiosk1220.Form1.resources
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\kiosk1220.Properties.Resources.resources
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\kiosk1220.yangsik.resources
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\kiosk1220.csproj.GenerateResource.cache
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\kiosk1220.exe
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\kiosk1220.pdb
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\Shakerestaurant.HANSIK.resources
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\Shakerestaurant.JUNSIK.resources
+C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\Shakerestaurant.LISIK.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\bin\Debug\kiosk1220.exe.config
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\bin\Debug\kiosk1220.exe
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\bin\Debug\kiosk1220.pdb
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.boonsik.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.Form1.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.HANSIK.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.JUNSIK.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.LISIK.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.Properties.Resources.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.yangsik.resources
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.csproj.GenerateResource.cache
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.exe
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.pdb
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\bin\Debug\kiosk1220.exe.config
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\bin\Debug\kiosk1220.exe
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\bin\Debug\kiosk1220.pdb
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.boonsik.resources
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.Form1.resources
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.HANSIK.resources
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.JUNSIK.resources
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.LISIK.resources
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.Properties.Resources.resources
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.yangsik.resources
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.exe
+C:\Users\KB\Desktop\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.pdb
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\bin\Debug\kiosk1220.exe.config
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\bin\Debug\kiosk1220.exe
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\bin\Debug\kiosk1220.pdb
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.boonsik.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.Form1.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.HANSIK.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.JUNSIK.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.LISIK.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.Properties.Resources.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.yangsik.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.csproj.GenerateResource.cache
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.exe
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.pdb
+C:\Users\KB\Documents\카카오톡 받은 파일\새 폴더\songjeontop\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\bin\Debug\kiosk1220.exe.config
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\bin\Debug\kiosk1220.exe
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\bin\Debug\kiosk1220.pdb
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.boonsik.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.Form1.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.HANSIK.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.JUNSIK.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.LISIK.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.Properties.Resources.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.yangsik.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.csproj.GenerateResource.cache
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.exe
+C:\Users\KB\Documents\카카오톡 받은 파일\songjeontop (2)\kiosk1220\obj\Debug\kiosk1220.pdb
+C:\Users\KB\Desktop\kiosk1220\bin\Debug\kiosk1220.exe.config
+C:\Users\KB\Desktop\kiosk1220\bin\Debug\kiosk1220.exe
+C:\Users\KB\Desktop\kiosk1220\bin\Debug\kiosk1220.pdb
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.boonsik.resources
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.Form1.resources
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.HANSIK.resources
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.JUNSIK.resources
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.LISIK.resources
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.Properties.Resources.resources
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.yangsik.resources
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.exe
+C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.pdb
