@@ -1,3 +1,4 @@
+// https://blog.naver.com/hack4ork/221671058863 - 4번
 package student;
 
 import java.util.Random;

@@ -1,4 +1,4 @@
-// https://blog.naver.com/hack4ork/221671058863
+// https://blog.naver.com/hack4ork/221671058863 - 1번, 2번
 package car;
 
 public class Main {
