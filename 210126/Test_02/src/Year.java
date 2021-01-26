@@ -1,3 +1,4 @@
+// 2021.01.26. java class까지 평가
 import java.util.Scanner;
 
 public class Year {
