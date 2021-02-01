@@ -11,12 +11,13 @@ public class Number {
 		
 		for (int i = 0; i < input.length(); i++) {
 			int index = input.charAt(i) - (int)'a';
-			System.out.println(input.charAt(i));
+			System.out.print(input.charAt(i));
 			// System.out.println((int)'a' - 97);
 			// System.out.println((int)'a'); // (int)'a' : 97
 			alpha[index]++;			
 			// System.out.println(index); // index : 해당 문자의 위치
 		}
+		System.out.println();
 		for (int i = 0; i < 26; i++) {
 			if (alpha[i]!=0) {
 				String sentense = "'" + (char)(i+97)+"'"+"는 "+alpha[i]+"글자입니다.";
