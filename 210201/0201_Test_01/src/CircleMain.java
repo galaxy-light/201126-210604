@@ -5,7 +5,7 @@ public class CircleMain {
 		// TODO Auto-generated method stub
 		Circle circle = new Circle(10);
 		System.out.println("rad : " + circle.getRad());
-		System.out.println("Area : " + circle.getArea());
+		System.out.println("area : " + circle.getArea());
 	}
 
 }

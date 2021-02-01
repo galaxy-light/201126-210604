@@ -11,7 +11,12 @@ public class StudentMain {
 		Student [] student3 = new Student[2];
 		student3[0] = student1;
 		student3[1] = student2;
-		
+		for (int i = 0; i < student3.length; i++) {
+			System.out.println("이름 : " + student3[i].name + " 학번 : " + student3[i].number
+					+ " 성별 : " + student3[i].gender);
+		}
+				
+		System.out.println("-------------------------------------");
 		// 3-4 문제
 		for (int i = 0; i < student3.length; i++) {
 			if (student3[i].name.equals("이동준")) {
