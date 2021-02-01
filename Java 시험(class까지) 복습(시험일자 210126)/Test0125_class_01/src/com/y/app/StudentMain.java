@@ -10,7 +10,8 @@ public class StudentMain {
 		int age[] = {20, 25, 30, 35, 40};
 		char gender[] = {'남', '여'};
 		String address[] = {"대구시 동구 신암4동", "서울시 동구 신암4동",
-				"부산시 동구 신암4동", "인천시 동구 신암4동", "광주시 동구 신암4동"};			
+				"부산시 동구 신암4동", "인천시 동구 신암4동", "광주시 동구 신암4동"};		
+		
 		
 		Random rand = new Random();
 		Student st [] = new Student[10];

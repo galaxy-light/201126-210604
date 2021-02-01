@@ -20,7 +20,7 @@ public class Test07_method_04 {
 			}
 			else {
 				System.out.println("잘못된 입력값!(0 ~ 100사이를 입력하세요.)");
-				System.exit(0); // 시스템 종료
+				break;
 			}
 		}	
 		
