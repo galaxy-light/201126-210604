@@ -6,7 +6,8 @@ public class Alphabet2 {
 		for (int i = 0; i < 24; i++) {
 			eng[i] = Character.toString((char)(97 + i));
 		}
-		String kor[] = {"¤¡","¤¤","¤§","¤©","¤±","¤²","¤µ","¤·","¤¸","¤º","¤»","¤¼","¤½","¤¾","¤¿","¤Á","¤Ã","¤Å","¤Ç","¤Ë","¤Ì","¤Ð","¤Ñ","¤Ó"};
+		String kor[] = {"ã„±","ã„´","ã„·","ã„¹","ã…","ã…‚","ã……","ã…‡","ã…ˆ","ã…Š","ã…‹","ã…Œ","ã…","ã…Ž",
+				"ã…","ã…‘","ã…“","ã…•","ã…—","ã…›","ã…œ","ã… ","ã…¡","ã…£"};
 		for (int i = 0; i < moonja.length; i++) {
 			for (int j = 0; j < 24; j++) {
 				String a = (eng[j]);
@@ -19,7 +20,7 @@ public class Alphabet2 {
 		}
 		int[] chCount = new int[26];
 		Scanner s = new Scanner(System.in);
-		System.out.println("¾ËÆÄºªÀ» ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.print("ì•ŒíŒŒë²³ ìž…ë ¥ : ");
 		String str = s.next();
 		String str1[] = str.split("");
 		for (int i = 0; i < str.length(); i++) {
@@ -36,8 +37,6 @@ public class Alphabet2 {
 			if(chCount[i] != 0) {
 				System.out.println(eng[i] + ":" + chCount[i]);
 			}
-		}
-		
+		}		
 	}
-
 }

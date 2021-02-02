@@ -40,9 +40,9 @@ public class Student {
 	}
 
 	public void showStdInfo() {
-		System.out.printf("ÀÌ¸§: " + name + ", ");
-		System.out.printf("ÇĞ¹ø : " + hackbun + ", ");
-		System.out.printf("¼ºº° : " + gender + " ");
+		System.out.printf("ì´ë¦„ : " + name + ", ");
+		System.out.printf("í•™ë²ˆ : " + hackbun + ", ");
+		System.out.printf("ì„±ë³„ : " + gender + " ");
 		System.out.println();
 		
 	}

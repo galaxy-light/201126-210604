@@ -10,7 +10,7 @@ public class AlphaNum {
         }
         for (int i = 0; i < 26; i++) {
         	if(cnt[i] != 0) {
-        		System.out.println((char) (97 + i) + " : " + cnt[i] + "±ÛÀÚ ÀÔ´Ï´Ù.");
+        		System.out.println((char) (97 + i) + " : " + cnt[i] + "ê¸€ìžìž…ë‹ˆë‹¤.");
         	}
         }
 	}

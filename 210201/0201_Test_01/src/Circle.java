@@ -1,4 +1,19 @@
-
+/*
+ * 문제 : 오류 사항을 고치시오.
+ * 
+ * class Circle {
+ * 		double rad = 0;
+ * 		final double PI = 3.14;
+ * 
+ * public Circle (double r) {
+ * 		setRad(r);
+ * 	}
+ * 
+ * public double getArea () {
+ * 		return(rad*rad)*PI;
+ * 	}
+ * }
+ */
 public class Circle {
 		private double rad = 0;
 		private final double PI = 3.14;

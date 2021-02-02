@@ -5,79 +5,79 @@ public class Alphabet {
 		for (int i = 0; i < moonja.length; i++) {
 			switch (moonja[i]) {
 			case "a": 
-				System.out.printf("¤¡");
+				System.out.printf("ã„±");
 				break;
 			case "b": 
-				System.out.printf("¤¤");
+				System.out.printf("ã„´");
 				break;
 			case "c": 
-				System.out.printf("¤§");
+				System.out.printf("ã„·");
 				break;
 			case "d": 
-				System.out.printf("¤©");
+				System.out.printf("ã„¹");
 				break;
 			case "e": 
-				System.out.printf("¤±");
+				System.out.printf("ã…");
 				break;
 			case "f": 
-				System.out.printf("¤²");
+				System.out.printf("ã…‚");
 				break;
 			case "g": 
-				System.out.printf("¤µ");
+				System.out.printf("ã……");
 				break;
 			case "h": 
-				System.out.printf("¤·");
+				System.out.printf("ã…‡");
 				break;
 			case "i": 
-				System.out.printf("¤¸");
+				System.out.printf("ã…ˆ");
 				break;
 			case "j": 
-				System.out.printf("¤º");
+				System.out.printf("ã…Š");
 				break;
 			case "k": 
-				System.out.printf("¤»");
+				System.out.printf("ã…‹");
 				break;
 			case "l": 
-				System.out.printf("¤¼");
+				System.out.printf("ã…Œ");
 				break;
 			case "m": 
-				System.out.printf("¤½");
+				System.out.printf("ã…");
 				break;
 			case "n": 
-				System.out.printf("¤¾");
+				System.out.printf("ã…Ž");
 				break;
 			case "o": 
-				System.out.printf("¤¿");
+				System.out.printf("ã…");
 				break;
 			case "p": 
-				System.out.printf("¤Á");
+				System.out.printf("ã…‘");
 				break;
 			case "q": 
-				System.out.printf("¤Ã");
+				System.out.printf("ã…“");
 				break;
 			case "r": 
-				System.out.printf("¤Å");
+				System.out.printf("ã…•");
 				break;
 			case "s": 
-				System.out.printf("¤Ç");
+				System.out.printf("ã…—");
 				break;
 			case "t": 
-				System.out.printf("¤Ë");
+				System.out.printf("ã…›");
 				break;
 			case "u": 
-				System.out.printf("¤Ì");
+				System.out.printf("ã…œ");
 				break;
 			case "v": 
-				System.out.printf("¤Ð");
+				System.out.printf("ã… ");
 				break;
 			case "w": 
-				System.out.printf("¤Ñ");
+				System.out.printf("ã…¡");
 				break;
 			case "x": 
-				System.out.printf("¤Ó");
+				System.out.printf("ã…£");
 				break;
 			default:
-				throw new IllegalArgumentException("¾ø´Â ¹®ÀÚÀÔ´Ï´Ù.");
+				throw new IllegalArgumentException("ìž˜ëª»ëœ ìž…ë ¥ê°’!");
 			}
 		}
 		System.out.println();

@@ -7,42 +7,41 @@ public class zodiac {
 		int zodiac = s.nextInt();
 		switch (zodiac % 12) {
 		case 0:
-			System.out.println("¿ø¼şÀÌ");
+			System.out.println("ì›ìˆ­ì´");
 			break;
 		case 1:
-			System.out.println("´ß");
+			System.out.println("ë‹­");
 			break;
 		case 2:
-			System.out.println("°³");
+			System.out.println("ê°œ");
 			break;
 		case 3:
-			System.out.println("µÅÁö");
+			System.out.println("ë¼ì§€");
 			break;
 		case 4:
-			System.out.println("Áã");
+			System.out.println("ì¥");
 			break;
 		case 5:
-			System.out.println("¼Ò");
+			System.out.println("ì†Œ");
 			break;
 		case 6:
-			System.out.println("È£¶ûÀÌ");
+			System.out.println("í˜¸ë‘ì´");
 			break;
 		case 7:
-			System.out.println("Åä³¢");
+			System.out.println("í† ë¼");
 			break;
 		case 8:
-			System.out.println("¿ë");
+			System.out.println("ìš©");
 			break;
 		case 9:
-			System.out.println("¹ì");
+			System.out.println("ë±€");
 			break;
 		case 10:
-			System.out.println("¸»");
+			System.out.println("ë§");
 			break;
 		case 11:
-			System.out.println("¾ç");
+			System.out.println("ì–‘");
 			break;
 		}
 	}
-
 }

@@ -5,35 +5,38 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
-		System.out.println("1.¿ø ¹İÁö¸§ ÀÔ·Â :");
+		System.out.println("1. ë¬¸ì œ");
 		Circle circle = new Circle(s.nextInt());
 		System.out.println(circle.getArea());
 		
-		System.out.println("2.³âµµ ÀÔ·Â : ");
+		System.out.println("2. ë¬¸ì œ");
 		zodiac zo = new zodiac();
-		System.out.println("3.");
+		
+		System.out.println("3. ë¬¸ì œ");
 		Student std[] = new Student[2];
-		std[0] = new Student("ÀÌµ¿ÁØ","2009038033", "³²");
-		std[1] = new Student("ÀÌÁ¦¿µ","2007012034", "¿©");
+		std[0] = new Student("ì´ë™ì¤€","2009038033", "ë‚¨");
+		std[1] = new Student("ì´ì œì˜","2007012034", "ì—¬");
 		for (int i = 0; i < std.length; i++) {
 			std[i].showStdInfo();
 		}
-		System.out.println("-------------ÀÌµ¿ÁØÇĞ»ı ÇĞ¹ø º¯°æ----------");
+		System.out.println("------------ì´ë™ì¤€ í•™ë²ˆ ë³€ê²½----------");
 		std[0].setHackbun("2019038033");
 		for (int i = 0; i < std.length; i++) {
 			std[i].showStdInfo();
 		}
-		System.out.println("4.¹®ÀÚ¿­ ÀÔ·Â : ");
+		
+		System.out.println("4. ë¬¸ì œ switch");
 		String a = s.next();
 		String moonja[] = a.split("");
 		new Alphabet(moonja);
 		
-		System.out.println("4-1.¹®ÀÚ¿­ ÀÔ·Â : ");
+		System.out.println("4. ë¬¸ì œ array");
 		String aa = s.next();
 		String moonja1[] = aa.split("");
         new Alphabet2(moonja1);
 		System.out.println();
-        System.out.print("5.¹®ÀÚ¿­ ÀÔ·Â : ");
+		
+        System.out.print("5. ë¬¸ì œ");
         String str = s.next();
 		new AlphaNum(str);
 	}
