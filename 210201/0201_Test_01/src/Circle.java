@@ -15,26 +15,29 @@
  * }
  */
 public class Circle {
-		private double rad = 0;
-		private final double PI = 3.14;
+	// private 추가
+	private double rad = 0;
+	private final double PI = 3.14;
 		
-		public Circle(double r) {
-			setRad(r);
+	public Circle(double r) {
+		setRad(r);
+	}
+		
+	public double getArea() {
+		return (rad*rad)*PI;
+	}
+	
+	// 함수 추가
+	public void setRad(double r) {			
+		if(r<0) {
+			rad = 0;
+			return;
 		}
-		
-		public double getArea() {
-			return (rad*rad)*PI;
-		}
-		
-		public void setRad(double r) {			
-			if(r<0) {
-				rad = 0;
-				return;
-			}
-			rad = r;			
-		}
-		
-		public double getRad() {
-			return rad;		
-		}		
+		rad = r;			
+	}
+	
+	// 속성 접근
+	public double getRad() {
+		return rad;		
+	}		
 }
