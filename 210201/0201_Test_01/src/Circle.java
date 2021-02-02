@@ -17,7 +17,7 @@
 public class Circle {
 	// private 추가
 	private double rad = 0;
-	private final double PI = 3.14;
+	private final double PI = 3.1415;
 		
 	public Circle(double r) {
 		setRad(r);
