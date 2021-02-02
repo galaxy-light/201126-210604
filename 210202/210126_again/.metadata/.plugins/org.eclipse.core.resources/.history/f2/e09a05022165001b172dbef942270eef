@@ -1,0 +1,14 @@
+
+public class Student {
+	private String name;
+	private int number;
+	private char gender;
+	
+	public Student(String name, int number, char gender) {
+		super();
+		this.name = name;
+		this.number = number;
+		this.gender = gender;
+	}
+	
+}

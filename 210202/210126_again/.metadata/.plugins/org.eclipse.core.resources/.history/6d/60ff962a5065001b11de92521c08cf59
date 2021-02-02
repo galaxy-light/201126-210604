@@ -1,0 +1,17 @@
+
+public class Alphabet {
+	public Alphabet (String text[]) {
+		
+	
+		String kor [] = {"ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅇ", "ㅈ"," ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ",
+			"ㅏ", "ㅑ", "ㅓ", "ㅕ","ㅗ", "ㅛ", "ㅜ", "ㅠ", "ㅡ", "ㅣ"};
+	
+		for (int i = 0; i < text.length; i++) {
+			for (int j = 0; j < kor.length; j++) {
+				if (str.equals(text[i])) {
+					System.out.print(kor[j]);
+				}
+			}
+		}
+	}
+}

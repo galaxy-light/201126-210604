@@ -1,0 +1,17 @@
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student one = new Student("이동준", 2009038033, '남');
+		Student two = new Student("이제영", 2007012034, '여');
+		
+		Student [] info = new Student[2]; 
+		info[0] = one;
+		info[2] = two; 
+		for (int i = 0; i < info.length; i++) {
+			
+		}
+	}
+
+}
