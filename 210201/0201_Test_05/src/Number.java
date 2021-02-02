@@ -5,7 +5,7 @@ public class Number {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
-		System.out.print("문자 입력 : ");
+		System.out.print("알파벳 입력 : ");
 		String input = s.nextLine();
 		int [] alpha = new int[26];
 		

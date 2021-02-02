@@ -8,11 +8,12 @@ public class Alphabet2 {
 		}
 		String kor[] = {"ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ",
 				"ㅏ","ㅑ","ㅓ","ㅕ","ㅗ","ㅛ","ㅜ","ㅠ","ㅡ","ㅣ"};
+		
 		for (int i = 0; i < moonja.length; i++) {
 			for (int j = 0; j < 24; j++) {
-				String a = (eng[j]);
-				String b = moonja[i];
-				if(a.equals(b)) {
+//				String a = (eng[j]);
+//				String b = moonja[i];
+				if(eng[j].equals(moonja[i])) {
 					System.out.printf(kor[j]);
 					break;
 				}
