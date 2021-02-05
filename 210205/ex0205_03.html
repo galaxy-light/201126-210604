@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .adiv{
+            background-color: cornflowerblue;
+            position: absolute; /* 절대 좌표 */
+            height: 100px;
+            width: 100px;
+            left: 0;
+            top: 50px;            
+        }
+    </style>
+</head>
+<body>
+    <div class="adiv"></div>
+    <button id="btn">div 움직임</button>
+</body>
+</html>
+<script>
+    // 자바스크립트 객체
+    var aa = { // aa라는 객체
+        a : 10,
+        b : 20,
+        c : function () { alert ("c 함수입니다.")}
+    }
+
+    $("#btn").click(function(){
+        // 2.5초 동안 이동        
+        $(".adiv").animate({left : "250px",
+            top : "300px",
+            width : "200px"}, 2500, function () { // {left : "250px", top : "300px", width : "200px"} : 자바스크립트 object(파라미터)
+                alert(aa.a);
+                alert(aa.b);
+                alert(aa.c); // c의 내용
+                aa.c(); // 호출
+            }) 
+        })    
+</script>

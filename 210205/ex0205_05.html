@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        *{ 
+           /* 모든 태그들의 여백 제거 */
+           margin: 0;
+           padding: 0;
+        }
+        .content{
+            /* 수직 정렬 */
+            width: 200px;
+            height: 200px;
+            /* 넘치는 부분 숨겨짐 */
+            overflow: hidden; 
+        }
+        .outer{
+            margin-left: -200px
+        }
+        .indiv{
+            width: 200px;
+            height: 200px;
+            float: left; /* .content style이 없다면 수평정렬 됨 */
+        }
+        #a{
+        background-color: red;
+        }
+        #b{
+        background-color: blue;
+        }
+        #c{
+        background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="outer">
+            <div class="indiv" id="a"></div>
+            <div class="indiv" id="b"></div>
+            <div class="indiv" id="c"></div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    var ml=0;
+    setInterval(function(){
+        $(".outer").css("margin-left",ml+"px");
+        ml-=200;
+        if(ml<-400){
+            ml=0;
+        }
+    }, 2000)// 2000 : 2초
+</script>

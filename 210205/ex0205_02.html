@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #pp1{
+            /* display: none; */
+            display: block;
+        }
+        #pp2{
+            /* display: none; */
+            display: block;
+        }
+    </style>    
+</head>
+<body>
+    <p id=pp1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ratione corporis debitis? Quod consectetur quisquam tenetur aliquid, sunt quo maxime sit culpa explicabo aperiam, officia voluptates necessitatibus quaerat animi. Doloribus.</p>
+    <p id=pp2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ratione corporis debitis? Quod consectetur quisquam tenetur aliquid, sunt quo maxime sit culpa explicabo aperiam, officia voluptates necessitatibus quaerat animi. Doloribus.</p>
+    <button id="pbtn1">javascript 버튼</button>
+    <button id="pbtn2">jquery 버튼</button>
+</body>
+</html>
+<!-- javascript -->
+<script>
+    document.getElementById("pbtn1").onclick = function () {
+        // alert("버튼 누름");        
+        if (document.getElementById("pp1").style.display == "none")
+            document.getElementById("pp1").style.display="block";
+        else
+            document.getElementById("pp1").style.display = "none";   
+        // alert(a);
+    }
+</script>
+<!-- jquery -->
+<script>
+    $("#pbtn2").click(function () {
+        $("#pp1").toggle(2500, function () { // 2500 : 2.5초
+            $("#pp2").toggle(2500, function (){
+            alert("끝났음")}); 
+            }
+        );
+    })
+</script>
