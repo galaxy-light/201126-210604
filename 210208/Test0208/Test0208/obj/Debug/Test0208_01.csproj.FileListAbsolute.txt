@@ -1,0 +1,4 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208\Test0208\obj\Debug\Test0208_01.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208\Test0208\obj\Debug\Test0208_01.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208\Test0208\obj\Debug\Test0208.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208\Test0208\obj\Debug\Test0208.pdb

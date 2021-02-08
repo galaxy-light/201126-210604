@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208_02\Test0208_02\bin\Debug\Test0208_02.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208_02\Test0208_02\bin\Debug\Test0208_02.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208_02\Test0208_02\bin\Debug\Test0208_02.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208_02\Test0208_02\obj\Debug\Test0208_02.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208_02\Test0208_02\obj\Debug\Test0208_02.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208_02\Test0208_02\obj\Debug\Test0208_02.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210208\Test0208_02\Test0208_02\obj\Debug\Test0208_02.pdb

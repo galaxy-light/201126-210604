@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210208\class0208\class0208\bin\Debug\class0208.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210208\class0208\class0208\bin\Debug\class0208.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210208\class0208\class0208\bin\Debug\class0208.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210208\class0208\class0208\obj\Debug\class0208.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210208\class0208\class0208\obj\Debug\class0208.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210208\class0208\class0208\obj\Debug\class0208.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210208\class0208\class0208\obj\Debug\class0208.pdb
