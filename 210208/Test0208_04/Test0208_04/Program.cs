@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Test0208_04
 {
+    // https://blog.naver.com/hack4ork/221671486484
+
+    // https://aomee0880.tistory.com/96
     class Program
     {
         static void Main(string[] args)
@@ -56,27 +59,25 @@ namespace Test0208_04
     }
 
     class StudentScore
-    {           
+    {
         private int sum;
         private double avg;
 
-        public StudentScore(int kor, int eng, int mat)
-        {
-            this.kor = kor;
-            this.eng = eng;
-            this.mat = sum;
-        }       
-
-        public int Sum
-        {
-            get { return sum; }
-            set { sum = value; }
+        public StudentScore()
+        { 
+            
         }
 
-        public double Avg
+        public void Sum()
         {
-            get { return avg; }
-            set { avg = value; }
+            /*sum = kor + eng + mat;
+            return;*/
+        }
+
+        public void Avg()
+        {
+            avg = sum / 3;
+            return;
         }
 
         public void Result()
