@@ -1,0 +1,7 @@
+* 통신 종류
+- 시리얼 통신
+- TCP/IP
+- HTTP
+- RF 통신
+- NFC
+- USB
