@@ -50,10 +50,10 @@ namespace Test0208
             set { name = value; }
         }
 
-        public string Place
+        public string Price
         {
-            get { return place; }
-            set { place = value; }
+            get { return price; }
+            set { price = value; }
         }
 
         public void showCarInfo()
