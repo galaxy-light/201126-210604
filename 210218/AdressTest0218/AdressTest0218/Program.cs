@@ -1,0 +1,185 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AdressTest0218
+{
+    class Program
+    {
+        // 상수 변수
+        const int ADD_ITEM = 1;
+        const int VIEW_ITEM = 2;
+        const int RAMDOM_ADD = 3;
+        const int CLEAR_ITEM = 4;
+        const int DELETE_ALL = 5;
+        const int EXIT = 6;
+
+        // 전역 배열
+        static List<Student> addrList = new List<Student>(); // 크기를 정하지 않은(List) 배열 생성
+
+        static void Main(string[] args)
+        {
+            Student st = new Student(); // 인스턴스 객체 생성 / 오류 해결을 위해 기본 생성자 추가
+            // Student st = null; // 초기값
+           
+            while (true)
+            {
+                switch (getMenu())
+                {
+                    case ADD_ITEM:
+                        // Console.WriteLine("정보 추가");
+                        // st = addItem(); // 호출
+                        addItem(); // F12
+                        break;
+                    case VIEW_ITEM:
+                        // Console.WriteLine("정보 보기");
+                        // st.showAddress();
+                        viewItem();
+                        break;
+                    case RAMDOM_ADD:
+                        // Console.WriteLine("랜덤 정보 보기");
+                        randData();
+                        break;
+                    case CLEAR_ITEM:
+                        //Console.WriteLine("특정 주소록 삭제");
+                        clearData();
+                        break;
+                    case DELETE_ALL:
+                        //Console.WriteLine("주소록 전체 삭제");
+                        deleteAll();
+                        break;
+                    case EXIT:
+                        Console.WriteLine("프로그램 종료");
+                        Environment.Exit(0); // 종료(자바의 system.exit(0)와 같음) 
+                        break;
+                }
+            }
+        }
+
+        public static int getMenu()
+        {
+            Console.WriteLine("------------------");
+            Console.WriteLine("주소록 관리 v1.0");
+            Console.WriteLine("------------------");
+            Console.WriteLine("1. 주소록 정보 추가");
+            Console.WriteLine("2. 주소록 정보 보기");
+            Console.WriteLine("3. 랜덤 정보 추가"); // 실행할 때 3을 먼저 누르고 2를 눌러야 랜덤 정보가 출력 됨
+            Console.WriteLine("4. 특정 주소록 삭제");
+            Console.WriteLine("5. 주소록 전체 삭제");
+            Console.WriteLine("6. 종료");
+            Console.WriteLine("------------------");
+            Console.Write("메뉴 선택 : ");
+            int menu = Convert.ToInt32(Console.ReadLine()); // Convert.ToInt32 : int 타입으로 변환         
+            return menu;
+        }
+
+        public static Student addItem() // Student : 타입
+        {
+            Console.WriteLine("---------------");
+            Console.WriteLine("주소록 정보 입력");
+            Console.WriteLine("---------------");  
+            Console.Write("이름 : ");
+            string name = Console.ReadLine();
+            Console.Write("전화 번호 : ");
+            string tel = Console.ReadLine();
+            Console.Write("주소 : ");
+            string address = Console.ReadLine();
+            Console.Write("이메일 : ");
+            string email = Console.ReadLine();
+
+            /*Student st = new Student(name, tel, address, email); // 객체 생성
+            return st;*/
+            // return new Student(name, tel, address, email); // 위의 두 줄을 한 줄로
+
+            addrList.Add(new Student(name, tel, address, email));
+            Console.WriteLine("정보가 정상적으로 입력되었습니다.");
+
+            /* // 싱글톤 객체
+            stud.Name = name;
+            stud.Tel = tel;
+            stud.Address = address;
+            stud.Email = email;*/
+
+            //객체생성
+            /* Student st = new Student(name, tel, address, email);
+            return st;*/
+            return new Student(name, tel, address, email);
+        }
+        
+    public static void viewItem()
+        {
+            for (int i = 0; i < addrList.Count; i++)
+            {
+                Console.WriteLine("번호 : " + (i+1));
+                Console.WriteLine("이름 : " + addrList[i].Name);
+                Console.WriteLine("전화 번호 : " + addrList[i].Tel);
+                Console.WriteLine("주소 : " + addrList[i].Address);
+                Console.WriteLine("이름 : " + addrList[i].Email);
+                Console.WriteLine("-----------------------------");
+            }
+        }
+
+        public static void randData()
+        {
+            string[] name1 = { "홍길동", "김길동", "이길동", "박길동", "최길동" };
+            string[] tel1 = { "010-1111-1111", "010-2222-2222", "010-3333-3333", "010-4444-4444", "010-5555-5555" };
+            string[] address1 = { "대구시 동구", "광주시 동구", "서울시 동구", "대전시 동구", "부산시 동구" };
+            string[] email1 = { "hong@gmail.com", "kim@gamil.com", "lee@gmail.com", "park@gmail.com", "choi@gamil.com" };
+
+            Random r = new Random();
+            for (int i = 0; i < 100; i++)
+            {
+                addrList.Add(new Student(name1[r.Next(0, 5)], tel1[r.Next(0, 5)], address1[r.Next(0, 5)], email1[r.Next(0, 5)]));
+            }
+        }
+
+        public static void clearData()
+        {
+            Console.WriteLine("---------------");
+            Console.WriteLine("주소록 정보 삭제");
+            Console.WriteLine("---------------");
+            Console.Write("삭제할 이름 입력 : ");
+            string clear = Console.ReadLine();
+            for (int i = 0; i < addrList.Count; i++)
+            {
+                // 방법 두 가지
+                /* if (addrList[i].Name == clear)
+                {
+                    addrList.RemoveAt(i); // RemoveAt : 인덱스 값을 이용하여 배열의 요소 삭제
+                    i--;
+                }*/
+                if (clear.Equals(addrList[i].Name))
+                {
+                    addrList.RemoveAt(i);
+                    i--; // i--; : 특정 배열 요소를 삭제했을 때 체크할 정보가 누락되지 않도록
+
+                    // addrList.RemoveAt(i--); // 위의 두 줄을 한 줄로                    
+                }
+            } 
+        }
+
+        public static void deleteAll()
+        {
+            addrList.Clear();
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
