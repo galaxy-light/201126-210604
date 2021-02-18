@@ -7,6 +7,7 @@ import jssc.SerialPortException;
 import jssc.SerialPortList;
 
 public class SerialMain2 {
+	// static final : 상수 변수
 	public static final String ADMIN_ID = "admin";
 	public static final String GUEST_ID = "guest";
 	public static final String ADMIN_PW = "1234";
@@ -30,6 +31,7 @@ public class SerialMain2 {
 	static final int CMD_HEATER_ON = '3';
 	static final int CMD_CLEANER_ON = '4';	
 
+	// 시리얼 포트 객체를 생성하는 메서드
 	public static SerialPort initSerial() { // SerialPort : 타입
 		// 사용 가능 포트 확인
 	    // 현재 컴퓨터의 직렬 포트 이름이 포함된 배열을 가져옴
@@ -40,18 +42,20 @@ public class SerialMain2 {
 	      }
 	      
 	      // 직렬 포트 리소스를 나타냄
-	      SerialPort serialPort = new SerialPort(portName[0]); // 시리얼 객체 생성
+	      // SerialPort serialPort : 외부 라이브러리
+	      SerialPort serialPort = new SerialPort(portName[0]); // new SerialPort : 시리얼 객체 생성 / portName[0] : 포트 정보를 시리얼 객체에 보냄
 	      // SerialPort serialPort = new SerialPort("COM$");	      
 	      
 	      return serialPort; // 객체 정보 리턴
 	}	
 	
-	public static void openSerial (SerialPort serialPort) {
-		// 시리얼 포트 오픈+초기화
+	// 시리얼 포트 오픈 + 초기화
+	public static void openSerial (SerialPort serialPort) { // SerialPort serialPort : 생성한 시리얼 객체
 	      try {
-	         serialPort.openPort();
-	         // setParams : setter의 역할
-	         serialPort.setParams(SerialPort.BAUDRATE_9600, // BAUDRATE_9600 : 통신속도는 아두이노 파일과 동일하게 맞추어야 함
+	    	  // 오픈
+	         serialPort.openPort();	         
+	         // 초기화
+	         serialPort.setParams(SerialPort.BAUDRATE_9600, // setParams : setter의 역할 / BAUDRATE_9600 : 통신속도는 아두이노 파일의 속도와 동일하게 맞추어야 함
 	               SerialPort.DATABITS_8 , // DATABITS_8 : 데이터를 전송할 때 8비트
 	               SerialPort.STOPBITS_1, // STOPBITS_1 : 데이터의 전송이 종료된다는 사실을 알려 주기 위하여 데이터 비트의 맨 마지막에 첨가하는 비트
 	               SerialPort.PARITY_NONE); // PARITY_NONE : 오류 체크 방식 중 하나
@@ -70,10 +74,10 @@ public class SerialMain2 {
 		System.out.print("PW : ");
 		String passwd = s.next();
 		String mode;
-
 //		System.out.println("ID : " + id);
 //		System.out.println("PW : " + passwd);	
 		
+		// 로그인 정보 체크
 		while (true) {
 			if (id.equals(ADMIN_ID) && passwd.equals(ADMIN_PW)) {
 //				System.out.println("관리자 모드");
@@ -93,8 +97,7 @@ public class SerialMain2 {
 	public static int adminmenu(Scanner s) {
 		System.out.println("--------------------");
 		System.out.println("스마트홈 제어 관리자 모드");
-		System.out.println("--------------------");
-		
+		System.out.println("--------------------");		
 		System.out.println("1. TV 켜기");
 		System.out.println("2. TV 끄기");
 		System.out.println("3. 보일러 동작");
@@ -105,7 +108,7 @@ public class SerialMain2 {
 		System.out.println("0. 로그아웃");
 		System.out.println("--------------------");
 		System.out.print("메뉴 선택 : ");	
-		return s.nextInt();
+		return s.nextInt(); // 선택한 값 리턴
 	}
 	
 	public static int guestmenu(Scanner s) {
@@ -121,7 +124,7 @@ public class SerialMain2 {
 		System.out.println("0. 로그아웃");
 		System.out.println("------------------");
 		System.out.print("메뉴 선택 : ");
-		return s.nextInt();		
+		return s.nextInt(); // 선택한 값 리턴
 	}
 	
 	public static boolean adminoption(Scanner s, SerialPort serial) { // Scanner s, SerialPort serial : 매개변수
@@ -254,20 +257,23 @@ public class SerialMain2 {
 			}	
 			return true;
 		}				
-		
+	
+	// UML -> DFD
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
-		SerialPort serial = initSerial(); // 메서드 호출
+		SerialPort serial = initSerial(); // 시리얼 포트 객체를 serial에 대입
 		openSerial(serial);
-
+		
+		// 무한 루프
 		while (true) {
-			String mode = login(s);
+			String mode = login(s); // 로그인 mode
 			if (mode.equals(ADMIN_MODE)) {
 				System.out.println("관리자 모드");
-//				adminmenu(s);				
+//				adminmenu(s);
+				// while이 없다면 한 번 동작하고 로그인 화면으로 가기 때문에, 제어 화면에서 계속 돌아가기 위해 while 사용
 				while (true) {
-					if (adminoption(s, serial) == false ) {
+					if (adminoption(s, serial) == false) {
 						break;
 					}
 				}
