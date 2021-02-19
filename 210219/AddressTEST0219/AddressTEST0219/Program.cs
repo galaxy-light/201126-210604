@@ -1,4 +1,4 @@
-﻿using AddressTEST0219.control;
+﻿using AddressTEST0219.control; // using : java의 import와 같음
 using System;
 using System.Collections.Generic;
 using System.Linq;
