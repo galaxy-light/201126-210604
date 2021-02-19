@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AddressTEST0219.control;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace AddressTest0219
     {
         static void Main(string[] args)
         {
-            new AddressTEST0219.control.StudentHandler();
+            new StudentHandler();
         }
     }
 }

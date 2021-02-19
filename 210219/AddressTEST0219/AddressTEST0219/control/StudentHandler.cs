@@ -197,14 +197,14 @@ namespace AddressTEST0219.control
 
         public static void dataChange()
         {
-            Console.WriteLine("----------");
+            Console.WriteLine("------------");
             Console.WriteLine("주소록 수정");
-            Console.WriteLine("----------");
+            Console.WriteLine("------------");
             Console.WriteLine("1. 이름");
             Console.WriteLine("2. 전화 번호");
             Console.WriteLine("3. 주소");
             Console.WriteLine("4. 이메일");
-            Console.WriteLine("----------");
+            Console.WriteLine("------------");
             Console.Write("수정할 항목 : ");
             int change = Convert.ToInt32(Console.ReadLine());
             switch (change)

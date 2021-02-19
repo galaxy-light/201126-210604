@@ -1,2 +1,0 @@
-C:\Users\KB\Desktop\totototo\201126-210604\210219\AddressTEST0219_copy\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
-C:\Users\KB\Desktop\totototo\201126-210604\210219\AddressTEST0219_copy\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
