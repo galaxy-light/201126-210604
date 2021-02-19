@@ -1,0 +1,6 @@
+swing과 winform 비슷함 : 디자인과 코드 영역 분리X
+javaFX와 WPF 비슷함 : 디자인과 코드 영역 분리O
+
+MVC : Model, View, Controller 분리 : 웹에 특화되어있음
+MVP : Model, View, Presenter
+MVVM : Model, View, View Model
