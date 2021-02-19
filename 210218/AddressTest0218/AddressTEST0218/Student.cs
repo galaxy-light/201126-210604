@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdressTest0218
+namespace AddressTEST0218
 {
     class Student
     {
@@ -26,8 +26,8 @@ namespace AdressTest0218
 
         // 오류 해결을 위한 기본 생성자 추가
         public Student()
-        { 
-        
+        {
+
         }
 
         // 기본 생성자
@@ -43,7 +43,7 @@ namespace AdressTest0218
         public string Name { get => name; set => name = value; }
         public string Tel { get => tel; set => tel = value; }
         public string Address { get => address; set => address = value; }
-        public string Email { get => email; set => email = value; }        
+        public string Email { get => email; set => email = value; }
 
         /* public void showAddress()
          {

@@ -1,7 +1,0 @@
-C:\Users\KB\Desktop\totototo\201126-210604\210218\AdressTest0218\AdressTest0218\bin\Debug\AdressTest0218.exe.config
-C:\Users\KB\Desktop\totototo\201126-210604\210218\AdressTest0218\AdressTest0218\bin\Debug\AdressTest0218.exe
-C:\Users\KB\Desktop\totototo\201126-210604\210218\AdressTest0218\AdressTest0218\bin\Debug\AdressTest0218.pdb
-C:\Users\KB\Desktop\totototo\201126-210604\210218\AdressTest0218\AdressTest0218\obj\Debug\AddressTest0218.csprojAssemblyReference.cache
-C:\Users\KB\Desktop\totototo\201126-210604\210218\AdressTest0218\AdressTest0218\obj\Debug\AddressTest0218.csproj.CoreCompileInputs.cache
-C:\Users\KB\Desktop\totototo\201126-210604\210218\AdressTest0218\AdressTest0218\obj\Debug\AdressTest0218.exe
-C:\Users\KB\Desktop\totototo\201126-210604\210218\AdressTest0218\AdressTest0218\obj\Debug\AdressTest0218.pdb

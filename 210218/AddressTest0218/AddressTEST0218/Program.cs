@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdressTest0218
+namespace AddressTEST0218
 {
     class Program
     {
@@ -25,7 +25,7 @@ namespace AdressTest0218
         {
             Student st = new Student(); // 인스턴스 객체 생성 / 오류 해결을 위해 기본 생성자 추가
             // Student st = null; // 초기값
-           
+
             while (true)
             {
                 switch (getMenu())
@@ -81,7 +81,7 @@ namespace AdressTest0218
         {
             Console.WriteLine("---------------");
             Console.WriteLine("주소록 정보 입력");
-            Console.WriteLine("---------------");  
+            Console.WriteLine("---------------");
             Console.Write("이름 : ");
             string name = Console.ReadLine();
             Console.Write("전화 번호 : ");
@@ -109,12 +109,12 @@ namespace AdressTest0218
             return st;*/
             return new Student(name, tel, address, email);
         }
-        
-    public static void viewItem()
+
+        public static void viewItem()
         {
             for (int i = 0; i < addrList.Count; i++)
             {
-                Console.WriteLine("번호 : " + (i+1));
+                Console.WriteLine("번호 : " + (i + 1));
                 Console.WriteLine("이름 : " + addrList[i].Name);
                 Console.WriteLine("전화 번호 : " + addrList[i].Tel);
                 Console.WriteLine("주소 : " + addrList[i].Address);
@@ -162,12 +162,13 @@ namespace AdressTest0218
 
                     // addrList.RemoveAt(i--); // 위의 두 줄을 한 줄로                    
                 }
-            } 
+            }
         }
 
         public static void deleteAll()
         {
             addrList.Clear();
+            Console.WriteLine("주소록 전체 삭제");
         }
     }
 }
