@@ -8,7 +8,7 @@ namespace AdressTest0218
 {
     class Program
     {
-        // 상수 변수
+        // 상수 변수        
         const int ADD_ITEM = 1;
         const int VIEW_ITEM = 2;
         const int RAMDOM_ADD = 3;
@@ -17,6 +17,8 @@ namespace AdressTest0218
         const int EXIT = 6;
 
         // 전역 배열
+        // <> : 제네릭 클래스 : 공용의 클래스 / 클래스를 선언하여 객체를 생성할 때, 구체적인 타입을 기재한다. 즉, 타입을 어떤 클래스 종류의 매개변수로 보는 것 
+        // <> 안에 타입이 들어감
         static List<Student> addrList = new List<Student>(); // 크기를 정하지 않은(List) 배열 생성
 
         static void Main(string[] args)
@@ -116,7 +118,7 @@ namespace AdressTest0218
                 Console.WriteLine("이름 : " + addrList[i].Name);
                 Console.WriteLine("전화 번호 : " + addrList[i].Tel);
                 Console.WriteLine("주소 : " + addrList[i].Address);
-                Console.WriteLine("이름 : " + addrList[i].Email);
+                Console.WriteLine("이메일 : " + addrList[i].Email);
                 Console.WriteLine("-----------------------------");
             }
         }
@@ -129,7 +131,7 @@ namespace AdressTest0218
             string[] email1 = { "hong@gmail.com", "kim@gamil.com", "lee@gmail.com", "park@gmail.com", "choi@gamil.com" };
 
             Random r = new Random();
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 10; i++)
             {
                 addrList.Add(new Student(name1[r.Next(0, 5)], tel1[r.Next(0, 5)], address1[r.Next(0, 5)], email1[r.Next(0, 5)]));
             }
@@ -150,10 +152,13 @@ namespace AdressTest0218
                     addrList.RemoveAt(i); // RemoveAt : 인덱스 값을 이용하여 배열의 요소 삭제
                     i--;
                 }*/
-                if (clear.Equals(addrList[i].Name))
+                if (clear.Equals(addrList[i].Name)) // addrList[i].Name : 배열 안의 이름 정보
                 {
                     addrList.RemoveAt(i);
-                    i--; // i--; : 특정 배열 요소를 삭제했을 때 체크할 정보가 누락되지 않도록
+                    i--; // i--; : 특정 배열 요소를 삭제했을 때 연달아 있는 동일한 정보(이름)가 밀려 올라가서 체크가 누락되지 않도록
+                    /* ex) i--;가 없다면 : 랜덤으로 출력해서 6번 최길동 7번 최길동 -> 최길동만 삭제했을 때
+                    : 6번 최길동만 삭제되고 7번 최길동은 6번으로 밀려 올라감
+                    -> 이것을 프로그램에서 잡지 못해 7번이었던 최길동이 6번으로 변경되어 삭제 되지 않고 그대로 출력 됨 -> 오류 발생 */
 
                     // addrList.RemoveAt(i--); // 위의 두 줄을 한 줄로                    
                 }

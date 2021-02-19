@@ -1,0 +1,6 @@
+* B2B : Business to Business : 기업과 기업간 거래
+* B2C : Business to Customer : 기업과 소비자
+* B2G : Business to Government : 기업과 정부 ex) 기업 판매하는 제품을 정부 기관이 사는 경우
+* C2C : Customer to Customer : 소비자와 소비자 ex) 중고 거래
+* G2B : Government to Business : 정부와 기업 ex) 전기, 수도, 가스 등을 기업이 이용
+* G2C : Government to Customer : 정부와 소비자 ex) 전기, 수도, 가스 등을 소비자가 이용
