@@ -25,7 +25,6 @@ namespace AddressTEST0219.control
 
         static Random r = new Random(); // 전역 랜덤
 
-
         // Student st = new Student(); // 인스턴스 객체 생성 / 오류 해결을 위해 기본 생성자 추가
         // Student st = null; // 초기값            
 
@@ -67,7 +66,6 @@ namespace AddressTEST0219.control
                 }
             }
         }
-
 
         public static int getMenu()
         {
