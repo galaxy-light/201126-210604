@@ -22,6 +22,11 @@ namespace ConsoleApp2.model
             this.email = email;
         }
 
+        /*public Student(string id, string name, string tel, string address, string email) : this(name, address, tel, address, email)
+        { 
+            this.id = id;
+        }*/
+
         public string Name { get => name; set => name = value; }
         public string Tel { get => tel; set => tel = value; }
         public string Address { get => address; set => address = value; }

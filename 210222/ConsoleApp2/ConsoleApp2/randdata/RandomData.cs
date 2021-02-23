@@ -11,11 +11,10 @@ namespace ConsoleApp2.randdata
     {
         public void randData()
         {           
-            string[] name = { "홍길동", "김길동", "이길동", "박길동", "최길동"};
-            string[] tel = { "010-1111-1111", "010-2222-2222", "010-3333-3333", "010-4444-4444", "010-5555-5555" };
-            string[] address = { "서울시 동구 1동", "인천시 동구 1동", "대전시 동구 1동", "대구시 동구 1동", "부산시 동구 1동"};
-            string[] email = { "hong@naver.com", "kim@naver.com", "lee@naver.com", "park@naver.com", "choi@naver.com" };
-
+            static string[] name = { "홍길동", "김길동", "이길동", "박길동", "최길동"};
+            static string[] tel = { "010-1111-1111", "010-2222-2222", "010-3333-3333", "010-4444-4444", "010-5555-5555" };
+            static string[] address = { "서울시 동구 1동", "인천시 동구 1동", "대전시 동구 1동", "대구시 동구 1동", "부산시 동구 1동"};
+            static string[] email = { "hong@naver.com", "kim@naver.com", "lee@naver.com", "park@naver.com", "choi@naver.com" };
         }
 
         Random r;
@@ -25,6 +24,10 @@ namespace ConsoleApp2.randdata
             this.r = r;
         }
 
+        public void getName()
+        {
+            return name[r.Next(0, 5)];
+        }
 
         
     }
