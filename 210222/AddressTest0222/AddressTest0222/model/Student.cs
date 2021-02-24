@@ -13,16 +13,16 @@ namespace AddressTest0222
         private string tel;
         private string address;
         private string email;
-        private static Student inst;
+        // private static Student inst;
 
-        public static Student getInst()
+        /*public static Student getInst()
         {
             if (inst == null)
             {
                 inst = new Student();
             }
             return inst;
-        }
+        }*/
 
         public Student() { }
 
@@ -34,9 +34,10 @@ namespace AddressTest0222
             this.email = email;
         }
 
+        // 오버로딩
         public Student(string id, string name, string tel, string address, string email) : this(name, tel, address, email)
         {
-            this.id = id;
+            this.id = id;            
         }
 
         public string Name { get => name; set => name = value; }
