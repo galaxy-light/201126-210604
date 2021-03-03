@@ -182,7 +182,7 @@ namespace addrWin0302
             this.addrExit.TabIndex = 9;
             this.addrExit.Click += new System.EventHandler(this.addrExit_Click);
             // 
-            // mainForm
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -198,8 +198,9 @@ namespace addrWin0302
             this.Controls.Add(this.addrRandadd);
             this.Controls.Add(this.addrView);
             this.Controls.Add(this.addrAdd);
-            this.Name = "mainForm";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).EndInit();
             this.ResumeLayout(false);
 

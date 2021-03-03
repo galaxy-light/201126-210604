@@ -64,5 +64,10 @@ namespace addrWin0302
         {
 
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
