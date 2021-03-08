@@ -33,13 +33,13 @@ namespace Address0303
             this.addrAdd = new CxFlatUI.CxFlatRoundButton();
             this.addrView = new CxFlatUI.CxFlatRoundButton();
             this.addrRand = new CxFlatUI.CxFlatRoundButton();
-            this.addrDel = new CxFlatUI.CxFlatRoundButton();
             this.addrAllDel = new CxFlatUI.CxFlatRoundButton();
             this.addrUpdate = new CxFlatUI.CxFlatRoundButton();
             this.cxFlatPictureBox1 = new CxFlatUI.CxFlatPictureBox();
             this.uiSymbolLabel1 = new Sunny.UI.UISymbolLabel();
             this.arrHelp = new Sunny.UI.UISymbolButton();
             this.arrExit = new Sunny.UI.UISymbolButton();
+            this.addrDel = new CxFlatUI.CxFlatRoundButton();
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,18 +78,6 @@ namespace Address0303
             this.addrRand.Text = "랜덤 주소록 추가";
             this.addrRand.TextColor = System.Drawing.Color.White;
             this.addrRand.Click += new System.EventHandler(this.addrRand_Click);
-            // 
-            // addrDel
-            // 
-            this.addrDel.ButtonType = CxFlatUI.ButtonType.Waring;
-            this.addrDel.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.addrDel.Location = new System.Drawing.Point(446, 268);
-            this.addrDel.Name = "addrDel";
-            this.addrDel.Size = new System.Drawing.Size(280, 46);
-            this.addrDel.TabIndex = 3;
-            this.addrDel.Text = "특정 주소록 삭제";
-            this.addrDel.TextColor = System.Drawing.Color.White;
-            this.addrDel.Click += new System.EventHandler(this.addrDel_Click);
             // 
             // addrAllDel
             // 
@@ -172,6 +160,18 @@ namespace Address0303
             this.arrExit.TabIndex = 9;
             this.arrExit.Click += new System.EventHandler(this.arrExit_Click);
             // 
+            // addrDel
+            // 
+            this.addrDel.ButtonType = CxFlatUI.ButtonType.Waring;
+            this.addrDel.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.addrDel.Location = new System.Drawing.Point(446, 268);
+            this.addrDel.Name = "addrDel";
+            this.addrDel.Size = new System.Drawing.Size(280, 46);
+            this.addrDel.TabIndex = 3;
+            this.addrDel.Text = "특정 주소록 삭제";
+            this.addrDel.TextColor = System.Drawing.Color.White;
+            this.addrDel.Click += new System.EventHandler(this.addrDel_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -201,13 +201,13 @@ namespace Address0303
         private CxFlatUI.CxFlatRoundButton addrAdd;
         private CxFlatUI.CxFlatRoundButton addrView;
         private CxFlatUI.CxFlatRoundButton addrRand;
-        private CxFlatUI.CxFlatRoundButton addrDel;
         private CxFlatUI.CxFlatRoundButton addrAllDel;
         private CxFlatUI.CxFlatRoundButton addrUpdate;
         private CxFlatUI.CxFlatPictureBox cxFlatPictureBox1;
         private Sunny.UI.UISymbolLabel uiSymbolLabel1;
         private Sunny.UI.UISymbolButton arrHelp;
         private Sunny.UI.UISymbolButton arrExit;
+        private CxFlatUI.CxFlatRoundButton addrDel;
     }
 }
 

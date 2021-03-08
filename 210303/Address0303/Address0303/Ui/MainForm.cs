@@ -58,26 +58,31 @@ namespace Address0303
         {
             string cnt = myInputBox("랜덤 데이터 생성", "랜덤하게 데이터를 생성할 개수를 입력하세요.", "0");
             StudentCtrl.getInst().randData(Convert.ToInt32(cnt));
+            if (cnt == "")
+            {
+
+            }
+            return;
             // sc.randData(50);
             /*Random r = new Random();
-            new RandData(r);    */        
+            new RandData(r);    */
         }
 
         private void addrDel_Click(object sender, EventArgs e)
         {
             // sc.delItem("홍길동");
-            StudentCtrl.getInst().delItem("홍길동"); // 싱글톤 -> StudentCtrl.getInst() : 클래스 / viewItem(); : 객체      
+            StudentCtrl.getInst().delItem("홍길동"); // 싱글톤 -> StudentCtrl.getInst() : 클래스 / delItem("홍길동"); : 객체      
         }
 
         private void addrAllDel_Click(object sender, EventArgs e)
         {
             // sc.delItemAll();
-            StudentCtrl.getInst().delItemAll(); // 싱글톤 -> StudentCtrl.getInst() : 클래스 / viewItem(); : 객체
+            StudentCtrl.getInst().delItemAll(); // 싱글톤 -> StudentCtrl.getInst() : 클래스 / delItemAll(); 객체
         }
 
         private void addrUpdate_Click(object sender, EventArgs e)
         {
-            StudentCtrl.getInst().updateItem(1); // 싱글톤 -> StudentCtrl.getInst() : 클래스 / viewItem(); : 객체
+            StudentCtrl.getInst().updateItem(1); // 싱글톤 -> StudentCtrl.getInst() : 클래스 / updateItem(1); : 객체
         }
 
         private string myInputBox(string title, string body, string prompt)
