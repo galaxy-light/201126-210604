@@ -130,12 +130,12 @@ namespace Address0303.Ui
                     {
                         addrList[i].Name = c;
                         MessageBox.Show("정보가 정상적으로 변경되었습니다.");
-                        return;
+                        break;
                     }
-                    else if (!addrList[i].Name.Equals(b))
+                    else if (addrList[i].Name != b)
                     {
                         MessageBox.Show("입력 정보가 일치하지 않습니다.");
-                        return;
+                        break;
                     }
                 }                
             }
@@ -155,12 +155,12 @@ namespace Address0303.Ui
                     {
                         addrList[i].Tel = c;
                         MessageBox.Show("정보가 정상적으로 변경되었습니다.");
-                        return;
+                        break;
                     }
-                    else if (!addrList[i].Tel.Equals(b))
+                    else if (addrList[i].Name != b)
                     {
                         MessageBox.Show("입력 정보가 일치하지 않습니다.");
-                        return;
+                        break;
                     }
                 }
             }
@@ -180,12 +180,12 @@ namespace Address0303.Ui
                     {
                         addrList[i].Address = c;
                         MessageBox.Show("정보가 정상적으로 변경되었습니다.");
-                        return;
+                        break;
                     }
-                    else if (!addrList[i].Address.Equals(b))
+                    else if (addrList[i].Name != b)
                     {
                         MessageBox.Show("입력 정보가 일치하지 않습니다.");
-                        return;
+                        break;
                     }
                 }
             }
@@ -204,12 +204,12 @@ namespace Address0303.Ui
                     {
                         addrList[i].Email = c;
                         MessageBox.Show("정보가 정상적으로 변경되었습니다.");
-                        return;
+                        break;
                     }
-                    else if (!addrList[i].Email.Equals(b))
+                    else if (addrList[i].Name != b)
                     {
                         MessageBox.Show("입력 정보가 일치하지 않습니다.");
-                        return;
+                        break;
                     }
                 }
             }            

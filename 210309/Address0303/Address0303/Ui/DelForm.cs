@@ -132,21 +132,24 @@ namespace Address0308.Ui
             delBox.Text = a;
             for (int i = 0; i < addrList.Count; i++)
             {
-                if (a.Equals(addrList[i].Name))
+                if (a.Equals(addrList[i].Tel))
                 {
                     addrList.RemoveAt(i--);
                     MessageBox.Show("정보가 삭제 되었습니다.");
+                    break;
                 }
                 else
                 {
                     MessageBox.Show("일치하는 정보가 없습니다.");
+                    break;
                 }
+
             }
         }
 
         private void delNameBox_TextChanged(object sender, EventArgs e)
         {
-
+           
         }
 
         private void dellabel_Click(object sender, EventArgs e)
