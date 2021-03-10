@@ -130,20 +130,21 @@ namespace Address0308.Ui
             Console.Write("삭제할 전화 번호 입력 : ");
             a = Console.ReadLine();
             delBox.Text = a;
-            for (int i = 0; i < addrList.Count; i++)
+            for (int i = 0; i < sc.getList().Count; i++)
             {
-                if (a.Equals(addrList[i].Tel))
+                if (addrList[i].Tel == a)
                 {
                     addrList.RemoveAt(i--);
                     MessageBox.Show("정보가 삭제 되었습니다.");
                     break;
                 }
-                else
-                {
-                    MessageBox.Show("일치하는 정보가 없습니다.");
-                    break;
-                }
-
+                //else if (addrList[i].Tel != a)
+                //{
+                //    /*addrlist.removeat(i--)*/;
+                //    MessageBox.Show("일치하는 정보가 없습니다.");
+                //    break;
+                //}
+                
             }
         }
 
