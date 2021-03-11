@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>이미지 처리</title>
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">	
+	$(document).ready(function(){
+		$("#displayDiv").css("display", "none");
+		
+		$("#btn").click(function(){
+		      if($("#displayDiv").css("display") =="none"){
+		         $("#displayDiv").css("display", "block");		      
+		   }
+		      else{
+		          $("#displayDiv").css("display", "none");
+		       }		       
+		    });
+	});
+</script>
+</head>
+<body>
+	<h1>이미지 출력 및 숨기기</h1>
+	<button type="button" id="btn">보기 또는 숨기기</button>
+	<div id="displayDiv">
+		<img src="http://localhost:8080/test0311/images/yachts-5971866_1280.jpg" width="640" height="480">		
+		<!-- img src="../images/yachts-5971866_1280.jpg" : 상대경로 -->	
+		<!-- img src="http://localhost:8080/test0311/images/yachts-5971866_1280.jpg" : 절대경로 -->	
+	</div>
+</body>
+</html>

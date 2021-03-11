@@ -1,0 +1,5 @@
+CRUD
+- insert
+- select
+- update
+- delete
