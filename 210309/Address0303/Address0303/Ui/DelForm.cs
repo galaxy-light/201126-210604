@@ -132,19 +132,41 @@ namespace Address0308.Ui
             delBox.Text = a;
             for (int i = 0; i < sc.getList().Count; i++)
             {
-                if (addrList[i].Tel == a)
+                /*  if (addrList[i].Tel.Equals(a))
+                  {
+                      addrList.RemoveAt(i--);
+                      MessageBox.Show("정보가 삭제 되었습니다.");
+                      break;
+                  }
+                  else if (!addrList[i].Tel.Equals(a))
+                  {
+                      MessageBox.Show("일치 x");
+                      break;
+                  }*/
+
+                /*if (addrList[i].Tel == a)
                 {
                     addrList.RemoveAt(i--);
                     MessageBox.Show("정보가 삭제 되었습니다.");
                     break;
                 }
-                //else if (addrList[i].Tel != a)
-                //{
-                //    /*addrlist.removeat(i--)*/;
-                //    MessageBox.Show("일치하는 정보가 없습니다.");
-                //    break;
-                //}
-                
+                else if (addrList[i].Tel != a)
+                {
+                    MessageBox.Show("일치 x");
+                    break;
+                }*/
+
+                if (a == addrList[i].Tel)
+                {
+                    addrList.RemoveAt(i--);
+                    MessageBox.Show("정보가 삭제 되었습니다.");
+                    break;
+                }
+                else if (a != addrList[i].Tel)
+                {
+                    MessageBox.Show("일치 x");
+                    break;
+                }        
             }
         }
 

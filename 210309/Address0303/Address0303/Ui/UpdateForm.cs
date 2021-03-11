@@ -132,11 +132,11 @@ namespace Address0303.Ui
                         MessageBox.Show("정보가 정상적으로 변경되었습니다.");
                         break;
                     }
-                    else if (addrList[i].Name != b)
+                    /*else if (addrList[i].Name != b)
                     {
                         MessageBox.Show("입력 정보가 일치하지 않습니다.");
                         break;
-                    }
+                    }*/
                 }                
             }
             else if (a == 2)
@@ -157,11 +157,11 @@ namespace Address0303.Ui
                         MessageBox.Show("정보가 정상적으로 변경되었습니다.");
                         break;
                     }
-                    else if (addrList[i].Name != b)
+                   /* else if (addrList[i].Name != b)
                     {
                         MessageBox.Show("입력 정보가 일치하지 않습니다.");
                         break;
-                    }
+                    }*/
                 }
             }
             else if (a == 3)
@@ -182,11 +182,11 @@ namespace Address0303.Ui
                         MessageBox.Show("정보가 정상적으로 변경되었습니다.");
                         break;
                     }
-                    else if (addrList[i].Name != b)
+                   /* else if (addrList[i].Name != b)
                     {
                         MessageBox.Show("입력 정보가 일치하지 않습니다.");
                         break;
-                    }
+                    }*/
                 }
             }
             else if (a == 4)
@@ -206,11 +206,11 @@ namespace Address0303.Ui
                         MessageBox.Show("정보가 정상적으로 변경되었습니다.");
                         break;
                     }
-                    else if (addrList[i].Name != b)
+                   /* else if (addrList[i].Name != b)
                     {
                         MessageBox.Show("입력 정보가 일치하지 않습니다.");
                         break;
-                    }
+                    }*/
                 }
             }            
         }
