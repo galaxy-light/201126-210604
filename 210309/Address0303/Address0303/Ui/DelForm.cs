@@ -59,7 +59,8 @@ namespace Address0308.Ui
                 Console.WriteLine("주소 : {0}", addr);
                 Console.WriteLine("이메일 : {0}", email);
                 Console.WriteLine("--------------------------");
-                dellistView.Items.RemoveAt(n);
+                //dellistView.Items.RemoveAt(n);
+                delBox.Text = tel;
             }
         }
 
@@ -125,49 +126,37 @@ namespace Address0308.Ui
 
         private void iddel()
         {
-            string a;
             List<Student> addrList = sc.getList();
-            Console.Write("삭제할 전화 번호 입력 : ");
-            a = Console.ReadLine();
-            delBox.Text = a;
             for (int i = 0; i < sc.getList().Count; i++)
             {
-                /*  if (addrList[i].Tel.Equals(a))
-                  {
-                      addrList.RemoveAt(i--);
-                      MessageBox.Show("정보가 삭제 되었습니다.");
-                      break;
-                  }
-                  else if (!addrList[i].Tel.Equals(a))
-                  {
-                      MessageBox.Show("일치 x");
-                      break;
-                  }*/
-
-                /*if (addrList[i].Tel == a)
+                if (addrList[i].Tel == delBox.Text)
                 {
                     addrList.RemoveAt(i--);
                     MessageBox.Show("정보가 삭제 되었습니다.");
                     break;
                 }
-                else if (addrList[i].Tel != a)
-                {
-                    MessageBox.Show("일치 x");
-                    break;
-                }*/
-
-                if (a == addrList[i].Tel)
-                {
-                    addrList.RemoveAt(i--);
-                    MessageBox.Show("정보가 삭제 되었습니다.");
-                    break;
-                }
-                else if (a != addrList[i].Tel)
-                {
-                    MessageBox.Show("일치 x");
-                    break;
-                }        
             }
+                    /*
+                    string a;
+                    List<Student> addrList = sc.getList();
+                    Console.Write("삭제할 전화 번호 입력 : ");
+                    a = Console.ReadLine();
+                    delBox.Text = a;
+                    for (int i = 0; i < sc.getList().Count; i++)
+                    {
+                          if (addrList[i].Tel.Equals(a))
+                          {
+                              addrList.RemoveAt(i--);
+                              MessageBox.Show("정보가 삭제 되었습니다.");
+                              break;
+                          }
+                          else if (!addrList[i].Tel.Equals(a))
+                          {
+                              MessageBox.Show("일치 x");
+                              break;
+                          }
+                    }
+                    */
         }
 
         private void delNameBox_TextChanged(object sender, EventArgs e)
