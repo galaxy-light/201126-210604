@@ -32,6 +32,10 @@ namespace Address0303.Ui
                 MessageBox.Show("데이터가 없습니다.");
                 return;
             }
+            exnamech.Checked = false;
+            extelch.Checked = false;
+            exaddressch.Checked = false;
+            exemailch.Checked = false;
         }
 
         private void updateExit_Click(object sender, EventArgs e)
@@ -88,10 +92,10 @@ namespace Address0303.Ui
                 Console.WriteLine("주소 : {0}", addr);
                 Console.WriteLine("이메일 : {0}", email);
                 Console.WriteLine("--------------------------");
-                //exName.Text = name;
-                //exTel.Text = tel;
-                //exAddress.Text = addr;
-                //exEmail.Text = email;               
+                exnameBox.Text = name;
+                extelBox.Text = tel;
+                exaddressBox.Text = addr;
+                exemailBox.Text = email;
             }
         }
 
@@ -106,87 +110,78 @@ namespace Address0303.Ui
 
             string a;
             string b;
-            a = exdataBox.Text;
-            b = redataBox.Text;
+            string c;
+            string d;
+            string e;
+            a = redataBox.Text;
+            b = exnameBox.Text;
+            c = extelBox.Text;
+            d = exaddressBox.Text;
+            e = exemailBox.Text;
 
-            for (int i = 0; i < addrList.Count; i++)
+            if (exnamech.Checked == true)
             {
-                if (addrList[i].Name.Equals(a))
+                for (int i = 0; i < addrList.Count; i++)
                 {
-                    addrList[i].Name = b;
-                    MessageBox.Show("이름 정보가 변경되었습니다.");
-                    break;
-                }
-
-                /*else      
-                {
-                    MessageBox.Show("일치하는 정보가 없습니다.");
-                    break;
-                }*/
-            }
-
-            for (int i = 0; i < addrList.Count; i++)
-            {
-                if (addrList[i].Tel.Equals(a))
-                {
+                    if (addrList[i].Name.Equals(b))
                     {
-                        addrList[i].Tel = b;
-                        MessageBox.Show("전화 번호 정보가 변경되었습니다.");
+                        addrList[i].Name = redataBox.Text;
+                        MessageBox.Show("이름 정보가 변경되었습니다.");
                         break;
                     }
                 }
-
-                /*else
-                {
-                    MessageBox.Show("일치하는 정보가 없습니다.");
-                    break;
-                }*/
             }
 
-            for (int i = 0; i < addrList.Count; i++)
+            else if (extelch.Checked == true)
             {
-                if (addrList[i].Address.Equals(a))
+                for (int i = 0; i < addrList.Count; i++)
                 {
+                    if (addrList[i].Tel.Equals(c))
                     {
-                        addrList[i].Address = b;
-                        MessageBox.Show("주소 정보가 변경되었습니다.");
+                        {
+                            addrList[i].Tel = redataBox.Text;
+                            MessageBox.Show("전화 번호 정보가 변경되었습니다.");
+                            break;
+                        }
+                    }
+                }
+            }
+
+            else if (exaddressch.Checked == true)
+            {
+                for (int i = 0; i < addrList.Count; i++)
+                {
+                    if (addrList[i].Address.Equals(d))
+                    {
+                        {
+                            addrList[i].Address = redataBox.Text;
+                            MessageBox.Show("주소 정보가 변경되었습니다.");
+                            break;
+                        }
+                    }
+                }
+            }
+
+            else if (exemailch.Checked == true)
+            {
+                for (int i = 0; i < addrList.Count; i++)
+                {
+                    if (addrList[i].Email.Equals(e))
+                    {
+                        addrList[i].Email = redataBox.Text;
+                        MessageBox.Show("이메일 정보가 변경되었습니다.");
                         break;
                     }
                 }
-
-                /*else
-                {
-                    MessageBox.Show("일치하는 정보가 없습니다.");
-                    break;
-                }*/
             }
 
-            for (int i = 0; i < addrList.Count; i++)
+            else
             {
-                if (addrList[i].Email.Equals(a))
-                {
-                    addrList[i].Email = b;
-                    MessageBox.Show("이메일 정보가 변경되었습니다.");
-                    break;
-                }
-
-                /*else
-                {
-                    MessageBox.Show("일치하는 정보가 없습니다.");
-                    break;
-                }*/
+                MessageBox.Show("수정할 항목을 체크해주세요.");
             }
         }
 
-        private void exdata_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void exdataBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void redata_Click(object sender, EventArgs e)
         {
@@ -200,7 +195,42 @@ namespace Address0303.Ui
 
         private void arrHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("변경 버튼을 먼저 눌러주세요.");
+            MessageBox.Show("수정할 항목을 체크를 하고 데이터 입력 후 변경 버튼을 눌러주세요.");
+        }
+
+        private void extelBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exaddressBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exemailBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exnamech_ValueChanged(object sender, bool value)
+        {
+            
+        }
+
+        private void extelch_ValueChanged(object sender, bool value)
+        {
+
+        }
+
+        private void exaddressch_ValueChanged(object sender, bool value)
+        {
+
+        }
+
+        private void exemailch_ValueChanged(object sender, bool value)
+        {
+
         }
     }
 }

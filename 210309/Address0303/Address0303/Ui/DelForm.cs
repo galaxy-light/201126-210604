@@ -171,8 +171,8 @@ namespace Address0308.Ui
 
         private void arrHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("데이터를 전체 삭제 : 우측 체크 박스에 체크를 먼저 하고 삭제 버튼을 눌러주세요." + "\r"
-                + "특정 사용자 삭제 : 삭제 버튼을 먼저 눌러주세요." + "\r");            
+            MessageBox.Show("데이터를 전체 삭제 : 체크 박스에 체크를 하고 삭제 버튼을 눌러주세요." + "\r"
+                + "특정 사용자 삭제 : 목록에서 삭제할 데이터를 클릭하고 삭제 버튼을 눌러주세요." + "\r");            
         }
     }
 }
