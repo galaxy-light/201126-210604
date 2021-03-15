@@ -102,119 +102,80 @@ namespace Address0303.Ui
 
         private void Upaddrinfo()
         {
-            
-            /* 
-            int a = 0;
+            List<Student> addrList = sc.getList();
+
+            string a;
             string b;
-            string c;
-            Console.WriteLine("---------------");
-            Console.WriteLine("1. 이름");
-            Console.WriteLine("2. 전화 번호");
-            Console.WriteLine("3. 주소");
-            Console.WriteLine("4. 이메일");
-            Console.WriteLine("---------------");
-            Console.Write("메뉴 선택 : ");
-            a = Convert.ToInt32(Console.ReadLine());
+            a = exdataBox.Text;
+            b = redataBox.Text;
 
-            if (a == 1)
+            for (int i = 0; i < addrList.Count; i++)
             {
-                Console.Write("변경 전 이름 : ");
-                b = Console.ReadLine();
-                exdataBox.Text = b;
-                Console.Write("변경 이름 : ");
-                c = Console.ReadLine();
-                redataBox.Text = c;
-
-                List<Student> addrList = sc.getList();
-                for (int i = 0; i < addrList.Count; i++)
+                if (addrList[i].Name.Equals(a))
                 {
-                    if (addrList[i].Name.Equals(b))
-                    {
-                        addrList[i].Name = c;
-                        MessageBox.Show("정보가 정상적으로 변경되었습니다.");
-                        break;
-                    }
-                    *//*else if (addrList[i].Name != b)
-                    {
-                        MessageBox.Show("입력 정보가 일치하지 않습니다.");
-                        break;
-                    }*//*
-                }                
-            }
-            else if (a == 2)
-            {
-                Console.Write("변경 전 번호 : ");
-                b = Console.ReadLine();
-                exdataBox.Text = b;
-                Console.Write("변경 번호 : ");
-                c = Console.ReadLine();
-                redataBox.Text = c;
-
-                List<Student> addrList = sc.getList();
-                for (int i = 0; i < addrList.Count; i++)
-                {
-                    if (addrList[i].Tel.Equals(b))
-                    {
-                        addrList[i].Tel = c;
-                        MessageBox.Show("정보가 정상적으로 변경되었습니다.");
-                        break;
-                    }
-                   *//* else if (addrList[i].Name != b)
-                    {
-                        MessageBox.Show("입력 정보가 일치하지 않습니다.");
-                        break;
-                    }*//*
+                    addrList[i].Name = b;
+                    MessageBox.Show("이름 정보가 변경되었습니다.");
+                    break;
                 }
-            }
-            else if (a == 3)
-            {
-                Console.Write("변경 전 주소 : ");
-                b = Console.ReadLine();
-                exdataBox.Text = b;
-                Console.Write("변경 주소 : ");
-                c = Console.ReadLine();
-                redataBox.Text = c;
 
-                List<Student> addrList = sc.getList();
-                for (int i = 0; i < addrList.Count; i++)
+                /*else      
                 {
-                    if (addrList[i].Address.Equals(b))
-                    {
-                        addrList[i].Address = c;
-                        MessageBox.Show("정보가 정상적으로 변경되었습니다.");
-                        break;
-                    }
-                   *//* else if (addrList[i].Name != b)
-                    {
-                        MessageBox.Show("입력 정보가 일치하지 않습니다.");
-                        break;
-                    }*//*
-                }
+                    MessageBox.Show("일치하는 정보가 없습니다.");
+                    break;
+                }*/
             }
-            else if (a == 4)
+
+            for (int i = 0; i < addrList.Count; i++)
             {
-                Console.Write("변경 전 이메일 : ");
-                b = Console.ReadLine();
-                exdataBox.Text = b;
-                Console.Write("변경 이메일 : ");
-                c = Console.ReadLine();
-                redataBox.Text = c;
-                List<Student> addrList = sc.getList();
-                for (int i = 0; i < addrList.Count; i++)
+                if (addrList[i].Tel.Equals(a))
                 {
-                    if (addrList[i].Email.Equals(b))
                     {
-                        addrList[i].Email = c;
-                        MessageBox.Show("정보가 정상적으로 변경되었습니다.");
+                        addrList[i].Tel = b;
+                        MessageBox.Show("전화 번호 정보가 변경되었습니다.");
                         break;
                     }
-                   *//* else if (addrList[i].Name != b)
-                    {
-                        MessageBox.Show("입력 정보가 일치하지 않습니다.");
-                        break;
-                    }*//*
                 }
-            }*/
+
+                /*else
+                {
+                    MessageBox.Show("일치하는 정보가 없습니다.");
+                    break;
+                }*/
+            }
+
+            for (int i = 0; i < addrList.Count; i++)
+            {
+                if (addrList[i].Address.Equals(a))
+                {
+                    {
+                        addrList[i].Address = b;
+                        MessageBox.Show("주소 정보가 변경되었습니다.");
+                        break;
+                    }
+                }
+
+                /*else
+                {
+                    MessageBox.Show("일치하는 정보가 없습니다.");
+                    break;
+                }*/
+            }
+
+            for (int i = 0; i < addrList.Count; i++)
+            {
+                if (addrList[i].Email.Equals(a))
+                {
+                    addrList[i].Email = b;
+                    MessageBox.Show("이메일 정보가 변경되었습니다.");
+                    break;
+                }
+
+                /*else
+                {
+                    MessageBox.Show("일치하는 정보가 없습니다.");
+                    break;
+                }*/
+            }
         }
 
         private void exdata_Click(object sender, EventArgs e)
