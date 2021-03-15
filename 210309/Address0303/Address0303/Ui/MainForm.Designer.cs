@@ -37,7 +37,6 @@ namespace Address0303
             this.cxFlatPictureBox1 = new CxFlatUI.CxFlatPictureBox();
             this.uiSymbolLabel1 = new Sunny.UI.UISymbolLabel();
             this.arrHelp = new Sunny.UI.UISymbolButton();
-            this.arrExit = new Sunny.UI.UISymbolButton();
             this.addrDel = new CxFlatUI.CxFlatRoundButton();
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -127,32 +126,15 @@ namespace Address0303
             this.arrHelp.FillColor = System.Drawing.Color.LightBlue;
             this.arrHelp.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.arrHelp.IsCircle = true;
-            this.arrHelp.Location = new System.Drawing.Point(673, 30);
+            this.arrHelp.Location = new System.Drawing.Point(750, 30);
             this.arrHelp.MinimumSize = new System.Drawing.Size(1, 1);
             this.arrHelp.Name = "arrHelp";
             this.arrHelp.RectColor = System.Drawing.Color.LightBlue;
-            this.arrHelp.Size = new System.Drawing.Size(53, 46);
+            this.arrHelp.Size = new System.Drawing.Size(42, 30);
             this.arrHelp.Style = Sunny.UI.UIStyle.Custom;
             this.arrHelp.Symbol = 61736;
             this.arrHelp.TabIndex = 8;
             this.arrHelp.Click += new System.EventHandler(this.arrHelp_Click);
-            // 
-            // arrExit
-            // 
-            this.arrExit.BackColor = System.Drawing.Color.Transparent;
-            this.arrExit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.arrExit.FillColor = System.Drawing.Color.LightCoral;
-            this.arrExit.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.arrExit.IsCircle = true;
-            this.arrExit.Location = new System.Drawing.Point(732, 30);
-            this.arrExit.MinimumSize = new System.Drawing.Size(1, 1);
-            this.arrExit.Name = "arrExit";
-            this.arrExit.RectColor = System.Drawing.Color.LightCoral;
-            this.arrExit.Size = new System.Drawing.Size(48, 46);
-            this.arrExit.Style = Sunny.UI.UIStyle.Custom;
-            this.arrExit.Symbol = 61453;
-            this.arrExit.TabIndex = 9;
-            this.arrExit.Click += new System.EventHandler(this.arrExit_Click);
             // 
             // addrDel
             // 
@@ -174,7 +156,6 @@ namespace Address0303
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(803, 450);
             this.Controls.Add(this.addrDel);
-            this.Controls.Add(this.arrExit);
             this.Controls.Add(this.arrHelp);
             this.Controls.Add(this.uiSymbolLabel1);
             this.Controls.Add(this.cxFlatPictureBox1);
@@ -199,7 +180,6 @@ namespace Address0303
         private CxFlatUI.CxFlatPictureBox cxFlatPictureBox1;
         private Sunny.UI.UISymbolLabel uiSymbolLabel1;
         private Sunny.UI.UISymbolButton arrHelp;
-        private Sunny.UI.UISymbolButton arrExit;
         private CxFlatUI.CxFlatRoundButton addrDel;
     }
 }

@@ -126,7 +126,7 @@ namespace Address0303.Ui
                     if (addrList[i].Name.Equals(b))
                     {
                         addrList[i].Name = redataBox.Text;
-                        MessageBox.Show("이름 정보가 변경되었습니다.");
+                        MessageBox.Show("정보가 변경되었습니다.");
                         break;
                     }
                 }
@@ -140,7 +140,7 @@ namespace Address0303.Ui
                     {
                         {
                             addrList[i].Tel = redataBox.Text;
-                            MessageBox.Show("전화 번호 정보가 변경되었습니다.");
+                            MessageBox.Show("정보가 변경되었습니다.");
                             break;
                         }
                     }
@@ -155,7 +155,7 @@ namespace Address0303.Ui
                     {
                         {
                             addrList[i].Address = redataBox.Text;
-                            MessageBox.Show("주소 정보가 변경되었습니다.");
+                            MessageBox.Show("정보가 변경되었습니다.");
                             break;
                         }
                     }
@@ -169,7 +169,7 @@ namespace Address0303.Ui
                     if (addrList[i].Email.Equals(e))
                     {
                         addrList[i].Email = redataBox.Text;
-                        MessageBox.Show("이메일 정보가 변경되었습니다.");
+                        MessageBox.Show("정보가 변경되었습니다.");
                         break;
                     }
                 }
@@ -179,19 +179,7 @@ namespace Address0303.Ui
             {
                 MessageBox.Show("수정할 항목을 체크해주세요.");
             }
-        }
-
-       
-
-        private void redata_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void redataBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        }    
 
         private void arrHelp_Click(object sender, EventArgs e)
         {
@@ -229,6 +217,16 @@ namespace Address0303.Ui
         }
 
         private void exemailch_ValueChanged(object sender, bool value)
+        {
+
+        }
+
+        private void redata_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void redataBox_TextChanged(object sender, EventArgs e)
         {
 
         }

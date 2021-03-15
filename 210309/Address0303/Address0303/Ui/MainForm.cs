@@ -42,12 +42,12 @@ namespace Address0303
 
         private void arrHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Update 2021년 3월 2일 by y");
+            MessageBox.Show("Update 2021년 3월 15일 by y");
         }
 
         private void arrExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            // Application.Exit();
         }
 
         private void addrAdd_Click(object sender, EventArgs e)
@@ -74,7 +74,7 @@ namespace Address0303
             string cnt = myInputBox("랜덤 데이터 생성", "랜덤하게 데이터를 생성할 개수를 입력하세요.", "0");
             // StudentCtrl.getInst().randData(Convert.ToInt32(cnt));
             sc.randData(Convert.ToInt32(cnt));
-            if (cnt == "")
+            if (cnt == "")s
             {
 
             }

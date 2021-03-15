@@ -63,6 +63,7 @@ namespace Address0303.Ui
             if (AddName.Text != "" && AddTel.Text != "" && AddAddress.Text != "" && AddEmail.Text != "")
             {
                 sc.getList().Add(new Student(new RandData(r).getId(), AddName.Text, AddTel.Text, AddAddress.Text, AddEmail.Text));
+                MessageBox.Show("정보 등록에 성공했습니다.");
             }
             else
             {
@@ -100,7 +101,7 @@ namespace Address0303.Ui
 
         private void arrHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("각각 항목에 데이터를 입력하세요.");
+            MessageBox.Show("모든 항목에 데이터를 입력하세요.");
         }
     }
 }

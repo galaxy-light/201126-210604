@@ -174,7 +174,7 @@ namespace Address0303.Ui
                 Console.WriteLine("주소 : {0}", addr);
                 Console.WriteLine("이메일 : {0}", email);
                 Console.WriteLine("--------------------------");
-                listView.Items.RemoveAt(n);
+                // listView.Items.RemoveAt(n); // 콘솔로 내용이 빠지지 않게 주석 처리
             }
         }
 

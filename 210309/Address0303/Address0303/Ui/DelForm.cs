@@ -60,7 +60,10 @@ namespace Address0308.Ui
                 Console.WriteLine("이메일 : {0}", email);
                 Console.WriteLine("--------------------------");
                 //dellistView.Items.RemoveAt(n);
-                delBox.Text = tel;
+                delnameBox.Text = name;
+                deltelBox.Text = tel;
+                deladdressBox.Text = addr;
+                delemailBox.Text = email;
             }
         }
 
@@ -129,8 +132,8 @@ namespace Address0308.Ui
             List<Student> addrList = sc.getList();
             for (int i = 0; i < sc.getList().Count; i++)
             {
-                if (addrList[i].Tel == delBox.Text)
-                {
+                if (addrList[i].Name == delnameBox.Text)
+                {                    
                     addrList.RemoveAt(i--);
                     MessageBox.Show("정보가 삭제 되었습니다.");
                     break;
@@ -159,11 +162,7 @@ namespace Address0308.Ui
                     */
         }
 
-        private void delNameBox_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
-
+       
         private void dellabel_Click(object sender, EventArgs e)
         {
 
@@ -173,6 +172,27 @@ namespace Address0308.Ui
         {
             MessageBox.Show("데이터를 전체 삭제 : 체크 박스에 체크를 하고 삭제 버튼을 눌러주세요." + "\r"
                 + "특정 사용자 삭제 : 목록에서 삭제할 데이터를 클릭하고 삭제 버튼을 눌러주세요." + "\r");            
+        }
+
+        private void delNameBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void deltelBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deladdressBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void delemailBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

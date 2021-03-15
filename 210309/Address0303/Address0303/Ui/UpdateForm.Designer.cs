@@ -53,11 +53,11 @@ namespace Address0303.Ui
             // redata
             // 
             this.redata.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.redata.Location = new System.Drawing.Point(42, 349);
+            this.redata.Location = new System.Drawing.Point(19, 354);
             this.redata.MinimumSize = new System.Drawing.Size(1, 1);
             this.redata.Name = "redata";
             this.redata.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.redata.Size = new System.Drawing.Size(125, 40);
+            this.redata.Size = new System.Drawing.Size(125, 34);
             this.redata.TabIndex = 1;
             this.redata.Text = "변경 데이터";
             this.redata.Click += new System.EventHandler(this.redata_Click);
@@ -75,21 +75,21 @@ namespace Address0303.Ui
             this.exnameBox.Name = "exnameBox";
             this.exnameBox.Padding = new System.Windows.Forms.Padding(5);
             this.exnameBox.Size = new System.Drawing.Size(273, 29);
-            this.exnameBox.TabIndex = 8;           
+            this.exnameBox.TabIndex = 8;
             // 
             // redataBox
             // 
             this.redataBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.redataBox.FillColor = System.Drawing.Color.White;
             this.redataBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.redataBox.Location = new System.Drawing.Point(174, 355);
+            this.redataBox.Location = new System.Drawing.Point(151, 357);
             this.redataBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.redataBox.Maximum = 2147483647D;
             this.redataBox.Minimum = -2147483648D;
             this.redataBox.MinimumSize = new System.Drawing.Size(1, 1);
             this.redataBox.Name = "redataBox";
             this.redataBox.Padding = new System.Windows.Forms.Padding(5);
-            this.redataBox.Size = new System.Drawing.Size(568, 29);
+            this.redataBox.Size = new System.Drawing.Size(602, 29);
             this.redataBox.TabIndex = 9;
             this.redataBox.TextChanged += new System.EventHandler(this.redataBox_TextChanged);
             // 
@@ -251,7 +251,7 @@ namespace Address0303.Ui
             // 
             this.extelch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.extelch.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.extelch.Location = new System.Drawing.Point(376, 261);
+            this.extelch.Location = new System.Drawing.Point(376, 263);
             this.extelch.MinimumSize = new System.Drawing.Size(1, 1);
             this.extelch.Name = "extelch";
             this.extelch.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
