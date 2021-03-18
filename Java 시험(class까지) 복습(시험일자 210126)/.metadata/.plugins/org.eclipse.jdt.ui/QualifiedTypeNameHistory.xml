@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.tools.sjavac.server.SysInfo"/>
-    <fullyQualifiedTypeName name="sun.jvm.hotspot.tools.SysPropsDumper"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-</qualifiedTypeNameHistroy>

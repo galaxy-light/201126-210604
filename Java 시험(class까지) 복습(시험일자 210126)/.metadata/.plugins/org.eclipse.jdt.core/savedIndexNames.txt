@@ -1,8 +1,0 @@
-INDEX VERSION 1.131+C:\Users\KB\Desktop\tototo\201126-210604\Java 시험(class까지) 복습(시험일자 210126)\.metadata\.plugins\org.eclipse.jdt.core
-685985929.index
-1936523233.index
-3434674564.index
-1306806701.index
-1437706302.index
-1151759565.index
-1250477429.index
