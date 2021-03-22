@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    
-    <%@ page errorPage = "error.jsps" %>
+    pageEncoding="UTF-8"%>    
+<%@ page errorPage = "error.jsps" %>
 <!DOCTYPE html>
 <html>
 <head>
