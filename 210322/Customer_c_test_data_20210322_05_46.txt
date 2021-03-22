@@ -1,0 +1,10 @@
+﻿INSERT INTO Customer_c (cu_nm, cu_ph, cu_addr, cu_em) VALUES ('cu_nm 01', 'cu_ph 01', 'cu_addr 01', 'cu_em 01');
+INSERT INTO Customer_c (cu_nm, cu_ph, cu_addr, cu_em) VALUES ('cu_nm 02', 'cu_ph 02', 'cu_addr 02', 'cu_em 02');
+INSERT INTO Customer_c (cu_nm, cu_ph, cu_addr, cu_em) VALUES ('cu_nm 03', 'cu_ph 03', 'cu_addr 03', 'cu_em 03');
+INSERT INTO Customer_c (cu_nm, cu_ph, cu_addr, cu_em) VALUES ('cu_nm 04', 'cu_ph 04', 'cu_addr 04', 'cu_em 04');
+INSERT INTO Customer_c (cu_nm, cu_ph, cu_addr, cu_em) VALUES ('cu_nm 05', 'cu_ph 05', 'cu_addr 05', 'cu_em 05');
+INSERT INTO Customer_c (cu_nm, cu_ph, cu_addr, cu_em) VALUES ('cu_nm 06', 'cu_ph 06', 'cu_addr 06', 'cu_em 06');
+INSERT INTO Customer_c (cu_nm, cu_ph, cu_addr, cu_em) VALUES ('cu_nm 07', 'cu_ph 07', 'cu_addr 07', 'cu_em 07');
+INSERT INTO Customer_c (cu_nm, cu_ph, cu_addr, cu_em) VALUES ('cu_nm 08', 'cu_ph 08', 'cu_addr 08', 'cu_em 08');
+INSERT INTO Customer_c (cu_nm, cu_ph, cu_addr, cu_em) VALUES ('cu_nm 09', 'cu_ph 09', 'cu_addr 09', 'cu_em 09');
+INSERT INTO Customer_c (cu_nm, cu_ph, cu_addr, cu_em) VALUES ('cu_nm 10', 'cu_ph 10', 'cu_addr 10', 'cu_em 10');

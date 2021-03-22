@@ -1,0 +1,3 @@
+﻿INSERT INTO Seller_c (se_num, se_nm, se_ph, se_em, se_ran, se_pla) VALUES (Seller_c_SEQ.NEXTVAL, '사이전', '010-1245-7896', 'sa@gamil.com', '팀장', '강남');
+INSERT INTO Seller_c (se_num, se_nm, se_ph, se_em, se_ran, se_pla) VALUES (Seller_c_SEQ.NEXTVAL, '이직영', '010-9847-4556, 'lee@daum.net', '대리', '구로');
+INSERT INTO Seller_c (se_num, se_nm, se_ph, se_em, se_ran, se_pla) VALUES (Seller_c_SEQ.NEXTVAL, '차모가', '010-3456-9874', 'ch@naver.com', '사원', '동작');

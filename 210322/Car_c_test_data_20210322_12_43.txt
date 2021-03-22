@@ -1,0 +1,3 @@
+﻿INSERT INTO Car_c (ca_num, ca_mod, ca_pri, ca_col, ca_com, ca_year) VALUES (Car_c_SEQ.NEXTVAL, '제네시스', '8천만원', 'black', '현대', '2021');
+INSERT INTO Car_c (ca_num, ca_mod, ca_pri, ca_col, ca_com, ca_year) VALUES (Car_c_SEQ.NEXTVAL, 'K5', '5천만원, 'gray', '기아', '2020');
+INSERT INTO Car_c (ca_num, ca_mod, ca_pri, ca_col, ca_com, ca_year) VALUES (Car_c_SEQ.NEXTVAL, '코나', '3천만원', 'blue', '현대', '2019');
