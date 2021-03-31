@@ -214,6 +214,7 @@ namespace CarManager0323
             this.DateView.Symbol = 61442;
             this.DateView.TabIndex = 13;
             this.DateView.Click += new System.EventHandler(this.DateView_Click);
+            this.DateView.MouseHover += new System.EventHandler(this.DateView_MouseHover);
             // 
             // MainForm
             // 

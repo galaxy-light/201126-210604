@@ -131,17 +131,14 @@ namespace CarManager0323
 
         private void DateView_Click(object sender, EventArgs e)
         {
-            new DealViewForm(db, dHandler).ShowDialog();
+            new DealViewForm(db, dHandler).ShowDialog();            
+        }
 
-            /*if ( != null)
-            {
-                new DealViewForm(db, dHandler).ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("테이블, 데이터를 먼저 생성해주세요.");
-                return;
-            }*/
+        private void DateView_MouseHover(object sender, EventArgs e)
+        {
+            /*this.DateView.ToolTipTitle = "ToolTip";
+            this.DateView.IsBalloon = true;
+            this.DateView.SetToolTip(this.button1, "Button");*/
         }
     }
 }
