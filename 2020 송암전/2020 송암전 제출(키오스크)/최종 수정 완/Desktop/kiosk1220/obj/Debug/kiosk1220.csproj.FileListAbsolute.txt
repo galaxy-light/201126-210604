@@ -98,3 +98,18 @@ C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.csproj.GenerateResource.cache
 C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
 C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.exe
 C:\Users\KB\Desktop\kiosk1220\obj\Debug\kiosk1220.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\bin\Debug\kiosk1220.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\bin\Debug\kiosk1220.exe
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\bin\Debug\kiosk1220.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.boonsik.resources
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.HANSIK.resources
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.JUNSIK.resources
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.LISIK.resources
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.yangsik.resources
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.exe
+C:\Users\KB\Desktop\totototo\201126-210604\2020 송암전\2020 송암전 제출(키오스크)\최종 수정 완\Desktop\kiosk1220\obj\Debug\kiosk1220.pdb
