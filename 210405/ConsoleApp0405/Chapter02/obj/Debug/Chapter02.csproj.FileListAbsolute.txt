@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210405\ConsoleApp0405\Chapter02\bin\Debug\Chapter02.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210405\ConsoleApp0405\Chapter02\bin\Debug\Chapter02.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210405\ConsoleApp0405\Chapter02\bin\Debug\Chapter02.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210405\ConsoleApp0405\Chapter02\obj\Debug\Chapter02.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210405\ConsoleApp0405\Chapter02\obj\Debug\Chapter02.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210405\ConsoleApp0405\Chapter02\obj\Debug\Chapter02.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210405\ConsoleApp0405\Chapter02\obj\Debug\Chapter02.csprojAssemblyReference.cache
