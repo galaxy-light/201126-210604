@@ -1,0 +1,7 @@
+D:\중요\Desktop\School\과제\210405 과제\ConsoleApp0405\ConsoleApp0405\bin\Debug\ConsoleApp0405.exe.config
+D:\중요\Desktop\School\과제\210405 과제\ConsoleApp0405\ConsoleApp0405\bin\Debug\ConsoleApp0405.exe
+D:\중요\Desktop\School\과제\210405 과제\ConsoleApp0405\ConsoleApp0405\bin\Debug\ConsoleApp0405.pdb
+D:\중요\Desktop\School\과제\210405 과제\ConsoleApp0405\ConsoleApp0405\obj\Debug\ConsoleApp0405.csprojAssemblyReference.cache
+D:\중요\Desktop\School\과제\210405 과제\ConsoleApp0405\ConsoleApp0405\obj\Debug\ConsoleApp0405.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\과제\210405 과제\ConsoleApp0405\ConsoleApp0405\obj\Debug\ConsoleApp0405.exe
+D:\중요\Desktop\School\과제\210405 과제\ConsoleApp0405\ConsoleApp0405\obj\Debug\ConsoleApp0405.pdb
