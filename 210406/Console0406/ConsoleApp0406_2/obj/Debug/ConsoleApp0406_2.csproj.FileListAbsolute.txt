@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210406\Console0406\ConsoleApp0406_2\bin\Debug\ConsoleApp0406_2.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210406\Console0406\ConsoleApp0406_2\bin\Debug\ConsoleApp0406_2.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210406\Console0406\ConsoleApp0406_2\bin\Debug\ConsoleApp0406_2.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210406\Console0406\ConsoleApp0406_2\obj\Debug\ConsoleApp0406_2.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210406\Console0406\ConsoleApp0406_2\obj\Debug\ConsoleApp0406_2.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210406\Console0406\ConsoleApp0406_2\obj\Debug\ConsoleApp0406_2.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210406\Console0406\ConsoleApp0406_2\obj\Debug\ConsoleApp0406_2.pdb
