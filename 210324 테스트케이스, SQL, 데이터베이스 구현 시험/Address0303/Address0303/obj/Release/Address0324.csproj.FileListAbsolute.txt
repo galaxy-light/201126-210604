@@ -19,3 +19,4 @@ C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데�
 C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.csproj.CopyComplete
 C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.exe
 C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.csprojAssemblyReference.cache
