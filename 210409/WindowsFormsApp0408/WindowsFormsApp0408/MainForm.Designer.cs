@@ -29,11 +29,13 @@ namespace WindowsFormsApp0408
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.randombutton = new Sunny.UI.UISymbolButton();
             this.texttext = new System.Windows.Forms.TextBox();
             this.linkbutton = new Sunny.UI.UISymbolButton();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,10 +73,10 @@ namespace WindowsFormsApp0408
             this.texttext.BackColor = System.Drawing.Color.White;
             this.texttext.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.texttext.Font = new System.Drawing.Font("문체부 제목 바탕체", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.texttext.Location = new System.Drawing.Point(498, 386);
+            this.texttext.Location = new System.Drawing.Point(519, 401);
             this.texttext.Multiline = true;
             this.texttext.Name = "texttext";
-            this.texttext.Size = new System.Drawing.Size(210, 53);
+            this.texttext.Size = new System.Drawing.Size(200, 50);
             this.texttext.TabIndex = 9;
             this.texttext.Text = "나만 잘 되게 해주세요.\r\n꼭 나만..";
             // 
@@ -85,13 +87,13 @@ namespace WindowsFormsApp0408
             this.linkbutton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.linkbutton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
             this.linkbutton.ForeHoverColor = System.Drawing.Color.Crimson;
-            this.linkbutton.Location = new System.Drawing.Point(3, 414);
+            this.linkbutton.Location = new System.Drawing.Point(5, 414);
             this.linkbutton.MinimumSize = new System.Drawing.Size(1, 1);
             this.linkbutton.Name = "linkbutton";
             this.linkbutton.RectColor = System.Drawing.Color.Transparent;
             this.linkbutton.RectHoverColor = System.Drawing.Color.Transparent;
             this.linkbutton.RectPressColor = System.Drawing.Color.Transparent;
-            this.linkbutton.Size = new System.Drawing.Size(42, 34);
+            this.linkbutton.Size = new System.Drawing.Size(31, 34);
             this.linkbutton.Style = Sunny.UI.UIStyle.Custom;
             this.linkbutton.Symbol = 62059;
             this.linkbutton.SymbolSize = 30;
@@ -121,6 +123,7 @@ namespace WindowsFormsApp0408
         private Sunny.UI.UISymbolButton randombutton;
         private System.Windows.Forms.TextBox texttext;
         private Sunny.UI.UISymbolButton linkbutton;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

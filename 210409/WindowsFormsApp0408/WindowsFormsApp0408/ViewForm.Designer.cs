@@ -273,12 +273,14 @@ namespace WindowsFormsApp0408
             this.refreshbutton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.refreshbutton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(201)))), ((int)(((byte)(201)))));
             this.refreshbutton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.refreshbutton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.refreshbutton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.refreshbutton.Location = new System.Drawing.Point(284, 397);
+            this.refreshbutton.Location = new System.Drawing.Point(284, 404);
             this.refreshbutton.MinimumSize = new System.Drawing.Size(1, 1);
             this.refreshbutton.Name = "refreshbutton";
             this.refreshbutton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(201)))), ((int)(((byte)(201)))));
             this.refreshbutton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.refreshbutton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.refreshbutton.Size = new System.Drawing.Size(153, 35);
             this.refreshbutton.Style = Sunny.UI.UIStyle.Custom;
             this.refreshbutton.Symbol = 57386;
@@ -291,7 +293,7 @@ namespace WindowsFormsApp0408
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(33, 63);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(314, 314);
+            this.pictureBox1.Size = new System.Drawing.Size(314, 328);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
@@ -301,15 +303,17 @@ namespace WindowsFormsApp0408
             this.searchbutton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.searchbutton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(185)))), ((int)(((byte)(109)))));
             this.searchbutton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(119)))), ((int)(((byte)(74)))));
+            this.searchbutton.FillPressColor = System.Drawing.Color.DarkGreen;
             this.searchbutton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.searchbutton.Location = new System.Drawing.Point(654, 398);
+            this.searchbutton.Location = new System.Drawing.Point(659, 408);
             this.searchbutton.MinimumSize = new System.Drawing.Size(1, 1);
             this.searchbutton.Name = "searchbutton";
             this.searchbutton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(185)))), ((int)(((byte)(109)))));
             this.searchbutton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(119)))), ((int)(((byte)(74)))));
+            this.searchbutton.RectPressColor = System.Drawing.Color.DarkGreen;
             this.searchbutton.Size = new System.Drawing.Size(44, 35);
             this.searchbutton.Style = Sunny.UI.UIStyle.Custom;
-            this.searchbutton.Symbol = 85;
+            this.searchbutton.Symbol = 61442;
             this.searchbutton.TabIndex = 40;
             this.searchbutton.Click += new System.EventHandler(this.searchbutton_Click);
             // 
@@ -338,7 +342,6 @@ namespace WindowsFormsApp0408
             this.Name = "ViewForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "야 너두 부자 될 수 있어!";
-            this.Load += new System.EventHandler(this.ViewForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

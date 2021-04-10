@@ -21,6 +21,21 @@ namespace WindowsFormsApp0408
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            ToolTip toolTip1 = new ToolTip();
+
+            toolTip1.ShowAlways = true;
+
+            toolTip1.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+
+            toolTip1.AutoPopDelay = 0;
+
+            toolTip1.InitialDelay = 0;
+
+            toolTip1.ReshowDelay = 500;
+
+            //toolTip1.SetToolTip(linkbutton, "Insert space");
+
+            toolTip1.SetToolTip(linkbutton, "동행복권");
 
         }
 
@@ -70,7 +85,8 @@ namespace WindowsFormsApp0408
 
         private void linkbutton_Click(object sender, EventArgs e)
         {
+            
             System.Diagnostics.Process.Start("https://www.dhlottery.co.kr/common.do?method=main");
-        }
+        }                
     }
 }
