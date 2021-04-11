@@ -87,6 +87,11 @@ namespace WindowsFormsApp0408
         {
             
             System.Diagnostics.Process.Start("https://www.dhlottery.co.kr/common.do?method=main");
-        }                
+        }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            MessageBox.Show("프로그램이 종료됩니다.");
+        }
     }
 }

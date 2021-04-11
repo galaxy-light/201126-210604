@@ -27,6 +27,11 @@ namespace WindowsFormsApp0409
             InitializeComponent();
         }
 
+        private void ListForm_Load(object sender, EventArgs e)
+        {
+            
+        }
+
         private void searchbutton_Click(object sender, EventArgs e)
         {
             connectexcel();
@@ -34,6 +39,7 @@ namespace WindowsFormsApp0409
 
         private void connectexcel()
         {
+            MessageBox.Show("프로그램 폴더에 있는 엑셀파일을 열어주세요.");
             try
             {
                 using (OpenFileDialog dlg = new OpenFileDialog()) // 파일 선택창 객체를 생성
@@ -46,7 +52,7 @@ namespace WindowsFormsApp0409
                     }
                 }
             }
-            catch (Exception ex)  // 엑셀파일이 다른 프로그렘에서 이미 열었거나 에러가 발생하면 에러를 출력해준다.
+            catch (Exception ex)  // 엑셀파일이 다른 프로그렘에서 이미 열었거나 에러가 발생하면 에러를 출력
             {
                 MessageBox.Show(ex.Message);
             }
@@ -60,7 +66,7 @@ namespace WindowsFormsApp0409
             if (File.Exists(fileName))  // 파일 확장자 검사
             {
                 if (Path.GetExtension(fileName).ToLower() == ".xls")
-                {   // Microsoft.Jet.OLEDB.4.0 은 32 bit에서만 동작되므로 빌드할 때 64비트로 하면 에러가 발생함.
+                {   // Microsoft.Jet.OLEDB.4.0 은 32 bit에서만 동작되므로 빌드할 때 64비트로 하면 에러가 발생
                     connectionString = string.Format("Provider=Microsoft.Jet.OLEDB.4.0; Data Source={0};Extended Properties=Excel 8.0;", fileName);
                 }
                 else if (Path.GetExtension(fileName).ToLower() == ".xlsx")
@@ -91,7 +97,7 @@ namespace WindowsFormsApp0409
             }
             dgv.AllowUserToAddRows = false; // 빈 레코드 표시 안하기
             dgv.AlternatingRowsDefaultCellStyle.BackColor = Color.AliceBlue;
-            //dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill; // 화면크기에 맞춰 채우기
+            //dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill; // 화면 크기에 맞춰 채우기
 
             dataTable.Dispose();
             dataAdapter.Dispose();
@@ -105,11 +111,6 @@ namespace WindowsFormsApp0409
         {
             MessageBox.Show("공급자 문제가 발생했다면 연결되는 사이트에서 드라이버를 설치해주세요.");
             System.Diagnostics.Process.Start("https://www.microsoft.com/ko-kr/download/details.aspx?id=13255");
-        }
-
-        private void ListForm_Load(object sender, EventArgs e)
-        {
-            
         }
     }
 }
