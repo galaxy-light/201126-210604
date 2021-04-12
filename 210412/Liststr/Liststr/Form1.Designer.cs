@@ -87,6 +87,7 @@ namespace Liststr
             this.button_add_44.TabIndex = 4;
             this.button_add_44.Text = "44";
             this.button_add_44.UseVisualStyleBackColor = true;
+            this.button_add_44.Click += new System.EventHandler(this.button_add_44_Click);
             // 
             // button_add_27
             // 
@@ -96,6 +97,7 @@ namespace Liststr
             this.button_add_27.TabIndex = 5;
             this.button_add_27.Text = "27";
             this.button_add_27.UseVisualStyleBackColor = true;
+            this.button_add_27.Click += new System.EventHandler(this.button_add_27_Click);
             // 
             // button_add_16
             // 
@@ -105,6 +107,7 @@ namespace Liststr
             this.button_add_16.TabIndex = 6;
             this.button_add_16.Text = "16";
             this.button_add_16.UseVisualStyleBackColor = true;
+            this.button_add_16.Click += new System.EventHandler(this.button_add_16_Click);
             // 
             // button_del_12
             // 
@@ -114,6 +117,7 @@ namespace Liststr
             this.button_del_12.TabIndex = 7;
             this.button_del_12.Text = "12";
             this.button_del_12.UseVisualStyleBackColor = true;
+            this.button_del_12.Click += new System.EventHandler(this.button_del_12_Click);
             // 
             // button_del_44
             // 
@@ -123,6 +127,7 @@ namespace Liststr
             this.button_del_44.TabIndex = 8;
             this.button_del_44.Text = "44";
             this.button_del_44.UseVisualStyleBackColor = true;
+            this.button_del_44.Click += new System.EventHandler(this.button_del_44_Click);
             // 
             // button_del_27
             // 
@@ -132,6 +137,7 @@ namespace Liststr
             this.button_del_27.TabIndex = 9;
             this.button_del_27.Text = "27";
             this.button_del_27.UseVisualStyleBackColor = true;
+            this.button_del_27.Click += new System.EventHandler(this.button_del_27_Click);
             // 
             // button_del_16
             // 
@@ -141,6 +147,7 @@ namespace Liststr
             this.button_del_16.TabIndex = 10;
             this.button_del_16.Text = "16";
             this.button_del_16.UseVisualStyleBackColor = true;
+            this.button_del_16.Click += new System.EventHandler(this.button_del_16_Click);
             // 
             // Form1
             // 

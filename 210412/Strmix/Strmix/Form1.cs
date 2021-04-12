@@ -12,10 +12,9 @@ namespace Strmix
 {
     public partial class Form1 : Form
     {
-        // Random 함수를 이용하여 가위 바위 보 게임을 만들어보시오.(Form 이용)
+        // 문제2. Random 함수를 이용하여 가위 바위 보 게임을 만들어보시오.(Form 이용)
 
-        Random r = new Random();  
-        
+        Random r = new Random();          
 
         public Form1()
         {

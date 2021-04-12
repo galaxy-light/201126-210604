@@ -12,7 +12,7 @@ namespace Textmix
 {
     public partial class Form1 : Form
     {
-        //  list에 임의의 문장들을 만들어 놓고 Random 함수를 이용하여 임의의 문장을 출력하도록 하시오.
+        // 문제3. list에 임의의 문장들을 만들어 놓고 Random 함수를 이용하여 임의의 문장을 출력하도록 하시오.
 
         Random r = new Random();
 

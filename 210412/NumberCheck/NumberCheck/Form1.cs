@@ -12,7 +12,7 @@ namespace NumberCheck
 {
     public partial class Form1 : Form
     {
-        // Random 함수를 이용하여 숫자 맞추기 프로그램을 Form 형태로 만들어보시오.
+        // 문제1. Random 함수를 이용하여 숫자 맞추기 프로그램을 Form 형태로 만들어보시오.
 
         Random r = new Random();
         int[] numc = new int[10];       
