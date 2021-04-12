@@ -123,7 +123,7 @@ namespace WindowsFormsApp0408
             int temp = 0;
             for (int i = 0; i < lotto.Length; i++) // 버블 정렬
             {
-                for (int j = i + 1; j < lotto.Length-1; j++) // 보너스 번호 제외
+                for (int j = i + 1; j < lotto.Length-1; j++) // 마지막 자리는 없기 때문에 -1을 해줌
                 {
                     if (lotto[i] > lotto[j])
                     {
