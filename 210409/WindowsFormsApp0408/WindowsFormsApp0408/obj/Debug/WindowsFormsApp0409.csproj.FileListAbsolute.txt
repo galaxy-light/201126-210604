@@ -37,3 +37,4 @@ D:\중요\Desktop\School\210409\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debu
 D:\중요\Desktop\School\210409\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.exe
 D:\중요\Desktop\School\210409\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.pdb
 D:\중요\Desktop\School\210409\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.csproj.ResolveComReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210409\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.csproj.ResolveComReference.cache

@@ -117,13 +117,15 @@ namespace WindowsFormsApp0408
                     }                   
                 }
             }
-
+                        
             // 번호 정렬
             //Array.Sort(lotto);
+
+            // 버블 정렬
             int temp = 0;
-            for (int i = 0; i < lotto.Length; i++) // 버블 정렬
+            for (int i = 0; i < lotto.Length; i++) 
             {
-                for (int j = i + 1; j < lotto.Length-1; j++) // 보너스 번호 제외
+                for (int j = i + 1; j < lotto.Length-1; j++) // 마지막 자리가 없기 때문에 -1을 해줌 
                 {
                     if (lotto[i] > lotto[j])
                     {
@@ -133,12 +135,12 @@ namespace WindowsFormsApp0408
                     }
                     // 확률3 : 고저차가 41-44일 경우가 확률이 가장 높음
                     // 문제점 : 이 로직을 쓰면 [0]과 [5]가 거의 고정번호가 되어버림(if문에 %가 필요함)
-                    if (((lotto[5] - lotto[0]) < 41 || (lotto[5] - lotto[0]) > 44))
+                    /*if (((lotto[5] - lotto[0]) < 41 || (lotto[5] - lotto[0]) > 44))
                     {
                         sum = 0;
                         i = 0;
                         goto lottomix;
-                    }
+                    }*/
                 }
             }
 
