@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Strmix\Strmix\bin\Debug\Strmix.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Strmix\Strmix\bin\Debug\Strmix.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Strmix\Strmix\bin\Debug\Strmix.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Strmix\Strmix\obj\Debug\Strmix.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Strmix\Strmix\obj\Debug\Strmix.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Strmix\Strmix\obj\Debug\Strmix.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Strmix\Strmix\obj\Debug\Strmix.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Strmix\Strmix\obj\Debug\Strmix.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Strmix\Strmix\obj\Debug\Strmix.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Strmix\Strmix\obj\Debug\Strmix.pdb

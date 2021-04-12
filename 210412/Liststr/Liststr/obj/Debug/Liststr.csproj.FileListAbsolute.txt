@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\bin\Debug\Liststr.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\bin\Debug\Liststr.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\bin\Debug\Liststr.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.pdb

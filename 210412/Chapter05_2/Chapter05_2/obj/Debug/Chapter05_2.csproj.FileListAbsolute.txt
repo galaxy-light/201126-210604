@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Chapter05_2\Chapter05_2\bin\Debug\Chapter05_2.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Chapter05_2\Chapter05_2\bin\Debug\Chapter05_2.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Chapter05_2\Chapter05_2\bin\Debug\Chapter05_2.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.pdb
