@@ -1,0 +1,20 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210412\NumberCheck\NumberCheck\bin\Debug\NumberCheck.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210412\NumberCheck\NumberCheck\bin\Debug\NumberCheck.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\NumberCheck\NumberCheck\bin\Debug\NumberCheck.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210412\NumberCheck\NumberCheck\obj\Debug\NumberCheck.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\NumberCheck\NumberCheck\obj\Debug\NumberCheck.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\NumberCheck\NumberCheck\obj\Debug\NumberCheck.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\NumberCheck\NumberCheck\obj\Debug\NumberCheck.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\NumberCheck\NumberCheck\obj\Debug\NumberCheck.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\NumberCheck\NumberCheck\obj\Debug\NumberCheck.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\NumberCheck\NumberCheck\obj\Debug\NumberCheck.pdb
+D:\중요\Desktop\School\과제\210412 과제\NumberCheck\NumberCheck\bin\Debug\NumberCheck.exe.config
+D:\중요\Desktop\School\과제\210412 과제\NumberCheck\NumberCheck\bin\Debug\NumberCheck.exe
+D:\중요\Desktop\School\과제\210412 과제\NumberCheck\NumberCheck\bin\Debug\NumberCheck.pdb
+D:\중요\Desktop\School\과제\210412 과제\NumberCheck\NumberCheck\obj\Debug\NumberCheck.csprojAssemblyReference.cache
+D:\중요\Desktop\School\과제\210412 과제\NumberCheck\NumberCheck\obj\Debug\NumberCheck.Form1.resources
+D:\중요\Desktop\School\과제\210412 과제\NumberCheck\NumberCheck\obj\Debug\NumberCheck.Properties.Resources.resources
+D:\중요\Desktop\School\과제\210412 과제\NumberCheck\NumberCheck\obj\Debug\NumberCheck.csproj.GenerateResource.cache
+D:\중요\Desktop\School\과제\210412 과제\NumberCheck\NumberCheck\obj\Debug\NumberCheck.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\과제\210412 과제\NumberCheck\NumberCheck\obj\Debug\NumberCheck.exe
+D:\중요\Desktop\School\과제\210412 과제\NumberCheck\NumberCheck\obj\Debug\NumberCheck.pdb

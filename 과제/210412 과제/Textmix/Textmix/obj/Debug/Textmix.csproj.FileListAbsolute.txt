@@ -1,0 +1,20 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Textmix\Textmix\bin\Debug\Textmix.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Textmix\Textmix\bin\Debug\Textmix.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Textmix\Textmix\bin\Debug\Textmix.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Textmix\Textmix\obj\Debug\Textmix.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Textmix\Textmix\obj\Debug\Textmix.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Textmix\Textmix\obj\Debug\Textmix.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Textmix\Textmix\obj\Debug\Textmix.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Textmix\Textmix\obj\Debug\Textmix.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Textmix\Textmix\obj\Debug\Textmix.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Textmix\Textmix\obj\Debug\Textmix.pdb
+D:\중요\Desktop\School\과제\210412 과제\Textmix\Textmix\bin\Debug\Textmix.exe.config
+D:\중요\Desktop\School\과제\210412 과제\Textmix\Textmix\bin\Debug\Textmix.exe
+D:\중요\Desktop\School\과제\210412 과제\Textmix\Textmix\bin\Debug\Textmix.pdb
+D:\중요\Desktop\School\과제\210412 과제\Textmix\Textmix\obj\Debug\Textmix.csprojAssemblyReference.cache
+D:\중요\Desktop\School\과제\210412 과제\Textmix\Textmix\obj\Debug\Textmix.Form1.resources
+D:\중요\Desktop\School\과제\210412 과제\Textmix\Textmix\obj\Debug\Textmix.Properties.Resources.resources
+D:\중요\Desktop\School\과제\210412 과제\Textmix\Textmix\obj\Debug\Textmix.csproj.GenerateResource.cache
+D:\중요\Desktop\School\과제\210412 과제\Textmix\Textmix\obj\Debug\Textmix.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\과제\210412 과제\Textmix\Textmix\obj\Debug\Textmix.exe
+D:\중요\Desktop\School\과제\210412 과제\Textmix\Textmix\obj\Debug\Textmix.pdb

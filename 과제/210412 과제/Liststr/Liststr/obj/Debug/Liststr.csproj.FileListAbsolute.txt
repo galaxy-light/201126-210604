@@ -1,0 +1,30 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\bin\Debug\Liststr.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\bin\Debug\Liststr.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\bin\Debug\Liststr.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210412\Liststr\Liststr\obj\Debug\Liststr.pdb
+D:\중요\Desktop\School\210412\Liststr\Liststr\bin\Debug\Liststr.exe.config
+D:\중요\Desktop\School\210412\Liststr\Liststr\bin\Debug\Liststr.exe
+D:\중요\Desktop\School\210412\Liststr\Liststr\bin\Debug\Liststr.pdb
+D:\중요\Desktop\School\210412\Liststr\Liststr\obj\Debug\Liststr.csprojAssemblyReference.cache
+D:\중요\Desktop\School\210412\Liststr\Liststr\obj\Debug\Liststr.Form1.resources
+D:\중요\Desktop\School\210412\Liststr\Liststr\obj\Debug\Liststr.Properties.Resources.resources
+D:\중요\Desktop\School\210412\Liststr\Liststr\obj\Debug\Liststr.csproj.GenerateResource.cache
+D:\중요\Desktop\School\210412\Liststr\Liststr\obj\Debug\Liststr.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\210412\Liststr\Liststr\obj\Debug\Liststr.exe
+D:\중요\Desktop\School\210412\Liststr\Liststr\obj\Debug\Liststr.pdb
+D:\중요\Desktop\School\과제\210412 과제\Liststr\Liststr\bin\Debug\Liststr.exe.config
+D:\중요\Desktop\School\과제\210412 과제\Liststr\Liststr\bin\Debug\Liststr.exe
+D:\중요\Desktop\School\과제\210412 과제\Liststr\Liststr\bin\Debug\Liststr.pdb
+D:\중요\Desktop\School\과제\210412 과제\Liststr\Liststr\obj\Debug\Liststr.csprojAssemblyReference.cache
+D:\중요\Desktop\School\과제\210412 과제\Liststr\Liststr\obj\Debug\Liststr.Form1.resources
+D:\중요\Desktop\School\과제\210412 과제\Liststr\Liststr\obj\Debug\Liststr.Properties.Resources.resources
+D:\중요\Desktop\School\과제\210412 과제\Liststr\Liststr\obj\Debug\Liststr.csproj.GenerateResource.cache
+D:\중요\Desktop\School\과제\210412 과제\Liststr\Liststr\obj\Debug\Liststr.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\과제\210412 과제\Liststr\Liststr\obj\Debug\Liststr.exe
+D:\중요\Desktop\School\과제\210412 과제\Liststr\Liststr\obj\Debug\Liststr.pdb
