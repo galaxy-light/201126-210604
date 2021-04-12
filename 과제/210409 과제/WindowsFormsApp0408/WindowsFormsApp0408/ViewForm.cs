@@ -120,10 +120,12 @@ namespace WindowsFormsApp0408
 
             // 번호 정렬
             //Array.Sort(lotto);
+
+            // 버블 정렬
             int temp = 0;
-            for (int i = 0; i < lotto.Length; i++) // 버블 정렬
+            for (int i = 0; i < lotto.Length; i++) 
             {
-                for (int j = i + 1; j < lotto.Length-1; j++) // 보너스 번호 제외
+                for (int j = i + 1; j < lotto.Length-1; j++) // 마지막 자리가 없기 때문에 -1을 해줌
                 {
                     if (lotto[i] > lotto[j])
                     {
