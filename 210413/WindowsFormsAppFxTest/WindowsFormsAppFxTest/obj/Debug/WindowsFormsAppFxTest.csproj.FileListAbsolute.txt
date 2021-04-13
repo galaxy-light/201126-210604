@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppFxTest\WindowsFormsAppFxTest\bin\Debug\WindowsFormsAppFxTest.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppFxTest\WindowsFormsAppFxTest\bin\Debug\WindowsFormsAppFxTest.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppFxTest\WindowsFormsAppFxTest\bin\Debug\WindowsFormsAppFxTest.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppFxTest\WindowsFormsAppFxTest\obj\Debug\WindowsFormsAppFxTest.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppFxTest\WindowsFormsAppFxTest\obj\Debug\WindowsFormsAppFxTest.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppFxTest\WindowsFormsAppFxTest\obj\Debug\WindowsFormsAppFxTest.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppFxTest\WindowsFormsAppFxTest\obj\Debug\WindowsFormsAppFxTest.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppFxTest\WindowsFormsAppFxTest\obj\Debug\WindowsFormsAppFxTest.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppFxTest\WindowsFormsAppFxTest\obj\Debug\WindowsFormsAppFxTest.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppFxTest\WindowsFormsAppFxTest\obj\Debug\WindowsFormsAppFxTest.pdb

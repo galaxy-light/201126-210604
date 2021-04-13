@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsTimeanswer\WindowsFormsTimeanswer\bin\Debug\WindowsFormsTimeanswer.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsTimeanswer\WindowsFormsTimeanswer\bin\Debug\WindowsFormsTimeanswer.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsTimeanswer\WindowsFormsTimeanswer\bin\Debug\WindowsFormsTimeanswer.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsTimeanswer\WindowsFormsTimeanswer\obj\Debug\WindowsFormsTimeanswer.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsTimeanswer\WindowsFormsTimeanswer\obj\Debug\WindowsFormsTimeanswer.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsTimeanswer\WindowsFormsTimeanswer\obj\Debug\WindowsFormsTimeanswer.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsTimeanswer\WindowsFormsTimeanswer\obj\Debug\WindowsFormsTimeanswer.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsTimeanswer\WindowsFormsTimeanswer\obj\Debug\WindowsFormsTimeanswer.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsTimeanswer\WindowsFormsTimeanswer\obj\Debug\WindowsFormsTimeanswer.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsTimeanswer\WindowsFormsTimeanswer\obj\Debug\WindowsFormsTimeanswer.pdb

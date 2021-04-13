@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppfxanswer\WindowsFormsAppfxanswer\bin\Debug\WindowsFormsAppfxanswer.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppfxanswer\WindowsFormsAppfxanswer\bin\Debug\WindowsFormsAppfxanswer.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppfxanswer\WindowsFormsAppfxanswer\bin\Debug\WindowsFormsAppfxanswer.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppfxanswer\WindowsFormsAppfxanswer\obj\Debug\WindowsFormsAppfxanswer.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppfxanswer\WindowsFormsAppfxanswer\obj\Debug\WindowsFormsAppfxanswer.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppfxanswer\WindowsFormsAppfxanswer\obj\Debug\WindowsFormsAppfxanswer.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppfxanswer\WindowsFormsAppfxanswer\obj\Debug\WindowsFormsAppfxanswer.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppfxanswer\WindowsFormsAppfxanswer\obj\Debug\WindowsFormsAppfxanswer.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppfxanswer\WindowsFormsAppfxanswer\obj\Debug\WindowsFormsAppfxanswer.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210413\WindowsFormsAppfxanswer\WindowsFormsAppfxanswer\obj\Debug\WindowsFormsAppfxanswer.csprojAssemblyReference.cache

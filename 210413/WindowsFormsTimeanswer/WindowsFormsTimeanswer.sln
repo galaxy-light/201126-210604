@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTimeanswer", "WindowsFormsTimeanswer\WindowsFormsTimeanswer.csproj", "{F84FE3CA-4BA6-4E17-BDF3-B4EAC3C35AB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F84FE3CA-4BA6-4E17-BDF3-B4EAC3C35AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84FE3CA-4BA6-4E17-BDF3-B4EAC3C35AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84FE3CA-4BA6-4E17-BDF3-B4EAC3C35AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84FE3CA-4BA6-4E17-BDF3-B4EAC3C35AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {055DC47A-1FB4-4AD1-B8E7-03447179E7EB}
+	EndGlobalSection
+EndGlobal
