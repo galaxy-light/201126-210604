@@ -131,7 +131,7 @@ namespace WindowsFormsApp0408
                         lotto[i] = lotto[j];
                         lotto[j] = temp;
                     }
-                    // 확률3 : 고저차가 41-44일 경우가 확률이 가장 높음                    
+                    // 확률3 : 고저차가 41-44                
                     if (((lotto[5] - lotto[0]) < 41 || (lotto[5] - lotto[0]) > 44))
                     {
                         sum = 0;
