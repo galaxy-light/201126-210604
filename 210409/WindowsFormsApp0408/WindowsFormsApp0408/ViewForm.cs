@@ -30,7 +30,7 @@ namespace WindowsFormsApp0408
 
         private void randctrl()
         {
-            lottomix:
+            //lottomix:
             int rand;
             int sum = 0;            
             int[] lotto = new int[7];                     
@@ -145,17 +145,14 @@ namespace WindowsFormsApp0408
             }
 
             // 출력
-            for (int i = 0; i < lotto.Length; i++)
-            {
-                NumBox_1.Text = lotto[0].ToString();
-                NumBox_2.Text = lotto[1].ToString();
-                NumBox_3.Text = lotto[2].ToString();
-                NumBox_4.Text = lotto[3].ToString();
-                NumBox_5.Text = lotto[4].ToString();
-                NumBox_6.Text = lotto[5].ToString();
-                NumBox_7.Text = lotto[6].ToString();
-                //Console.WriteLine(lotto[0] + lotto[1] + lotto[2] + lotto[3] + lotto[4] + lotto[5] + lotto[6]);
-            }
+            NumBox_1.Text = lotto[0].ToString();
+            NumBox_2.Text = lotto[1].ToString();
+            NumBox_3.Text = lotto[2].ToString();
+            NumBox_4.Text = lotto[3].ToString();
+            NumBox_5.Text = lotto[4].ToString();
+            NumBox_6.Text = lotto[5].ToString();
+            NumBox_7.Text = lotto[6].ToString();
+            //Console.WriteLine(lotto[0] + lotto[1] + lotto[2] + lotto[3] + lotto[4] + lotto[5] + lotto[6]);
         }
 
         private void searchbutton_Click(object sender, EventArgs e)
