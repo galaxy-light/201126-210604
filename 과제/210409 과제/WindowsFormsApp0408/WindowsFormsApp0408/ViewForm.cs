@@ -133,29 +133,25 @@ namespace WindowsFormsApp0408
                         lotto[i] = lotto[j];
                         lotto[j] = temp;
                     }
-                    // 확률3 : 고저차가 41-44일 경우가 확률이 가장 높음
-                    // 문제점 : 이 로직을 쓰면 [0]과 [5]가 거의 고정번호가 되어버림(if문에 %가 필요함)
-                    /*if (((lotto[5] - lotto[0]) < 41 || (lotto[5] - lotto[0]) > 44))
+                    // 확률3 : 고저차가 41-44                 
+                    if (((lotto[5] - lotto[0]) < 41 || (lotto[5] - lotto[0]) > 44))
                     {
                         sum = 0;
                         i = 0;
                         goto lottomix;
-                    }*/
+                    }
                 }
             }
 
             // 출력
-            for (int i = 0; i < lotto.Length; i++)
-            {
-                NumBox_1.Text = lotto[0].ToString();
-                NumBox_2.Text = lotto[1].ToString();
-                NumBox_3.Text = lotto[2].ToString();
-                NumBox_4.Text = lotto[3].ToString();
-                NumBox_5.Text = lotto[4].ToString();
-                NumBox_6.Text = lotto[5].ToString();
-                NumBox_7.Text = lotto[6].ToString();
-                //Console.WriteLine(lotto[0] + lotto[1] + lotto[2] + lotto[3] + lotto[4] + lotto[5] + lotto[6]);
-            }
+            NumBox_1.Text = lotto[0].ToString();
+            NumBox_2.Text = lotto[1].ToString();
+            NumBox_3.Text = lotto[2].ToString();
+            NumBox_4.Text = lotto[3].ToString();
+            NumBox_5.Text = lotto[4].ToString();
+            NumBox_6.Text = lotto[5].ToString();
+            NumBox_7.Text = lotto[6].ToString();
+            //Console.WriteLine(lotto[0] + lotto[1] + lotto[2] + lotto[3] + lotto[4] + lotto[5] + lotto[6]);
         }
 
         private void searchbutton_Click(object sender, EventArgs e)
