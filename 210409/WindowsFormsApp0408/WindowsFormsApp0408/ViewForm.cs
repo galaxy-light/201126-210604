@@ -30,7 +30,7 @@ namespace WindowsFormsApp0408
 
         private void randctrl()
         {
-            //lottomix:
+            lottomix:
             int rand;
             int sum = 0;            
             int[] lotto = new int[7];                     
@@ -133,14 +133,13 @@ namespace WindowsFormsApp0408
                         lotto[i] = lotto[j];
                         lotto[j] = temp;
                     }
-                    // 확률3 : 고저차가 41-44일 경우가 확률이 가장 높음
-                    // 문제점 : 이 로직을 쓰면 [0]과 [5]가 거의 고정번호가 되어버림(if문에 %가 필요함)
-                    /*if (((lotto[5] - lotto[0]) < 41 || (lotto[5] - lotto[0]) > 44))
+                    // 확률3 : 고저차 41-44                  
+                    if (((lotto[5] - lotto[0]) < 41 || (lotto[5] - lotto[0]) > 44))
                     {
                         sum = 0;
                         i = 0;
                         goto lottomix;
-                    }*/
+                    }
                 }
             }
 
