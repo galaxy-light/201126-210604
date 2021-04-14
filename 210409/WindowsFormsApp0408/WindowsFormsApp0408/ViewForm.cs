@@ -133,13 +133,31 @@ namespace WindowsFormsApp0408
                         lotto[i] = lotto[j];
                         lotto[j] = temp;
                     }
-                    // 확률3 : 고저차 41-44                  
-                    if (((lotto[5] - lotto[0]) < 41 || (lotto[5] - lotto[0]) > 44))
+                    // 확률3 : 고저차가 41-44인 조합의 확률이 높음                 
+                    if (((lotto[5] - lotto[0]) < 41 || (lotto[5] - lotto[0]) > 44) && r.Next(1, 46) > 40)
                     {
                         sum = 0;
                         i = 0;
                         goto lottomix;
                     }
+
+                    // 확률 주기
+                    /*// 20%의 확률로 "무야호"가 나타나도록 하기
+                    if (0 == r.Next(2)) // 0, 1, 2 셋 중 하나의 값이 나옴.
+                    {
+                        MessageBox.Show("무야호");
+                    }
+
+                    // 33%의 확률로 "무야호"가 나타나도록 하기
+                    if (0 == r.Next(3)) // 0, 1, 2 셋 중 하나의 값이 나옴.
+                    {
+                        MessageBox.Show("무야호");
+                    }
+                    // 70%의 확률
+                    if (r.Next(10) > 2) // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 중에 3 ~ 9사이의 숫자 나옴
+                    {
+
+                    }*/
                 }
             }
 
