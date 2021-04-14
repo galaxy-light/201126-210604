@@ -130,7 +130,7 @@ namespace WindowsFormsApp0408
                         temp = lotto[i];
                         lotto[i] = lotto[j];
                         lotto[j] = temp;
-                    }
+                    }                    
                     // 확률3 : 고저차가 41-44인 조합의 확률이 높음               
                     if (((lotto[5] - lotto[0]) < 41 || (lotto[5] - lotto[0]) > 44) && r.Next(1, 46) > 40)
                     {
