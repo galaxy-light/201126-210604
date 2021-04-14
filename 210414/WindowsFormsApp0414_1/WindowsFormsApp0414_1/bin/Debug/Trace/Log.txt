@@ -1,0 +1,4 @@
+[2021-04-14 10:29:44]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: WindowsFormsApp0414_1.Form1.button5_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\totototo\201126-210604\210414\WindowsFormsApp0414_1\WindowsFormsApp0414_1\Form1.cs:줄 74.txt

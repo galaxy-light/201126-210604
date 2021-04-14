@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210414\Calcmath\Calcmath\bin\Debug\Calcmath.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210414\Calcmath\Calcmath\bin\Debug\Calcmath.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210414\Calcmath\Calcmath\bin\Debug\Calcmath.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210414\Calcmath\Calcmath\obj\Debug\Calcmath.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210414\Calcmath\Calcmath\obj\Debug\Calcmath.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210414\Calcmath\Calcmath\obj\Debug\Calcmath.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210414\Calcmath\Calcmath\obj\Debug\Calcmath.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210414\Calcmath\Calcmath\obj\Debug\Calcmath.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210414\Calcmath\Calcmath\obj\Debug\Calcmath.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210414\Calcmath\Calcmath\obj\Debug\Calcmath.pdb
