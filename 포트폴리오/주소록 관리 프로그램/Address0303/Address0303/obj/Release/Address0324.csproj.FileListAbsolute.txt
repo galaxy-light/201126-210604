@@ -1,0 +1,44 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\bin\Release\HoonWhitecatR.ttf
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\bin\Release\NanumPen.ttf
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\bin\Release\nanumsongeulssibut.ttf
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\bin\Release\Address0324.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\bin\Release\Address0324.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\bin\Release\Address0324.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\bin\Release\CxFlatUI.dll
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\bin\Release\MaterialSkin.dll
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\bin\Release\SunnyUI.Common.dll
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\bin\Release\SunnyUI.dll
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0303.Ui.AddForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0308.Ui.DelForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0303.Ui.UpdateForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0303.MainForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0303.Ui.ViewForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.csproj.CopyComplete
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210324 테스트케이스, SQL, 데이터베이스 구현 시험\Address0303\Address0303\obj\Release\Address0324.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\bin\Release\HoonWhitecatR.ttf
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\bin\Release\NanumPen.ttf
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\bin\Release\nanumsongeulssibut.ttf
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\bin\Release\Address0324.exe.config
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\bin\Release\Address0324.exe
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\bin\Release\Address0324.pdb
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\bin\Release\CxFlatUI.dll
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\bin\Release\MaterialSkin.dll
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\bin\Release\SunnyUI.Common.dll
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\bin\Release\SunnyUI.dll
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0324.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0303.Ui.AddForm.resources
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0308.Ui.DelForm.resources
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0303.Ui.UpdateForm.resources
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0303.MainForm.resources
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0324.Properties.Resources.resources
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0303.Ui.ViewForm.resources
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0324.csproj.GenerateResource.cache
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0324.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0324.csproj.CopyComplete
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0324.exe
+D:\중요\Desktop\School\포트폴리오\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0324.pdb

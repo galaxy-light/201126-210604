@@ -1,0 +1,61 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0329.Ui.CarInsForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.Ui.CusDetailView.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0329.Ui.CusInsForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0323.MainForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0329.Ui.SellerInsForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\bin\Debug\CarManager0331.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\bin\Debug\CarManager0331.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\bin\Debug\CarManager0331.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\bin\Debug\CxFlatUI.dll
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\bin\Debug\MaterialSkin.dll
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csproj.CopyComplete
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.Ui.DealViewForm.resources
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\bin\Debug\CarManager0331.exe.config
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\bin\Debug\CarManager0331.exe
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\bin\Debug\CarManager0331.pdb
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\bin\Debug\CxFlatUI.dll
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\bin\Debug\MaterialSkin.dll
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\bin\Debug\SunnyUI.Common.dll
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\bin\Debug\SunnyUI.dll
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csprojAssemblyReference.cache
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0329.Ui.CarInsForm.resources
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.Ui.CusDetailView.resources
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0329.Ui.CusInsForm.resources
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0323.MainForm.resources
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.Properties.Resources.resources
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0329.Ui.SellerInsForm.resources
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.Ui.DealViewForm.resources
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csproj.GenerateResource.cache
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csproj.CopyComplete
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.exe
+D:\중요\Desktop\School\210331\CarManager0323\CarManager0323\obj\Debug\CarManager0331.pdb
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\bin\Debug\CarManager0331.exe.config
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\bin\Debug\CarManager0331.exe
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\bin\Debug\CarManager0331.pdb
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\bin\Debug\CxFlatUI.dll
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\bin\Debug\MaterialSkin.dll
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\bin\Debug\SunnyUI.Common.dll
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\bin\Debug\SunnyUI.dll
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0329.Ui.CarInsForm.resources
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0331.Ui.CusDetailView.resources
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0329.Ui.CusInsForm.resources
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0323.MainForm.resources
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0331.Properties.Resources.resources
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0329.Ui.SellerInsForm.resources
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0331.Ui.DealViewForm.resources
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csproj.GenerateResource.cache
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0331.csproj.CopyComplete
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0331.exe
+D:\중요\Desktop\School\포트폴리오\자동차 판매 관리 프로그램(Oracle)\CarManager0323\CarManager0323\obj\Debug\CarManager0331.pdb
