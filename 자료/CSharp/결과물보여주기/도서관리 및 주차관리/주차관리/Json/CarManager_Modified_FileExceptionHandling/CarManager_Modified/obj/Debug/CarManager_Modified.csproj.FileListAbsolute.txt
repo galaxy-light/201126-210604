@@ -1,0 +1,13 @@
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.exe.config
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.exe
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.pdb
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\Newtonsoft.Json.dll
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\Newtonsoft.Json.xml
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csprojAssemblyReference.cache
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.Form1.resources
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.Properties.Resources.resources
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.GenerateResource.cache
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.CoreCompileInputs.cache
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.CopyComplete
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.exe
+\\192.168.51.3\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\도서관리 및 주차관리\주차관리\Json\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.pdb
