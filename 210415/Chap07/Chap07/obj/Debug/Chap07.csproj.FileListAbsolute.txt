@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210415\Chap07\Chap07\bin\Debug\Chap07.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210415\Chap07\Chap07\bin\Debug\Chap07.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210415\Chap07\Chap07\bin\Debug\Chap07.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210415\Chap07\Chap07\obj\Debug\Chap07.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210415\Chap07\Chap07\obj\Debug\Chap07.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210415\Chap07\Chap07\obj\Debug\Chap07.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210415\Chap07\Chap07\obj\Debug\Chap07.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210415\Chap07\Chap07\obj\Debug\Chap07.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210415\Chap07\Chap07\obj\Debug\Chap07.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210415\Chap07\Chap07\obj\Debug\Chap07.pdb

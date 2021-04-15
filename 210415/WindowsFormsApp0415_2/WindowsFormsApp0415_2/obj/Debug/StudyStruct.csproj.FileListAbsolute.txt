@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210415\WindowsFormsApp0415_2\WindowsFormsApp0415_2\bin\Debug\WindowsFormsApp0415_2.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210415\WindowsFormsApp0415_2\WindowsFormsApp0415_2\bin\Debug\WindowsFormsApp0415_2.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210415\WindowsFormsApp0415_2\WindowsFormsApp0415_2\bin\Debug\WindowsFormsApp0415_2.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210415\WindowsFormsApp0415_2\WindowsFormsApp0415_2\obj\Debug\StudyStruct.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210415\WindowsFormsApp0415_2\WindowsFormsApp0415_2\obj\Debug\WindowsFormsApp0415_2.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210415\WindowsFormsApp0415_2\WindowsFormsApp0415_2\obj\Debug\WindowsFormsApp0415_2.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210415\WindowsFormsApp0415_2\WindowsFormsApp0415_2\obj\Debug\StudyStruct.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210415\WindowsFormsApp0415_2\WindowsFormsApp0415_2\obj\Debug\StudyStruct.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210415\WindowsFormsApp0415_2\WindowsFormsApp0415_2\obj\Debug\WindowsFormsApp0415_2.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210415\WindowsFormsApp0415_2\WindowsFormsApp0415_2\obj\Debug\WindowsFormsApp0415_2.pdb
