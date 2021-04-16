@@ -114,7 +114,7 @@ namespace WindowsFormsApp0408
                         i = -1;
                         sum = 0;
                         break;
-                    }                   
+                    }                    
                 }
             }
 
