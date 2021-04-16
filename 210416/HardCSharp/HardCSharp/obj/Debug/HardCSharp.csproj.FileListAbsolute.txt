@@ -1,0 +1,11 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\bin\Debug\HardCSharp.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\bin\Debug\HardCSharp.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\bin\Debug\HardCSharp.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\obj\Debug\HardCSharp.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\obj\Debug\HardCSharp.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\obj\Debug\HardCSharp.Form2.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\obj\Debug\HardCSharp.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\obj\Debug\HardCSharp.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\obj\Debug\HardCSharp.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\obj\Debug\HardCSharp.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210416\HardCSharp\HardCSharp\obj\Debug\HardCSharp.pdb
