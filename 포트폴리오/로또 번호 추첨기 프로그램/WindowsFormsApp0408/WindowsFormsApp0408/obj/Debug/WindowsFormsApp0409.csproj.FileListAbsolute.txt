@@ -97,3 +97,23 @@ C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\로또 번호 추첨�
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\로또 번호 추첨기\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.csproj.CopyComplete
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\로또 번호 추첨기\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.exe
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\로또 번호 추첨기\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.pdb
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\bin\Debug\WindowsFormsApp0409.exe.config
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\bin\Debug\WindowsFormsApp0409.exe
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\bin\Debug\WindowsFormsApp0409.pdb
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\bin\Debug\CxFlatUI.dll
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\bin\Debug\MetroFramework.Design.dll
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\bin\Debug\MetroFramework.dll
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\bin\Debug\MetroFramework.Fonts.dll
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\bin\Debug\SunnyUI.Common.dll
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\bin\Debug\SunnyUI.dll
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.csproj.ResolveComReference.cache
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.ListForm.resources
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0408.MainForm.resources
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.Properties.Resources.resources
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0408.ViewForm.resources
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.csproj.GenerateResource.cache
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.csproj.CopyComplete
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.exe
+D:\중요\Desktop\School\포트폴리오\로또 번호 추첨기 프로그램\WindowsFormsApp0408\WindowsFormsApp0408\obj\Debug\WindowsFormsApp0409.pdb
