@@ -149,11 +149,10 @@ namespace Managing_Car_Program
 
         private void button3_Click(object sender, EventArgs e)
         {
-            writeLog("3번 버튼 클릭");
+            writeLog("조회 버튼 클릭");
             //writeLog("3번 버튼 클릭", DateTime.Now.ToString("yyyy_MM_dd"));
             // 3번 버튼 클릭은 내용이 되고 DateTime.Now.ToString("yyyy_MM_dd")은 파일 이름이 됨
             //writeLog("무", "야호"); // 확인용 writeLog()
-
             try
             {              
                 for (int i = 0; i < DataManager.Cars.Count; i++)
