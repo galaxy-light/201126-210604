@@ -1,7 +1,7 @@
 ﻿
 namespace Managing_Car_Program
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -30,7 +30,7 @@ namespace Managing_Car_Program
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -287,7 +287,7 @@ namespace Managing_Car_Program
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(798, 198);
             this.dataGridView1.TabIndex = 5;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);            
             // 
             // parkingSpotDataGridViewTextBoxColumn
             // 
@@ -379,7 +379,7 @@ namespace Managing_Car_Program
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -392,9 +392,10 @@ namespace Managing_Car_Program
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.statusStrip1);
             this.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "주차 관리 프로그램";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

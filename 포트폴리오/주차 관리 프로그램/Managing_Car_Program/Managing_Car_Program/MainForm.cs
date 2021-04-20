@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Managing_Car_Program
 {
-    public partial class Form1 : MaterialForm
+    public partial class MainForm : MaterialForm
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
 
@@ -101,6 +101,7 @@ namespace Managing_Car_Program
 
         private void button2_Click(object sender, EventArgs e)
         {
+            new ParkingCheckForm().ShowDialog();
             writeLog("출차 버튼 클릭");
             // 참조 변수 개념X
             if (textBox1.Text.Trim() == "")
@@ -246,5 +247,10 @@ namespace Managing_Car_Program
                 //throw;
             }
         }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            MessageBox.Show("프로그램이 종료됩니다. \r이용해주셔서 감사합니다.");
+        }       
     }
 }
