@@ -49,26 +49,26 @@ namespace Managing_Car_Program
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.parkingSpotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.carNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.driverNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phoneNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.parkingTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.parkingCarBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.WhatTime = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.button_log = new System.Windows.Forms.Button();
+            this.Button_adminlog = new Sunny.UI.UISymbolButton();
+            this.parkingSpotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.carNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.driverNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phoneNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.parkingTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.parkingCarBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.parkingCarBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.statusStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.parkingCarBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -290,45 +290,6 @@ namespace Managing_Car_Program
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // parkingSpotDataGridViewTextBoxColumn
-            // 
-            this.parkingSpotDataGridViewTextBoxColumn.DataPropertyName = "parkingSpot";
-            this.parkingSpotDataGridViewTextBoxColumn.HeaderText = "주차공간번호";
-            this.parkingSpotDataGridViewTextBoxColumn.Name = "parkingSpotDataGridViewTextBoxColumn";
-            this.parkingSpotDataGridViewTextBoxColumn.Width = 120;
-            // 
-            // carNumberDataGridViewTextBoxColumn
-            // 
-            this.carNumberDataGridViewTextBoxColumn.DataPropertyName = "carNumber";
-            this.carNumberDataGridViewTextBoxColumn.HeaderText = "차량번호";
-            this.carNumberDataGridViewTextBoxColumn.Name = "carNumberDataGridViewTextBoxColumn";
-            this.carNumberDataGridViewTextBoxColumn.Width = 130;
-            // 
-            // driverNameDataGridViewTextBoxColumn
-            // 
-            this.driverNameDataGridViewTextBoxColumn.DataPropertyName = "driverName";
-            this.driverNameDataGridViewTextBoxColumn.HeaderText = "운전자명";
-            this.driverNameDataGridViewTextBoxColumn.Name = "driverNameDataGridViewTextBoxColumn";
-            this.driverNameDataGridViewTextBoxColumn.Width = 120;
-            // 
-            // phoneNumberDataGridViewTextBoxColumn
-            // 
-            this.phoneNumberDataGridViewTextBoxColumn.DataPropertyName = "phoneNumber";
-            this.phoneNumberDataGridViewTextBoxColumn.HeaderText = "전화번호";
-            this.phoneNumberDataGridViewTextBoxColumn.Name = "phoneNumberDataGridViewTextBoxColumn";
-            this.phoneNumberDataGridViewTextBoxColumn.Width = 200;
-            // 
-            // parkingTimeDataGridViewTextBoxColumn
-            // 
-            this.parkingTimeDataGridViewTextBoxColumn.DataPropertyName = "parkingTime";
-            this.parkingTimeDataGridViewTextBoxColumn.HeaderText = "주차/출차 시간";
-            this.parkingTimeDataGridViewTextBoxColumn.Name = "parkingTimeDataGridViewTextBoxColumn";
-            this.parkingTimeDataGridViewTextBoxColumn.Width = 185;
-            // 
-            // parkingCarBindingSource
-            // 
-            this.parkingCarBindingSource.DataSource = typeof(Managing_Car_Program.ParkingCar);
-            // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
@@ -380,21 +341,67 @@ namespace Managing_Car_Program
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // button_log
+            // Button_adminlog
             // 
-            this.button_log.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
-            this.button_log.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_log.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_log.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_log.ForeColor = System.Drawing.Color.White;
-            this.button_log.Location = new System.Drawing.Point(871, 179);
-            this.button_log.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
-            this.button_log.Name = "button_log";
-            this.button_log.Size = new System.Drawing.Size(84, 30);
-            this.button_log.TabIndex = 13;
-            this.button_log.Text = "관리자";
-            this.button_log.UseVisualStyleBackColor = false;
-            this.button_log.Click += new System.EventHandler(this.button_log_Click);
+            this.Button_adminlog.BackColor = System.Drawing.Color.Transparent;
+            this.Button_adminlog.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_adminlog.FillColor = System.Drawing.Color.Transparent;
+            this.Button_adminlog.FillHoverColor = System.Drawing.Color.Transparent;
+            this.Button_adminlog.FillPressColor = System.Drawing.Color.Transparent;
+            this.Button_adminlog.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.Button_adminlog.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.Button_adminlog.Location = new System.Drawing.Point(1074, 29);
+            this.Button_adminlog.MinimumSize = new System.Drawing.Size(1, 1);
+            this.Button_adminlog.Name = "Button_adminlog";
+            this.Button_adminlog.RectColor = System.Drawing.Color.Transparent;
+            this.Button_adminlog.RectHoverColor = System.Drawing.Color.Transparent;
+            this.Button_adminlog.RectPressColor = System.Drawing.Color.Transparent;
+            this.Button_adminlog.RectSelectedColor = System.Drawing.Color.Transparent;
+            this.Button_adminlog.Size = new System.Drawing.Size(36, 31);
+            this.Button_adminlog.Style = Sunny.UI.UIStyle.Custom;
+            this.Button_adminlog.Symbol = 61459;
+            this.Button_adminlog.SymbolSize = 30;
+            this.Button_adminlog.TabIndex = 14;
+            this.Button_adminlog.Click += new System.EventHandler(this.uiSymbolButton1_Click);
+            // 
+            // parkingSpotDataGridViewTextBoxColumn
+            // 
+            this.parkingSpotDataGridViewTextBoxColumn.DataPropertyName = "parkingSpot";
+            this.parkingSpotDataGridViewTextBoxColumn.HeaderText = "주차공간번호";
+            this.parkingSpotDataGridViewTextBoxColumn.Name = "parkingSpotDataGridViewTextBoxColumn";
+            this.parkingSpotDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // carNumberDataGridViewTextBoxColumn
+            // 
+            this.carNumberDataGridViewTextBoxColumn.DataPropertyName = "carNumber";
+            this.carNumberDataGridViewTextBoxColumn.HeaderText = "차량번호";
+            this.carNumberDataGridViewTextBoxColumn.Name = "carNumberDataGridViewTextBoxColumn";
+            this.carNumberDataGridViewTextBoxColumn.Width = 130;
+            // 
+            // driverNameDataGridViewTextBoxColumn
+            // 
+            this.driverNameDataGridViewTextBoxColumn.DataPropertyName = "driverName";
+            this.driverNameDataGridViewTextBoxColumn.HeaderText = "운전자명";
+            this.driverNameDataGridViewTextBoxColumn.Name = "driverNameDataGridViewTextBoxColumn";
+            this.driverNameDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // phoneNumberDataGridViewTextBoxColumn
+            // 
+            this.phoneNumberDataGridViewTextBoxColumn.DataPropertyName = "phoneNumber";
+            this.phoneNumberDataGridViewTextBoxColumn.HeaderText = "전화번호";
+            this.phoneNumberDataGridViewTextBoxColumn.Name = "phoneNumberDataGridViewTextBoxColumn";
+            this.phoneNumberDataGridViewTextBoxColumn.Width = 200;
+            // 
+            // parkingTimeDataGridViewTextBoxColumn
+            // 
+            this.parkingTimeDataGridViewTextBoxColumn.DataPropertyName = "parkingTime";
+            this.parkingTimeDataGridViewTextBoxColumn.HeaderText = "주차/출차 시간";
+            this.parkingTimeDataGridViewTextBoxColumn.Name = "parkingTimeDataGridViewTextBoxColumn";
+            this.parkingTimeDataGridViewTextBoxColumn.Width = 185;
+            // 
+            // parkingCarBindingSource
+            // 
+            this.parkingCarBindingSource.DataSource = typeof(Managing_Car_Program.ParkingCar);
             // 
             // MainForm
             // 
@@ -402,7 +409,7 @@ namespace Managing_Car_Program
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1124, 666);
-            this.Controls.Add(this.button_log);
+            this.Controls.Add(this.Button_adminlog);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.groupBox3);
@@ -420,10 +427,10 @@ namespace Managing_Car_Program
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.parkingCarBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.parkingCarBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -461,7 +468,7 @@ namespace Managing_Car_Program
         private System.Windows.Forms.DataGridViewTextBoxColumn driverNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn phoneNumberDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn parkingTimeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Button button_log;
+        private Sunny.UI.UISymbolButton Button_adminlog;
     }
 }
 

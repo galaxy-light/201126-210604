@@ -48,13 +48,17 @@ namespace Managing_Car_Program
             this.label_result = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button_close = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -69,11 +73,11 @@ namespace Managing_Car_Program
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox1.Location = new System.Drawing.Point(536, 126);
+            this.groupBox1.Location = new System.Drawing.Point(440, 77);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
-            this.groupBox1.Size = new System.Drawing.Size(474, 66);
+            this.groupBox1.Size = new System.Drawing.Size(493, 66);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "요금 안내";
@@ -90,7 +94,7 @@ namespace Managing_Car_Program
             // label_time
             // 
             this.label_time.AutoSize = true;
-            this.label_time.Location = new System.Drawing.Point(82, 30);
+            this.label_time.Location = new System.Drawing.Point(92, 30);
             this.label_time.Name = "label_time";
             this.label_time.Size = new System.Drawing.Size(23, 14);
             this.label_time.TabIndex = 12;
@@ -108,7 +112,7 @@ namespace Managing_Car_Program
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(102, 30);
+            this.label10.Location = new System.Drawing.Point(112, 30);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 14);
             this.label10.TabIndex = 10;
@@ -117,7 +121,7 @@ namespace Managing_Car_Program
             // label_now_time
             // 
             this.label_now_time.AutoSize = true;
-            this.label_now_time.Location = new System.Drawing.Point(403, 30);
+            this.label_now_time.Location = new System.Drawing.Point(405, 30);
             this.label_now_time.Name = "label_now_time";
             this.label_now_time.Size = new System.Drawing.Size(15, 14);
             this.label_now_time.TabIndex = 9;
@@ -127,7 +131,7 @@ namespace Managing_Car_Program
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label8.Location = new System.Drawing.Point(321, 30);
+            this.label8.Location = new System.Drawing.Point(323, 30);
             this.label8.Margin = new System.Windows.Forms.Padding(0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(68, 14);
@@ -149,7 +153,7 @@ namespace Managing_Car_Program
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(7, 30);
+            this.label1.Location = new System.Drawing.Point(16, 30);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 14);
@@ -231,15 +235,14 @@ namespace Managing_Car_Program
             this.groupBox2.Controls.Add(this.label_out_time);
             this.groupBox2.Controls.Add(this.button_in);
             this.groupBox2.Controls.Add(this.label_in_time);
-            this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.label17);
             this.groupBox2.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox2.Location = new System.Drawing.Point(536, 311);
+            this.groupBox2.Location = new System.Drawing.Point(440, 155);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
-            this.groupBox2.Size = new System.Drawing.Size(474, 176);
+            this.groupBox2.Size = new System.Drawing.Size(493, 176);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "요금 결제";
@@ -254,15 +257,6 @@ namespace Managing_Car_Program
             this.label4.Size = new System.Drawing.Size(63, 14);
             this.label4.TabIndex = 14;
             this.label4.Text = "출차시간";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(179, 146);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(21, 14);
-            this.label14.TabIndex = 9;
-            this.label14.Text = "원";
             // 
             // label15
             // 
@@ -291,16 +285,60 @@ namespace Managing_Car_Program
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(12, 77);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(491, 562);
+            this.pictureBox1.Size = new System.Drawing.Size(388, 498);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
+            // 
+            // button_close
+            // 
+            this.button_close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
+            this.button_close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_close.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_close.ForeColor = System.Drawing.Color.White;
+            this.button_close.Location = new System.Drawing.Point(440, 542);
+            this.button_close.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
+            this.button_close.Name = "button_close";
+            this.button_close.Size = new System.Drawing.Size(84, 30);
+            this.button_close.TabIndex = 15;
+            this.button_close.Text = "닫기";
+            this.button_close.UseVisualStyleBackColor = false;
+            this.button_close.Click += new System.EventHandler(this.button_close_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.White;
+            this.groupBox3.Controls.Add(this.dataGridView1);
+            this.groupBox3.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox3.Location = new System.Drawing.Point(440, 343);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
+            this.groupBox3.Size = new System.Drawing.Size(493, 180);
+            this.groupBox3.TabIndex = 16;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "주차 현황";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.GridColor = System.Drawing.Color.Black;
+            this.dataGridView1.Location = new System.Drawing.Point(10, 19);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(473, 149);
+            this.dataGridView1.TabIndex = 5;
             // 
             // ParkingCheckForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1124, 666);
+            this.ClientSize = new System.Drawing.Size(962, 587);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.button_close);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -313,6 +351,8 @@ namespace Managing_Car_Program
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -335,10 +375,12 @@ namespace Managing_Car_Program
         private System.Windows.Forms.Label label_money;
         private System.Windows.Forms.Label label_time;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button_close;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

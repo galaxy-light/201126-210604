@@ -51,6 +51,11 @@ namespace Managing_Car_Program
         {
             return ((Convert.ToInt32(ts.Minutes / Convert.ToInt32(label_time.Text)))
                 * Convert.ToInt32(label_money.Text)).ToString();             
-        }        
+        }
+
+        private void button_close_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }    
 }
