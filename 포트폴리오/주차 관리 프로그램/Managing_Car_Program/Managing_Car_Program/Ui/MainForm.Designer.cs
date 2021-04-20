@@ -61,6 +61,7 @@ namespace Managing_Car_Program
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.WhatTime = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.button_log = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -287,7 +288,7 @@ namespace Managing_Car_Program
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(798, 198);
             this.dataGridView1.TabIndex = 5;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);            
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // parkingSpotDataGridViewTextBoxColumn
             // 
@@ -379,12 +380,29 @@ namespace Managing_Car_Program
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
+            // button_log
+            // 
+            this.button_log.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
+            this.button_log.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_log.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_log.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_log.ForeColor = System.Drawing.Color.White;
+            this.button_log.Location = new System.Drawing.Point(871, 179);
+            this.button_log.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
+            this.button_log.Name = "button_log";
+            this.button_log.Size = new System.Drawing.Size(84, 30);
+            this.button_log.TabIndex = 13;
+            this.button_log.Text = "관리자";
+            this.button_log.UseVisualStyleBackColor = false;
+            this.button_log.Click += new System.EventHandler(this.button_log_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1124, 666);
+            this.Controls.Add(this.button_log);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.groupBox3);
@@ -443,6 +461,7 @@ namespace Managing_Car_Program
         private System.Windows.Forms.DataGridViewTextBoxColumn driverNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn phoneNumberDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn parkingTimeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button button_log;
     }
 }
 

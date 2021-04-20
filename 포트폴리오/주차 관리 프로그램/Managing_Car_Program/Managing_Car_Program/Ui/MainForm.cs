@@ -251,6 +251,11 @@ namespace Managing_Car_Program
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             MessageBox.Show("프로그램이 종료됩니다. \r이용해주셔서 감사합니다.");
-        }       
+        }
+
+        private void button_log_Click(object sender, EventArgs e)
+        {
+            new LogForm().ShowDialog();           
+        }
     }
 }

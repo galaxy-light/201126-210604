@@ -40,7 +40,6 @@ D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car
 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.dll
 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Fonts.dll
 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
-D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Form1.resources
 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Properties.Resources.resources
 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.GenerateResource.cache
 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CoreCompileInputs.cache
@@ -49,3 +48,7 @@ D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car
 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.MainForm.resources
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.ParkingCheckForm.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.MainForm.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.ParkingCheckForm.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.AdminForm.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.LogForm.resources
