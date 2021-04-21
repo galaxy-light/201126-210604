@@ -66,6 +66,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\VipData.cs" />
+    <Compile Include="Model\VipCust.cs" />
     <Compile Include="Ui\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>

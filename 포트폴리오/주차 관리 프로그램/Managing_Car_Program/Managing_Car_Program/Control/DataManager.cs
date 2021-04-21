@@ -13,7 +13,7 @@ namespace Managing_Car_Program
         // protected : 상속받은 클래스만 사용 가능
         // public, private, protected의 개념 : https://slaner.tistory.com/69
 
-        public static List<ParkingCar> Cars = new List<ParkingCar>();
+        public static List<ParkingCar> Cars = new List<ParkingCar>();       
 
         static DataManager() // static : 프로그램이 실행될 때 바로 메모리에 올라감
         {
@@ -134,6 +134,6 @@ namespace Managing_Car_Program
             {
                 writer.WriteLine(contents);
             }
-        }
+        }        
     }
 }

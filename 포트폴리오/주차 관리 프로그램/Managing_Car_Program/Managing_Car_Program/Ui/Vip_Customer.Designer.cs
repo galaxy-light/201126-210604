@@ -35,10 +35,11 @@ namespace Managing_Car_Program.Ui
             this.columnHeader_nm = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader_carnum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader_phnum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader_text = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader_start = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.button_close = new System.Windows.Forms.Button();
-            this.uiSymbolButton_help = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton1 = new Sunny.UI.UISymbolButton();
+            this.uiSymbolButton_add = new Sunny.UI.UISymbolButton();
+            this.uiSymbolButton_del = new Sunny.UI.UISymbolButton();
+            this.columnHeader_end = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +61,8 @@ namespace Managing_Car_Program.Ui
             this.columnHeader_nm,
             this.columnHeader_carnum,
             this.columnHeader_phnum,
-            this.columnHeader_text});
+            this.columnHeader_start,
+            this.columnHeader_end});
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(6, 20);
             this.listView1.Name = "listView1";
@@ -73,31 +75,31 @@ namespace Managing_Car_Program.Ui
             // 
             this.columnHeader_num.Text = "번호";
             this.columnHeader_num.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader_num.Width = 100;
+            this.columnHeader_num.Width = 50;
             // 
             // columnHeader_nm
             // 
             this.columnHeader_nm.Text = "이름";
             this.columnHeader_nm.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader_nm.Width = 150;
+            this.columnHeader_nm.Width = 110;
             // 
             // columnHeader_carnum
             // 
             this.columnHeader_carnum.Text = "차량번호";
             this.columnHeader_carnum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader_carnum.Width = 150;
+            this.columnHeader_carnum.Width = 130;
             // 
             // columnHeader_phnum
             // 
             this.columnHeader_phnum.Text = "전화번호";
             this.columnHeader_phnum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader_phnum.Width = 150;
+            this.columnHeader_phnum.Width = 160;
             // 
-            // columnHeader_text
+            // columnHeader_start
             // 
-            this.columnHeader_text.Text = "등록사유";
-            this.columnHeader_text.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader_text.Width = 180;
+            this.columnHeader_start.Text = "정기권 시작일";
+            this.columnHeader_start.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader_start.Width = 135;
             // 
             // button_close
             // 
@@ -115,64 +117,72 @@ namespace Managing_Car_Program.Ui
             this.button_close.UseVisualStyleBackColor = false;
             this.button_close.Click += new System.EventHandler(this.button_close_Click);
             // 
-            // uiSymbolButton_help
+            // uiSymbolButton_add
             // 
-            this.uiSymbolButton_help.BackColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiSymbolButton_help.FillColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help.FillHoverColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help.FillPressColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help.FillSelectedColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton_help.Location = new System.Drawing.Point(604, 29);
-            this.uiSymbolButton_help.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiSymbolButton_help.Name = "uiSymbolButton_help";
-            this.uiSymbolButton_help.RectColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help.RectHoverColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help.RectPressColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help.RectSelectedColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help.Size = new System.Drawing.Size(81, 31);
-            this.uiSymbolButton_help.Style = Sunny.UI.UIStyle.Custom;
-            this.uiSymbolButton_help.Symbol = 61543;
-            this.uiSymbolButton_help.SymbolSize = 30;
-            this.uiSymbolButton_help.TabIndex = 17;
-            this.uiSymbolButton_help.Text = "추가";
+            this.uiSymbolButton_add.BackColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_add.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton_add.FillColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_add.FillHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_add.FillPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_add.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_add.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiSymbolButton_add.Location = new System.Drawing.Point(604, 29);
+            this.uiSymbolButton_add.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiSymbolButton_add.Name = "uiSymbolButton_add";
+            this.uiSymbolButton_add.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_add.RectHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_add.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_add.RectSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_add.Size = new System.Drawing.Size(81, 31);
+            this.uiSymbolButton_add.Style = Sunny.UI.UIStyle.Custom;
+            this.uiSymbolButton_add.Symbol = 61543;
+            this.uiSymbolButton_add.SymbolSize = 30;
+            this.uiSymbolButton_add.TabIndex = 17;
+            this.uiSymbolButton_add.Text = "추가";
+            this.uiSymbolButton_add.Click += new System.EventHandler(this.uiSymbolButton_add_Click);
             // 
-            // uiSymbolButton1
+            // uiSymbolButton_del
             // 
-            this.uiSymbolButton1.BackColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiSymbolButton1.FillColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton1.FillHoverColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton1.FillPressColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton1.FillSelectedColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton1.Location = new System.Drawing.Point(691, 29);
-            this.uiSymbolButton1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiSymbolButton1.Name = "uiSymbolButton1";
-            this.uiSymbolButton1.RectColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton1.RectHoverColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton1.RectPressColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton1.RectSelectedColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton1.Size = new System.Drawing.Size(81, 31);
-            this.uiSymbolButton1.Style = Sunny.UI.UIStyle.Custom;
-            this.uiSymbolButton1.Symbol = 61544;
-            this.uiSymbolButton1.SymbolSize = 30;
-            this.uiSymbolButton1.TabIndex = 18;
-            this.uiSymbolButton1.Text = "삭제";
+            this.uiSymbolButton_del.BackColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_del.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton_del.FillColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_del.FillHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_del.FillPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_del.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_del.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiSymbolButton_del.Location = new System.Drawing.Point(691, 29);
+            this.uiSymbolButton_del.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiSymbolButton_del.Name = "uiSymbolButton_del";
+            this.uiSymbolButton_del.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_del.RectHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_del.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_del.RectSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_del.Size = new System.Drawing.Size(81, 31);
+            this.uiSymbolButton_del.Style = Sunny.UI.UIStyle.Custom;
+            this.uiSymbolButton_del.Symbol = 61544;
+            this.uiSymbolButton_del.SymbolSize = 30;
+            this.uiSymbolButton_del.TabIndex = 18;
+            this.uiSymbolButton_del.Text = "삭제";
             // 
-            // BlackCustomer
+            // columnHeader_end
+            // 
+            this.columnHeader_end.Text = "정기권 종료일";
+            this.columnHeader_end.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader_end.Width = 135;
+            // 
+            // Vip_Customer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 473);
-            this.Controls.Add(this.uiSymbolButton1);
-            this.Controls.Add(this.uiSymbolButton_help);
+            this.Controls.Add(this.uiSymbolButton_del);
+            this.Controls.Add(this.uiSymbolButton_add);
             this.Controls.Add(this.button_close);
             this.Controls.Add(this.groupBox1);
-            this.Name = "BlackCustomer";
+            this.Name = "Vip_Customer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "블랙리스트";
+            this.Text = "정기권 고객 리스트";
+            this.Load += new System.EventHandler(this.Vip_Customer_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -186,9 +196,10 @@ namespace Managing_Car_Program.Ui
         private System.Windows.Forms.ColumnHeader columnHeader_nm;
         private System.Windows.Forms.ColumnHeader columnHeader_carnum;
         private System.Windows.Forms.ColumnHeader columnHeader_phnum;
-        private System.Windows.Forms.ColumnHeader columnHeader_text;
+        private System.Windows.Forms.ColumnHeader columnHeader_start;
         private System.Windows.Forms.Button button_close;
-        private Sunny.UI.UISymbolButton uiSymbolButton_help;
-        private Sunny.UI.UISymbolButton uiSymbolButton1;
+        private Sunny.UI.UISymbolButton uiSymbolButton_add;
+        private Sunny.UI.UISymbolButton uiSymbolButton_del;
+        private System.Windows.Forms.ColumnHeader columnHeader_end;
     }
 }

@@ -285,7 +285,7 @@ namespace Managing_Car_Program
                     count += 1;
                 }
             }
-            label_spot_num.Text = count.ToString() + "대";
+            label_spot_num.Text = count.ToString() + "칸";
         }
 
 

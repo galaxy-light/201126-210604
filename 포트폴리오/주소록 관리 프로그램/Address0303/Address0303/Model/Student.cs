@@ -19,7 +19,10 @@ namespace AddressTest0222
             return inst;
         }*/
 
-        public Student() { }
+        public Student()
+        { 
+        
+        }
 
         public Student(string name, string tel, string address, string email)
         {
