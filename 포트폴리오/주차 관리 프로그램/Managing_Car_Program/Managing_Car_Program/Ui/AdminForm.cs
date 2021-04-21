@@ -31,7 +31,7 @@ namespace Managing_Car_Program
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new BlackCustomer().Show();
+            new Vip_Customer().Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -41,7 +41,9 @@ namespace Managing_Car_Program
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("현재 연결된 CCTV가 없습니다.");
+            //MessageBox.Show("현재 연결된 CCTV가 없습니다.");
+            MessageBox.Show("연결되는 메모장에서 parkingHistory폴더의 parkingHistory파일을 열어주세요.");
+            System.Diagnostics.Process.Start("Notepad.exe");
         }
 
         private void button1_Click(object sender, EventArgs e)

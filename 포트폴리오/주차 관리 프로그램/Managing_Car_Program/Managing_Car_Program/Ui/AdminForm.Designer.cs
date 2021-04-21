@@ -178,9 +178,9 @@ namespace Managing_Car_Program
             this.label_cctv.AutoSize = true;
             this.label_cctv.Location = new System.Drawing.Point(422, 33);
             this.label_cctv.Name = "label_cctv";
-            this.label_cctv.Size = new System.Drawing.Size(79, 12);
+            this.label_cctv.Size = new System.Drawing.Size(69, 12);
             this.label_cctv.TabIndex = 19;
-            this.label_cctv.Text = "주차장 CCTV";
+            this.label_cctv.Text = "백업 데이터";
             // 
             // button3
             // 
@@ -228,9 +228,9 @@ namespace Managing_Car_Program
             this.label_black_cust.AutoSize = true;
             this.label_black_cust.Location = new System.Drawing.Point(180, 81);
             this.label_black_cust.Name = "label_black_cust";
-            this.label_black_cust.Size = new System.Drawing.Size(65, 12);
+            this.label_black_cust.Size = new System.Drawing.Size(69, 12);
             this.label_black_cust.TabIndex = 15;
-            this.label_black_cust.Text = "블랙리스트";
+            this.label_black_cust.Text = "정기권 고객";
             // 
             // label_menu1
             // 

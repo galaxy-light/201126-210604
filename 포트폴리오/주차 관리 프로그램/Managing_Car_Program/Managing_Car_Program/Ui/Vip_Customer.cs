@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Managing_Car_Program.Ui
 {
-    public partial class BlackCustomer : MaterialForm
+    public partial class Vip_Customer : MaterialForm
     {
-        public BlackCustomer()
+        public Vip_Customer()
         {
             InitializeComponent();
         }

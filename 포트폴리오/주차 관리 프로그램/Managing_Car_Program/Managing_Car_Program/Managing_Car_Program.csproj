@@ -73,11 +73,17 @@
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Control\DataManager.cs" />
-    <Compile Include="Ui\BlackCustomer.cs">
+    <Compile Include="Ui\Ad_cu_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ui\BlackCustomer.Designer.cs">
-      <DependentUpon>BlackCustomer.cs</DependentUpon>
+    <Compile Include="Ui\Ad_cu_Form.Designer.cs">
+      <DependentUpon>Ad_cu_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Vip_Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\Vip_Customer.Designer.cs">
+      <DependentUpon>Vip_Customer.cs</DependentUpon>
     </Compile>
     <Compile Include="Ui\LogForm.cs">
       <SubType>Form</SubType>
@@ -97,8 +103,11 @@
     <EmbeddedResource Include="Ui\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ui\BlackCustomer.resx">
-      <DependentUpon>BlackCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="Ui\Ad_cu_Form.resx">
+      <DependentUpon>Ad_cu_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\Vip_Customer.resx">
+      <DependentUpon>Vip_Customer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ui\LogForm.resx">
       <DependentUpon>LogForm.cs</DependentUpon>

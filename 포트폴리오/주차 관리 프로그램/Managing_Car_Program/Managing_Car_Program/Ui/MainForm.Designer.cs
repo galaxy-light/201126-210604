@@ -64,14 +64,11 @@ namespace Managing_Car_Program
             this.label10 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label_result = new System.Windows.Forms.Label();
             this.button_out = new System.Windows.Forms.Button();
             this.label_out_time = new System.Windows.Forms.Label();
             this.button_in = new System.Windows.Forms.Button();
             this.label_in_time = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridView_main = new System.Windows.Forms.DataGridView();
@@ -79,12 +76,12 @@ namespace Managing_Car_Program
             this.carNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parkingTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parkingCarBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.uiSymbolButton_help = new Sunny.UI.UISymbolButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_main)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.parkingCarBindingSource)).BeginInit();
@@ -98,13 +95,19 @@ namespace Managing_Car_Program
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.button_out);
             this.groupBox1.Controls.Add(this.textBox_carph);
+            this.groupBox1.Controls.Add(this.button_in);
             this.groupBox1.Controls.Add(this.textBox_carnm);
             this.groupBox1.Controls.Add(this.textBox_carnum);
+            this.groupBox1.Controls.Add(this.label_out_time);
             this.groupBox1.Controls.Add(this.textBox_num);
             this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label_in_time);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.groupBox1.Location = new System.Drawing.Point(306, 166);
@@ -118,41 +121,41 @@ namespace Managing_Car_Program
             // 
             // textBox_carph
             // 
-            this.textBox_carph.Location = new System.Drawing.Point(115, 108);
+            this.textBox_carph.Location = new System.Drawing.Point(74, 105);
             this.textBox_carph.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.textBox_carph.Name = "textBox_carph";
-            this.textBox_carph.Size = new System.Drawing.Size(222, 23);
+            this.textBox_carph.Size = new System.Drawing.Size(155, 23);
             this.textBox_carph.TabIndex = 7;
             // 
             // textBox_carnm
             // 
-            this.textBox_carnm.Location = new System.Drawing.Point(115, 80);
+            this.textBox_carnm.Location = new System.Drawing.Point(74, 77);
             this.textBox_carnm.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.textBox_carnm.Name = "textBox_carnm";
-            this.textBox_carnm.Size = new System.Drawing.Size(222, 23);
+            this.textBox_carnm.Size = new System.Drawing.Size(155, 23);
             this.textBox_carnm.TabIndex = 6;
             // 
             // textBox_carnum
             // 
-            this.textBox_carnum.Location = new System.Drawing.Point(115, 54);
+            this.textBox_carnum.Location = new System.Drawing.Point(74, 51);
             this.textBox_carnum.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.textBox_carnum.Name = "textBox_carnum";
-            this.textBox_carnum.Size = new System.Drawing.Size(222, 23);
+            this.textBox_carnum.Size = new System.Drawing.Size(155, 23);
             this.textBox_carnum.TabIndex = 5;
             // 
             // textBox_num
             // 
-            this.textBox_num.Location = new System.Drawing.Point(115, 27);
+            this.textBox_num.Location = new System.Drawing.Point(74, 24);
             this.textBox_num.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.textBox_num.Name = "textBox_num";
-            this.textBox_num.Size = new System.Drawing.Size(222, 23);
+            this.textBox_num.Size = new System.Drawing.Size(155, 23);
             this.textBox_num.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label4.Location = new System.Drawing.Point(30, 111);
+            this.label4.Location = new System.Drawing.Point(6, 108);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(63, 14);
@@ -163,7 +166,7 @@ namespace Managing_Car_Program
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(30, 83);
+            this.label3.Location = new System.Drawing.Point(6, 80);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 14);
@@ -174,7 +177,7 @@ namespace Managing_Car_Program
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(30, 57);
+            this.label2.Location = new System.Drawing.Point(6, 54);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 14);
@@ -185,7 +188,7 @@ namespace Managing_Car_Program
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(30, 30);
+            this.label1.Location = new System.Drawing.Point(6, 30);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 14);
@@ -234,7 +237,7 @@ namespace Managing_Car_Program
             this.label_spot_num.Name = "label_spot_num";
             this.label_spot_num.Size = new System.Drawing.Size(15, 14);
             this.label_spot_num.TabIndex = 14;
-            this.label_spot_num.Text = "-";           
+            this.label_spot_num.Text = "-";
             // 
             // label8
             // 
@@ -379,7 +382,7 @@ namespace Managing_Car_Program
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(307, 30);
+            this.label12.Location = new System.Drawing.Point(311, 30);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(15, 14);
             this.label12.TabIndex = 15;
@@ -389,7 +392,7 @@ namespace Managing_Car_Program
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label13.Location = new System.Drawing.Point(224, 30);
+            this.label13.Location = new System.Drawing.Point(228, 30);
             this.label13.Margin = new System.Windows.Forms.Padding(0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(68, 14);
@@ -399,7 +402,7 @@ namespace Managing_Car_Program
             // label_money
             // 
             this.label_money.AutoSize = true;
-            this.label_money.Location = new System.Drawing.Point(160, 30);
+            this.label_money.Location = new System.Drawing.Point(164, 30);
             this.label_money.Name = "label_money";
             this.label_money.Size = new System.Drawing.Size(31, 14);
             this.label_money.TabIndex = 13;
@@ -408,7 +411,7 @@ namespace Managing_Car_Program
             // label_time
             // 
             this.label_time.AutoSize = true;
-            this.label_time.Location = new System.Drawing.Point(71, 30);
+            this.label_time.Location = new System.Drawing.Point(75, 30);
             this.label_time.Name = "label_time";
             this.label_time.Size = new System.Drawing.Size(23, 14);
             this.label_time.TabIndex = 12;
@@ -417,7 +420,7 @@ namespace Managing_Car_Program
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(187, 30);
+            this.label11.Location = new System.Drawing.Point(191, 30);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(21, 14);
             this.label11.TabIndex = 11;
@@ -426,7 +429,7 @@ namespace Managing_Car_Program
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(91, 30);
+            this.label10.Location = new System.Drawing.Point(95, 30);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 14);
             this.label10.TabIndex = 10;
@@ -436,7 +439,7 @@ namespace Managing_Car_Program
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label6.Location = new System.Drawing.Point(126, 30);
+            this.label6.Location = new System.Drawing.Point(130, 30);
             this.label6.Margin = new System.Windows.Forms.Padding(0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 14);
@@ -447,54 +450,23 @@ namespace Managing_Car_Program
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label7.Location = new System.Drawing.Point(6, 30);
+            this.label7.Location = new System.Drawing.Point(10, 30);
             this.label7.Margin = new System.Windows.Forms.Padding(0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(63, 14);
             this.label7.TabIndex = 0;
             this.label7.Text = "단위시간";
             // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.Color.White;
-            this.groupBox4.Controls.Add(this.label9);
-            this.groupBox4.Controls.Add(this.label_result);
-            this.groupBox4.Controls.Add(this.button_out);
-            this.groupBox4.Controls.Add(this.label_out_time);
-            this.groupBox4.Controls.Add(this.button_in);
-            this.groupBox4.Controls.Add(this.label_in_time);
-            this.groupBox4.Controls.Add(this.label15);
-            this.groupBox4.Controls.Add(this.label17);
-            this.groupBox4.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox4.Location = new System.Drawing.Point(688, 82);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
-            this.groupBox4.Size = new System.Drawing.Size(274, 99);
-            this.groupBox4.TabIndex = 16;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "주차 / 출차";
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label9.Location = new System.Drawing.Point(27, 69);
+            this.label9.Location = new System.Drawing.Point(249, 44);
             this.label9.Margin = new System.Windows.Forms.Padding(0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(63, 14);
             this.label9.TabIndex = 14;
             this.label9.Text = "출차시간";
-            // 
-            // label_result
-            // 
-            this.label_result.AutoSize = true;
-            this.label_result.BackColor = System.Drawing.Color.White;
-            this.label_result.Location = new System.Drawing.Point(123, 146);
-            this.label_result.Name = "label_result";
-            this.label_result.Size = new System.Drawing.Size(15, 14);
-            this.label_result.TabIndex = 11;
-            this.label_result.Text = "-";
             // 
             // button_out
             // 
@@ -503,7 +475,7 @@ namespace Managing_Car_Program
             this.button_out.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_out.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_out.ForeColor = System.Drawing.Color.White;
-            this.button_out.Location = new System.Drawing.Point(179, 60);
+            this.button_out.Location = new System.Drawing.Point(264, 102);
             this.button_out.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.button_out.Name = "button_out";
             this.button_out.Size = new System.Drawing.Size(84, 30);
@@ -516,7 +488,7 @@ namespace Managing_Car_Program
             // 
             this.label_out_time.AutoSize = true;
             this.label_out_time.BackColor = System.Drawing.Color.White;
-            this.label_out_time.Location = new System.Drawing.Point(110, 69);
+            this.label_out_time.Location = new System.Drawing.Point(332, 44);
             this.label_out_time.Name = "label_out_time";
             this.label_out_time.Size = new System.Drawing.Size(15, 14);
             this.label_out_time.TabIndex = 10;
@@ -529,7 +501,7 @@ namespace Managing_Car_Program
             this.button_in.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_in.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_in.ForeColor = System.Drawing.Color.White;
-            this.button_in.Location = new System.Drawing.Point(179, 18);
+            this.button_in.Location = new System.Drawing.Point(264, 68);
             this.button_in.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.button_in.Name = "button_in";
             this.button_in.Size = new System.Drawing.Size(84, 30);
@@ -542,28 +514,17 @@ namespace Managing_Car_Program
             // 
             this.label_in_time.AutoSize = true;
             this.label_in_time.BackColor = System.Drawing.Color.White;
-            this.label_in_time.Location = new System.Drawing.Point(111, 29);
+            this.label_in_time.Location = new System.Drawing.Point(333, 22);
             this.label_in_time.Name = "label_in_time";
             this.label_in_time.Size = new System.Drawing.Size(15, 14);
             this.label_in_time.TabIndex = 8;
             this.label_in_time.Text = "-";
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label15.Location = new System.Drawing.Point(17, 146);
-            this.label15.Margin = new System.Windows.Forms.Padding(0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(68, 14);
-            this.label15.TabIndex = 8;
-            this.label15.Text = "정산 요금";
-            // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label17.Location = new System.Drawing.Point(27, 27);
+            this.label17.Location = new System.Drawing.Point(249, 20);
             this.label17.Margin = new System.Windows.Forms.Padding(0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(63, 14);
@@ -625,15 +586,38 @@ namespace Managing_Car_Program
             // 
             this.parkingCarBindingSource.DataSource = typeof(Managing_Car_Program.ParkingCar);
             // 
+            // uiSymbolButton_help
+            // 
+            this.uiSymbolButton_help.BackColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton_help.FillColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help.FillHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help.FillPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiSymbolButton_help.Location = new System.Drawing.Point(886, 29);
+            this.uiSymbolButton_help.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiSymbolButton_help.Name = "uiSymbolButton_help";
+            this.uiSymbolButton_help.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help.RectHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help.RectSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help.Size = new System.Drawing.Size(36, 31);
+            this.uiSymbolButton_help.Style = Sunny.UI.UIStyle.Custom;
+            this.uiSymbolButton_help.Symbol = 61736;
+            this.uiSymbolButton_help.SymbolSize = 30;
+            this.uiSymbolButton_help.TabIndex = 16;
+            this.uiSymbolButton_help.Click += new System.EventHandler(this.uiSymbolButton_help_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(980, 721);
+            this.Controls.Add(this.uiSymbolButton_help);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.Button_adminlog);
             this.Controls.Add(this.pictureBox1);
@@ -655,8 +639,6 @@ namespace Managing_Car_Program
             this.statusStrip1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_main)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.parkingCarBindingSource)).EndInit();
@@ -696,14 +678,11 @@ namespace Managing_Car_Program
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label_result;
         private System.Windows.Forms.Button button_out;
         private System.Windows.Forms.Label label_out_time;
         private System.Windows.Forms.Button button_in;
         private System.Windows.Forms.Label label_in_time;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label_spot_num;
@@ -715,6 +694,7 @@ namespace Managing_Car_Program
         private System.Windows.Forms.DataGridViewTextBoxColumn parkingSpotDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn carNumberDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn parkingTimeDataGridViewTextBoxColumn;
+        private Sunny.UI.UISymbolButton uiSymbolButton_help;
     }
 }
 

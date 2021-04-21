@@ -314,6 +314,12 @@ namespace Managing_Car_Program
                     //throw;
                 }
             }
-        }                
+        }
+
+        private void uiSymbolButton_help_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("프로그램 오류시 관리자에게 연락주세요.\r" +
+                "관리자 : 000-0000-0000");
+        }
     }
 }
