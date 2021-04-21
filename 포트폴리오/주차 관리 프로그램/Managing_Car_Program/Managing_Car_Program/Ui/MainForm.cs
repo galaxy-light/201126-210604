@@ -13,6 +13,9 @@ namespace Managing_Car_Program
 {
     public partial class MainForm : MaterialForm
     {
+        private DateTime parkingin;
+        private DateTime parkingout;
+
         public MainForm()
         {
             InitializeComponent();
@@ -27,129 +30,36 @@ namespace Managing_Car_Program
             cars.Add(new ParkingCar()); // cars는 두 줄*/
 
             //DataManager.Load();
-            dataGridView1.DataSource = DataManager.Cars;
+            dataGridView_main.DataSource = DataManager.Cars;
 
-            textBox1.Text = DataManager.Cars[0].parkingSpot.ToString();
-            textBox2.Text = DataManager.Cars[0].carNumber.ToString();
-            textBox3.Text = DataManager.Cars[0].driverName.ToString();
-            textBox4.Text = DataManager.Cars[0].phoneNumber.ToString();
-        }
+            textBox_num.Text = DataManager.Cars[0].parkingSpot.ToString();
+            textBox_carnum.Text = DataManager.Cars[0].carNumber.ToString();
+            textBox_carnm.Text = DataManager.Cars[0].driverName.ToString();
+            textBox_carph.Text = DataManager.Cars[0].phoneNumber.ToString();
+        }        
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            WhatTime.Text = "현재 시간 : " + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
+            WhatTime.Text = "현재 시간 : " + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            writeLog("주차 버튼 클릭");
-            if (textBox1.Text.Trim() == "") // Trim : 공백 제거 함수 / 공간 번호가 공백일 경우
-            {
-                MessageBox.Show("주차 공간을 입력하세요.");
-                writeLog("주차 공간을 입력하세요.");
-            }
-            else if (textBox2.Text.Trim() == "") // 차량 번호를 입력하지 않은 경우
-            {
-                MessageBox.Show("차량 번호를 입력하세요.");
-                writeLog("차량 번호를 입력하세요.");
-            }            
-            else
-            {
-                try
-                {
-                    // 참조 변수와 람다 개념
-                    ParkingCar car = DataManager.Cars.Single((x) => x.parkingSpot.ToString() == textBox1.Text);
-                    // => : 람다 : 함수의 변수화
-                    // Single이라는 변수에 (x)=>x.parkingSpot.ToString() == textBox1.Text의 함수가 들어간 것
-                    // x : Cars의 각각의 요소
-                    // Single : parkingSpot의 텍스트와 textBox1의 텍스트가 일치하는 값하나를 car에 던져줌
-                    // car : 데이터가 들어가는게 아니고 값의 주소를 가져옴
-                    if (car.carNumber.Trim() != "") // 이미 차량 정보가 저장되어있음
-                    {
-                        MessageBox.Show("해당 공간에는 이미 차량이 있습니다. " + "공간 번호 : " + textBox1.Text);
-                        writeLog("해당 공간에는 이미 차량이 있습니다. " + "공간 번호 : " + textBox1.Text);
-                    }
-                    else // 아직 차량 정보가 없음
-                    {
-                        // 참조 변수
-                        // car : 주소값 : 리스트에 있는 해당하는 주소값을 변경하기 때문에 그 주소의 데이터값만 변경됨
-                        car.parkingSpot = int.Parse(textBox1.Text);
-                        car.carNumber = textBox2.Text;
-                        car.driverName = textBox3.Text;
-                        car.phoneNumber = textBox4.Text;
-                        car.parkingTime = DateTime.Now;
-
-                        dataGridView1.DataSource = null;
-                        dataGridView1.DataSource = DataManager.Cars;
-                        DataManager.Save();
-
-                        string contents = $"주차공간 : {textBox1.Text}에 차량번호 : {textBox2.Text}을 주차합니다.";
-                        writeLog(contents, DateTime.Now.ToString("yyyy_MM_dd")); // 두번째 파라미터값(DateTime.Now.ToString("yyyy_MM_dd"))은 적어도 되고 안적어도 되고
-                    }
-                }
-                catch (Exception ex) // 형변환(문자열 -> 정수)이 안되기 때문에 예외처리
-                {
-                    string contents = "주차할 수 없습니다. " + "공간 번호 : " + textBox1.Text;
-                    MessageBox.Show(contents);
-                    writeLog(contents);
-                    writeLog(ex.Message);
-                    writeLog(ex.StackTrace);
-                    //throw;
-                }                
-            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new ParkingCheckForm().ShowDialog();
-            writeLog("출차 버튼 클릭");
-            // 참조 변수 개념X
-            if (textBox1.Text.Trim() == "")
-            {
-                MessageBox.Show("주차 공간 번호를 입력해주세요.");
-                return;
-            }
-            // Single없이 조회하고 해당하는 데이터 변경
-            try
-            {
-                for (int i = 0; i < DataManager.Cars.Count; i++)
-                {
-                    if (DataManager.Cars[i].parkingSpot.ToString() == textBox1.Text)
-                    {
-                        if (DataManager.Cars[i].carNumber.Trim() == "")
-                        {
-                            MessageBox.Show("주차 공간에 차량이 없습니다.");
-                            writeLog("주차 공간에 차량이 없습니다.");
-                            break;
-                        }
-                        else
-                        {
-                            DataManager.Cars[i].carNumber = "";
-                            DataManager.Cars[i].driverName = "";
-                            DataManager.Cars[i].phoneNumber = "";
-                            DataManager.Cars[i].parkingTime = DateTime.Now; // 알아서 처리
-                            string contents = $"주차공간 : {textBox1.Text} 차량번호 : {textBox2.Text}을 출차합니다.";
-                            //MessageBox.Show(contents);
-                            writeLog(contents);
-                            dataGridView1.DataSource = null; // dataGridView1의 데이터를 한 번 지워주고
-                            dataGridView1.DataSource = DataManager.Cars; // 다시 리셋
-                            DataManager.Save();
-                            break;
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                writeLog("출차 안 됨");
-                writeLog(ex.Message);
-                writeLog(ex.StackTrace);
-                //throw;
-            }           
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            if (textBox_spotnum.Text == "")
+            {
+                MessageBox.Show("번호를 입력해주세요.");
+                return;
+            }
             writeLog("조회 버튼 클릭");
             //writeLog("3번 버튼 클릭", DateTime.Now.ToString("yyyy_MM_dd"));
             // 3번 버튼 클릭은 내용이 되고 DateTime.Now.ToString("yyyy_MM_dd")은 파일 이름이 됨
@@ -158,7 +68,7 @@ namespace Managing_Car_Program
             {              
                 for (int i = 0; i < DataManager.Cars.Count; i++)
                 {
-                    if (DataManager.Cars[i].parkingSpot.ToString() == textBox5.Text)
+                    if (DataManager.Cars[i].parkingSpot.ToString() == textBox_spotnum.Text)
                     {
                         if (DataManager.Cars[i].carNumber.Trim() == "")
                         {
@@ -183,7 +93,7 @@ namespace Managing_Car_Program
                 writeLog(ex.StackTrace);
                 //throw;
             }
-        }
+        }        
 
         private void writeLog(string contents)
         {
@@ -222,31 +132,7 @@ namespace Managing_Car_Program
             // Insert : 내가 원하는 위치에 저장
 
             DataManager.printLog(logContents, date);
-        }
-
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            try
-            {
-                // CurrentRow : 클릭한 행의 전체 줄
-                // DataBoundItem : 클릭한 리스트의 저장된 데이터
-                ParkingCar temp = dataGridView1.CurrentRow.DataBoundItem as ParkingCar; // ParkingCar를 형변환해서 temp에 넣음
-                textBox1.Text = temp.parkingSpot.ToString();
-                textBox2.Text = temp.carNumber;
-                textBox3.Text = temp.driverName;
-                textBox4.Text = temp.phoneNumber;
-                // 조회 기능에 바로 공간 번호를 넣고 싶으면
-                //textBox5.Text = temp.parkingSpot.ToString();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                MessageBox.Show(ex.StackTrace);
-                writeLog(ex.Message);
-                writeLog(ex.StackTrace);
-                //throw;
-            }
-        }
+        }        
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -256,6 +142,178 @@ namespace Managing_Car_Program
         private void uiSymbolButton1_Click(object sender, EventArgs e)
         {
             new LogForm().ShowDialog();
+            dataGridView_main.DataSource = null;
+            dataGridView_main.DataSource = DataManager.Cars;
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void button_in_Click(object sender, EventArgs e)
+        {
+            parkingin = DateTime.Now;
+            label_in_time.Text = parkingin.ToString("HH:mm:ss");
+
+            writeLog("주차 버튼 클릭");
+            if (textBox_num.Text.Trim() == "") // Trim : 공백 제거 함수 / 공간 번호가 공백일 경우
+            {
+                MessageBox.Show("주차 공간을 입력하세요.");
+                writeLog("주차 공간을 입력하세요.");
+            }
+            else if (textBox_carnum.Text.Trim() == "") // 차량 번호를 입력하지 않은 경우
+            {
+                MessageBox.Show("차량 번호를 입력하세요.");
+                writeLog("차량 번호를 입력하세요.");
+            }
+            else
+            {
+                try
+                {
+                    // 참조 변수와 람다 개념
+                    ParkingCar car = DataManager.Cars.Single((x) => x.parkingSpot.ToString() == textBox_num.Text);
+                    // => : 람다 : 함수의 변수화
+                    // Single이라는 변수에 (x)=>x.parkingSpot.ToString() == textBox1.Text의 함수가 들어간 것
+                    // x : Cars의 각각의 요소
+                    // Single : parkingSpot의 텍스트와 textBox1의 텍스트가 일치하는 값하나를 car에 던져줌
+                    // car : 데이터가 들어가는게 아니고 값의 주소를 가져옴
+                    if (car.carNumber.Trim() != "") // 이미 차량 정보가 저장되어있음
+                    {
+                        MessageBox.Show("해당 공간에는 이미 차량이 있습니다. " + "공간 번호 : " + textBox_num.Text);
+                        writeLog("해당 공간에는 이미 차량이 있습니다. " + "공간 번호 : " + textBox_num.Text);
+                    }
+                    else // 아직 차량 정보가 없음
+                    {
+                        // 참조 변수
+                        // car : 주소값 : 리스트에 있는 해당하는 주소값을 변경하기 때문에 그 주소의 데이터값만 변경됨
+                        car.parkingSpot = int.Parse(textBox_num.Text);
+                        car.carNumber = textBox_carnum.Text;
+                        car.driverName = textBox_carnm.Text;
+                        car.phoneNumber = textBox_carph.Text;
+                        car.parkingTime = DateTime.Now;
+
+                        dataGridView_main.DataSource = null;
+                        dataGridView_main.DataSource = DataManager.Cars;
+                        DataManager.Save();
+
+                        string contents = $"주차공간 : {textBox_num.Text}에 차량번호 : {textBox_carnum.Text}을 주차합니다.";
+                        writeLog(contents, DateTime.Now.ToString("yyyy_MM_dd")); // 두번째 파라미터값(DateTime.Now.ToString("yyyy_MM_dd"))은 적어도 되고 안적어도 되고
+                    }
+                }
+                catch (Exception ex) // 형변환(문자열 -> 정수)이 안되기 때문에 예외처리
+                {
+                    string contents = "주차할 수 없습니다. " + "공간 번호 : " + textBox_num.Text;
+                    MessageBox.Show(contents);
+                    writeLog(contents);
+                    writeLog(ex.Message);
+                    writeLog(ex.StackTrace);
+                    //throw;
+                }
+            }
+        }
+
+        private void button_out_Click(object sender, EventArgs e)
+        {
+            parkingout = DateTime.Now.AddMinutes(1);
+            label_out_time.Text = parkingout.ToString("HH:mm:ss");
+
+            //new ParkingCheckForm().ShowDialog();
+            writeLog("출차 버튼 클릭");
+            // 참조 변수 개념X
+            if (textBox_num.Text.Trim() == "")
+            {
+                MessageBox.Show("주차 공간 번호를 입력해주세요.");
+                return;
+            }
+            // Single없이 조회하고 해당하는 데이터 변경
+            try
+            {
+                for (int i = 0; i < DataManager.Cars.Count; i++)
+                {
+                    if (DataManager.Cars[i].parkingSpot.ToString() == textBox_num.Text)
+                    {
+                        if (DataManager.Cars[i].carNumber.Trim() == "")
+                        {
+                            MessageBox.Show("주차 공간에 차량이 없습니다.");
+                            writeLog("주차 공간에 차량이 없습니다.");
+                            break;
+                        }
+                        else
+                        {
+                            DataManager.Cars[i].carNumber = "";
+                            DataManager.Cars[i].driverName = "";
+                            DataManager.Cars[i].phoneNumber = "";
+                            DataManager.Cars[i].parkingTime = DateTime.Now; // 알아서 처리
+                            string contents = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
+                            //MessageBox.Show(contents);
+                            writeLog(contents);
+                            dataGridView_main.DataSource = null; // dataGridView1의 데이터를 한 번 지워주고
+                            dataGridView_main.DataSource = DataManager.Cars; // 다시 리셋
+                            DataManager.Save();
+                            break;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                writeLog("출차 안 됨");
+                writeLog(ex.Message);
+                writeLog(ex.StackTrace);
+                //throw;
+            }
+
+            // 계산법 = (주차시간/단위시간)*요금
+            //TimeSpan ts = parkingout - parkingin;
+            label12.Text = calctime(parkingout - parkingin) + "원";
+        }
+
+        private string calctime(TimeSpan ts)
+        {
+            return ((Convert.ToInt32(ts.Minutes / Convert.ToInt32(label_time.Text)))
+                * Convert.ToInt32(label_money.Text)).ToString();
+        }
+
+        private void button_check2_Click(object sender, EventArgs e)
+        {
+            int count = 0;
+            for (int i = 0; i < DataManager.Cars.Count; i++)
+            {
+                if (DataManager.Cars[i].carNumber.Equals(""))
+                {
+                    count += 1;
+                }
+            }
+            label_spot_num.Text = count.ToString() + "대";
+        }
+
+
+        private void dataGridView_main_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            {
+                try
+                {
+                    // CurrentRow : 클릭한 행의 전체 줄
+                    // DataBoundItem : 클릭한 리스트의 저장된 데이터
+                    ParkingCar temp = dataGridView_main.CurrentRow.DataBoundItem as ParkingCar; // ParkingCar를 형변환해서 temp에 넣음
+                    textBox_num.Text = temp.parkingSpot.ToString();
+                    //textBox_carnum.Text = temp.carNumber;
+                    //textBox_carnm.Text = temp.driverName;
+                    //textBox_carph.Text = temp.phoneNumber;
+
+                    // 조회 기능에 바로 공간 번호를 넣고 싶으면
+                    //textBox_spotnum.Text = temp.parkingSpot.ToString();                         
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.StackTrace);
+                    writeLog(ex.Message);
+                    writeLog(ex.StackTrace);
+                    //throw;
+                }
+            }
+        }                
     }
 }

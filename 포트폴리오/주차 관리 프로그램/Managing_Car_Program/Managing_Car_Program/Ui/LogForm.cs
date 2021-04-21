@@ -14,7 +14,7 @@ namespace Managing_Car_Program
     public partial class LogForm : MaterialForm
     {
         string adminid = "admin";
-        string adminpw = "0420wnck";
+        string adminpw = "wnck";
 
         public LogForm()
         {
@@ -27,7 +27,9 @@ namespace Managing_Car_Program
             {
                 if (textBox_pw.Text == adminpw)
                 {
-                    new AdminForm().ShowDialog();
+                    new AdminForm().Show();
+                    textBox_id.Text = "";
+                    textBox_pw.Text = "";
                 }
                 else
                 {

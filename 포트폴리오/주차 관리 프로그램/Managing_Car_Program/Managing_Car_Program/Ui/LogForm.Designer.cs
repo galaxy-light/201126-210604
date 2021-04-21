@@ -112,7 +112,7 @@ namespace Managing_Car_Program
             this.Controls.Add(this.textBox_pw);
             this.Controls.Add(this.textBox_id);
             this.Name = "LogForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "관리자 로그인";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
