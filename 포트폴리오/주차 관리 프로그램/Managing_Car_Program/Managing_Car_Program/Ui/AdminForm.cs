@@ -14,17 +14,9 @@ namespace Managing_Car_Program
 {
     partial class AdminForm : MaterialForm
     {
-        VipData vc;
-
         public AdminForm()
         {
             InitializeComponent();
-        }
-
-        public AdminForm(VipData vc)
-        {
-            InitializeComponent();
-            this.vc = vc;
         }
 
         private void AdminForm_Load(object sender, EventArgs e)
@@ -34,12 +26,12 @@ namespace Managing_Car_Program
         
         private void button_logout_Click(object sender, EventArgs e)
         {
-            Close();
+            Close();          
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new VipCustViewForm(vc).Show();
+            new VipCustViewForm().Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -65,7 +57,6 @@ namespace Managing_Car_Program
                 DataManager.Cars[i].parkingTime = DateTime.Now;
                 DataManager.Cars[i].phoneNumber = "";
             }
-
             DataManager.Save();
         }
     }

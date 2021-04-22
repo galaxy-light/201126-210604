@@ -202,7 +202,8 @@ namespace Managing_Car_Program.Ui
             this.button_close.Size = new System.Drawing.Size(105, 33);
             this.button_close.TabIndex = 15;
             this.button_close.Text = "닫기";
-            this.button_close.UseVisualStyleBackColor = false;            
+            this.button_close.UseVisualStyleBackColor = false;
+            this.button_close.Click += new System.EventHandler(this.button_close_Click);
             // 
             // button_okay
             // 
@@ -216,7 +217,7 @@ namespace Managing_Car_Program.Ui
             this.button_okay.Name = "button_okay";
             this.button_okay.Size = new System.Drawing.Size(105, 33);
             this.button_okay.TabIndex = 16;
-            this.button_okay.Text = "등록";
+            this.button_okay.Text = "추가";
             this.button_okay.UseVisualStyleBackColor = false;
             this.button_okay.Click += new System.EventHandler(this.button_okay_Click);
             // 
@@ -224,10 +225,9 @@ namespace Managing_Car_Program.Ui
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.Location = new System.Drawing.Point(12, 73);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 13);
+            this.label1.Size = new System.Drawing.Size(195, 15);
             this.label1.TabIndex = 21;
             this.label1.Text = "모든 칸에 -없이 입력하세요";
             // 
@@ -253,7 +253,7 @@ namespace Managing_Car_Program.Ui
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Cust_ma_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "정기권 고객 등록";
+            this.Text = "정기권 고객 관리";
             this.ResumeLayout(false);
             this.PerformLayout();
 

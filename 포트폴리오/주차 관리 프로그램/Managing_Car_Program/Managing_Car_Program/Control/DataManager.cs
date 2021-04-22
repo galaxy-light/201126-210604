@@ -51,6 +51,7 @@ namespace Managing_Car_Program
                     Cars.Add(tempCar);
                 }
             }
+
             catch (Exception ex)
             {
                 System.Windows.Forms.MessageBox.Show(ex.Message);

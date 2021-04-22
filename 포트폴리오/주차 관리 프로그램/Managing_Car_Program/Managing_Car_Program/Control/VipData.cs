@@ -10,22 +10,104 @@ namespace Managing_Car_Program
 {
     class VipData
     {
-        readonly List<VipCust> vips = new List<VipCust>();
+        public static List<VipCust> vips = new List<VipCust>();
 
-        static VipData inst;
-
-        public static VipData getInst()
+        public VipData()
         {
-            if (inst == null)
-            {
-                inst = new VipData();
-            }
-            return inst;
+            Load();
         }
 
-        public List<VipCust> getVips()
+        public static void Load()
         {
-            return vips;
+            vips.Clear();
+            try
+            {
+                string vipsOutput = File.ReadAllText(@"./Vips.xml");
+                XElement vipsxElement = XElement.Parse(vipsOutput);
+                foreach (var item in vipsxElement.Descendants("vip"))
+                {
+                    string vipname = item.Element("vipname").Value;
+                    string vipcarnum = item.Element("vipcarnum").Value;
+                    string vipphone = item.Element("vipphone").Value;
+                    string vipstart = item.Element("vipstart").Value;
+                    string vipend = item.Element("vipend").Value;
+
+                    VipCust tempvip = new VipCust()
+                    {
+                        custnm = vipname,
+                        custcarnum = vipcarnum,
+                        custph = vipphone,
+                        custstart = vipstart,
+                        custend = vipend
+                    };
+                    vips.Add(tempvip);
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+                printlogtxt(ex.Message);
+                printlogtxt(ex.StackTrace);
+
+                Createtxt();
+                Savetxt();
+                Load();
+                //throw;
+            }
+        }
+
+        private static void Createtxt()
+        {
+            string fileName = @"./Vips.xml"; // 파일 생성
+            StreamWriter wr = File.CreateText(fileName); // 파일 없으면 생성
+            wr.Dispose(); // 메모리 해제
+        }
+
+        public static void Savetxt()
+        {
+            string txtsOutput = "";
+            txtsOutput += "<vips>\n";
+            if (vips.Count > 0)
+            {
+                foreach (var item in vips)
+                {
+                    txtsOutput += "<vip>\n";
+                    txtsOutput += $"  <vipname>{item.custnm}</vipname>";
+                    txtsOutput += $"  <vipcarnum>{item.custcarnum}</vipcarnum>";
+                    txtsOutput += $"  <vipphone>{item.custph}</vipphone>";
+                    txtsOutput += $"  <vipstart>{item.custstart}</vipstart>";
+                    txtsOutput += $"  <vipend>{item.custend}</vipend>";
+                    txtsOutput += "</vip>\n";
+                }
+            }
+            else
+            {
+                for (int i = 0; i < 50; i++)
+                {
+                    txtsOutput += "<vip>\n";
+                    txtsOutput += $"  <vipname>{i}</vipname>";
+                    txtsOutput += $"  <vipcarnum></vipcarnum>";
+                    txtsOutput += $"  <vipphone></vipphone>";
+                    txtsOutput += $"  <vipstart></vipstart>";
+                    txtsOutput += $"  <vipend></vipend>";
+                    txtsOutput += "</vip>\n";
+                }                
+            }
+            txtsOutput += "</vips>";
+            File.WriteAllText(@"./Vips.xml", txtsOutput);
+        }
+
+        public static void printlogtxt(string contents, string name = "parkingvips")
+        {
+            DirectoryInfo tx = new DirectoryInfo("parkingvip");
+            if (!tx.Exists)
+            {
+                tx.Create(); // 폴더 생성
+            }
+            using (StreamWriter wr = new StreamWriter(@"parkingvip\" + name + ".txt", true))
+            {
+                wr.WriteLine(contents);
+            }
         }
     }
 }

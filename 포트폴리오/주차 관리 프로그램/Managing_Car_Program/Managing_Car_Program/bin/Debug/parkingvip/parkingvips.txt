@@ -1,0 +1,247 @@
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\.Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.VipData.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 29
+[2021-04-22 16:31:24]이름 : fwe, 차량번호 : fwefwfwefw,전화번호 : efewe,정기권시작일 : few,정기권종료일 : ewfewfwf
+[2021-04-22 16:38:42]추가 버튼 클릭
+[2021-04-22 16:38:47]추가 버튼 클릭
+[2021-04-22 16:40:31]추가 버튼 클릭
+[2021-04-22 16:40:36]추가 버튼 클릭
+[2021-04-22 16:41:57]추가 버튼 클릭
+[2021-04-22 16:42:09]추가 버튼 클릭
+[2021-04-22 16:42:37]추가 버튼 클릭
+[2021-04-22 16:42:41]추가 버튼 클릭
+[2021-04-22 16:43:30]추가 버튼 클릭
+[2021-04-22 16:43:36]추가 버튼 클릭
+[2021-04-22 16:45:56]추가 버튼 클릭
+[2021-04-22 16:46:55]이름 : asfjhg, 차량번호 : scvns,전화번호 : qwrh,정기권시작일 : sdgn,정기권종료일 : qer
+[2021-04-22 17:04:29]이름 : asfjhg, 차량번호 : scvns,전화번호 : qwrh,정기권시작일 : sdgn,정기권종료일 : qer
+[2021-04-22 17:04:30]추가 버튼 클릭
+[2021-04-22 17:29:35]이름 : asfjhg, 차량번호 : scvns,전화번호 : qwrh,정기권시작일 : sdgn,정기권종료일 : qer
+[2021-04-22 17:29:35]이름 : ewf, 차량번호 : fewfff,전화번호 : ewefwe,정기권시작일 : fwef,정기권종료일 : fewfewfe
+[2021-04-22 17:29:36]추가 버튼 클릭
+[2021-04-22 17:29:42]추가 버튼 클릭
+[2021-04-22 17:29:49]추가 버튼 클릭
+[2021-04-22 17:29:56]이름 : asfjhg, 차량번호 : scvns,전화번호 : qwrh,정기권시작일 : sdgn,정기권종료일 : qer
+[2021-04-22 17:29:56]이름 : ewf, 차량번호 : fewfff,전화번호 : ewefwe,정기권시작일 : fwef,정기권종료일 : fewfewfe
+[2021-04-22 17:29:56]이름 : wefwf, 차량번호 : fewf,전화번호 : ewfew,정기권시작일 : efwf,정기권종료일 : wefewfewfew
+[2021-04-22 17:29:56]이름 : ef, 차량번호 : ef,전화번호 : fefe,정기권시작일 : fef,정기권종료일 : ffff
+[2021-04-22 17:29:56]이름 : ee, 차량번호 : fef,전화번호 : fef,정기권시작일 : fefefe,정기권종료일 : fefe

@@ -16,18 +16,10 @@ namespace Managing_Car_Program
         string adminid = "admin";
         string adminpw = "wnck";
 
-        VipData vc;
-
         public LogForm()
         {
             InitializeComponent();
         }
-
-        public LogForm(VipData vc)
-        {
-            InitializeComponent();
-            this.vc = vc;
-        }      
 
         private void button_login_Click(object sender, EventArgs e)
         {
@@ -35,9 +27,10 @@ namespace Managing_Car_Program
             {
                 if (textBox_pw.Text == adminpw)
                 {
-                    new AdminForm(vc).Show();
+                    new AdminForm().Show();
                     textBox_id.Text = "";
                     textBox_pw.Text = "";
+                    Close();
                 }
                 else
                 {
