@@ -39,7 +39,6 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_start = new Sunny.UI.UISymbolLabel();
             this.uiTextBox_end = new Sunny.UI.UITextBox();
             this.uiSymbolLabel_end = new Sunny.UI.UISymbolLabel();
-            this.button_close = new System.Windows.Forms.Button();
             this.button_okay = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -189,21 +188,6 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_end.TabIndex = 13;
             this.uiSymbolLabel_end.Text = "정기권 종료일";
             // 
-            // button_close
-            // 
-            this.button_close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
-            this.button_close.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_close.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_close.ForeColor = System.Drawing.Color.White;
-            this.button_close.Location = new System.Drawing.Point(367, 415);
-            this.button_close.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.button_close.Name = "button_close";
-            this.button_close.Size = new System.Drawing.Size(105, 33);
-            this.button_close.TabIndex = 15;
-            this.button_close.Text = "닫기";
-            this.button_close.UseVisualStyleBackColor = false;            
-            // 
             // button_okay
             // 
             this.button_okay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
@@ -211,7 +195,7 @@ namespace Managing_Car_Program.Ui
             this.button_okay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_okay.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_okay.ForeColor = System.Drawing.Color.White;
-            this.button_okay.Location = new System.Drawing.Point(241, 415);
+            this.button_okay.Location = new System.Drawing.Point(306, 403);
             this.button_okay.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
             this.button_okay.Name = "button_okay";
             this.button_okay.Size = new System.Drawing.Size(105, 33);
@@ -235,10 +219,9 @@ namespace Managing_Car_Program.Ui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(714, 482);
+            this.ClientSize = new System.Drawing.Size(714, 462);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button_okay);
-            this.Controls.Add(this.button_close);
             this.Controls.Add(this.uiTextBox_end);
             this.Controls.Add(this.uiSymbolLabel_end);
             this.Controls.Add(this.uiTextBox_start);
@@ -271,7 +254,6 @@ namespace Managing_Car_Program.Ui
         private Sunny.UI.UISymbolLabel uiSymbolLabel_start;
         private Sunny.UI.UITextBox uiTextBox_end;
         private Sunny.UI.UISymbolLabel uiSymbolLabel_end;
-        private System.Windows.Forms.Button button_close;
         private System.Windows.Forms.Button button_okay;
         private System.Windows.Forms.Label label1;
     }

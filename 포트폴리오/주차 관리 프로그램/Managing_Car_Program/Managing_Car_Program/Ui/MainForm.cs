@@ -132,7 +132,7 @@ namespace Managing_Car_Program
         private void uiSymbolButton1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("관리자모드로 진입합니다.");
-            new LogForm().Show();
+            new LogForm().ShowDialog();
             dataGridView_main.DataSource = null;
             dataGridView_main.DataSource = DataManager.Cars;
         }

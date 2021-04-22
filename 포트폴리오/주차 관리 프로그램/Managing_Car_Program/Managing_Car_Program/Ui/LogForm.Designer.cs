@@ -53,7 +53,7 @@ namespace Managing_Car_Program
             this.textBox_pw.Name = "textBox_pw";
             this.textBox_pw.PasswordChar = '*';
             this.textBox_pw.Size = new System.Drawing.Size(148, 21);
-            this.textBox_pw.TabIndex = 1;
+            this.textBox_pw.TabIndex = 1;            
             this.textBox_pw.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_pw_KeyPress);
             // 
             // label_id

@@ -23,11 +23,32 @@ namespace Managing_Car_Program
 
         private void button_login_Click(object sender, EventArgs e)
         {
+            loginsec();
+        }
+
+        private void textBox_id_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Tab)
+            {
+                textBox_pw.Focus();
+            }
+        }
+
+        private void textBox_pw_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                button_login.Focus();
+            }
+        }
+
+        private void loginsec()
+        {
             if (textBox_id.Text == adminid)
             {
                 if (textBox_pw.Text == adminpw)
                 {
-                    new AdminForm().Show();
+                    new AdminForm().ShowDialog();
                     textBox_id.Text = "";
                     textBox_pw.Text = "";
                     Close();
@@ -42,21 +63,5 @@ namespace Managing_Car_Program
                 MessageBox.Show("일치하는 회원정보가 없습니다.");
             }
         }
-
-        private void textBox_id_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Tab)
-            {
-                textBox_pw.Focus();
-            }
-        }
-
-        private void textBox_pw_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Tab)
-            {
-                button_login.Focus();
-            }
-        }        
     }
 }

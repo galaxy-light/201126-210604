@@ -37,7 +37,6 @@ namespace Managing_Car_Program.Ui
             this.columnHeader_phnum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader_start = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader_end = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.button_close = new System.Windows.Forms.Button();
             this.uiSymbolButton_add = new Sunny.UI.UISymbolButton();
             this.uiSymbolButton_del = new Sunny.UI.UISymbolButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -45,8 +44,21 @@ namespace Managing_Car_Program.Ui
             this.uiCheckBox_end_1 = new Sunny.UI.UICheckBox();
             this.uiCheckBox_start_2 = new Sunny.UI.UICheckBox();
             this.uiCheckBox_start_1 = new Sunny.UI.UICheckBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox_end = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox_start = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox_phnum = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox_carnum = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox_name = new System.Windows.Forms.TextBox();
+            this.uiSymbolButton_update_on = new Sunny.UI.UISymbolButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -55,7 +67,7 @@ namespace Managing_Car_Program.Ui
             this.groupBox1.Controls.Add(this.listView1);
             this.groupBox1.Location = new System.Drawing.Point(32, 132);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(743, 283);
+            this.groupBox1.Size = new System.Drawing.Size(777, 259);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "관리";
@@ -69,10 +81,11 @@ namespace Managing_Car_Program.Ui
             this.columnHeader_phnum,
             this.columnHeader_start,
             this.columnHeader_end});
+            this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(6, 20);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(728, 257);
+            this.listView1.Size = new System.Drawing.Size(765, 228);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -106,29 +119,13 @@ namespace Managing_Car_Program.Ui
             // 
             this.columnHeader_start.Text = "정기권 시작일";
             this.columnHeader_start.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader_start.Width = 135;
+            this.columnHeader_start.Width = 160;
             // 
             // columnHeader_end
             // 
             this.columnHeader_end.Text = "정기권 종료일";
             this.columnHeader_end.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader_end.Width = 135;
-            // 
-            // button_close
-            // 
-            this.button_close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
-            this.button_close.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_close.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_close.ForeColor = System.Drawing.Color.White;
-            this.button_close.Location = new System.Drawing.Point(354, 431);
-            this.button_close.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
-            this.button_close.Name = "button_close";
-            this.button_close.Size = new System.Drawing.Size(92, 35);
-            this.button_close.TabIndex = 9;
-            this.button_close.Text = "닫기";
-            this.button_close.UseVisualStyleBackColor = false;
-            this.button_close.Click += new System.EventHandler(this.button_close_Click);
+            this.columnHeader_end.Width = 160;
             // 
             // uiSymbolButton_add
             // 
@@ -138,8 +135,8 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolButton_add.FillHoverColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_add.FillPressColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_add.FillSelectedColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_add.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton_add.Location = new System.Drawing.Point(607, 29);
+            this.uiSymbolButton_add.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiSymbolButton_add.Location = new System.Drawing.Point(526, 29);
             this.uiSymbolButton_add.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolButton_add.Name = "uiSymbolButton_add";
             this.uiSymbolButton_add.RectColor = System.Drawing.Color.Transparent;
@@ -162,8 +159,8 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolButton_del.FillHoverColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_del.FillPressColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_del.FillSelectedColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_del.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton_del.Location = new System.Drawing.Point(694, 29);
+            this.uiSymbolButton_del.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiSymbolButton_del.Location = new System.Drawing.Point(700, 29);
             this.uiSymbolButton_del.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolButton_del.Name = "uiSymbolButton_del";
             this.uiSymbolButton_del.RectColor = System.Drawing.Color.Transparent;
@@ -187,7 +184,7 @@ namespace Managing_Car_Program.Ui
             this.groupBox2.Controls.Add(this.uiCheckBox_start_1);
             this.groupBox2.Location = new System.Drawing.Point(32, 76);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(740, 50);
+            this.groupBox2.Size = new System.Drawing.Size(777, 50);
             this.groupBox2.TabIndex = 21;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "정렬";
@@ -197,7 +194,7 @@ namespace Managing_Car_Program.Ui
             this.uiCheckBox_end_2.BackColor = System.Drawing.Color.White;
             this.uiCheckBox_end_2.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiCheckBox_end_2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiCheckBox_end_2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiCheckBox_end_2.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.uiCheckBox_end_2.Location = new System.Drawing.Point(534, 21);
             this.uiCheckBox_end_2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiCheckBox_end_2.Name = "uiCheckBox_end_2";
@@ -213,7 +210,7 @@ namespace Managing_Car_Program.Ui
             this.uiCheckBox_end_1.BackColor = System.Drawing.Color.White;
             this.uiCheckBox_end_1.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiCheckBox_end_1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiCheckBox_end_1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiCheckBox_end_1.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.uiCheckBox_end_1.Location = new System.Drawing.Point(373, 21);
             this.uiCheckBox_end_1.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiCheckBox_end_1.Name = "uiCheckBox_end_1";
@@ -229,7 +226,7 @@ namespace Managing_Car_Program.Ui
             this.uiCheckBox_start_2.BackColor = System.Drawing.Color.White;
             this.uiCheckBox_start_2.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiCheckBox_start_2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiCheckBox_start_2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiCheckBox_start_2.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.uiCheckBox_start_2.Location = new System.Drawing.Point(212, 21);
             this.uiCheckBox_start_2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiCheckBox_start_2.Name = "uiCheckBox_start_2";
@@ -245,7 +242,7 @@ namespace Managing_Car_Program.Ui
             this.uiCheckBox_start_1.BackColor = System.Drawing.Color.White;
             this.uiCheckBox_start_1.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiCheckBox_start_1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiCheckBox_start_1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiCheckBox_start_1.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.uiCheckBox_start_1.Location = new System.Drawing.Point(51, 21);
             this.uiCheckBox_start_1.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiCheckBox_start_1.Name = "uiCheckBox_start_1";
@@ -256,15 +253,141 @@ namespace Managing_Car_Program.Ui
             this.uiCheckBox_start_1.Text = "시작일 오름차순";
             this.uiCheckBox_start_1.ValueChanged += new Sunny.UI.UICheckBox.OnValueChanged(this.uiCheckBox_start_1_ValueChanged);
             // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.White;
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.textBox_end);
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Controls.Add(this.textBox_start);
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.textBox_phnum);
+            this.groupBox3.Controls.Add(this.label2);
+            this.groupBox3.Controls.Add(this.textBox_carnum);
+            this.groupBox3.Controls.Add(this.label1);
+            this.groupBox3.Controls.Add(this.textBox_name);
+            this.groupBox3.Location = new System.Drawing.Point(32, 397);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(777, 115);
+            this.groupBox3.TabIndex = 22;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "수정";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(411, 76);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(81, 12);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "정기권 종료일";
+            // 
+            // textBox_end
+            // 
+            this.textBox_end.Location = new System.Drawing.Point(498, 73);
+            this.textBox_end.Name = "textBox_end";
+            this.textBox_end.Size = new System.Drawing.Size(100, 21);
+            this.textBox_end.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(178, 76);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 12);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "정기권 시작일";
+            // 
+            // textBox_start
+            // 
+            this.textBox_start.Location = new System.Drawing.Point(265, 73);
+            this.textBox_start.Name = "textBox_start";
+            this.textBox_start.Size = new System.Drawing.Size(100, 21);
+            this.textBox_start.TabIndex = 6;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(516, 38);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 12);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "전화번호";
+            // 
+            // textBox_phnum
+            // 
+            this.textBox_phnum.Location = new System.Drawing.Point(575, 35);
+            this.textBox_phnum.Name = "textBox_phnum";
+            this.textBox_phnum.Size = new System.Drawing.Size(100, 21);
+            this.textBox_phnum.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(301, 38);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "차량번호";
+            // 
+            // textBox_carnum
+            // 
+            this.textBox_carnum.Location = new System.Drawing.Point(360, 35);
+            this.textBox_carnum.Name = "textBox_carnum";
+            this.textBox_carnum.Size = new System.Drawing.Size(100, 21);
+            this.textBox_carnum.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(97, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "이름";
+            // 
+            // textBox_name
+            // 
+            this.textBox_name.Location = new System.Drawing.Point(132, 35);
+            this.textBox_name.Name = "textBox_name";
+            this.textBox_name.Size = new System.Drawing.Size(100, 21);
+            this.textBox_name.TabIndex = 0;
+            // 
+            // uiSymbolButton_update_on
+            // 
+            this.uiSymbolButton_update_on.BackColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_update_on.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton_update_on.FillColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_update_on.FillHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_update_on.FillPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_update_on.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_update_on.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiSymbolButton_update_on.Location = new System.Drawing.Point(613, 29);
+            this.uiSymbolButton_update_on.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiSymbolButton_update_on.Name = "uiSymbolButton_update_on";
+            this.uiSymbolButton_update_on.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_update_on.RectHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_update_on.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_update_on.RectSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_update_on.Size = new System.Drawing.Size(81, 31);
+            this.uiSymbolButton_update_on.Style = Sunny.UI.UIStyle.Custom;
+            this.uiSymbolButton_update_on.Symbol = 61508;
+            this.uiSymbolButton_update_on.SymbolSize = 30;
+            this.uiSymbolButton_update_on.TabIndex = 23;
+            this.uiSymbolButton_update_on.Text = "수정";
+            this.uiSymbolButton_update_on.Click += new System.EventHandler(this.uiSymbolButton_update_on_Click);
+            // 
             // VipCustViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 490);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(838, 528);
+            this.Controls.Add(this.uiSymbolButton_update_on);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.uiSymbolButton_del);
             this.Controls.Add(this.uiSymbolButton_add);
-            this.Controls.Add(this.button_close);
             this.Controls.Add(this.groupBox1);
             this.Name = "VipCustViewForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -272,6 +395,8 @@ namespace Managing_Car_Program.Ui
             this.Load += new System.EventHandler(this.Vip_Customer_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -285,7 +410,6 @@ namespace Managing_Car_Program.Ui
         private System.Windows.Forms.ColumnHeader columnHeader_carnum;
         private System.Windows.Forms.ColumnHeader columnHeader_phnum;
         private System.Windows.Forms.ColumnHeader columnHeader_start;
-        private System.Windows.Forms.Button button_close;
         private Sunny.UI.UISymbolButton uiSymbolButton_add;
         private Sunny.UI.UISymbolButton uiSymbolButton_del;
         private System.Windows.Forms.ColumnHeader columnHeader_end;
@@ -294,5 +418,17 @@ namespace Managing_Car_Program.Ui
         private Sunny.UI.UICheckBox uiCheckBox_end_2;
         private Sunny.UI.UICheckBox uiCheckBox_end_1;
         private Sunny.UI.UICheckBox uiCheckBox_start_2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox_name;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox_end;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox_start;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox_phnum;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox_carnum;
+        private Sunny.UI.UISymbolButton uiSymbolButton_update_on;
     }
 }

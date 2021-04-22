@@ -24,6 +24,12 @@ namespace Managing_Car_Program.Ui
 
         private void Vip_Customer_Load(object sender, EventArgs e)
         {
+            /*textBox_name.Enabled = false;
+            textBox_carnum.Enabled = false;
+            textBox_phnum.Enabled = false;
+            textBox_start.Enabled = false;
+            textBox_end.Enabled = false;*/
+
             VipData.Load();
             showListView();           
             if (VipData.vips.Count == 0)
@@ -126,29 +132,12 @@ namespace Managing_Car_Program.Ui
             // listView.Items[index].Selected = true;
             // listView.Items[index].Focused = true;
             // listView.EnsureVisible(index);
-        }
+        }        
         
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listView1.SelectedItems.Count != 0)
-            {
-                int count = listView1.SelectedItems[0].Index;
-                string name = listView1.Items[count].SubItems[1].Text;
-                string carnum = listView1.Items[count].SubItems[2].Text;
-                string phone = listView1.Items[count].SubItems[3].Text;
-                string start = listView1.Items[count].SubItems[4].Text;
-                string end = listView1.Items[count].SubItems[5].Text;
-            }
-        }
-
-        private void button_close_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
         private void uiSymbolButton_del_Click(object sender, EventArgs e)
         {
             txtwriteLog("삭제 버튼 클릭");
+            
         }
 
         private void uiCheckBox_start_1_ValueChanged(object sender, bool value)
@@ -190,6 +179,43 @@ namespace Managing_Car_Program.Ui
                 uiCheckBox_start_1.Checked = false;
                 uiCheckBox_start_2.Checked = false;
                 uiCheckBox_end_1.Checked = false;
+            }
+        }
+
+        private void uiSymbolButton_update_on_Click(object sender, EventArgs e)
+        {
+            /*textBox_name.Enabled = true;
+            textBox_carnum.Enabled = true;
+            textBox_phnum.Enabled = true;
+            textBox_start.Enabled = true;
+            textBox_end.Enabled = true;*/
+        }
+
+        private void button_update_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void infoupdate()
+        {
+            
+        }
+        
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listView1.SelectedItems.Count != 0)
+            {
+                int count = listView1.SelectedItems[0].Index;
+                string name = listView1.Items[count].SubItems[1].Text;                
+                string carnum = listView1.Items[count].SubItems[2].Text;               
+                string phone = listView1.Items[count].SubItems[3].Text;                
+                string start = listView1.Items[count].SubItems[4].Text;                
+                string end = listView1.Items[count].SubItems[5].Text;                
+                textBox_name.Text = name;
+                textBox_carnum.Text = carnum;
+                textBox_phnum.Text = phone;
+                textBox_start.Text = start;
+                textBox_end.Text = end;
             }
         }
     }

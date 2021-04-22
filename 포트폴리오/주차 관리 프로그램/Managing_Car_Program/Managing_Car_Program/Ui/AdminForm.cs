@@ -22,13 +22,8 @@ namespace Managing_Car_Program
         private void AdminForm_Load(object sender, EventArgs e)
         {
             dataGridView_parkingAd.DataSource = DataManager.Cars;
-        }
+        }        
         
-        private void button_logout_Click(object sender, EventArgs e)
-        {
-            Close();          
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             new VipCustViewForm().Show();
@@ -58,6 +53,6 @@ namespace Managing_Car_Program
                 DataManager.Cars[i].phoneNumber = "";
             }
             DataManager.Save();
-        }
+        }        
     }
 }

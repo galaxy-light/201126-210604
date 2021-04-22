@@ -16,12 +16,7 @@ namespace Managing_Car_Program.Ui
         public Cust_ma_Form()
         {
             InitializeComponent();
-        }
-
-        private void button_close_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
+        }              
 
         private void button_okay_Click(object sender, EventArgs e)
         {
