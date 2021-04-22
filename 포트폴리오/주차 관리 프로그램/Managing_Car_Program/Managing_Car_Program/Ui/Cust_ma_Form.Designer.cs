@@ -1,7 +1,7 @@
 ﻿
 namespace Managing_Car_Program.Ui
 {
-    partial class Ad_cu_Form
+    partial class Cust_ma_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -48,21 +48,21 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_nm.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_nm.FillColor = System.Drawing.Color.White;
             this.uiTextBox_nm.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox_nm.Location = new System.Drawing.Point(225, 128);
+            this.uiTextBox_nm.Location = new System.Drawing.Point(225, 107);
             this.uiTextBox_nm.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.uiTextBox_nm.Maximum = 2147483647D;
             this.uiTextBox_nm.Minimum = -2147483648D;
             this.uiTextBox_nm.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiTextBox_nm.Name = "uiTextBox_nm";
-            this.uiTextBox_nm.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.uiTextBox_nm.Size = new System.Drawing.Size(622, 29);
+            this.uiTextBox_nm.Padding = new System.Windows.Forms.Padding(6);
+            this.uiTextBox_nm.Size = new System.Drawing.Size(403, 29);
             this.uiTextBox_nm.TabIndex = 6;
             // 
             // uiSymbolLabel_nm
             // 
             this.uiSymbolLabel_nm.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_nm.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiSymbolLabel_nm.Location = new System.Drawing.Point(86, 124);
+            this.uiSymbolLabel_nm.Location = new System.Drawing.Point(86, 103);
             this.uiSymbolLabel_nm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uiSymbolLabel_nm.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_nm.Name = "uiSymbolLabel_nm";
@@ -77,21 +77,21 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_carnum.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_carnum.FillColor = System.Drawing.Color.White;
             this.uiTextBox_carnum.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox_carnum.Location = new System.Drawing.Point(225, 196);
+            this.uiTextBox_carnum.Location = new System.Drawing.Point(225, 175);
             this.uiTextBox_carnum.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.uiTextBox_carnum.Maximum = 2147483647D;
             this.uiTextBox_carnum.Minimum = -2147483648D;
             this.uiTextBox_carnum.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiTextBox_carnum.Name = "uiTextBox_carnum";
-            this.uiTextBox_carnum.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.uiTextBox_carnum.Size = new System.Drawing.Size(622, 29);
+            this.uiTextBox_carnum.Padding = new System.Windows.Forms.Padding(6);
+            this.uiTextBox_carnum.Size = new System.Drawing.Size(403, 29);
             this.uiTextBox_carnum.TabIndex = 8;
             // 
             // uiSymbolLabel_carnum
             // 
             this.uiSymbolLabel_carnum.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_carnum.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiSymbolLabel_carnum.Location = new System.Drawing.Point(86, 192);
+            this.uiSymbolLabel_carnum.Location = new System.Drawing.Point(86, 171);
             this.uiSymbolLabel_carnum.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uiSymbolLabel_carnum.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_carnum.Name = "uiSymbolLabel_carnum";
@@ -106,21 +106,21 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_ph.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_ph.FillColor = System.Drawing.Color.White;
             this.uiTextBox_ph.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox_ph.Location = new System.Drawing.Point(225, 266);
+            this.uiTextBox_ph.Location = new System.Drawing.Point(225, 245);
             this.uiTextBox_ph.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.uiTextBox_ph.Maximum = 2147483647D;
             this.uiTextBox_ph.Minimum = -2147483648D;
             this.uiTextBox_ph.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiTextBox_ph.Name = "uiTextBox_ph";
-            this.uiTextBox_ph.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.uiTextBox_ph.Size = new System.Drawing.Size(622, 29);
+            this.uiTextBox_ph.Padding = new System.Windows.Forms.Padding(6);
+            this.uiTextBox_ph.Size = new System.Drawing.Size(403, 29);
             this.uiTextBox_ph.TabIndex = 10;
             // 
             // uiSymbolLabel_ph
             // 
             this.uiSymbolLabel_ph.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_ph.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiSymbolLabel_ph.Location = new System.Drawing.Point(86, 262);
+            this.uiSymbolLabel_ph.Location = new System.Drawing.Point(86, 241);
             this.uiSymbolLabel_ph.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uiSymbolLabel_ph.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_ph.Name = "uiSymbolLabel_ph";
@@ -135,21 +135,21 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_start.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_start.FillColor = System.Drawing.Color.White;
             this.uiTextBox_start.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox_start.Location = new System.Drawing.Point(225, 336);
+            this.uiTextBox_start.Location = new System.Drawing.Point(225, 315);
             this.uiTextBox_start.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.uiTextBox_start.Maximum = 2147483647D;
             this.uiTextBox_start.Minimum = -2147483648D;
             this.uiTextBox_start.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiTextBox_start.Name = "uiTextBox_start";
-            this.uiTextBox_start.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.uiTextBox_start.Size = new System.Drawing.Size(622, 29);
+            this.uiTextBox_start.Padding = new System.Windows.Forms.Padding(6);
+            this.uiTextBox_start.Size = new System.Drawing.Size(403, 29);
             this.uiTextBox_start.TabIndex = 12;
             // 
             // uiSymbolLabel_start
             // 
             this.uiSymbolLabel_start.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_start.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiSymbolLabel_start.Location = new System.Drawing.Point(49, 332);
+            this.uiSymbolLabel_start.Location = new System.Drawing.Point(49, 311);
             this.uiSymbolLabel_start.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uiSymbolLabel_start.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_start.Name = "uiSymbolLabel_start";
@@ -164,21 +164,21 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_end.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_end.FillColor = System.Drawing.Color.White;
             this.uiTextBox_end.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox_end.Location = new System.Drawing.Point(225, 405);
+            this.uiTextBox_end.Location = new System.Drawing.Point(225, 384);
             this.uiTextBox_end.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.uiTextBox_end.Maximum = 2147483647D;
             this.uiTextBox_end.Minimum = -2147483648D;
             this.uiTextBox_end.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiTextBox_end.Name = "uiTextBox_end";
-            this.uiTextBox_end.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.uiTextBox_end.Size = new System.Drawing.Size(622, 29);
+            this.uiTextBox_end.Padding = new System.Windows.Forms.Padding(6);
+            this.uiTextBox_end.Size = new System.Drawing.Size(403, 29);
             this.uiTextBox_end.TabIndex = 14;
             // 
             // uiSymbolLabel_end
             // 
             this.uiSymbolLabel_end.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_end.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiSymbolLabel_end.Location = new System.Drawing.Point(49, 401);
+            this.uiSymbolLabel_end.Location = new System.Drawing.Point(49, 380);
             this.uiSymbolLabel_end.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uiSymbolLabel_end.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_end.Name = "uiSymbolLabel_end";
@@ -195,10 +195,10 @@ namespace Managing_Car_Program.Ui
             this.button_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_close.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_close.ForeColor = System.Drawing.Color.White;
-            this.button_close.Location = new System.Drawing.Point(467, 484);
+            this.button_close.Location = new System.Drawing.Point(367, 455);
             this.button_close.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
             this.button_close.Name = "button_close";
-            this.button_close.Size = new System.Drawing.Size(105, 44);
+            this.button_close.Size = new System.Drawing.Size(105, 33);
             this.button_close.TabIndex = 15;
             this.button_close.Text = "닫기";
             this.button_close.UseVisualStyleBackColor = false;
@@ -211,20 +211,20 @@ namespace Managing_Car_Program.Ui
             this.button_okay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_okay.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_okay.ForeColor = System.Drawing.Color.White;
-            this.button_okay.Location = new System.Drawing.Point(341, 484);
+            this.button_okay.Location = new System.Drawing.Point(241, 455);
             this.button_okay.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
             this.button_okay.Name = "button_okay";
-            this.button_okay.Size = new System.Drawing.Size(105, 44);
+            this.button_okay.Size = new System.Drawing.Size(105, 33);
             this.button_okay.TabIndex = 16;
             this.button_okay.Text = "추가";
             this.button_okay.UseVisualStyleBackColor = false;
             this.button_okay.Click += new System.EventHandler(this.button_okay_Click);
             // 
-            // Ad_cu_Form
+            // Cust_ma_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 562);
+            this.ClientSize = new System.Drawing.Size(714, 526);
             this.Controls.Add(this.button_okay);
             this.Controls.Add(this.button_close);
             this.Controls.Add(this.uiTextBox_end);
@@ -239,7 +239,7 @@ namespace Managing_Car_Program.Ui
             this.Controls.Add(this.uiSymbolLabel_nm);
             this.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Ad_cu_Form";
+            this.Name = "Cust_ma_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "정기권 고객 관리";
             this.ResumeLayout(false);

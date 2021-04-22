@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8546731A-C1ED-4530-862E-816895356AF5}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>Managing_Car_Program</RootNamespace>
     <AssemblyName>Managing_Car_Program</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -75,17 +78,17 @@
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Control\DataManager.cs" />
-    <Compile Include="Ui\Ad_cu_Form.cs">
+    <Compile Include="Ui\Cust_ma_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ui\Ad_cu_Form.Designer.cs">
-      <DependentUpon>Ad_cu_Form.cs</DependentUpon>
+    <Compile Include="Ui\Cust_ma_Form.Designer.cs">
+      <DependentUpon>Cust_ma_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ui\Vip_Customer.cs">
+    <Compile Include="Ui\VipCustViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ui\Vip_Customer.Designer.cs">
-      <DependentUpon>Vip_Customer.cs</DependentUpon>
+    <Compile Include="Ui\VipCustViewForm.Designer.cs">
+      <DependentUpon>VipCustViewForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Ui\LogForm.cs">
       <SubType>Form</SubType>
@@ -105,11 +108,11 @@
     <EmbeddedResource Include="Ui\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ui\Ad_cu_Form.resx">
-      <DependentUpon>Ad_cu_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Ui\Cust_ma_Form.resx">
+      <DependentUpon>Cust_ma_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ui\Vip_Customer.resx">
-      <DependentUpon>Vip_Customer.cs</DependentUpon>
+    <EmbeddedResource Include="Ui\VipCustViewForm.resx">
+      <DependentUpon>VipCustViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ui\LogForm.resx">
       <DependentUpon>LogForm.cs</DependentUpon>

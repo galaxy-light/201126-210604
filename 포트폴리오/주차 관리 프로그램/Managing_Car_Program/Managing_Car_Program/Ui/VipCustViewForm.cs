@@ -11,91 +11,86 @@ using System.Windows.Forms;
 
 namespace Managing_Car_Program.Ui
 {
-    partial class Vip_Customer : MaterialForm
+    partial class VipCustViewForm : MaterialForm
     {
         VipData vc;
 
-        public Vip_Customer()
+        public VipCustViewForm()
         {
             InitializeComponent();
         }
 
-        public Vip_Customer(VipData vc)
+        public VipCustViewForm(VipData vc)
         {
             InitializeComponent();
             this.vc = vc;
         }
 
-        private void button_close_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void uiSymbolButton_add_Click(object sender, EventArgs e)
-        {
-            new Ad_cu_Form().Show();
-        }
-
         private void Vip_Customer_Load(object sender, EventArgs e)
         {
-            showListView();
+            showListView();           
             if (vc.getVips().Count == 0)
             {
                 MessageBox.Show("등록된 고객이 없습니다.");
                 return;
             }
-            infonull();
+            infonull();           
+            timer1.Start();
+            TimeFunction();
         }
+
+        private void TimeFunction()
+        {
+            if (timer1.Interval == 3000) 
+            {
+                //rebinding();
+                Console.WriteLine("test");
+            }           
+        }
+
+        private void rebinding()
+        {
+            listView1.Items.Clear();
+            listView1.Refresh();
+        }
+
+        private void uiSymbolButton_add_Click(object sender, EventArgs e)
+        {
+            new Cust_ma_Form(vc).Show();           
+        }        
 
         private void infonull()
         {
-            List<VipCust> Vips = vc.getVips();
-            for (int i = 0; i < Vips.Count; i++)
+            List<VipCust> vips = vc.getVips();
+            for (int i = 0; i < vips.Count; i++)
             {
-                if (Vips[i].custnm == "")
+                if (vips[i].custnm == "")
                 {
                     MessageBox.Show("이름 정보가 없습니다.");
                     return;
                 }
-                else if (Vips[i].custcarnum == "")
+                else if (vips[i].custcarnum == "")
                 {
                     MessageBox.Show("차량번호 정보가 없습니다.");
                     return;
                 }
-                else if (Vips[i].custph == "")
+                else if (vips[i].custph == "")
                 {
                     MessageBox.Show("전화번호 정보가 없습니다.");
                     return;
                 }
-                else if (Vips[i].custstart == "")
+                else if (vips[i].custstart == "")
                 {
                     MessageBox.Show("시작일 정보가 없습니다.");
                     return;
                 }
-                else if (Vips[i].custend == "")
+                else if (vips[i].custend == "")
                 {
                     MessageBox.Show("종료일 정보가 없습니다.");
                     return;
                 }
             }
-        }
-
-        private void initListView() // 이 클래스에서만 사용해서 private
-        {
-            string[] data = { "1", "홍길동", "010-1234-1234", "조선 한양 홍대감댁", "hong@naver.com" };
-            listView1.Items.Add(new ListViewItem(data));
-
-            for (int i = 0; i < 50; i++)
-            {
-                listView1.Items.Add(new ListViewItem(
-                    new string[] { (i + 2).ToString(), "홍길동", "010-1234-1234", "조선 한양 홍대감댁", "hong@naver.com" }));
-            }
-            setRowColor(listView1, Color.White, Color.LightBlue);
-            int index = listView1.Items.Count - 1;
-            // listView.Items[index].Selected = true;
-            listView1.Items[index].Focused = true;
-            listView1.EnsureVisible(index);
-        }
+        }        
 
         private void setRowColor(ListView list, Color color1, Color color2)
         {
@@ -114,17 +109,17 @@ namespace Managing_Car_Program.Ui
 
         private void showListView()
         {
-            int count = vc.getVips().Count;
-            for (int i = 0; i < count; i++)
+            int temp = vc.getVips().Count;
+            for (int i = 0; i < temp; i++)
             {
-                List<VipCust> Vips = vc.getVips();
+                List<VipCust> vips = vc.getVips();
                 listView1.Items.Add(new ListViewItem(new String[] {
                     (i+1).ToString(),
-                    Vips[i].custnm,
-                    Vips[i].custcarnum,
-                    Vips[i].custph,
-                    Vips[i].custstart,
-                    Vips[i].custend}));
+                    vips[i].custnm,
+                    vips[i].custcarnum,
+                    vips[i].custph,
+                    vips[i].custstart,
+                    vips[i].custend}));
             }
             setRowColor(listView1, Color.White, Color.LightBlue);
             int index = listView1.Items.Count - 1;
@@ -132,5 +127,33 @@ namespace Managing_Car_Program.Ui
             // listView.Items[index].Focused = true;
             // listView.EnsureVisible(index);
         }
+        
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listView1.SelectedItems.Count != 0)
+            {
+                int count = listView1.SelectedItems[0].Index;
+                string name = listView1.Items[count].SubItems[1].Text;
+                string carnum = listView1.Items[count].SubItems[2].Text;
+                string phone = listView1.Items[count].SubItems[3].Text;
+                string start = listView1.Items[count].SubItems[4].Text;
+                string end = listView1.Items[count].SubItems[5].Text;
+            }
+        }
+
+        private void button_close_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void uiSymbolButton_refresh_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            
+        }       
     }
 }

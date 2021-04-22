@@ -16,6 +16,8 @@ namespace Managing_Car_Program
         private DateTime parkingin;
         private DateTime parkingout;
 
+        VipData vc = new VipData();
+
         public MainForm()
         {
             InitializeComponent();
@@ -41,17 +43,7 @@ namespace Managing_Car_Program
         private void timer1_Tick(object sender, EventArgs e)
         {
             WhatTime.Text = "현재 시간 : " + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");           
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            
-        }
+        }               
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -141,7 +133,8 @@ namespace Managing_Car_Program
 
         private void uiSymbolButton1_Click(object sender, EventArgs e)
         {
-            new LogForm().ShowDialog();
+            MessageBox.Show("관리자모드로 진입합니다.");
+            new LogForm(vc).Show();
             dataGridView_main.DataSource = null;
             dataGridView_main.DataSource = DataManager.Cars;
         }

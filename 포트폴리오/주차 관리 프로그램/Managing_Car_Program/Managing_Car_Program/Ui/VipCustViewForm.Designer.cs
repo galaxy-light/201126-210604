@@ -1,7 +1,7 @@
 ﻿
 namespace Managing_Car_Program.Ui
 {
-    partial class Vip_Customer
+    partial class VipCustViewForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@ namespace Managing_Car_Program.Ui
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader_num = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -36,10 +37,12 @@ namespace Managing_Car_Program.Ui
             this.columnHeader_carnum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader_phnum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader_start = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader_end = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.button_close = new System.Windows.Forms.Button();
             this.uiSymbolButton_add = new Sunny.UI.UISymbolButton();
             this.uiSymbolButton_del = new Sunny.UI.UISymbolButton();
-            this.columnHeader_end = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.uiSymbolButton_refresh = new Sunny.UI.UISymbolButton();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +73,7 @@ namespace Managing_Car_Program.Ui
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // columnHeader_num
             // 
@@ -100,6 +104,12 @@ namespace Managing_Car_Program.Ui
             this.columnHeader_start.Text = "정기권 시작일";
             this.columnHeader_start.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader_start.Width = 135;
+            // 
+            // columnHeader_end
+            // 
+            this.columnHeader_end.Text = "정기권 종료일";
+            this.columnHeader_end.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader_end.Width = 135;
             // 
             // button_close
             // 
@@ -164,22 +174,46 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolButton_del.TabIndex = 18;
             this.uiSymbolButton_del.Text = "삭제";
             // 
-            // columnHeader_end
+            // uiSymbolButton_refresh
             // 
-            this.columnHeader_end.Text = "정기권 종료일";
-            this.columnHeader_end.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader_end.Width = 135;
+            this.uiSymbolButton_refresh.BackColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton_refresh.FillColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.FillHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.FillPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiSymbolButton_refresh.Location = new System.Drawing.Point(178, 29);
+            this.uiSymbolButton_refresh.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiSymbolButton_refresh.Name = "uiSymbolButton_refresh";
+            this.uiSymbolButton_refresh.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.RectHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.RectSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.Size = new System.Drawing.Size(27, 31);
+            this.uiSymbolButton_refresh.Style = Sunny.UI.UIStyle.Custom;
+            this.uiSymbolButton_refresh.Symbol = 61473;
+            this.uiSymbolButton_refresh.SymbolSize = 30;
+            this.uiSymbolButton_refresh.TabIndex = 19;
+            this.uiSymbolButton_refresh.Click += new System.EventHandler(this.uiSymbolButton_refresh_Click);
             // 
-            // Vip_Customer
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // VipCustViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 473);
+            this.Controls.Add(this.uiSymbolButton_refresh);
             this.Controls.Add(this.uiSymbolButton_del);
             this.Controls.Add(this.uiSymbolButton_add);
             this.Controls.Add(this.button_close);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Vip_Customer";
+            this.Name = "VipCustViewForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "정기권 고객 리스트";
             this.Load += new System.EventHandler(this.Vip_Customer_Load);
@@ -201,5 +235,7 @@ namespace Managing_Car_Program.Ui
         private Sunny.UI.UISymbolButton uiSymbolButton_add;
         private Sunny.UI.UISymbolButton uiSymbolButton_del;
         private System.Windows.Forms.ColumnHeader columnHeader_end;
+        private Sunny.UI.UISymbolButton uiSymbolButton_refresh;
+        private System.Windows.Forms.Timer timer1;
     }
 }

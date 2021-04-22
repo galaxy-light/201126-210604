@@ -11,15 +11,23 @@ using System.Windows.Forms;
 
 namespace Managing_Car_Program
 {
-    public partial class LogForm : MaterialForm
+    partial class LogForm : MaterialForm
     {
         string adminid = "admin";
         string adminpw = "wnck";
+
+        VipData vc;
 
         public LogForm()
         {
             InitializeComponent();
         }
+
+        public LogForm(VipData vc)
+        {
+            InitializeComponent();
+            this.vc = vc;
+        }      
 
         private void button_login_Click(object sender, EventArgs e)
         {
@@ -27,7 +35,7 @@ namespace Managing_Car_Program
             {
                 if (textBox_pw.Text == adminpw)
                 {
-                    new AdminForm().Show();
+                    new AdminForm(vc).Show();
                     textBox_id.Text = "";
                     textBox_pw.Text = "";
                 }

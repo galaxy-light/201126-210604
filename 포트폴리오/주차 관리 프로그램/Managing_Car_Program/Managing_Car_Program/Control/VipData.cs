@@ -10,7 +10,7 @@ namespace Managing_Car_Program
 {
     class VipData
     {
-        List<VipCust> Vips = new List<VipCust>();
+        readonly List<VipCust> vips = new List<VipCust>();
 
         static VipData inst;
 
@@ -25,7 +25,7 @@ namespace Managing_Car_Program
 
         public List<VipCust> getVips()
         {
-            return Vips;
+            return vips;
         }
     }
 }
