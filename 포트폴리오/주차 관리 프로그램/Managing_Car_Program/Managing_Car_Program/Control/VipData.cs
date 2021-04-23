@@ -85,7 +85,7 @@ namespace Managing_Car_Program
                 for (int i = 0; i < 50; i++)
                 {
                     txtsOutput += "<vip>\n";
-                    txtsOutput += $"  <vipname>{i}</vipname>";
+                    txtsOutput += $"  <vipname></vipname>";
                     txtsOutput += $"  <vipcarnum></vipcarnum>";
                     txtsOutput += $"  <vipphone></vipphone>";
                     txtsOutput += $"  <vipstart></vipstart>";

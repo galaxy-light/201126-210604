@@ -37,6 +37,8 @@ D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car
 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CopyComplete
 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_ma_Form.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.VipCustViewForm.resources
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe.config
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.pdb
@@ -46,7 +48,6 @@ C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로�
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.Common.dll
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.dll
-C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.AdminForm.resources
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_ma_Form.resources
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.VipCustViewForm.resources
@@ -58,5 +59,4 @@ C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로�
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CopyComplete
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
-D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_ma_Form.resources
-D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.VipCustViewForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache

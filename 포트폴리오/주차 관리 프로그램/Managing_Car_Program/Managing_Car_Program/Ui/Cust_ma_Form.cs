@@ -59,6 +59,46 @@ namespace Managing_Car_Program.Ui
             {
                 MessageBox.Show("정보를 등록하지 못했습니다.");
             }
-        } 
+        }
+
+        private void uiTextBox_nm_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Tab)
+            {
+                uiTextBox_nm.Focus();
+            }
+        }
+
+        private void uiTextBox_carnum_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Tab)
+            {
+                uiTextBox_carnum.Focus();
+            }
+        }
+
+        private void uiTextBox_ph_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Tab)
+            {
+                uiSymbolLabel_start.Focus();
+            }
+        }
+
+        private void uiTextBox_start_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Tab)
+            {
+                uiSymbolLabel_end.Focus();
+            }
+        }
+
+        private void uiTextBox_end_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                button_okay.Focus();
+            }
+        }
     } 
 }

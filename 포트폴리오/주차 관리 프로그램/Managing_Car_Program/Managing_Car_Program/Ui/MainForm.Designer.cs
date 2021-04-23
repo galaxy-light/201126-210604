@@ -72,11 +72,11 @@ namespace Managing_Car_Program
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridView_main = new System.Windows.Forms.DataGridView();
+            this.parkingCarBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.uiSymbolButton_help = new Sunny.UI.UISymbolButton();
             this.parkingSpotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parkingTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.parkingCarBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -294,7 +294,7 @@ namespace Managing_Car_Program
             this.button_check2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_check2.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_check2.ForeColor = System.Drawing.Color.White;
-            this.button_check2.Location = new System.Drawing.Point(179, 65);
+            this.button_check2.Location = new System.Drawing.Point(172, 87);
             this.button_check2.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.button_check2.Name = "button_check2";
             this.button_check2.Size = new System.Drawing.Size(84, 30);
@@ -306,7 +306,7 @@ namespace Managing_Car_Program
             // label_spot_num
             // 
             this.label_spot_num.AutoSize = true;
-            this.label_spot_num.Location = new System.Drawing.Point(126, 74);
+            this.label_spot_num.Location = new System.Drawing.Point(119, 96);
             this.label_spot_num.Margin = new System.Windows.Forms.Padding(0);
             this.label_spot_num.Name = "label_spot_num";
             this.label_spot_num.Size = new System.Drawing.Size(15, 14);
@@ -316,7 +316,7 @@ namespace Managing_Car_Program
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(20, 74);
+            this.label8.Location = new System.Drawing.Point(13, 96);
             this.label8.Margin = new System.Windows.Forms.Padding(0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(87, 14);
@@ -325,7 +325,7 @@ namespace Managing_Car_Program
             // 
             // textBox_spotnum
             // 
-            this.textBox_spotnum.Location = new System.Drawing.Point(91, 33);
+            this.textBox_spotnum.Location = new System.Drawing.Point(84, 43);
             this.textBox_spotnum.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.textBox_spotnum.Name = "textBox_spotnum";
             this.textBox_spotnum.Size = new System.Drawing.Size(78, 23);
@@ -338,7 +338,7 @@ namespace Managing_Car_Program
             this.button_check1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_check1.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_check1.ForeColor = System.Drawing.Color.White;
-            this.button_check1.Location = new System.Drawing.Point(179, 28);
+            this.button_check1.Location = new System.Drawing.Point(172, 38);
             this.button_check1.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.button_check1.Name = "button_check1";
             this.button_check1.Size = new System.Drawing.Size(84, 30);
@@ -350,7 +350,7 @@ namespace Managing_Car_Program
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 38);
+            this.label5.Location = new System.Drawing.Point(13, 48);
             this.label5.Margin = new System.Windows.Forms.Padding(0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 14);
@@ -561,6 +561,10 @@ namespace Managing_Car_Program
             this.dataGridView_main.TabIndex = 6;
             this.dataGridView_main.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_main_CellClick);
             // 
+            // parkingCarBindingSource
+            // 
+            this.parkingCarBindingSource.DataSource = typeof(Managing_Car_Program.ParkingCar);
+            // 
             // uiSymbolButton_help
             // 
             this.uiSymbolButton_help.BackColor = System.Drawing.Color.Transparent;
@@ -603,11 +607,7 @@ namespace Managing_Car_Program
             this.parkingTimeDataGridViewTextBoxColumn.DataPropertyName = "parkingTime";
             this.parkingTimeDataGridViewTextBoxColumn.HeaderText = "주차/출차시간";
             this.parkingTimeDataGridViewTextBoxColumn.Name = "parkingTimeDataGridViewTextBoxColumn";
-            this.parkingTimeDataGridViewTextBoxColumn.Width = 250;
-            // 
-            // parkingCarBindingSource
-            // 
-            this.parkingCarBindingSource.DataSource = typeof(Managing_Car_Program.ParkingCar);
+            this.parkingTimeDataGridViewTextBoxColumn.Width = 257;
             // 
             // MainForm
             // 
@@ -691,10 +691,10 @@ namespace Managing_Car_Program
         private System.Windows.Forms.DataGridView dataGridView_main;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private Sunny.UI.UISymbolButton uiSymbolButton_help;
         private System.Windows.Forms.DataGridViewTextBoxColumn parkingSpotDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn carNumberDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn parkingTimeDataGridViewTextBoxColumn;
-        private Sunny.UI.UISymbolButton uiSymbolButton_help;
     }
 }
 

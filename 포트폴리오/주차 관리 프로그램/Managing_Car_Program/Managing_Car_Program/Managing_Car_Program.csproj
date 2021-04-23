@@ -69,6 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\Autoclosingmbox.cs" />
     <Compile Include="Control\VipData.cs" />
     <Compile Include="Model\VipCust.cs" />
     <Compile Include="Ui\AdminForm.cs">

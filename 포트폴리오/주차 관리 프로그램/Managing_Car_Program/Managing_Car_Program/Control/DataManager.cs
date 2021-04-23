@@ -103,7 +103,7 @@ namespace Managing_Car_Program
             }
             else // xml 파일에 아무것도 없는 경우
             {
-                for (int i = 1; i <= 5; i++)
+                for (int i = 1; i <= 30; i++)
                 {
                     booksOutput += "<car>\n";
                     booksOutput += $"  <parkingSpot>{i}</parkingSpot>";

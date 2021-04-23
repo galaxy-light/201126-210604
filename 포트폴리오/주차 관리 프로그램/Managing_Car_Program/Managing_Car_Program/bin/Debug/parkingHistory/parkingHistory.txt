@@ -1423,3 +1423,22 @@
 [2021-04-22 22:53:01]주차 버튼 클릭
 [2021-04-22 22:53:04]주차 버튼 클릭
 [2021-04-22 22:53:07]주차 버튼 클릭
+[2021-04-23 14:40:55]주차 버튼 클릭
+[2021-04-23 14:40:58]출차 버튼 클릭
+[2021-04-23 14:40:58]주차공간 : 1 차량번호 : dfwefewf을 출차합니다.
+[2021-04-23 14:44:44]조회 버튼 클릭
+[2021-04-23 14:44:46]해당 공간에 주차된 차량이 없습니다.
+'C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\DataManager.cs:줄 28
+[2021-04-23 17:29:11]주차 버튼 클릭
+[2021-04-23 17:29:12]차량 번호를 입력하세요.
+[2021-04-23 17:29:13]출차 버튼 클릭
+[2021-04-23 17:29:14]주차 공간에 차량이 없습니다.
+[2021-04-23 17:29:16]조회 버튼 클릭
+[2021-04-23 17:29:16]해당 공간에 주차된 차량이 없습니다.

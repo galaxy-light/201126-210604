@@ -57,6 +57,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_nm.Padding = new System.Windows.Forms.Padding(6);
             this.uiTextBox_nm.Size = new System.Drawing.Size(403, 29);
             this.uiTextBox_nm.TabIndex = 6;
+            this.uiTextBox_nm.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_nm_KeyPress);
             // 
             // uiSymbolLabel_nm
             // 
@@ -86,6 +87,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_carnum.Padding = new System.Windows.Forms.Padding(6);
             this.uiTextBox_carnum.Size = new System.Drawing.Size(403, 29);
             this.uiTextBox_carnum.TabIndex = 8;
+            this.uiTextBox_carnum.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_carnum_KeyPress);
             // 
             // uiSymbolLabel_carnum
             // 
@@ -115,6 +117,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_ph.Padding = new System.Windows.Forms.Padding(6);
             this.uiTextBox_ph.Size = new System.Drawing.Size(403, 29);
             this.uiTextBox_ph.TabIndex = 10;
+            this.uiTextBox_ph.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_ph_KeyPress);
             // 
             // uiSymbolLabel_ph
             // 
@@ -144,6 +147,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_start.Padding = new System.Windows.Forms.Padding(6);
             this.uiTextBox_start.Size = new System.Drawing.Size(403, 29);
             this.uiTextBox_start.TabIndex = 12;
+            this.uiTextBox_start.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_start_KeyPress);
             // 
             // uiSymbolLabel_start
             // 
@@ -173,6 +177,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_end.Padding = new System.Windows.Forms.Padding(6);
             this.uiTextBox_end.Size = new System.Drawing.Size(403, 29);
             this.uiTextBox_end.TabIndex = 14;
+            this.uiTextBox_end.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_end_KeyPress);
             // 
             // uiSymbolLabel_end
             // 

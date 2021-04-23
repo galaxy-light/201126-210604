@@ -26,7 +26,7 @@ namespace Managing_Car_Program
         
         private void button2_Click(object sender, EventArgs e)
         {
-            new VipCustViewForm().Show();
+            new VipCustViewForm().ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
