@@ -1,4 +1,5 @@
-﻿using MaterialSkin.Controls;
+﻿using Managing_Car_Program.Ui;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,11 +15,13 @@ namespace Managing_Car_Program
     public partial class MainForm : MaterialForm
     {
         private DateTime parkingin;
-        private DateTime parkingout;      
+        private DateTime parkingout;
 
         public MainForm()
         {
             InitializeComponent();
+
+            starttimer();
 
             /*List<ParkingCar> cars = new List<ParkingCar>();
             cars.Add(new ParkingCar() { parkingSpot = 1, carNumber = "30고1234",
@@ -34,14 +37,29 @@ namespace Managing_Car_Program
 
             textBox_num.Text = DataManager.Cars[0].parkingSpot.ToString();
             textBox_carnum.Text = DataManager.Cars[0].carNumber.ToString();
-            textBox_carnm.Text = DataManager.Cars[0].driverName.ToString();
-            textBox_carph.Text = DataManager.Cars[0].phoneNumber.ToString();
+            /*textBox_cust_start.Text = DataManager.Cars[0].driverName.ToString();
+            textBox_cust_end.Text = DataManager.Cars[0].phoneNumber.ToString();*/
         }        
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            WhatTime.Text = "현재 시간 : " + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");           
-        }               
+            WhatTime.Text = "현재 시간 : " + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
+            timertext();
+        }
+
+        int count = 0;
+        private void timertext()
+        {
+            count = count + 1;           
+            textBox_cust_start.Text = "";
+            textBox_cust_end.Text = "";            
+        }
+
+        private void starttimer()
+        {
+            timer1.Interval = 10000;
+            timer1.Enabled = true;
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -98,7 +116,7 @@ namespace Managing_Car_Program
             // Add : 내용이 추가가 되는 형식
 
             // 새로운 것이 맨 위로 올라가는 방식(새로운 내용이 가장 앞에 있게 되는 것)
-            listBox1.Items.Insert(0, logContents); // Insert(0, logContents) : 0번째 인덱스에 logContents을 넣겠다는 뜻
+            listBox.Items.Insert(0, logContents); // Insert(0, logContents) : 0번째 인덱스에 logContents을 넣겠다는 뜻
             // Insert : 내가 원하는 위치에 저장
 
             DataManager.printLog(logContents);
@@ -118,7 +136,7 @@ namespace Managing_Car_Program
             // Add : 내용이 추가가 되는 형식
 
             // 새로운 것이 맨 위로 올라가는 방식(새로운 내용이 가장 앞에 있게 되는 것)
-            listBox1.Items.Insert(0, logContents); // Insert(0, logContents) : 0번째 인덱스에 logContents을 넣겠다는 뜻
+            listBox.Items.Insert(0, logContents); // Insert(0, logContents) : 0번째 인덱스에 logContents을 넣겠다는 뜻
             // Insert : 내가 원하는 위치에 저장
 
             DataManager.printLog(logContents, date);
@@ -143,10 +161,7 @@ namespace Managing_Car_Program
         }
 
         private void button_in_Click(object sender, EventArgs e)
-        {
-            parkingin = DateTime.Now;
-            label_in_time.Text = parkingin.ToString("HH:mm:ss");
-
+        {            
             writeLog("주차 버튼 클릭");
             if (textBox_num.Text.Trim() == "") // Trim : 공백 제거 함수 / 공간 번호가 공백일 경우
             {
@@ -157,6 +172,7 @@ namespace Managing_Car_Program
             {
                 MessageBox.Show("차량 번호를 입력하세요.");
                 writeLog("차량 번호를 입력하세요.");
+                return;
             }
             else
             {
@@ -176,20 +192,33 @@ namespace Managing_Car_Program
                     }
                     else // 아직 차량 정보가 없음
                     {
+                        parkingin = DateTime.Now;
+                        label_in_time.Text = parkingin.ToString("HH:mm:ss");
+
+                        for (int i = 0; i < VipData.vips.Count; i++)
+                        {
+                            if (textBox_carnum.Text == VipData.vips[i].custcarnum)
+                            {
+                                textBox_cust_start.Text = VipData.vips[i].custstart;
+                                textBox_cust_end.Text = VipData.vips[i].custend;                                                          
+                            }                            
+                        }
+
                         // 참조 변수
                         // car : 주소값 : 리스트에 있는 해당하는 주소값을 변경하기 때문에 그 주소의 데이터값만 변경됨
                         car.parkingSpot = int.Parse(textBox_num.Text);
                         car.carNumber = textBox_carnum.Text;
-                        car.driverName = textBox_carnm.Text;
-                        car.phoneNumber = textBox_carph.Text;
+                        /*car.driverName = textBox_cust_start.Text;
+                        car.phoneNumber = textBox_cust_end.Text;*/
                         car.parkingTime = DateTime.Now;
 
                         dataGridView_main.DataSource = null;
-                        dataGridView_main.DataSource = DataManager.Cars;
-                        DataManager.Save();
-
+                        dataGridView_main.DataSource = DataManager.Cars;                       
+                                                
                         string contents = $"주차공간 : {textBox_num.Text}에 차량번호 : {textBox_carnum.Text}을 주차합니다.";
                         writeLog(contents, DateTime.Now.ToString("yyyy_MM_dd")); // 두번째 파라미터값(DateTime.Now.ToString("yyyy_MM_dd"))은 적어도 되고 안적어도 되고
+                        
+                        DataManager.Save();
                     }
                 }
                 catch (Exception ex) // 형변환(문자열 -> 정수)이 안되기 때문에 예외처리
@@ -205,10 +234,7 @@ namespace Managing_Car_Program
         }
 
         private void button_out_Click(object sender, EventArgs e)
-        {
-            parkingout = DateTime.Now.AddMinutes(1);
-            label_out_time.Text = parkingout.ToString("HH:mm:ss");
-
+        {           
             //new ParkingCheckForm().ShowDialog();
             writeLog("출차 버튼 클릭");
             // 참조 변수 개념X
@@ -232,10 +258,23 @@ namespace Managing_Car_Program
                         }
                         else
                         {
+                            for (int j = 0; j < VipData.vips.Count; j++)
+                            {
+                                if (textBox_carnum.Text == VipData.vips[j].custcarnum)
+                                {
+                                    textBox_cust_start.Text = VipData.vips[j].custstart;
+                                    textBox_cust_end.Text = VipData.vips[j].custend;                                                                       
+                                }                                
+                            }
+
+                            parkingout = DateTime.Now.AddMinutes(1);
+                            label_out_time.Text = parkingout.ToString("HH:mm:ss");
+
                             DataManager.Cars[i].carNumber = "";
-                            DataManager.Cars[i].driverName = "";
-                            DataManager.Cars[i].phoneNumber = "";
-                            DataManager.Cars[i].parkingTime = DateTime.Now; // 알아서 처리
+                            /*DataManager.Cars[i].driverName = "";
+                            DataManager.Cars[i].phoneNumber = "";*/
+                            DataManager.Cars[i].parkingTime = DateTime.Now; // 알아서 처리                            
+
                             string contents = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
                             //MessageBox.Show(contents);
                             writeLog(contents);
@@ -311,6 +350,11 @@ namespace Managing_Car_Program
         {
             MessageBox.Show("프로그램 오류시 관리자에게 연락주세요.\r" +
                 "관리자 : 000-0000-0000");
+        }
+
+        private void uiSymbolButton_cust_add_Click(object sender, EventArgs e)
+        {
+            new Cust_cu_add_Form().Show();
         }
     }
 }

@@ -1443,3 +1443,173 @@
 [2021-04-23 17:29:16]조회 버튼 클릭
 [2021-04-23 17:29:16]해당 공간에 주차된 차량이 없습니다.
 [2021-04-23 17:31:09]주차 버튼 클릭
+[2021-04-24 13:49:19]출차 버튼 클릭
+[2021-04-24 13:49:19]주차공간 : 1 차량번호 : 을 출차합니다.
+'D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\DataManager.cs:줄 28
+[2021-04-24 14:04:37]주차 버튼 클릭
+[2021-04-24 14:04:41]주차 버튼 클릭
+[2021-04-24 14:04:42]주차 버튼 클릭
+[2021-04-24 14:04:44]주차 버튼 클릭
+[2021-04-24 16:02:02]주차 버튼 클릭
+[2021-04-24 16:04:04]주차 버튼 클릭
+[2021-04-24 16:04:06]주차 버튼 클릭
+[2021-04-24 16:04:08]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 1
+[2021-04-24 16:04:09]주차 버튼 클릭
+[2021-04-24 16:11:54]주차 버튼 클릭
+[2021-04-24 16:12:08]주차 버튼 클릭
+[2021-04-24 16:12:11]차량 번호를 입력하세요.
+[2021-04-24 16:12:20]주차 버튼 클릭
+[2021-04-24 16:12:21]차량 번호를 입력하세요.
+[2021-04-24 16:12:29]주차 버튼 클릭
+[2021-04-24 16:12:31]차량 번호를 입력하세요.
+[2021-04-24 16:13:06]주차 버튼 클릭
+[2021-04-24 16:13:07]차량 번호를 입력하세요.
+[2021-04-24 16:13:08]주차 버튼 클릭
+[2021-04-24 16:13:09]차량 번호를 입력하세요.
+[2021-04-24 16:14:39]주차 버튼 클릭
+[2021-04-24 16:14:40]차량 번호를 입력하세요.
+[2021-04-24 16:14:43]주차 버튼 클릭
+[2021-04-24 16:14:45]출차 버튼 클릭
+[2021-04-24 16:14:45]주차공간 : 1 차량번호 : 2을 출차합니다.
+[2021-04-24 16:14:52]출차 버튼 클릭
+[2021-04-24 16:14:54]주차 공간에 차량이 없습니다.
+[2021-04-24 16:28:14]주차 버튼 클릭
+[2021-04-24 16:28:35]주차 버튼 클릭
+[2021-04-24 16:29:49]주차 버튼 클릭
+[2021-04-24 16:29:57]출차 버튼 클릭
+[2021-04-24 16:29:57]주차공간 : 1 차량번호 : 123을 출차합니다.
+'D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\DataManager.cs:줄 28
+[2021-04-24 16:35:31]주차 버튼 클릭
+[2021-04-24 16:35:38]주차 버튼 클릭
+[2021-04-24 16:35:39]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 1
+[2021-04-24 16:35:40]주차 버튼 클릭
+[2021-04-24 16:36:00]주차 버튼 클릭
+[2021-04-24 16:36:01]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 1
+[2021-04-24 16:38:11]주차 버튼 클릭
+[2021-04-24 16:38:21]주차 버튼 클릭
+[2021-04-24 16:40:11]주차 버튼 클릭
+[2021-04-24 16:40:19]주차 버튼 클릭
+[2021-04-24 16:40:30]주차 버튼 클릭
+'D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\DataManager.cs:줄 28
+[2021-04-24 17:28:08]주차 버튼 클릭
+[2021-04-24 17:28:21]주차 버튼 클릭
+[2021-04-24 17:28:22]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 1
+[2021-04-24 17:28:25]주차 버튼 클릭
+[2021-04-24 17:35:57]주차 버튼 클릭
+[2021-04-24 17:37:04]주차 버튼 클릭
+[2021-04-24 17:37:14]출차 버튼 클릭
+[2021-04-24 17:37:14]주차공간 : 1 차량번호 : 456을 출차합니다. 정기권 여부 : 
+[2021-04-24 17:37:26]주차 버튼 클릭
+[2021-04-24 17:37:32]출차 버튼 클릭
+[2021-04-24 17:37:32]주차공간 : 1 차량번호 : 을 출차합니다. 정기권 여부 : 
+[2021-04-24 17:38:39]주차 버튼 클릭
+[2021-04-24 17:38:40]차량 번호를 입력하세요.
+[2021-04-24 17:38:42]주차 버튼 클릭
+[2021-04-24 17:39:36]주차 버튼 클릭
+[2021-04-24 17:39:38]차량 번호를 입력하세요.
+[2021-04-24 17:39:40]주차 버튼 클릭
+[2021-04-24 17:39:42]출차 버튼 클릭
+[2021-04-24 17:39:42]주차공간 : 1 차량번호 : qwewq을 출차합니다. 정기권 여부 : 
+[2021-04-24 17:39:46]출차 버튼 클릭
+[2021-04-24 17:39:48]주차 공간에 차량이 없습니다.
+[2021-04-24 17:41:30]주차 버튼 클릭
+[2021-04-24 17:41:35]주차 버튼 클릭
+[2021-04-24 17:41:36]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 1
+[2021-04-24 17:41:37]주차 버튼 클릭
+[2021-04-24 17:41:38]차량 번호를 입력하세요.
+[2021-04-24 17:41:40]주차 버튼 클릭
+[2021-04-24 17:43:05]주차 버튼 클릭
+[2021-04-24 17:43:06]주차 버튼 클릭
+[2021-04-24 17:43:06]주차 버튼 클릭
+[2021-04-24 17:43:07]주차 버튼 클릭
+[2021-04-24 17:43:07]주차 버튼 클릭
+[2021-04-24 17:43:07]주차 버튼 클릭
+[2021-04-24 17:43:07]주차 버튼 클릭
+[2021-04-24 17:47:36]주차 버튼 클릭
+[2021-04-24 17:49:12]주차 버튼 클릭
+[2021-04-24 17:49:51]주차 버튼 클릭
+[2021-04-24 17:50:59]주차 버튼 클릭
+[2021-04-24 17:51:00]차량 번호를 입력하세요.
+[2021-04-24 17:51:02]주차 버튼 클릭
+[2021-04-24 17:52:20]주차 버튼 클릭
+[2021-04-24 17:52:22]주차 버튼 클릭
+[2021-04-24 17:52:23]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 1
+[2021-04-24 17:52:34]주차 버튼 클릭
+[2021-04-24 17:53:18]주차 버튼 클릭
+[2021-04-24 17:53:40]주차 버튼 클릭
+'D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\DataManager.cs:줄 28
+[2021-04-24 17:55:14]주차 버튼 클릭
+[2021-04-24 17:56:17]주차 버튼 클릭
+[2021-04-24 17:56:36]주차 버튼 클릭
+[2021-04-24 17:56:37]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 2
+[2021-04-24 17:56:42]주차 버튼 클릭
+[2021-04-24 17:57:32]조회 버튼 클릭
+[2021-04-24 17:57:33]해당 공간에 주차된 차량이 없습니다.
+[2021-04-24 17:57:34]조회 버튼 클릭
+[2021-04-24 17:57:39]공간번호 : 2에 차량번호 : 2021-01-01이 있습니다.
+[2021-04-24 17:58:58]주차 버튼 클릭
+[2021-04-24 17:59:09]주차 버튼 클릭
+[2021-04-24 18:02:54]주차 버튼 클릭
+[2021-04-24 18:03:36]주차 버튼 클릭
+[2021-04-24 18:07:37]주차 버튼 클릭
+[2021-04-24 18:08:12]주차 버튼 클릭
+[2021-04-24 18:08:46]주차 버튼 클릭
+[2021-04-24 18:09:22]주차 버튼 클릭
+[2021-04-24 18:13:08]주차 버튼 클릭
+[2021-04-24 18:14:18]주차 버튼 클릭
+[2021-04-24 18:14:27]주차 버튼 클릭
+[2021-04-24 18:14:38]주차 버튼 클릭
+[2021-04-24 18:14:41]주차 버튼 클릭
+[2021-04-24 18:14:46]주차 버튼 클릭
+[2021-04-24 18:14:49]주차 버튼 클릭
+'D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\DataManager.cs:줄 28
+[2021-04-24 18:19:11]주차 버튼 클릭
+[2021-04-24 18:19:16]주차 버튼 클릭
+[2021-04-24 18:19:17]주차 버튼 클릭
+[2021-04-24 18:19:18]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 2
+[2021-04-24 18:19:22]주차 버튼 클릭
+[2021-04-24 18:19:50]주차 버튼 클릭
+[2021-04-24 18:19:54]주차 버튼 클릭
+[2021-04-24 18:21:57]주차 버튼 클릭
+[2021-04-24 18:23:36]출차 버튼 클릭
+[2021-04-24 18:23:37]주차 공간에 차량이 없습니다.
+[2021-04-24 18:23:38]출차 버튼 클릭
+[2021-04-24 18:23:40]주차 공간에 차량이 없습니다.
+[2021-04-24 18:23:40]주차 버튼 클릭
+[2021-04-24 18:23:41]출차 버튼 클릭
+[2021-04-24 18:23:41]주차공간 : 7 차량번호 : 01바0101을 출차합니다.

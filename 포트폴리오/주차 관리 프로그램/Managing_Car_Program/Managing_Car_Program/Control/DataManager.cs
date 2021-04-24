@@ -35,8 +35,8 @@ namespace Managing_Car_Program
                     // car의 구성요소 : parkingSpot, carNumber, driverName, phoneNumber, parkingTime
                     int tempParkingSpot = int.Parse(item.Element("parkingSpot").Value); // 각각(parkingSpot)의 값들을 불러와 임시변수인 tempParkingSpot에 저장
                     string tempCarNumber = item.Element("carNumber").Value;
-                    string tempDriverName = item.Element("driverName").Value;
-                    string tempPhoneNumber = item.Element("phoneNumber").Value;
+                    /*string tempDriverName = item.Element("driverName").Value;
+                    string tempPhoneNumber = item.Element("phoneNumber").Value;*/
                     DateTime tempParkingTime = item.Element("parkingTime").Value == "" ?
                         DateTime.Now : DateTime.Parse(item.Element("parkingTime").Value);
 
@@ -44,8 +44,8 @@ namespace Managing_Car_Program
                     {
                         parkingSpot = tempParkingSpot,
                         carNumber = tempCarNumber,
-                        driverName = tempDriverName,
-                        phoneNumber = tempPhoneNumber,
+                        /*driverName = tempDriverName,
+                        phoneNumber = tempPhoneNumber,*/
                         parkingTime = tempParkingTime
                     };
                     Cars.Add(tempCar);
@@ -94,9 +94,9 @@ namespace Managing_Car_Program
                 {
                     booksOutput += "<car>\n";
                     booksOutput += $"  <parkingSpot>{item.parkingSpot}</parkingSpot>";
-                    booksOutput += $"  <carNumber>{item.driverName}</carNumber>";
-                    booksOutput += $"  <driverName>{item.driverName}</driverName>";
-                    booksOutput += $"  <phoneNumber>{item.phoneNumber}</phoneNumber>";
+                    booksOutput += $"  <carNumber>{item.carNumber}</carNumber>";
+                    /*booksOutput += $"  <driverName>{item.driverName}</driverName>";
+                    booksOutput += $"  <phoneNumber>{item.phoneNumber}</phoneNumber>";*/
                     booksOutput += $"  <parkingTime>{item.parkingTime}</parkingTime>";
                     booksOutput += "</car>\n";
                 }
@@ -108,8 +108,8 @@ namespace Managing_Car_Program
                     booksOutput += "<car>\n";
                     booksOutput += $"  <parkingSpot>{i}</parkingSpot>";
                     booksOutput += "  <carNumber></carNumber>";
-                    booksOutput += "  <driverName></driverName>";
-                    booksOutput += "  <phoneNumber></phoneNumber>";
+                    /*booksOutput += "  <driverName></driverName>";
+                    booksOutput += "  <phoneNumber></phoneNumber>";*/
                     booksOutput += "  <parkingTime></parkingTime>";
                     booksOutput += "</car>\n";                    
                 }

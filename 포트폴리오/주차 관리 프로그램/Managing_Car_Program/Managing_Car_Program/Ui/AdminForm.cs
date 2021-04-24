@@ -48,9 +48,9 @@ namespace Managing_Car_Program
             for (int i = 0; i < DataManager.Cars.Count; i++)
             {
                 DataManager.Cars[i].carNumber = "";
-                DataManager.Cars[i].driverName ="";
+                //DataManager.Cars[i].driverName ="";
                 DataManager.Cars[i].parkingTime = DateTime.Now;
-                DataManager.Cars[i].phoneNumber = "";
+                //DataManager.Cars[i].phoneNumber = "";
             }
             DataManager.Save();
         }        

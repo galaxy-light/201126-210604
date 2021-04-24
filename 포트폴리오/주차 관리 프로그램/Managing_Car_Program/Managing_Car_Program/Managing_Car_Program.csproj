@@ -79,11 +79,17 @@
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Control\DataManager.cs" />
-    <Compile Include="Ui\Cust_ma_Form.cs">
+    <Compile Include="Ui\Cust_cu_add_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ui\Cust_ma_Form.Designer.cs">
-      <DependentUpon>Cust_ma_Form.cs</DependentUpon>
+    <Compile Include="Ui\Cust_cu_add_Form.Designer.cs">
+      <DependentUpon>Cust_cu_add_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Cust_ma_add_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\Cust_ma_add_Form.Designer.cs">
+      <DependentUpon>Cust_ma_add_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Ui\VipCustViewForm.cs">
       <SubType>Form</SubType>
@@ -109,8 +115,11 @@
     <EmbeddedResource Include="Ui\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ui\Cust_ma_Form.resx">
-      <DependentUpon>Cust_ma_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Ui\Cust_cu_add_Form.resx">
+      <DependentUpon>Cust_cu_add_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\Cust_ma_add_Form.resx">
+      <DependentUpon>Cust_ma_add_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ui\VipCustViewForm.resx">
       <DependentUpon>VipCustViewForm.cs</DependentUpon>

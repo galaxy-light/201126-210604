@@ -82,7 +82,7 @@ namespace Managing_Car_Program
             }
             else
             {
-                for (int i = 0; i < 50; i++)
+                for (int i = 0; i < VipData.vips.Count; i++)
                 {
                     txtsOutput += "<vip>\n";
                     txtsOutput += $"  <vipname></vipname>";

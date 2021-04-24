@@ -1,7 +1,7 @@
 ﻿
 namespace Managing_Car_Program.Ui
 {
-    partial class Cust_ma_Form
+    partial class Cust_ma_add_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -40,7 +40,6 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_end = new Sunny.UI.UITextBox();
             this.uiSymbolLabel_end = new Sunny.UI.UISymbolLabel();
             this.button_okay = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // uiTextBox_nm
@@ -67,9 +66,10 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_nm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uiSymbolLabel_nm.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_nm.Name = "uiSymbolLabel_nm";
-            this.uiSymbolLabel_nm.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
+            this.uiSymbolLabel_nm.Padding = new System.Windows.Forms.Padding(34, 0, 0, 0);
             this.uiSymbolLabel_nm.Size = new System.Drawing.Size(131, 44);
-            this.uiSymbolLabel_nm.Symbol = 57568;
+            this.uiSymbolLabel_nm.Symbol = 61447;
+            this.uiSymbolLabel_nm.SymbolSize = 30;
             this.uiSymbolLabel_nm.TabIndex = 5;
             this.uiSymbolLabel_nm.Text = "차주이름";
             // 
@@ -97,9 +97,10 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_carnum.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uiSymbolLabel_carnum.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_carnum.Name = "uiSymbolLabel_carnum";
-            this.uiSymbolLabel_carnum.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
+            this.uiSymbolLabel_carnum.Padding = new System.Windows.Forms.Padding(34, 0, 0, 0);
             this.uiSymbolLabel_carnum.Size = new System.Drawing.Size(131, 44);
-            this.uiSymbolLabel_carnum.Symbol = 57568;
+            this.uiSymbolLabel_carnum.Symbol = 61881;
+            this.uiSymbolLabel_carnum.SymbolSize = 30;
             this.uiSymbolLabel_carnum.TabIndex = 7;
             this.uiSymbolLabel_carnum.Text = "차량번호";
             // 
@@ -127,9 +128,10 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_ph.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uiSymbolLabel_ph.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_ph.Name = "uiSymbolLabel_ph";
-            this.uiSymbolLabel_ph.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
+            this.uiSymbolLabel_ph.Padding = new System.Windows.Forms.Padding(34, 0, 0, 0);
             this.uiSymbolLabel_ph.Size = new System.Drawing.Size(131, 44);
-            this.uiSymbolLabel_ph.Symbol = 57568;
+            this.uiSymbolLabel_ph.Symbol = 61589;
+            this.uiSymbolLabel_ph.SymbolSize = 30;
             this.uiSymbolLabel_ph.TabIndex = 9;
             this.uiSymbolLabel_ph.Text = "전화번호";
             // 
@@ -157,9 +159,10 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_start.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uiSymbolLabel_start.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_start.Name = "uiSymbolLabel_start";
-            this.uiSymbolLabel_start.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
+            this.uiSymbolLabel_start.Padding = new System.Windows.Forms.Padding(34, 0, 0, 0);
             this.uiSymbolLabel_start.Size = new System.Drawing.Size(168, 44);
-            this.uiSymbolLabel_start.Symbol = 57568;
+            this.uiSymbolLabel_start.Symbol = 61584;
+            this.uiSymbolLabel_start.SymbolSize = 30;
             this.uiSymbolLabel_start.TabIndex = 11;
             this.uiSymbolLabel_start.Text = "정기권 시작일";
             // 
@@ -187,9 +190,10 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_end.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uiSymbolLabel_end.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_end.Name = "uiSymbolLabel_end";
-            this.uiSymbolLabel_end.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
+            this.uiSymbolLabel_end.Padding = new System.Windows.Forms.Padding(34, 0, 0, 0);
             this.uiSymbolLabel_end.Size = new System.Drawing.Size(168, 44);
-            this.uiSymbolLabel_end.Symbol = 57568;
+            this.uiSymbolLabel_end.Symbol = 61579;
+            this.uiSymbolLabel_end.SymbolSize = 30;
             this.uiSymbolLabel_end.TabIndex = 13;
             this.uiSymbolLabel_end.Text = "정기권 종료일";
             // 
@@ -209,23 +213,11 @@ namespace Managing_Car_Program.Ui
             this.button_okay.UseVisualStyleBackColor = false;
             this.button_okay.Click += new System.EventHandler(this.button_okay_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(12, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 13);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "모든 칸에 -없이 입력하세요";
-            // 
-            // Cust_ma_Form
+            // Cust_ma_add_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(714, 462);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.button_okay);
             this.Controls.Add(this.uiTextBox_end);
             this.Controls.Add(this.uiSymbolLabel_end);
@@ -239,11 +231,10 @@ namespace Managing_Car_Program.Ui
             this.Controls.Add(this.uiSymbolLabel_nm);
             this.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Cust_ma_Form";
+            this.Name = "Cust_ma_add_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "정기권 고객 등록";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -260,6 +251,5 @@ namespace Managing_Car_Program.Ui
         private Sunny.UI.UITextBox uiTextBox_end;
         private Sunny.UI.UISymbolLabel uiSymbolLabel_end;
         private System.Windows.Forms.Button button_okay;
-        private System.Windows.Forms.Label label1;
     }
 }

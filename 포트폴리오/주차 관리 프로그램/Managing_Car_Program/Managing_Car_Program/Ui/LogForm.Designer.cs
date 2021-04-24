@@ -53,7 +53,7 @@ namespace Managing_Car_Program
             this.textBox_pw.Name = "textBox_pw";
             this.textBox_pw.PasswordChar = '*';
             this.textBox_pw.Size = new System.Drawing.Size(148, 21);
-            this.textBox_pw.TabIndex = 1;            
+            this.textBox_pw.TabIndex = 1;
             this.textBox_pw.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_pw_KeyPress);
             // 
             // label_id
@@ -104,6 +104,7 @@ namespace Managing_Car_Program
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(607, 351);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button_login);

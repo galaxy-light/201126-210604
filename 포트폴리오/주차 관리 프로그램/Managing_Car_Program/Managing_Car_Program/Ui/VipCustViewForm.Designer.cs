@@ -424,7 +424,7 @@ namespace Managing_Car_Program.Ui
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(882, 545);
+            this.ClientSize = new System.Drawing.Size(882, 560);
             this.Controls.Add(this.uiSymbolButton_help);
             this.Controls.Add(this.uiSymbolButton_update);
             this.Controls.Add(this.groupBox3);
