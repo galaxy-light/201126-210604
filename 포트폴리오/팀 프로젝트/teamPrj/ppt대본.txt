@@ -1,0 +1,18 @@
+DataBoundItem을 사용, 원하는 정보를 클릭하면 자동으로 해당 탭에 GridView에 저장된 정보를 불러옴.
+정보를 입력하고 ‘추가‘버튼을 클릭 시, 입력한 정보는 추가되고, TextBox에 기입된 정보를 지움
+List의 정보를 클릭하고 내용 ‘수정’ 시, 해당 배열에 있는 정보를 사용자가 작성한 내용으로 수정하고 중복을 방지하기 위해 List를 Reset하고 다시 불러옴.
+ListView의 정보에 순서를 부여(int n), 해당 정보를 클릭하고 ‘삭제’ 클릭 시 RemoveAt(n)을 통해 n번째에 저장된 정보를 삭제하고 중복 방지를 위해 Reset 후 다시 불러옴
+
+
+Contains => 사용자가 입력한 내용을 포함한 모든 정보를 검색(부분검색가능)
+tempComps => comps 안에 있는 정보중에 compId_txtBox에 입력한 텍스트를 포함하고 있는 내용만 검색
+ drugComp_dtGridView.DataSource = null; 리스트를 비운 후
+조건에 맞는 정보들만 담긴 tempComps에 담아
+drugComp_dtGridView.DataSource = tempComps; 를 통해 출력
+
+주문할 약품명을 기재하고 주문할 수량을 입력하면 입력한 이름을 가지고 약을 찾고, 
+회사명도 마찬가지로 리스트에 있는 회사명을 찾아서 일치할 경우에 Order머시기에 저장.
+메시지를 출력하고 주문폼으로 넘어감
+
+사용자가 입력한 정보가 Form Load시 불러지고, GridView에 출력됨
+셀 선택 시 아래 탭에 정보가 자동으로 입력되고, 수량 수정 시 이전에 있던 데이터를 Clear를 이용해 지우고 수정 된 입력 값을 다시 설정하고 GridView에 다시 출력함

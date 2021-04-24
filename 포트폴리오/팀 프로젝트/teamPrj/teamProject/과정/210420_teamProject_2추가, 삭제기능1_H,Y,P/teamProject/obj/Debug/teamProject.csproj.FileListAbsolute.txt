@@ -1,0 +1,13 @@
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\bin\Debug\teamProject.exe.config
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\bin\Debug\teamProject.exe
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\bin\Debug\teamProject.pdb
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\obj\Debug\teamProject.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\obj\Debug\teamProject.MainForm.resources
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\obj\Debug\teamProject.MainDrugs.resources
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\obj\Debug\teamProject.exe
+C:\Users\KB\Desktop\teamproj\teamProject\210420_teamProject_추가, 삭제기능\teamProject\obj\Debug\teamProject.pdb

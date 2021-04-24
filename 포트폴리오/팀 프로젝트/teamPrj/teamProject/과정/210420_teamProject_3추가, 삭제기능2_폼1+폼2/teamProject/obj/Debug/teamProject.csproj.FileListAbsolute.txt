@@ -1,0 +1,13 @@
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\bin\Debug\teamProject.exe.config
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\bin\Debug\teamProject.exe
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\bin\Debug\teamProject.pdb
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\obj\Debug\teamProject.csprojAssemblyReference.cache
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\obj\Debug\teamProject.MainForm.resources
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\obj\Debug\teamProject.MainDrugs.resources
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\obj\Debug\teamProject.exe
+D:\9 임시\Git\teamPrj\teamProject\210420_teamProject_추가, 삭제기능2_폼1+폼2\teamProject\obj\Debug\teamProject.pdb

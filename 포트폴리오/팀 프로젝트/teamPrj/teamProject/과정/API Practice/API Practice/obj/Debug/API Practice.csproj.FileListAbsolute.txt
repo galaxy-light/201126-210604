@@ -1,0 +1,20 @@
+C:\Users\KB\source\repos\API Practice\API Practice\bin\Debug\API Practice.exe.config
+C:\Users\KB\source\repos\API Practice\API Practice\bin\Debug\API Practice.exe
+C:\Users\KB\source\repos\API Practice\API Practice\bin\Debug\API Practice.pdb
+C:\Users\KB\source\repos\API Practice\API Practice\obj\Debug\API Practice.csprojAssemblyReference.cache
+C:\Users\KB\source\repos\API Practice\API Practice\obj\Debug\API_Practice.Form1.resources
+C:\Users\KB\source\repos\API Practice\API Practice\obj\Debug\API_Practice.Properties.Resources.resources
+C:\Users\KB\source\repos\API Practice\API Practice\obj\Debug\API Practice.csproj.GenerateResource.cache
+C:\Users\KB\source\repos\API Practice\API Practice\obj\Debug\API Practice.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\API Practice\API Practice\obj\Debug\API Practice.exe
+C:\Users\KB\source\repos\API Practice\API Practice\obj\Debug\API Practice.pdb
+C:\Users\KB\Desktop\Team_Project\API Practice\API Practice\bin\Debug\API Practice.exe.config
+C:\Users\KB\Desktop\Team_Project\API Practice\API Practice\bin\Debug\API Practice.exe
+C:\Users\KB\Desktop\Team_Project\API Practice\API Practice\bin\Debug\API Practice.pdb
+C:\Users\KB\Desktop\Team_Project\API Practice\API Practice\obj\Debug\API Practice.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\Team_Project\API Practice\API Practice\obj\Debug\API_Practice.Form1.resources
+C:\Users\KB\Desktop\Team_Project\API Practice\API Practice\obj\Debug\API_Practice.Properties.Resources.resources
+C:\Users\KB\Desktop\Team_Project\API Practice\API Practice\obj\Debug\API Practice.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\Team_Project\API Practice\API Practice\obj\Debug\API Practice.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\Team_Project\API Practice\API Practice\obj\Debug\API Practice.exe
+C:\Users\KB\Desktop\Team_Project\API Practice\API Practice\obj\Debug\API Practice.pdb
