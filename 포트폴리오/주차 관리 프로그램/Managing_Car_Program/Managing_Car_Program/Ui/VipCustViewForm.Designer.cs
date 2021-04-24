@@ -58,6 +58,7 @@ namespace Managing_Car_Program.Ui
             this.textBox_name = new System.Windows.Forms.TextBox();
             this.uiSymbolButton_update = new Sunny.UI.UISymbolButton();
             this.uiSymbolButton_help = new Sunny.UI.UISymbolButton();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -419,12 +420,22 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolButton_help.TabIndex = 24;
             this.uiSymbolButton_help.Click += new System.EventHandler(this.uiSymbolButton_help_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 551);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(882, 25);
+            this.panel1.TabIndex = 25;
+            // 
             // VipCustViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(882, 560);
+            this.ClientSize = new System.Drawing.Size(882, 576);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.uiSymbolButton_help);
             this.Controls.Add(this.uiSymbolButton_update);
             this.Controls.Add(this.groupBox3);
@@ -475,5 +486,6 @@ namespace Managing_Car_Program.Ui
         private Sunny.UI.UISymbolButton uiSymbolButton_update;
         private Sunny.UI.UICheckBox uiCheckBox_update;
         private Sunny.UI.UISymbolButton uiSymbolButton_help;
+        private System.Windows.Forms.Panel panel1;
     }
 }

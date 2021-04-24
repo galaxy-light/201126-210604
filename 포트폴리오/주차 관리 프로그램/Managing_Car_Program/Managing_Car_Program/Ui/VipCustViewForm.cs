@@ -38,9 +38,12 @@ namespace Managing_Car_Program.Ui
         private void uiSymbolButton_add_Click(object sender, EventArgs e)
         {
             txtwriteLog("추가 버튼 클릭");
+            string str = $"관리자 - 정기권 추가 버튼 클릭";
+            txtwriteLog(str);
             new Cust_ma_add_Form().ShowDialog();
             showListView();
-            VipData.Savetxt();
+            VipData.Savetxt();           
+            DataManager.Save();
         }
 
         private void infonull()
@@ -69,7 +72,7 @@ namespace Managing_Car_Program.Ui
         private void txtwriteLog(string txtcontents)
         {
             string txtlogcontents = $"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")}]{txtcontents}";
-            VipData.printlogtxt(txtlogcontents);
+            DataManager.printLog(txtlogcontents);
         }
 
         private void setRowColor(ListView list, Color color1, Color color2)
@@ -123,13 +126,13 @@ namespace Managing_Car_Program.Ui
 
         private void infoupdate()
         {
-            //listView1.Items.Clear();  // 이거 주석 처리 안하면 삭제했을 때 0번째 인덱스가 삭제됨
+            //listView1.Items.Clear();  // 이거 주석 처리 안하면 수정했을 때 0번째 인덱스가 수정됨
 
             if (uiCheckBox_update.Enabled == true && textBox_name.Enabled == true && textBox_carnum.Enabled == true &&
             textBox_phnum.Enabled == true && textBox_start.Enabled == true && textBox_end.Enabled == true)
             {
                 if (textBox_name.Text.Trim() != "" && textBox_carnum.Text.Trim() != "" &&
-                textBox_phnum.Text.Trim() != "" && textBox_end.Text.Trim() != "")
+                textBox_phnum.Text.Trim() != "" && textBox_start.Text.Trim() != "" && textBox_end.Text.Trim() != "")
                 {
                     if (listView1.SelectedIndices.Count > 0) // 선택됐을 때
                     {
@@ -147,16 +150,17 @@ namespace Managing_Car_Program.Ui
 
                     MessageBox.Show("정보가 수정되었습니다.");
 
-                    string str = $"번호 : {n}, 이름 : {textBox_name.Text}, 차량번호 : {textBox_carnum.Text}, 전화번호 : {textBox_phnum.Text}," +
+                    string str = $"이름 : {textBox_name.Text}, 차량번호 : {textBox_carnum.Text}, 전화번호 : {textBox_phnum.Text}," +
                         $"정기권 시작일 : {textBox_start.Text}, 정기권 종료일 : {textBox_end.Text}이 수정되었습니다.";
                     txtwriteLog(str);
+                    DataManager.Save();
                     VipData.Savetxt();
                     showListView();
-                }
+                }                
             }
             else
             {
-                MessageBox.Show("수정 방법을 먼저 확인하세요.");
+                MessageBox.Show("수정할 데이터가 없거나 방법을 먼저 확인하세요.");
                 VipData.Savetxt();
                 showListView();
             }                         
@@ -170,18 +174,19 @@ namespace Managing_Car_Program.Ui
             {
                 if (listView1.SelectedIndices.Count > 0) // 선택됐을 때
                 {
-                   n = listView1.SelectedIndices[0]; // n에 선택한 인덱스 저장                  
+                    n = listView1.SelectedIndices[0]; // n에 선택한 인덱스 저장                  
+                    
                 }
-                txtwriteLog("삭제 버튼 클릭");
 
+                txtwriteLog("삭제 버튼 클릭");
+                string str = $"데이터를 삭제 했습니다.";
+                txtwriteLog(str);
                 //List<VipCust> vips = VipData.vips;
 
-                VipData.vips.RemoveAt(n);
-
-                string str = $"번호 : {n}이 삭제되었습니다.";
-                txtwriteLog(str);
+                VipData.vips.RemoveAt(n);               
 
                 VipData.Savetxt();
+                DataManager.Save();
                 showListView();
             }
             catch (Exception ex)

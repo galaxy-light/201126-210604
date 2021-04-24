@@ -51,6 +51,10 @@ namespace Managing_Car_Program
                     new AdminForm().ShowDialog();
                     textBox_id.Text = "";
                     textBox_pw.Text = "";
+
+                    string str = $"로그인에 성공했습니다.";
+                    loginwriteLog(str);
+                    DataManager.Save();
                     Close();
                 }
                 else
@@ -62,6 +66,17 @@ namespace Managing_Car_Program
             {
                 MessageBox.Show("일치하는 회원정보가 없습니다.");
             }
+        }
+
+        private void uiSymbolButton_help3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("관리자 ID/PW 문의 : 000-0000-0000");
+        }
+
+        private void loginwriteLog(string txtcontents)
+        {
+            string logcontents = $"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")}]{txtcontents}";
+            DataManager.printLog(logcontents);
         }
     }
 }

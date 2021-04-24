@@ -36,6 +36,8 @@ namespace Managing_Car_Program
             this.label_pw = new System.Windows.Forms.Label();
             this.button_login = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.uiSymbolButton_help3 = new Sunny.UI.UISymbolButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,12 +102,46 @@ namespace Managing_Car_Program
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 348);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(607, 25);
+            this.panel1.TabIndex = 20;
+            // 
+            // uiSymbolButton_help3
+            // 
+            this.uiSymbolButton_help3.BackColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton_help3.FillColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help3.FillHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help3.FillPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help3.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiSymbolButton_help3.Location = new System.Drawing.Point(132, 30);
+            this.uiSymbolButton_help3.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiSymbolButton_help3.Name = "uiSymbolButton_help3";
+            this.uiSymbolButton_help3.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help3.RectHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help3.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help3.RectSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help3.Size = new System.Drawing.Size(36, 31);
+            this.uiSymbolButton_help3.Style = Sunny.UI.UIStyle.Custom;
+            this.uiSymbolButton_help3.Symbol = 62108;
+            this.uiSymbolButton_help3.SymbolSize = 35;
+            this.uiSymbolButton_help3.TabIndex = 21;
+            this.uiSymbolButton_help3.Click += new System.EventHandler(this.uiSymbolButton_help3_Click);
+            // 
             // LogForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(607, 351);
+            this.ClientSize = new System.Drawing.Size(607, 373);
+            this.Controls.Add(this.uiSymbolButton_help3);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button_login);
             this.Controls.Add(this.label_pw);
@@ -129,5 +165,7 @@ namespace Managing_Car_Program
         private System.Windows.Forms.Label label_pw;
         private System.Windows.Forms.Button button_login;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private Sunny.UI.UISymbolButton uiSymbolButton_help3;
     }
 }

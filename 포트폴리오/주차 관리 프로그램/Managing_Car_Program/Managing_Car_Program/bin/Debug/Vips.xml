@@ -1,8 +1,16 @@
 <vips>
 <vip>
-  <vipname>박</vipname>  <vipcarnum>01바0101</vipcarnum>  <vipphone>010-1234-5678</vipphone>  <vipstart>2021-01-01</vipstart>  <vipend>2021-02-28</vipend></vip>
+  <vipname>1</vipname>  <vipcarnum>1</vipcarnum>  <vipphone>1</vipphone>  <vipstart>1</vipstart>  <vipend>1</vipend></vip>
 <vip>
-  <vipname>전</vipname>  <vipcarnum>02바0202</vipcarnum>  <vipphone>010-9874-6612</vipphone>  <vipstart>2021-02-01</vipstart>  <vipend>2021-03-31</vipend></vip>
+  <vipname>2</vipname>  <vipcarnum>2</vipcarnum>  <vipphone>2</vipphone>  <vipstart>2</vipstart>  <vipend>2</vipend></vip>
 <vip>
-  <vipname>김</vipname>  <vipcarnum>03바0303</vipcarnum>  <vipphone>010-1478-2368</vipphone>  <vipstart>2021-05-01</vipstart>  <vipend>2021-08-30</vipend></vip>
+  <vipname>3</vipname>  <vipcarnum>3</vipcarnum>  <vipphone>3</vipphone>  <vipstart>3</vipstart>  <vipend>3</vipend></vip>
+<vip>
+  <vipname>6</vipname>  <vipcarnum>6</vipcarnum>  <vipphone>6</vipphone>  <vipstart>6</vipstart>  <vipend>6</vipend></vip>
+<vip>
+  <vipname>10</vipname>  <vipcarnum>8</vipcarnum>  <vipphone>8</vipphone>  <vipstart>8</vipstart>  <vipend>8</vipend></vip>
+<vip>
+  <vipname>9</vipname>  <vipcarnum>9</vipcarnum>  <vipphone>9</vipphone>  <vipstart>9</vipstart>  <vipend>9</vipend></vip>
+<vip>
+  <vipname>10</vipname>  <vipcarnum>10</vipcarnum>  <vipphone>10</vipphone>  <vipstart>10</vipstart>  <vipend>10</vipend></vip>
 </vips>

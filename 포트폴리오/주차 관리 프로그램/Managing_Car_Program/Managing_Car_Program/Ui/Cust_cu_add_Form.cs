@@ -57,8 +57,9 @@ namespace Managing_Car_Program.Ui
 
                 string str = $"사용자 - 이름 : {uiTextBox_name_text.Text}, 차량번호 : {uiTextBox_car_text.Text}," +
                     $"전화번호 : {uiTextBox_ph_text.Text}, 정기권 시작일 : {uiTextBox_start_text.Text}, 정기권 종료일 : {uiTextBox_end_text.Text}를 구매했습니다.";
-
+                                
                 custwritelog(str);
+                DataManager.Save();
                 Close();
             }
             else
@@ -71,7 +72,7 @@ namespace Managing_Car_Program.Ui
         private void custwritelog(string custcontents)
         {
             string custbuycontents = $"[{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}]{custcontents}";
-            VipData.printlogtxt(custbuycontents);
+            DataManager.printLog(custbuycontents);
         }
 
         private void uiTextBox_name_text_KeyPress(object sender, KeyPressEventArgs e)

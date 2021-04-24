@@ -58,6 +58,7 @@ namespace Managing_Car_Program.Ui
                 string str = $"관리자 - 이름 : {uiTextBox_nm.Text}, 차량번호 : {uiTextBox_carnum.Text}, 전화번호 : {uiTextBox_ph.Text}," +
                         $"정기권 시작일 : {uiTextBox_start.Text}, 정기권 종료일 : {uiTextBox_end.Text}이 등록되었습니다.";
                 txtwriteLog(str);
+                DataManager.Save();
                 Close();
             }
             else
@@ -70,7 +71,7 @@ namespace Managing_Car_Program.Ui
         private void txtwriteLog(string txtcontents)
         {
             string txtlogcontents = $"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")}]{txtcontents}";
-            VipData.printlogtxt(txtlogcontents);
+            DataManager.printLog(txtlogcontents);
         }
 
         private void uiTextBox_nm_KeyPress(object sender, KeyPressEventArgs e)

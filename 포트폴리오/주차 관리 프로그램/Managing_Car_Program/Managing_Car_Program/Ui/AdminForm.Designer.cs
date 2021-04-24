@@ -43,10 +43,9 @@ namespace Managing_Car_Program
             this.button1 = new System.Windows.Forms.Button();
             this.parkingSpotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.driverNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phoneNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parkingTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parkingCarBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_parkingAd)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -59,7 +58,7 @@ namespace Managing_Car_Program
             this.groupBox1.Controls.Add(this.dataGridView_parkingAd);
             this.groupBox1.Location = new System.Drawing.Point(23, 86);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(791, 294);
+            this.groupBox1.Size = new System.Drawing.Size(721, 294);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "주차 현황";
@@ -72,8 +71,6 @@ namespace Managing_Car_Program
             this.dataGridView_parkingAd.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.parkingSpotDataGridViewTextBoxColumn,
             this.carNumberDataGridViewTextBoxColumn,
-            this.driverNameDataGridViewTextBoxColumn,
-            this.phoneNumberDataGridViewTextBoxColumn,
             this.parkingTimeDataGridViewTextBoxColumn});
             this.dataGridView_parkingAd.DataSource = this.parkingCarBindingSource;
             this.dataGridView_parkingAd.GridColor = System.Drawing.Color.Black;
@@ -81,7 +78,7 @@ namespace Managing_Car_Program
             this.dataGridView_parkingAd.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.dataGridView_parkingAd.Name = "dataGridView_parkingAd";
             this.dataGridView_parkingAd.RowTemplate.Height = 23;
-            this.dataGridView_parkingAd.Size = new System.Drawing.Size(754, 262);
+            this.dataGridView_parkingAd.Size = new System.Drawing.Size(683, 262);
             this.dataGridView_parkingAd.TabIndex = 6;
             // 
             // groupBox2
@@ -97,7 +94,7 @@ namespace Managing_Car_Program
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Location = new System.Drawing.Point(23, 386);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(791, 120);
+            this.groupBox2.Size = new System.Drawing.Size(721, 133);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "관리자메뉴";
@@ -109,7 +106,7 @@ namespace Managing_Car_Program
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(522, 23);
+            this.button4.Location = new System.Drawing.Point(482, 30);
             this.button4.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(84, 30);
@@ -121,7 +118,7 @@ namespace Managing_Car_Program
             // label_cctv
             // 
             this.label_cctv.AutoSize = true;
-            this.label_cctv.Location = new System.Drawing.Point(422, 33);
+            this.label_cctv.Location = new System.Drawing.Point(382, 40);
             this.label_cctv.Name = "label_cctv";
             this.label_cctv.Size = new System.Drawing.Size(69, 12);
             this.label_cctv.TabIndex = 19;
@@ -134,7 +131,7 @@ namespace Managing_Car_Program
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(288, 23);
+            this.button3.Location = new System.Drawing.Point(248, 30);
             this.button3.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(84, 30);
@@ -146,7 +143,7 @@ namespace Managing_Car_Program
             // label_pro_update
             // 
             this.label_pro_update.AutoSize = true;
-            this.label_pro_update.Location = new System.Drawing.Point(180, 33);
+            this.label_pro_update.Location = new System.Drawing.Point(140, 40);
             this.label_pro_update.Name = "label_pro_update";
             this.label_pro_update.Size = new System.Drawing.Size(105, 12);
             this.label_pro_update.TabIndex = 17;
@@ -159,7 +156,7 @@ namespace Managing_Car_Program
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(288, 71);
+            this.button2.Location = new System.Drawing.Point(248, 78);
             this.button2.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 30);
@@ -171,7 +168,7 @@ namespace Managing_Car_Program
             // label_black_cust
             // 
             this.label_black_cust.AutoSize = true;
-            this.label_black_cust.Location = new System.Drawing.Point(180, 81);
+            this.label_black_cust.Location = new System.Drawing.Point(140, 88);
             this.label_black_cust.Name = "label_black_cust";
             this.label_black_cust.Size = new System.Drawing.Size(69, 12);
             this.label_black_cust.TabIndex = 15;
@@ -180,7 +177,7 @@ namespace Managing_Car_Program
             // label_menu1
             // 
             this.label_menu1.AutoSize = true;
-            this.label_menu1.Location = new System.Drawing.Point(422, 81);
+            this.label_menu1.Location = new System.Drawing.Point(382, 88);
             this.label_menu1.Name = "label_menu1";
             this.label_menu1.Size = new System.Drawing.Size(97, 12);
             this.label_menu1.TabIndex = 14;
@@ -193,7 +190,7 @@ namespace Managing_Car_Program
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(522, 71);
+            this.button1.Location = new System.Drawing.Point(482, 78);
             this.button1.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 30);
@@ -207,45 +204,42 @@ namespace Managing_Car_Program
             this.parkingSpotDataGridViewTextBoxColumn.DataPropertyName = "parkingSpot";
             this.parkingSpotDataGridViewTextBoxColumn.HeaderText = "주차공간번호";
             this.parkingSpotDataGridViewTextBoxColumn.Name = "parkingSpotDataGridViewTextBoxColumn";
+            this.parkingSpotDataGridViewTextBoxColumn.Width = 130;
             // 
             // carNumberDataGridViewTextBoxColumn
             // 
             this.carNumberDataGridViewTextBoxColumn.DataPropertyName = "carNumber";
             this.carNumberDataGridViewTextBoxColumn.HeaderText = "차량번호";
             this.carNumberDataGridViewTextBoxColumn.Name = "carNumberDataGridViewTextBoxColumn";
-            this.carNumberDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // driverNameDataGridViewTextBoxColumn
-            // 
-            this.driverNameDataGridViewTextBoxColumn.DataPropertyName = "driverName";
-            this.driverNameDataGridViewTextBoxColumn.HeaderText = "운전자명";
-            this.driverNameDataGridViewTextBoxColumn.Name = "driverNameDataGridViewTextBoxColumn";
-            this.driverNameDataGridViewTextBoxColumn.Width = 130;
-            // 
-            // phoneNumberDataGridViewTextBoxColumn
-            // 
-            this.phoneNumberDataGridViewTextBoxColumn.DataPropertyName = "phoneNumber";
-            this.phoneNumberDataGridViewTextBoxColumn.HeaderText = "전화번호";
-            this.phoneNumberDataGridViewTextBoxColumn.Name = "phoneNumberDataGridViewTextBoxColumn";
-            this.phoneNumberDataGridViewTextBoxColumn.Width = 150;
+            this.carNumberDataGridViewTextBoxColumn.Width = 260;
             // 
             // parkingTimeDataGridViewTextBoxColumn
             // 
             this.parkingTimeDataGridViewTextBoxColumn.DataPropertyName = "parkingTime";
             this.parkingTimeDataGridViewTextBoxColumn.HeaderText = "주차/출차시간";
             this.parkingTimeDataGridViewTextBoxColumn.Name = "parkingTimeDataGridViewTextBoxColumn";
-            this.parkingTimeDataGridViewTextBoxColumn.Width = 181;
+            this.parkingTimeDataGridViewTextBoxColumn.Width = 250;
             // 
             // parkingCarBindingSource
             // 
             this.parkingCarBindingSource.DataSource = typeof(Managing_Car_Program.ParkingCar);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 538);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(767, 25);
+            this.panel1.TabIndex = 29;
             // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(838, 540);
+            this.ClientSize = new System.Drawing.Size(767, 563);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "AdminForm";
@@ -265,11 +259,8 @@ namespace Managing_Car_Program
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView_parkingAd;
         private System.Windows.Forms.BindingSource parkingCarBindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn parkingSpotDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carNumberDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn driverNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn phoneNumberDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn parkingTimeDataGridViewTextBoxColumn;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label_menu1;
         private System.Windows.Forms.Button button1;
@@ -279,5 +270,9 @@ namespace Managing_Car_Program
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label_cctv;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn parkingSpotDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn carNumberDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn parkingTimeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Panel panel1;
     }
 }

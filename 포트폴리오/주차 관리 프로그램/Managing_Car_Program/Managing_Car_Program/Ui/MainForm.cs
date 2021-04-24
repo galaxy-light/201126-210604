@@ -1,4 +1,5 @@
-﻿using Managing_Car_Program.Ui;
+﻿using Managing_Car_Program.Control;
+using Managing_Car_Program.Ui;
 using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
@@ -42,9 +43,19 @@ namespace Managing_Car_Program
         }        
 
         private void timer1_Tick(object sender, EventArgs e)
-        {
-            WhatTime.Text = "현재 시간 : " + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
+        {            
             timertext();
+        }
+
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            timenow();
+        }
+
+        private void timenow()
+        {
+            Label_Current_Time.Text = "현재 시간 : " + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
         }
 
         int count = 0;
@@ -68,7 +79,7 @@ namespace Managing_Car_Program
                 MessageBox.Show("번호를 입력해주세요.");
                 return;
             }
-            writeLog("조회 버튼 클릭");
+            //writeLog("조회 버튼 클릭");
             //writeLog("3번 버튼 클릭", DateTime.Now.ToString("yyyy_MM_dd"));
             // 3번 버튼 클릭은 내용이 되고 DateTime.Now.ToString("yyyy_MM_dd")은 파일 이름이 됨
             //writeLog("무", "야호"); // 확인용 writeLog()
@@ -87,6 +98,7 @@ namespace Managing_Car_Program
                         else
                         {
                             string contents = $"공간번호 : {DataManager.Cars[i].parkingSpot}에 차량번호 : {DataManager.Cars[i].carNumber}이 있습니다.";
+                            writeLog($"공간번호 : {DataManager.Cars[i].parkingSpot}에 차량번호 : {DataManager.Cars[i].carNumber}이 있습니다.");
                             MessageBox.Show(contents);
                             writeLog($"{contents}");                           
                         }
@@ -148,9 +160,11 @@ namespace Managing_Car_Program
         }
 
         private void uiSymbolButton1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("관리자모드로 진입합니다.");
-            new LogForm().ShowDialog();
+        {            
+            Autoclosingmbox.showmbox("관리자 모드로 진입합니다.", "알림", 500); // 0.5초뒤 자동 소멸 메세지박스
+            //Autoclosingmbox.showmbox("관리자 모드로 진입합니다.", "알림", 1000);
+            // 관리자 모드로 진입합니다. : 내용 / 알림 : 타이틀 / 500ms : 500밀리초
+            new LogForm().ShowDialog(); // ShowDialog : 데이터 연결 가능 / show : 데이터 연결 불가
             dataGridView_main.DataSource = null;
             dataGridView_main.DataSource = DataManager.Cars;
         }               
@@ -162,7 +176,7 @@ namespace Managing_Car_Program
 
         private void button_in_Click(object sender, EventArgs e)
         {            
-            writeLog("주차 버튼 클릭");
+            //writeLog("주차 버튼 클릭");
             if (textBox_num.Text.Trim() == "") // Trim : 공백 제거 함수 / 공간 번호가 공백일 경우
             {
                 MessageBox.Show("주차 공간을 입력하세요.");
@@ -216,6 +230,7 @@ namespace Managing_Car_Program
                         dataGridView_main.DataSource = DataManager.Cars;                       
                                                 
                         string contents = $"주차공간 : {textBox_num.Text}에 차량번호 : {textBox_carnum.Text}을 주차합니다.";
+                        writeLog($"주차공간 : {textBox_num.Text}에 차량번호 : {textBox_carnum.Text}을 주차합니다.");
                         writeLog(contents, DateTime.Now.ToString("yyyy_MM_dd")); // 두번째 파라미터값(DateTime.Now.ToString("yyyy_MM_dd"))은 적어도 되고 안적어도 되고
                         
                         DataManager.Save();
@@ -236,7 +251,7 @@ namespace Managing_Car_Program
         private void button_out_Click(object sender, EventArgs e)
         {           
             //new ParkingCheckForm().ShowDialog();
-            writeLog("출차 버튼 클릭");
+            //writeLog("출차 버튼 클릭");
             // 참조 변수 개념X
             if (textBox_num.Text.Trim() == "")
             {
@@ -277,6 +292,7 @@ namespace Managing_Car_Program
 
                             string contents = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
                             //MessageBox.Show(contents);
+                            writeLog($"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.");
                             writeLog(contents);
                             dataGridView_main.DataSource = null; // dataGridView1의 데이터를 한 번 지워주고
                             dataGridView_main.DataSource = DataManager.Cars; // 다시 리셋
@@ -288,7 +304,7 @@ namespace Managing_Car_Program
             }
             catch (Exception ex)
             {
-                writeLog("출차 안 됨");
+                writeLog("출차가 되지 않았습니다.");
                 writeLog(ex.Message);
                 writeLog(ex.StackTrace);
                 //throw;

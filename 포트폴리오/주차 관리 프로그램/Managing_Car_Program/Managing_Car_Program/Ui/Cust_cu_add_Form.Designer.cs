@@ -41,6 +41,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_end_text = new Sunny.UI.UITextBox();
             this.uiSymbolLabel_end = new Sunny.UI.UISymbolLabel();
             this.uiSymbolButton_help2 = new Sunny.UI.UISymbolButton();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // button_okay
@@ -221,12 +222,22 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolButton_help2.TabIndex = 17;
             this.uiSymbolButton_help2.Click += new System.EventHandler(this.uiSymbolButton_help2_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 452);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(714, 25);
+            this.panel1.TabIndex = 28;
+            // 
             // Cust_cu_add_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(714, 462);
+            this.ClientSize = new System.Drawing.Size(714, 477);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.uiSymbolButton_help2);
             this.Controls.Add(this.uiTextBox_end_text);
             this.Controls.Add(this.uiSymbolLabel_end);
@@ -260,5 +271,6 @@ namespace Managing_Car_Program.Ui
         private Sunny.UI.UITextBox uiTextBox_end_text;
         private Sunny.UI.UISymbolLabel uiSymbolLabel_end;
         private Sunny.UI.UISymbolButton uiSymbolButton_help2;
+        private System.Windows.Forms.Panel panel1;
     }
 }

@@ -36,9 +36,10 @@ namespace Managing_Car_Program
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("현재 연결된 CCTV가 없습니다.");
-            MessageBox.Show("연결되는 메모장에서 parkingHistory폴더의 parkingHistory파일을 열어주세요.");
-            System.Diagnostics.Process.Start("Notepad.exe");
+            /*MessageBox.Show("연결되는 메모장에서 parkingHistory폴더의 parkingHistory파일을 열어주세요.");
+            System.Diagnostics.Process.Start("Notepad.exe");*/
+
+            new Txt_view_Form().Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -52,7 +53,16 @@ namespace Managing_Car_Program
                 DataManager.Cars[i].parkingTime = DateTime.Now;
                 //DataManager.Cars[i].phoneNumber = "";
             }
+
+            string str = $"데이터를 전체 삭제했습니다.";
+            txtwriteLog(str);
             DataManager.Save();
-        }        
+        }
+
+        private void txtwriteLog(string txtcontents)
+        {
+            string txtlogcontents = $"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")}]{txtcontents}";        
+            DataManager.printLog(txtlogcontents);
+        }
     }
 }

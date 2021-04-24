@@ -57,10 +57,6 @@ namespace Managing_Car_Program
             this.label5 = new System.Windows.Forms.Label();
             this.listBox = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.WhatTime = new System.Windows.Forms.ToolStripStatusLabel();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.Button_adminlog = new Sunny.UI.UISymbolButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -75,6 +71,9 @@ namespace Managing_Car_Program
             this.dataGridView_main = new System.Windows.Forms.DataGridView();
             this.uiSymbolButton_help = new Sunny.UI.UISymbolButton();
             this.uiSymbolButton_cust_add = new Sunny.UI.UISymbolButton();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.Label_Current_Time = new System.Windows.Forms.Label();
             this.parkingSpotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parkingTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -83,10 +82,10 @@ namespace Managing_Car_Program
             this.groupBox4.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.statusStrip1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_main)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.parkingCarBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -391,36 +390,6 @@ namespace Managing_Car_Program
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 0);
-            // 
-            // toolStripStatusLabel2
-            // 
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(0, 0);
-            // 
-            // WhatTime
-            // 
-            this.WhatTime.Name = "WhatTime";
-            this.WhatTime.Size = new System.Drawing.Size(61, 17);
-            this.WhatTime.Text = "WhatTime";
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1,
-            this.toolStripStatusLabel2,
-            this.WhatTime});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 706);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 14, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(980, 22);
-            this.statusStrip1.TabIndex = 0;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
             // Button_adminlog
             // 
             this.Button_adminlog.BackColor = System.Drawing.Color.Transparent;
@@ -620,6 +589,33 @@ namespace Managing_Car_Program
             this.uiSymbolButton_cust_add.TabIndex = 17;
             this.uiSymbolButton_cust_add.Click += new System.EventHandler(this.uiSymbolButton_cust_add_Click);
             // 
+            // timer2
+            // 
+            this.timer2.Enabled = true;
+            this.timer2.Interval = 1000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.panel1.Controls.Add(this.Label_Current_Time);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 703);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(980, 25);
+            this.panel1.TabIndex = 19;
+            // 
+            // Label_Current_Time
+            // 
+            this.Label_Current_Time.AutoSize = true;
+            this.Label_Current_Time.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Label_Current_Time.ForeColor = System.Drawing.Color.White;
+            this.Label_Current_Time.Location = new System.Drawing.Point(380, 6);
+            this.Label_Current_Time.Name = "Label_Current_Time";
+            this.Label_Current_Time.Size = new System.Drawing.Size(83, 13);
+            this.Label_Current_Time.TabIndex = 0;
+            this.Label_Current_Time.Text = "CurrentTime";
+            // 
             // parkingSpotDataGridViewTextBoxColumn
             // 
             this.parkingSpotDataGridViewTextBoxColumn.DataPropertyName = "parkingSpot";
@@ -651,6 +647,7 @@ namespace Managing_Car_Program
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(980, 728);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.uiSymbolButton_cust_add);
             this.Controls.Add(this.uiSymbolButton_help);
             this.Controls.Add(this.groupBox5);
@@ -660,7 +657,6 @@ namespace Managing_Car_Program
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBox);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.statusStrip1);
             this.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -674,15 +670,14 @@ namespace Managing_Car_Program
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_main)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.parkingCarBindingSource)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -705,10 +700,6 @@ namespace Managing_Car_Program
         private System.Windows.Forms.BindingSource parkingCarBindingSource;
         private System.Windows.Forms.TextBox textBox_spotnum;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
-        private System.Windows.Forms.ToolStripStatusLabel WhatTime;
-        private System.Windows.Forms.StatusStrip statusStrip1;
         private Sunny.UI.UISymbolButton Button_adminlog;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label_money;
@@ -736,6 +727,9 @@ namespace Managing_Car_Program
         private System.Windows.Forms.DataGridViewTextBoxColumn carNumberDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn parkingTimeDataGridViewTextBoxColumn;
         private Sunny.UI.UISymbolButton uiSymbolButton_cust_add;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label Label_Current_Time;
     }
 }
 

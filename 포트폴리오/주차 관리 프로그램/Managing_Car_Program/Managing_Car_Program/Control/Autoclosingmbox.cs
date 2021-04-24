@@ -8,6 +8,9 @@ namespace Managing_Car_Program.Control
 {
     class Autoclosingmbox
     {
+        // 코드 참고 : https://naakjii.tistory.com/14
+        // 코드 참고 : https://dotnetdev07.tistory.com/3
+
         [System.Runtime.InteropServices.DllImport("user32.dll", SetLastError = true)]
 
         static extern IntPtr FindWindow(string IpClassName, string IpWindowName);
@@ -33,7 +36,7 @@ namespace Managing_Car_Program.Control
             new Autoclosingmbox(text, caption, timeout);
         }
 
-        // 타이머 발동시 close메세지 출력
+        // 타이머 발동시 자동 소멸 메세지 출력
         void OnTimerElapsed(object state)
         {
             IntPtr mb = FindWindow(null, captions);
@@ -42,9 +45,6 @@ namespace Managing_Car_Program.Control
                 SendMessage(mb, WM_CLOSE, IntPtr.Zero, IntPtr.Zero);
                 timeoutTimer.Dispose();
             }
-
-            // https://naakjii.tistory.com/14
-            // https://dotnetdev07.tistory.com/3
         }
     }
 }
