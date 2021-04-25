@@ -1731,3 +1731,441 @@
 [2021-04-24 22:49:55]이름 : 10, 차량번호 : 10,전화번호 : 10,정기권시작일 : 10,정기권종료일 : 10
 [2021-04-24 22:50:01]백업 데이터를 조회했습니다.
 [2021-04-24 22:50:14]로그인에 성공했습니다.
+[2021-04-25 14:01:18]주차공간 : 1 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:18]주차공간 : 1 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:22]주차공간 : 3 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:22]주차공간 : 3 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:25]주차공간 : 5 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:25]주차공간 : 5 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:27]주차공간 : 2 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:27]주차공간 : 2 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:28]주차공간 : 4 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:28]주차공간 : 4 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:30]주차공간 : 6 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:30]주차공간 : 6 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:32]주차공간 : 7 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:32]주차공간 : 7 차량번호 : 123을 출차합니다.
+[2021-04-25 14:01:34]주차공간 : 1에 차량번호 : 123을 주차합니다.
+[2021-04-25 14:01:49]주차공간 : 2에 차량번호 : 567을 주차합니다.
+[2021-04-25 14:01:54]주차공간 : 3에 차량번호 : 890을 주차합니다.
+[2021-04-25 14:02:54]주차공간 : 4에 차량번호 : 345을 주차합니다.
+[2021-04-25 14:02:59]주차공간 : 5에 차량번호 : 678을 주차합니다.
+[2021-04-25 14:03:13]주차공간 : 6에 차량번호 : 963을 주차합니다.
+[2021-04-25 14:08:56]주차공간 : 1 차량번호 : 963을 출차합니다.
+[2021-04-25 14:08:56]주차공간 : 1 차량번호 : 963을 출차합니다.
+[2021-04-25 14:16:30]주차공간 : 1에 차량번호 : 123을 주차합니다.
+[2021-04-25 14:22:49]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 1
+[2021-04-25 14:22:53]주차공간 : 3 차량번호 : 123을 출차합니다.
+[2021-04-25 14:22:53]주차공간 : 3 차량번호 : 123을 출차합니다.
+[2021-04-25 14:33:19]주차공간 : 1 차량번호 : 123을 출차합니다.
+[2021-04-25 14:33:19]주차공간 : 1 차량번호 : 123을 출차합니다.
+[2021-04-25 14:33:38]주차공간 : 1에 차량번호 : 123을 주차합니다.
+[2021-04-25 14:33:43]주차공간 : 3에 차량번호 : 345을 주차합니다.
+[2021-04-25 14:33:46]주차공간 : 6 차량번호 : 345을 출차합니다.
+[2021-04-25 14:33:46]주차공간 : 6 차량번호 : 345을 출차합니다.
+[2021-04-25 14:35:43]주차공간 : 6에 차량번호 : 147을 주차합니다.
+[2021-04-25 14:35:47]주차공간 : 7에 차량번호 : 852을 주차합니다.
+[2021-04-25 14:35:51]주차공간 : 1 차량번호 : 852을 출차합니다.
+[2021-04-25 14:35:51]주차공간 : 1 차량번호 : 852을 출차합니다.
+[2021-04-25 14:35:56]주차공간 : 4 차량번호 : 852을 출차합니다.
+[2021-04-25 14:35:56]주차공간 : 4 차량번호 : 852을 출차합니다.
+[2021-04-25 14:36:01]주차공간 : 2 차량번호 : 852을 출차합니다.
+[2021-04-25 14:36:01]주차공간 : 2 차량번호 : 852을 출차합니다.
+[2021-04-25 14:36:06]주차공간 : 1에 차량번호 : 123을 주차합니다.
+[2021-04-25 14:36:12]주차공간 : 2에 차량번호 : 369을 주차합니다.
+[2021-04-25 14:36:16]주차공간 : 4에 차량번호 : 654을 주차합니다.
+[2021-04-25 14:36:22]주차공간 : 8에 차량번호 : 321을 주차합니다.
+[2021-04-25 14:36:25]주차공간 : 9에 차량번호 : 789을 주차합니다.
+[2021-04-25 14:36:33]주차공간 : 10에 차량번호 : 159을 주차합니다.
+[2021-04-25 14:36:37]주차공간 : 11에 차량번호 : 753을 주차합니다.
+[2021-04-25 14:36:45]주차공간 : 12에 차량번호 : 153을 주차합니다.
+[2021-04-25 14:36:48]주차공간 : 13에 차량번호 : 426을 주차합니다.
+[2021-04-25 14:36:51]주차공간 : 14에 차량번호 : 486을 주차합니다.
+[2021-04-25 14:36:55]주차공간 : 15에 차량번호 : 759을 주차합니다.
+[2021-04-25 14:36:58]주차공간 : 16에 차량번호 : 751을 주차합니다.
+[2021-04-25 14:37:01]주차공간 : 17에 차량번호 : 953을 주차합니다.
+[2021-04-25 14:43:37]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 18
+[2021-04-25 14:43:41]주차공간 : 19에 차량번호 : 528을 주차합니다.
+[2021-04-25 14:43:46]주차공간 : 20에 차량번호 : 1593을 주차합니다.
+[2021-04-25 14:43:51]주차공간 : 21에 차량번호 : 7154을 주차합니다.
+[2021-04-25 14:44:42]사용자 - 이름 : 홍, 차량번호 : 01바0101,전화번호 : ㅇ, 정기권 시작일 : 2021-01-01, 정기권 종료일 : 2021-08-30를 구매했습니다.
+[2021-04-25 14:45:04]사용자 - 이름 : 전, 차량번호 : 02바0202,전화번호 : 1, 정기권 시작일 : 2021-02-01, 정기권 종료일 : 2021-10-31를 구매했습니다.
+[2021-04-25 14:45:12]주차공간 : 22에 차량번호 : 01바0101을 주차합니다.
+[2021-04-25 14:45:21]주차공간 : 23에 차량번호 : 02바0202을 주차합니다.
+[2021-04-25 14:45:48]공간번호 : 23에 차량번호 : 02바0202이 있습니다.
+[2021-04-25 14:45:49]공간번호 : 23에 차량번호 : 02바0202이 있습니다.
+[2021-04-25 14:46:12]주차 공간에 차량이 없습니다.
+[2021-04-25 14:46:41]주차공간 : 1 차량번호 : 02바0202을 출차합니다.
+[2021-04-25 14:46:41]주차공간 : 1 차량번호 : 02바0202을 출차합니다.
+[2021-04-25 14:46:53]주차공간 : 5 차량번호 : 02바0202을 출차합니다.
+[2021-04-25 14:46:53]주차공간 : 5 차량번호 : 02바0202을 출차합니다.
+[2021-04-25 14:47:03]주차공간 : 13 차량번호 : 02바0202을 출차합니다.
+[2021-04-25 14:47:03]주차공간 : 13 차량번호 : 02바0202을 출차합니다.
+[2021-04-25 14:47:21]주차공간 : 2 차량번호 : 02바0202을 출차합니다.
+[2021-04-25 14:47:21]주차공간 : 2 차량번호 : 02바0202을 출차합니다.
+[2021-04-25 14:50:37]주차공간 : 3 차량번호 : 을 출차합니다.
+[2021-04-25 14:50:37]주차공간 : 3 차량번호 : 을 출차합니다.
+[2021-04-25 14:50:37]문자열이 유효한 DateTime으로 인식되지 않습니다.
+[2021-04-25 14:50:38]   위치: System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   위치: System.Convert.ToDateTime(String value)
+   위치: Managing_Car_Program.MainForm.resulttime() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 327
+[2021-04-25 14:50:47]주차공간 : 1에 차량번호 : 123을 주차합니다.
+[2021-04-25 14:50:50]주차공간 : 2에 차량번호 : 345을 주차합니다.
+[2021-04-25 14:50:53]주차공간 : 3에 차량번호 : 567을 주차합니다.
+[2021-04-25 14:50:56]주차공간 : 5에 차량번호 : 789을 주차합니다.
+[2021-04-25 14:51:48]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 13
+[2021-04-25 14:53:19]주차공간 : 12 차량번호 : 123을 출차합니다.
+[2021-04-25 14:53:19]주차공간 : 12 차량번호 : 123을 출차합니다.
+[2021-04-25 14:53:23]문자열이 유효한 DateTime으로 인식되지 않습니다.
+[2021-04-25 14:53:23]   위치: System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   위치: System.Convert.ToDateTime(String value)
+   위치: Managing_Car_Program.MainForm.resulttime() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 327
+[2021-04-25 14:56:02]주차공간 : 12에 차량번호 : 123을 주차합니다.
+[2021-04-25 14:56:06]주차공간 : 13에 차량번호 : 321을 주차합니다.
+[2021-04-25 14:56:11]주차공간 : 1 차량번호 : 321을 출차합니다.
+[2021-04-25 14:56:11]주차공간 : 1 차량번호 : 321을 출차합니다.
+[2021-04-25 14:56:21]주차공간 : 14 차량번호 : 321을 출차합니다.
+[2021-04-25 14:56:21]주차공간 : 14 차량번호 : 321을 출차합니다.
+[2021-04-25 15:02:51]문자열이 유효한 DateTime으로 인식되지 않습니다.
+[2021-04-25 15:02:51]   위치: System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   위치: System.Convert.ToDateTime(String value)
+   위치: Managing_Car_Program.MainForm.resulttime() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 328
+[2021-04-25 15:02:51]주차공간 : 2 차량번호 : 을 출차합니다.
+[2021-04-25 15:02:51]주차공간 : 2 차량번호 : 을 출차합니다.
+[2021-04-25 15:03:36]주차공간 : 2에 차량번호 : 1234을 주차합니다.
+[2021-04-25 15:03:38]주차공간 : 1에 차량번호 : 45345을 주차합니다.
+[2021-04-25 15:03:46]주차공간 : 25에 차량번호 : 12312313을 주차합니다.
+[2021-04-25 15:03:49]주차공간 : 26에 차량번호 : 454535을 주차합니다.
+[2021-04-25 15:03:58]주차공간 : 11 차량번호 : 454535을 출차합니다.
+[2021-04-25 15:03:58]주차공간 : 11 차량번호 : 454535을 출차합니다.
+[2021-04-25 15:04:46]주차공간 : 14에 차량번호 : 32432을 주차합니다.
+[2021-04-25 15:04:48]주차공간 : 11에 차량번호 : 43643634을 주차합니다.
+[2021-04-25 15:23:55]문자열이 유효한 DateTime으로 인식되지 않습니다.
+[2021-04-25 15:23:55]   위치: System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   위치: System.Convert.ToDateTime(String value)
+   위치: Managing_Car_Program.MainForm.resulttime() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 331
+[2021-04-25 15:23:55]주차공간 : 1 차량번호 : 45345을 출차합니다.
+[2021-04-25 15:23:55]주차공간 : 1 차량번호 : 45345을 출차합니다.
+[2021-04-25 15:25:05]로그인에 성공했습니다.
+[2021-04-25 15:25:42]주차공간 : 1에 차량번호 : 2343을 주차합니다.
+[2021-04-25 15:25:49]주차공간 : 21 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:25:49]주차공간 : 21 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:27:05]주차공간 : 5 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:27:05]주차공간 : 5 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:27:18]주차공간 : 10 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:27:18]주차공간 : 10 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:32:37]주차공간 : 5에 차량번호 : 565을 주차합니다.
+[2021-04-25 15:32:42]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-04-25 15:32:42]   위치: System.Collections.ArrayList.get_Item(Int32 index)
+   위치: System.Windows.Forms.DataGridViewSelectedRowCollection.get_Item(Int32 index)
+   위치: Managing_Car_Program.MainForm.resulttime() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 331
+[2021-04-25 15:32:42]주차공간 : 8 차량번호 : 565을 출차합니다.
+[2021-04-25 15:32:42]주차공간 : 8 차량번호 : 565을 출차합니다.
+[2021-04-25 15:34:35]주차 공간에 차량이 없습니다.
+[2021-04-25 15:34:38]주차공간 : 8에 차량번호 : 2343을 주차합니다.
+[2021-04-25 15:34:43]주차공간 : 10에 차량번호 : 4235435523을 주차합니다.
+[2021-04-25 15:34:46]주차공간 : 21에 차량번호 : 4543을 주차합니다.
+[2021-04-25 15:34:52]주차공간 : 18 차량번호 : 4543을 출차합니다.
+[2021-04-25 15:34:52]주차공간 : 18 차량번호 : 4543을 출차합니다.
+[2021-04-25 15:35:04]주차공간 : 18에 차량번호 : 4354354을 주차합니다.
+[2021-04-25 15:35:08]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 24
+[2021-04-25 15:35:10]주차공간 : 24 차량번호 : 452452을 출차합니다.
+[2021-04-25 15:35:10]주차공간 : 24 차량번호 : 452452을 출차합니다.
+[2021-04-25 15:35:11]주차공간 : 24에 차량번호 : 4534을 주차합니다.
+[2021-04-25 15:35:20]주차공간 : 7 차량번호 : 4534을 출차합니다.
+[2021-04-25 15:35:20]주차공간 : 7 차량번호 : 4534을 출차합니다.
+[2021-04-25 15:35:24]주차공간 : 4 차량번호 : 4534을 출차합니다.
+[2021-04-25 15:35:24]주차공간 : 4 차량번호 : 4534을 출차합니다.
+[2021-04-25 15:35:55]주차공간 : 4에 차량번호 : 123213을 주차합니다.
+[2021-04-25 15:35:59]주차공간 : 7에 차량번호 : 35432을 주차합니다.
+[2021-04-25 15:36:04]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-04-25 15:36:04]   위치: System.Collections.ArrayList.get_Item(Int32 index)
+   위치: System.Windows.Forms.DataGridViewCellCollection.get_Item(Int32 index)
+   위치: Managing_Car_Program.MainForm.resulttime() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 332
+[2021-04-25 15:36:04]주차공간 : 10 차량번호 : 35432을 출차합니다.
+[2021-04-25 15:36:04]주차공간 : 10 차량번호 : 35432을 출차합니다.
+[2021-04-25 15:36:35]주차공간 : 10에 차량번호 : 454235을 주차합니다.
+[2021-04-25 15:36:37]주차공간 : 11 차량번호 : 454235을 출차합니다.
+[2021-04-25 15:36:37]주차공간 : 11 차량번호 : 454235을 출차합니다.
+[2021-04-25 15:36:42]주차공간 : 11에 차량번호 : 454235을 주차합니다.
+[2021-04-25 15:36:48]주차공간 : 26 차량번호 : 454235을 출차합니다.
+[2021-04-25 15:36:48]주차공간 : 26 차량번호 : 454235을 출차합니다.
+[2021-04-25 15:37:25]주차공간 : 7 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:37:25]주차공간 : 7 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:37:28]주차공간 : 7에 차량번호 : 2343을 주차합니다.
+[2021-04-25 15:43:31]출차가 되지 않았습니다.
+[2021-04-25 15:43:31]'System.Windows.Forms.DataGridViewRow' 형식 개체를 'System.IConvertible' 형식으로 캐스팅할 수 없습니다.
+[2021-04-25 15:43:31]   위치: System.Convert.ToInt32(Object value)
+   위치: Managing_Car_Program.MainForm.resulttime() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 331
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 15:55:09]주차공간 : 4 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:55:09]주차공간 : 4 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:55:15]주차공간 : 4에 차량번호 : 2343을 주차합니다.
+[2021-04-25 15:55:29]주차공간 : 11 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:55:29]주차공간 : 11 차량번호 : 2343을 출차합니다.
+[2021-04-25 15:55:32]주차공간 : 11에 차량번호 : 2343을 주차합니다.
+[2021-04-25 16:10:18]주차공간 : 2 차량번호 : 2343을 출차합니다.
+[2021-04-25 16:10:18]주차공간 : 2 차량번호 : 2343을 출차합니다.
+[2021-04-25 16:10:27]주차공간 : 12 차량번호 : 2343을 출차합니다.
+[2021-04-25 16:10:27]주차공간 : 12 차량번호 : 2343을 출차합니다.
+[2021-04-25 16:10:35]주차공간 : 1 차량번호 : 2343을 출차합니다.
+[2021-04-25 16:10:35]주차공간 : 1 차량번호 : 2343을 출차합니다.
+[2021-04-25 16:10:42]주차공간 : 3 차량번호 : 2343을 출차합니다.
+[2021-04-25 16:10:42]주차공간 : 3 차량번호 : 2343을 출차합니다.
+[2021-04-25 16:10:45]주차공간 : 7 차량번호 : 2343을 출차합니다.
+[2021-04-25 16:10:45]주차공간 : 7 차량번호 : 2343을 출차합니다.
+[2021-04-25 16:10:50]주차공간 : 6 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:50]주차공간 : 6 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:53]주차공간 : 10 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:53]주차공간 : 10 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:54]주차공간 : 14 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:54]주차공간 : 14 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:56]주차공간 : 19 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:56]주차공간 : 19 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:57]주차공간 : 25 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:57]주차공간 : 25 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:59]주차공간 : 8 차량번호 : 을 출차합니다.
+[2021-04-25 16:10:59]주차공간 : 8 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:01]주차공간 : 13 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:01]주차공간 : 13 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:03]주차공간 : 9 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:03]주차공간 : 9 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:06]주차공간 : 11 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:06]주차공간 : 11 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:48]주차공간 : 4 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:48]주차공간 : 4 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:50]주차공간 : 5 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:50]주차공간 : 5 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:53]주차공간 : 15 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:53]주차공간 : 15 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:54]주차공간 : 16 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:54]주차공간 : 16 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:56]주차공간 : 17 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:56]주차공간 : 17 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:57]주차공간 : 18 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:57]주차공간 : 18 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:59]주차공간 : 20 차량번호 : 을 출차합니다.
+[2021-04-25 16:11:59]주차공간 : 20 차량번호 : 을 출차합니다.
+[2021-04-25 16:12:01]주차공간 : 22 차량번호 : 을 출차합니다.
+[2021-04-25 16:12:01]주차공간 : 22 차량번호 : 을 출차합니다.
+[2021-04-25 16:12:02]주차공간 : 21 차량번호 : 을 출차합니다.
+[2021-04-25 16:12:02]주차공간 : 21 차량번호 : 을 출차합니다.
+[2021-04-25 16:12:04]주차공간 : 23 차량번호 : 을 출차합니다.
+[2021-04-25 16:12:04]주차공간 : 23 차량번호 : 을 출차합니다.
+[2021-04-25 16:12:05]주차공간 : 24 차량번호 : 을 출차합니다.
+[2021-04-25 16:12:05]주차공간 : 24 차량번호 : 을 출차합니다.
+[2021-04-25 16:13:51]주차공간 : 1에 차량번호 : 123을 주차합니다.
+[2021-04-25 16:13:54]주차공간 : 2에 차량번호 : 234을 주차합니다.
+[2021-04-25 16:13:55]주차공간 : 3에 차량번호 : 345을 주차합니다.
+[2021-04-25 16:13:57]주차공간 : 4에 차량번호 : 456을 주차합니다.
+[2021-04-25 16:13:59]주차공간 : 5에 차량번호 : 567을 주차합니다.
+[2021-04-25 16:14:01]주차공간 : 6에 차량번호 : 678을 주차합니다.
+[2021-04-25 16:14:09]주차공간 : 7에 차량번호 : 890을 주차합니다.
+[2021-04-25 16:14:16]주차공간 : 8에 차량번호 : 102을 주차합니다.
+[2021-04-25 16:14:48]주차공간 : 9에 차량번호 : 135을 주차합니다.
+[2021-04-25 16:14:53]주차공간 : 10에 차량번호 : 236을 주차합니다.
+[2021-04-25 16:14:56]주차공간 : 11에 차량번호 : 5683을 주차합니다.
+[2021-04-25 16:15:00]주차공간 : 12에 차량번호 : 3527을 주차합니다.
+[2021-04-25 16:15:03]주차공간 : 13에 차량번호 : 6748을 주차합니다.
+[2021-04-25 16:15:06]주차공간 : 14에 차량번호 : 3453을 주차합니다.
+[2021-04-25 16:15:09]주차공간 : 15에 차량번호 : 6795을 주차합니다.
+[2021-04-25 16:15:12]주차공간 : 16에 차량번호 : 3487을 주차합니다.
+[2021-04-25 16:15:16]주차공간 : 17에 차량번호 : 6894을 주차합니다.
+[2021-04-25 16:18:37]주차공간 : 1 차량번호 : 6894을 출차합니다.
+[2021-04-25 16:18:37]주차공간 : 1 차량번호 : 6894을 출차합니다.
+[2021-04-25 16:20:02]주차공간 : 11 차량번호 : 6894을 출차합니다.
+[2021-04-25 16:20:02]주차공간 : 11 차량번호 : 6894을 출차합니다.
+[2021-04-25 16:20:06]주차공간 : 15 차량번호 : 6894을 출차합니다.
+[2021-04-25 16:20:06]주차공간 : 15 차량번호 : 6894을 출차합니다.
+[2021-04-25 16:20:37]주차공간 : 4 차량번호 : 을 출차합니다.
+[2021-04-25 16:20:37]주차공간 : 4 차량번호 : 을 출차합니다.
+[2021-04-25 16:20:49]주차공간 : 13 차량번호 : 을 출차합니다.
+[2021-04-25 16:20:49]주차공간 : 13 차량번호 : 을 출차합니다.
+[2021-04-25 16:20:55]주차공간 : 2 차량번호 : 을 출차합니다.
+[2021-04-25 16:20:55]주차공간 : 2 차량번호 : 을 출차합니다.
+[2021-04-25 16:21:01]주차 공간에 차량이 없습니다.
+[2021-04-25 16:21:28]주차공간 : 3 차량번호 : 을 출차합니다.
+[2021-04-25 16:21:28]주차공간 : 3 차량번호 : 을 출차합니다.
+[2021-04-25 16:21:37]주차공간 : 5 차량번호 : 을 출차합니다.
+[2021-04-25 16:21:37]주차공간 : 5 차량번호 : 을 출차합니다.
+[2021-04-25 16:21:40]주차공간 : 8 차량번호 : 을 출차합니다.
+[2021-04-25 16:21:40]주차공간 : 8 차량번호 : 을 출차합니다.
+[2021-04-25 16:22:49]주차 공간에 차량이 없습니다.
+[2021-04-25 16:23:19]주차공간 : 6 차량번호 : 을 출차합니다.
+[2021-04-25 16:23:19]주차공간 : 6 차량번호 : 을 출차합니다.
+[2021-04-25 16:24:13]주차 공간에 차량이 없습니다.
+[2021-04-25 16:24:14]주차공간 : 2에 차량번호 : ewr을 주차합니다.
+[2021-04-25 16:24:16]주차공간 : 2 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:24:16]주차공간 : 2 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:24:21]주차 공간에 차량이 없습니다.
+[2021-04-25 16:24:22]주차공간 : 1에 차량번호 : ewr을 주차합니다.
+[2021-04-25 16:24:23]주차공간 : 3에 차량번호 : ewr을 주차합니다.
+[2021-04-25 16:24:26]주차 공간에 차량이 없습니다.
+[2021-04-25 16:24:26]주차공간 : 4에 차량번호 : ewr을 주차합니다.
+[2021-04-25 16:24:28]주차공간 : 2에 차량번호 : ewr을 주차합니다.
+[2021-04-25 16:24:29]주차공간 : 5에 차량번호 : ewr을 주차합니다.
+[2021-04-25 16:24:32]주차공간 : 3 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:24:32]주차공간 : 3 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:24:34]주차공간 : 2 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:24:34]주차공간 : 2 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:28:54]출차가 되지 않았습니다.
+[2021-04-25 16:28:54]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 16:28:54]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.resulttime() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 338
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:29:51]주차공간 : 2에 차량번호 : 54315을 주차합니다.
+[2021-04-25 16:29:52]주차공간 : 3에 차량번호 : 54315을 주차합니다.
+[2021-04-25 16:29:53]주차공간 : 6에 차량번호 : 54315을 주차합니다.
+[2021-04-25 16:29:58]출차가 되지 않았습니다.
+[2021-04-25 16:29:58]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 16:29:58]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.resulttime() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 336
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:31:51]출차가 되지 않았습니다.
+[2021-04-25 16:31:51]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 16:31:51]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.resulttime() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 336
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:32:13]주차공간 : 3 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:32:13]주차공간 : 3 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:39:59]주차공간 : 2 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:39:59]주차공간 : 2 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:40:04]주차공간 : 7 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:40:04]주차공간 : 7 차량번호 : ewr을 출차합니다.
+[2021-04-25 16:45:36]출차가 되지 않았습니다.
+[2021-04-25 16:45:36]'System.TimeSpan' 형식 개체를 'System.IConvertible' 형식으로 캐스팅할 수 없습니다.
+[2021-04-25 16:45:36]   위치: System.Convert.ToDouble(Object value)
+   위치: Managing_Car_Program.MainForm.TimeCodeFormat() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 335
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:46:17]출차가 되지 않았습니다.
+[2021-04-25 16:46:17]'System.TimeSpan' 형식 개체를 'System.IConvertible' 형식으로 캐스팅할 수 없습니다.
+[2021-04-25 16:46:17]   위치: System.Convert.ToDouble(Object value)
+   위치: Managing_Car_Program.MainForm.TimeCodeFormat() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 335
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:48:08]주차공간 : 2에 차량번호 : ewr을 주차합니다.
+[2021-04-25 16:48:09]주차공간 : 3에 차량번호 : ewr을 주차합니다.
+[2021-04-25 16:48:11]출차가 되지 않았습니다.
+[2021-04-25 16:48:11]'System.TimeSpan' 형식 개체를 'System.IConvertible' 형식으로 캐스팅할 수 없습니다.
+[2021-04-25 16:48:11]   위치: System.Convert.ToDouble(Object value)
+   위치: Managing_Car_Program.MainForm.TimeCodeFormat() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 335
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:48:51]출차가 되지 않았습니다.
+[2021-04-25 16:48:51]'System.TimeSpan' 형식 개체를 'System.IConvertible' 형식으로 캐스팅할 수 없습니다.
+[2021-04-25 16:48:51]   위치: System.Convert.ToDouble(Object value)
+   위치: Managing_Car_Program.MainForm.TimeCodeFormat() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 335
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:50:07]출차가 되지 않았습니다.
+[2021-04-25 16:50:07]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 16:50:07]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.TimeCodeFormat() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 335
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:50:44]출차가 되지 않았습니다.
+[2021-04-25 16:50:44]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 16:50:44]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.TimeCodeFormat() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 335
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:53:43]출차가 되지 않았습니다.
+[2021-04-25 16:53:43]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 16:53:43]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.TimeCodeFormat() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 336
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:53:45]출차가 되지 않았습니다.
+[2021-04-25 16:53:45]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 16:53:45]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.TimeCodeFormat() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 336
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 16:53:48]출차가 되지 않았습니다.
+[2021-04-25 16:53:48]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 16:53:48]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.TimeCodeFormat() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 336
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 17:14:21]로그인에 성공했습니다.
+[2021-04-25 17:14:46]백업 데이터를 조회했습니다.
+[2021-04-25 17:14:49]로그인에 성공했습니다.
+[2021-04-25 17:16:20]출차가 되지 않았습니다.
+[2021-04-25 17:16:20]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 17:16:20]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.Timetxt() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 338
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 17:16:42]출차가 되지 않았습니다.
+[2021-04-25 17:16:42]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 17:16:42]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.Timetxt() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 338
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 17:17:38]출차가 되지 않았습니다.
+[2021-04-25 17:17:38]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 17:17:38]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.Timetxt() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 336
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 17:17:46]출차가 되지 않았습니다.
+[2021-04-25 17:17:46]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 17:17:46]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.Timetxt() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 336
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 17:18:04]출차가 되지 않았습니다.
+[2021-04-25 17:18:04]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 17:18:04]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.Timetxt() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 336
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 17:24:43]출차가 되지 않았습니다.
+[2021-04-25 17:24:43]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 17:24:43]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.Timetxt() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 338
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 17:24:44]출차가 되지 않았습니다.
+[2021-04-25 17:24:44]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 17:24:44]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.Timetxt() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 338
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 17:24:47]주차공간 : 3에 차량번호 : ewfwe을 주차합니다.
+[2021-04-25 17:24:49]주차공간 : 5에 차량번호 : ewfwe을 주차합니다.
+[2021-04-25 17:25:01]해당 공간에는 이미 차량이 있습니다. 공간 번호 : 1
+[2021-04-25 17:25:03]출차가 되지 않았습니다.
+[2021-04-25 17:25:03]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 17:25:03]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.Timetxt() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 340
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297
+[2021-04-25 17:25:06]주차공간 : 6에 차량번호 : ewr을 주차합니다.
+[2021-04-25 17:25:07]주차공간 : 7에 차량번호 : ewr을 주차합니다.
+[2021-04-25 17:25:10]주차공간 : 8에 차량번호 : ewr을 주차합니다.
+[2021-04-25 17:25:16]출차가 되지 않았습니다.
+[2021-04-25 17:25:16]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-25 17:25:16]   위치: System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   위치: System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   위치: System.TimeSpan.ToString(String format)
+   위치: Managing_Car_Program.MainForm.Timetxt() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 340
+   위치: Managing_Car_Program.MainForm.button_out_Click(Object sender, EventArgs e) 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Ui\MainForm.cs:줄 297

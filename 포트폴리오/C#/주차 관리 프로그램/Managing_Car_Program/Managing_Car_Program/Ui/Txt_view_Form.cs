@@ -23,7 +23,7 @@ namespace Managing_Car_Program.Ui
 
         private void uiSymbolButton_view_Click(object sender, EventArgs e)
         {
-            StreamReader rd = new StreamReader(@"D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\parkingHistory\parkingHistory.txt");
+            StreamReader rd = new StreamReader(@"../Debug/parkingHistory/parkingHistory.txt");
             // 읽어들일 TXT 파일의 경로를 매개변수로 StreamReader 생성
 
             // 한 줄씩 읽기

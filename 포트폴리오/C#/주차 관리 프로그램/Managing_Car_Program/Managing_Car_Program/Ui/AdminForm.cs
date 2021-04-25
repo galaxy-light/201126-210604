@@ -17,6 +17,9 @@ namespace Managing_Car_Program
         public AdminForm()
         {
             InitializeComponent();
+
+            // datagridview 셀클릭입력편집 방지
+            dataGridView_parkingAd.ReadOnly = true;
         }
 
         private void AdminForm_Load(object sender, EventArgs e)
@@ -35,10 +38,7 @@ namespace Managing_Car_Program
         }
 
         private void button4_Click(object sender, EventArgs e)
-        {
-            /*MessageBox.Show("연결되는 메모장에서 parkingHistory폴더의 parkingHistory파일을 열어주세요.");
-            System.Diagnostics.Process.Start("Notepad.exe");*/
-
+        {            
             new Txt_view_Form().Show();
         }
 

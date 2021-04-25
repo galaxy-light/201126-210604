@@ -174,8 +174,7 @@ namespace Managing_Car_Program.Ui
             {
                 if (listView1.SelectedIndices.Count > 0) // 선택됐을 때
                 {
-                    n = listView1.SelectedIndices[0]; // n에 선택한 인덱스 저장                  
-                    
+                    n = listView1.SelectedIndices[0]; // n에 선택한 인덱스 저장                                   
                 }
 
                 txtwriteLog("삭제 버튼 클릭");

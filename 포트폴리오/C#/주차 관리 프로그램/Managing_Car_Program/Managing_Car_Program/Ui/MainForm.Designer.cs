@@ -59,6 +59,7 @@ namespace Managing_Car_Program
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Button_adminlog = new Sunny.UI.UISymbolButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label_in_out_result = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label_money = new System.Windows.Forms.Label();
@@ -416,6 +417,7 @@ namespace Managing_Car_Program
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.White;
+            this.groupBox3.Controls.Add(this.label_in_out_result);
             this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Controls.Add(this.label13);
             this.groupBox3.Controls.Add(this.label_money);
@@ -434,11 +436,20 @@ namespace Managing_Car_Program
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "요금 안내";
             // 
+            // label_in_out_result
+            // 
+            this.label_in_out_result.AutoSize = true;
+            this.label_in_out_result.Location = new System.Drawing.Point(348, 26);
+            this.label_in_out_result.Name = "label_in_out_result";
+            this.label_in_out_result.Size = new System.Drawing.Size(15, 14);
+            this.label_in_out_result.TabIndex = 17;
+            this.label_in_out_result.Text = "-";
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(494, 26);
+            this.label12.Location = new System.Drawing.Point(569, 26);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(15, 14);
             this.label12.TabIndex = 15;
@@ -448,7 +459,7 @@ namespace Managing_Car_Program
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label13.Location = new System.Drawing.Point(411, 26);
+            this.label13.Location = new System.Drawing.Point(486, 26);
             this.label13.Margin = new System.Windows.Forms.Padding(0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(68, 14);
@@ -458,7 +469,7 @@ namespace Managing_Car_Program
             // label_money
             // 
             this.label_money.AutoSize = true;
-            this.label_money.Location = new System.Drawing.Point(316, 26);
+            this.label_money.Location = new System.Drawing.Point(248, 26);
             this.label_money.Name = "label_money";
             this.label_money.Size = new System.Drawing.Size(31, 14);
             this.label_money.TabIndex = 13;
@@ -467,16 +478,16 @@ namespace Managing_Car_Program
             // label_time
             // 
             this.label_time.AutoSize = true;
-            this.label_time.Location = new System.Drawing.Point(185, 26);
+            this.label_time.Location = new System.Drawing.Point(117, 26);
             this.label_time.Name = "label_time";
-            this.label_time.Size = new System.Drawing.Size(23, 14);
+            this.label_time.Size = new System.Drawing.Size(15, 14);
             this.label_time.TabIndex = 12;
-            this.label_time.Text = "30";
+            this.label_time.Text = "1";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(343, 26);
+            this.label11.Location = new System.Drawing.Point(275, 26);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(21, 14);
             this.label11.TabIndex = 11;
@@ -485,7 +496,7 @@ namespace Managing_Car_Program
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(205, 26);
+            this.label10.Location = new System.Drawing.Point(137, 26);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 14);
             this.label10.TabIndex = 10;
@@ -495,7 +506,7 @@ namespace Managing_Car_Program
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label6.Location = new System.Drawing.Point(276, 26);
+            this.label6.Location = new System.Drawing.Point(208, 26);
             this.label6.Margin = new System.Windows.Forms.Padding(0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 14);
@@ -506,7 +517,7 @@ namespace Managing_Car_Program
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label7.Location = new System.Drawing.Point(120, 26);
+            this.label7.Location = new System.Drawing.Point(52, 26);
             this.label7.Margin = new System.Windows.Forms.Padding(0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(63, 14);
@@ -539,6 +550,7 @@ namespace Managing_Car_Program
             this.dataGridView_main.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.dataGridView_main.Name = "dataGridView_main";
             this.dataGridView_main.RowTemplate.Height = 23;
+            this.dataGridView_main.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_main.Size = new System.Drawing.Size(650, 175);
             this.dataGridView_main.TabIndex = 6;
             this.dataGridView_main.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_main_CellClick);
@@ -730,6 +742,7 @@ namespace Managing_Car_Program
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label Label_Current_Time;
+        private System.Windows.Forms.Label label_in_out_result;
     }
 }
 

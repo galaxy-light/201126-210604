@@ -14,7 +14,8 @@ using System.Windows.Forms;
 namespace Managing_Car_Program
 {
     public partial class MainForm : MaterialForm
-    {
+    {        
+        static int n;
         private DateTime parkingin;
         private DateTime parkingout;
 
@@ -40,6 +41,9 @@ namespace Managing_Car_Program
             textBox_carnum.Text = DataManager.Cars[0].carNumber.ToString();
             /*textBox_cust_start.Text = DataManager.Cars[0].driverName.ToString();
             textBox_cust_end.Text = DataManager.Cars[0].phoneNumber.ToString();*/
+
+            // datagridview 셀클릭입력편집 방지
+            dataGridView_main.ReadOnly = true;            
         }        
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -290,6 +294,8 @@ namespace Managing_Car_Program
                             DataManager.Cars[i].phoneNumber = "";*/
                             DataManager.Cars[i].parkingTime = DateTime.Now; // 알아서 처리                            
 
+                            //Timetxt();
+
                             string contents = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
                             //MessageBox.Show(contents);
                             writeLog($"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.");
@@ -312,8 +318,26 @@ namespace Managing_Car_Program
 
             // 계산법 = (주차시간/단위시간)*요금
             //TimeSpan ts = parkingout - parkingin;
-            label12.Text = calctime(parkingout - parkingin) + "원";
+            label12.Text = calctime(parkingout - parkingin) + "원";           
         }
+
+        /*public void Timetxt()
+        {
+            n = dataGridView_main.CurrentRow.Index;
+            MessageBox.Show(n.ToString());
+
+            for (int i = 0; i < DataManager.Cars.Count; i++)
+            {
+                DateTime intime = DataManager.Cars[n].parkingTime;
+                DateTime outtime = DateTime.Now;
+
+                TimeSpan dataresult = outtime - intime;
+
+                string timeresult = dataresult.ToString("HH:mm:ss");
+
+                label_in_out_result.Text = (timeresult);
+            }
+        }*/
 
         private string calctime(TimeSpan ts)
         {
@@ -333,7 +357,6 @@ namespace Managing_Car_Program
             }
             label_spot_num.Text = count.ToString() + "칸";
         }
-
 
         private void dataGridView_main_CellClick(object sender, DataGridViewCellEventArgs e)
         {
