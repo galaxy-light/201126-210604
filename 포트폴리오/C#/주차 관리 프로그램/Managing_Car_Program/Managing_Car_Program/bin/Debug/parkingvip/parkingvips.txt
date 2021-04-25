@@ -2930,3 +2930,11 @@
 [2021-04-24 22:36:06]관리자 - 이름 : 5, 차량번호 : 5, 전화번호 : 5,정기권 시작일 : 5, 정기권 종료일 : 5이 등록되었습니다.
 [2021-04-24 22:36:11]관리자 - 이름 : 6, 차량번호 : 6, 전화번호 : 6,정기권 시작일 : 6, 정기권 종료일 : 6이 등록되었습니다.
 [2021-04-24 22:36:15]관리자 - 이름 : 7, 차량번호 : 7, 전화번호 : 7,정기권 시작일 : 7, 정기권 종료일 : 7이 등록되었습니다.
+'D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Vips.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.VipData.Load() 파일 D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\Control\VipData.cs:줄 25

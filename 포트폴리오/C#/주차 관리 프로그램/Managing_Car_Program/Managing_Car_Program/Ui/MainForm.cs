@@ -286,7 +286,7 @@ namespace Managing_Car_Program
                                 }                                
                             }
 
-                            parkingout = DateTime.Now.AddMinutes(1);
+                            parkingout = DateTime.Now;
                             label_out_time.Text = parkingout.ToString("HH:mm:ss");
 
                             DataManager.Cars[i].carNumber = "";
@@ -294,7 +294,7 @@ namespace Managing_Car_Program
                             DataManager.Cars[i].phoneNumber = "";*/
                             DataManager.Cars[i].parkingTime = DateTime.Now; // 알아서 처리                            
 
-                            //Timetxt();
+                            Timetxt();
 
                             string contents = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
                             //MessageBox.Show(contents);
@@ -321,23 +321,17 @@ namespace Managing_Car_Program
             label12.Text = calctime(parkingout - parkingin) + "원";           
         }
 
-        /*public void Timetxt()
+        public void Timetxt()
         {
-            n = dataGridView_main.CurrentRow.Index;
-            MessageBox.Show(n.ToString());
+            DateTime intime = Convert.ToDateTime(label_in_time.Text);
+            DateTime outtime = Convert.ToDateTime(label_out_time.Text);
 
-            for (int i = 0; i < DataManager.Cars.Count; i++)
-            {
-                DateTime intime = DataManager.Cars[n].parkingTime;
-                DateTime outtime = DateTime.Now;
+            TimeSpan dataresult = outtime - intime;            
 
-                TimeSpan dataresult = outtime - intime;
+            string timeresult = dataresult.ToString();
 
-                string timeresult = dataresult.ToString("HH:mm:ss");
-
-                label_in_out_result.Text = (timeresult);
-            }
-        }*/
+            label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));
+        }
 
         private string calctime(TimeSpan ts)
         {
@@ -370,9 +364,10 @@ namespace Managing_Car_Program
                     //textBox_carnum.Text = temp.carNumber;
                     //textBox_carnm.Text = temp.driverName;
                     //textBox_carph.Text = temp.phoneNumber;
-
                     // 조회 기능에 바로 공간 번호를 넣고 싶으면
-                    //textBox_spotnum.Text = temp.parkingSpot.ToString();                         
+                    //textBox_spotnum.Text = temp.parkingSpot.ToString();
+                    label_in_time.Text = temp.parkingTime.ToString("HH:mm:ss");
+                    label_out_time.Text = DateTime.Now.ToString("HH:mm:ss");
                 }
                 catch (Exception ex)
                 {

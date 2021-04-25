@@ -67,8 +67,10 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_name.Location = new System.Drawing.Point(86, 118);
             this.uiSymbolLabel_name.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_name.Name = "uiSymbolLabel_name";
-            this.uiSymbolLabel_name.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
+            this.uiSymbolLabel_name.Padding = new System.Windows.Forms.Padding(34, 0, 0, 0);
             this.uiSymbolLabel_name.Size = new System.Drawing.Size(131, 44);
+            this.uiSymbolLabel_name.Symbol = 62004;
+            this.uiSymbolLabel_name.SymbolSize = 30;
             this.uiSymbolLabel_name.TabIndex = 18;
             this.uiSymbolLabel_name.Text = "이름";
             // 
@@ -111,8 +113,10 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_carnum.Location = new System.Drawing.Point(86, 171);
             this.uiSymbolLabel_carnum.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_carnum.Name = "uiSymbolLabel_carnum";
-            this.uiSymbolLabel_carnum.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
+            this.uiSymbolLabel_carnum.Padding = new System.Windows.Forms.Padding(34, 0, 0, 0);
             this.uiSymbolLabel_carnum.Size = new System.Drawing.Size(131, 44);
+            this.uiSymbolLabel_carnum.Symbol = 61881;
+            this.uiSymbolLabel_carnum.SymbolSize = 30;
             this.uiSymbolLabel_carnum.TabIndex = 20;
             this.uiSymbolLabel_carnum.Text = "차량번호";
             // 
@@ -136,11 +140,13 @@ namespace Managing_Car_Program.Ui
             // 
             this.uiSymbolLabel_phone.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_phone.Font = new System.Drawing.Font("굴림", 11.25F);
-            this.uiSymbolLabel_phone.Location = new System.Drawing.Point(86, 225);
+            this.uiSymbolLabel_phone.Location = new System.Drawing.Point(86, 226);
             this.uiSymbolLabel_phone.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_phone.Name = "uiSymbolLabel_phone";
-            this.uiSymbolLabel_phone.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
+            this.uiSymbolLabel_phone.Padding = new System.Windows.Forms.Padding(34, 0, 0, 0);
             this.uiSymbolLabel_phone.Size = new System.Drawing.Size(131, 44);
+            this.uiSymbolLabel_phone.Symbol = 61592;
+            this.uiSymbolLabel_phone.SymbolSize = 30;
             this.uiSymbolLabel_phone.TabIndex = 22;
             this.uiSymbolLabel_phone.Text = "전화번호";
             // 
@@ -164,11 +170,13 @@ namespace Managing_Car_Program.Ui
             // 
             this.uiSymbolLabel_start.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_start.Font = new System.Drawing.Font("굴림", 11.25F);
-            this.uiSymbolLabel_start.Location = new System.Drawing.Point(86, 278);
+            this.uiSymbolLabel_start.Location = new System.Drawing.Point(49, 282);
             this.uiSymbolLabel_start.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_start.Name = "uiSymbolLabel_start";
-            this.uiSymbolLabel_start.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolLabel_start.Size = new System.Drawing.Size(131, 44);
+            this.uiSymbolLabel_start.Padding = new System.Windows.Forms.Padding(34, 0, 0, 0);
+            this.uiSymbolLabel_start.Size = new System.Drawing.Size(168, 44);
+            this.uiSymbolLabel_start.Symbol = 61483;
+            this.uiSymbolLabel_start.SymbolSize = 30;
             this.uiSymbolLabel_start.TabIndex = 24;
             this.uiSymbolLabel_start.Text = "정기권 시작일";
             // 
@@ -192,11 +200,13 @@ namespace Managing_Car_Program.Ui
             // 
             this.uiSymbolLabel_end.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_end.Font = new System.Drawing.Font("굴림", 11.25F);
-            this.uiSymbolLabel_end.Location = new System.Drawing.Point(86, 333);
+            this.uiSymbolLabel_end.Location = new System.Drawing.Point(49, 332);
             this.uiSymbolLabel_end.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_end.Name = "uiSymbolLabel_end";
-            this.uiSymbolLabel_end.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolLabel_end.Size = new System.Drawing.Size(131, 44);
+            this.uiSymbolLabel_end.Padding = new System.Windows.Forms.Padding(34, 0, 0, 0);
+            this.uiSymbolLabel_end.Size = new System.Drawing.Size(168, 44);
+            this.uiSymbolLabel_end.Symbol = 61484;
+            this.uiSymbolLabel_end.SymbolSize = 30;
             this.uiSymbolLabel_end.TabIndex = 26;
             this.uiSymbolLabel_end.Text = "정기권 종료일";
             // 

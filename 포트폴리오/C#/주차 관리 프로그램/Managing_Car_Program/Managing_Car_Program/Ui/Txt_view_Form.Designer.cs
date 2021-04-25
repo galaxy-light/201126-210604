@@ -60,7 +60,7 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolButton_view.FillPressColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_view.FillSelectedColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_view.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton_view.Location = new System.Drawing.Point(142, 30);
+            this.uiSymbolButton_view.Location = new System.Drawing.Point(156, 32);
             this.uiSymbolButton_view.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolButton_view.Name = "uiSymbolButton_view";
             this.uiSymbolButton_view.RectColor = System.Drawing.Color.Transparent;
@@ -84,7 +84,7 @@ namespace Managing_Car_Program.Ui
             this.Controls.Add(this.richTextBox1);
             this.Name = "Txt_view_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "백업 파일 확인";
+            this.Text = "백업 데이터 확인";
             this.ResumeLayout(false);
 
         }

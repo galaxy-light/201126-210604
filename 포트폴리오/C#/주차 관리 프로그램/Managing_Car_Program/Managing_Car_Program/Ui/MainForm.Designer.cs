@@ -75,6 +75,7 @@ namespace Managing_Car_Program
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.Label_Current_Time = new System.Windows.Forms.Label();
+            this.label_result = new System.Windows.Forms.Label();
             this.parkingSpotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parkingTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -417,6 +418,7 @@ namespace Managing_Car_Program
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.White;
+            this.groupBox3.Controls.Add(this.label_result);
             this.groupBox3.Controls.Add(this.label_in_out_result);
             this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Controls.Add(this.label13);
@@ -439,7 +441,7 @@ namespace Managing_Car_Program
             // label_in_out_result
             // 
             this.label_in_out_result.AutoSize = true;
-            this.label_in_out_result.Location = new System.Drawing.Point(348, 26);
+            this.label_in_out_result.Location = new System.Drawing.Point(403, 26);
             this.label_in_out_result.Name = "label_in_out_result";
             this.label_in_out_result.Size = new System.Drawing.Size(15, 14);
             this.label_in_out_result.TabIndex = 17;
@@ -449,7 +451,7 @@ namespace Managing_Car_Program
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(569, 26);
+            this.label12.Location = new System.Drawing.Point(563, 26);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(15, 14);
             this.label12.TabIndex = 15;
@@ -478,11 +480,11 @@ namespace Managing_Car_Program
             // label_time
             // 
             this.label_time.AutoSize = true;
-            this.label_time.Location = new System.Drawing.Point(117, 26);
+            this.label_time.Location = new System.Drawing.Point(126, 26);
             this.label_time.Name = "label_time";
-            this.label_time.Size = new System.Drawing.Size(15, 14);
+            this.label_time.Size = new System.Drawing.Size(23, 14);
             this.label_time.TabIndex = 12;
-            this.label_time.Text = "1";
+            this.label_time.Text = "30";
             // 
             // label11
             // 
@@ -496,7 +498,7 @@ namespace Managing_Car_Program
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(137, 26);
+            this.label10.Location = new System.Drawing.Point(146, 26);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 14);
             this.label10.TabIndex = 10;
@@ -628,6 +630,15 @@ namespace Managing_Car_Program
             this.Label_Current_Time.TabIndex = 0;
             this.Label_Current_Time.Text = "CurrentTime";
             // 
+            // label_result
+            // 
+            this.label_result.AutoSize = true;
+            this.label_result.Location = new System.Drawing.Point(331, 26);
+            this.label_result.Name = "label_result";
+            this.label_result.Size = new System.Drawing.Size(63, 14);
+            this.label_result.TabIndex = 18;
+            this.label_result.Text = "이용시간";
+            // 
             // parkingSpotDataGridViewTextBoxColumn
             // 
             this.parkingSpotDataGridViewTextBoxColumn.DataPropertyName = "parkingSpot";
@@ -743,6 +754,7 @@ namespace Managing_Car_Program
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label Label_Current_Time;
         private System.Windows.Forms.Label label_in_out_result;
+        private System.Windows.Forms.Label label_result;
     }
 }
 
