@@ -54,5 +54,10 @@ namespace Managing_Car_Program.Ui
             string viewlogcontents = $"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")}]{txtcontents}";
             DataManager.printLog(viewlogcontents);
         }
+
+        private void uiSymbolButton_help4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("백업 파일은 삭제 시 복구가 되지 않습니다. 삭제에 주의하세요.");
+        }
     }
 }

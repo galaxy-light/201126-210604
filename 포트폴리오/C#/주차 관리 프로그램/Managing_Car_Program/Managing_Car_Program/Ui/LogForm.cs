@@ -52,7 +52,7 @@ namespace Managing_Car_Program
                     textBox_id.Text = "";
                     textBox_pw.Text = "";
 
-                    string str = $"로그인에 성공했습니다.";
+                    string str = $"관리자로 로그인했습니다.";
                     loginwriteLog(str);
                     DataManager.Save();
                     Close();

@@ -101,8 +101,7 @@ namespace Managing_Car_Program
                         }
                         else
                         {
-                            string contents = $"공간번호 : {DataManager.Cars[i].parkingSpot}에 차량번호 : {DataManager.Cars[i].carNumber}이 있습니다.";
-                            writeLog($"공간번호 : {DataManager.Cars[i].parkingSpot}에 차량번호 : {DataManager.Cars[i].carNumber}이 있습니다.");
+                            string contents = $"공간번호 : {DataManager.Cars[i].parkingSpot}에 차량번호 : {DataManager.Cars[i].carNumber}이 있습니다.";                          
                             MessageBox.Show(contents);
                             writeLog($"{contents}");                           
                         }
@@ -233,8 +232,7 @@ namespace Managing_Car_Program
                         dataGridView_main.DataSource = null;
                         dataGridView_main.DataSource = DataManager.Cars;                       
                                                 
-                        string contents = $"주차공간 : {textBox_num.Text}에 차량번호 : {textBox_carnum.Text}을 주차합니다.";
-                        writeLog($"주차공간 : {textBox_num.Text}에 차량번호 : {textBox_carnum.Text}을 주차합니다.");
+                        string contents = $"주차공간 : {textBox_num.Text}에 차량번호 : {textBox_carnum.Text}을 주차합니다.";                        
                         writeLog(contents, DateTime.Now.ToString("yyyy_MM_dd")); // 두번째 파라미터값(DateTime.Now.ToString("yyyy_MM_dd"))은 적어도 되고 안적어도 되고
                         
                         DataManager.Save();
@@ -294,11 +292,11 @@ namespace Managing_Car_Program
                             DataManager.Cars[i].phoneNumber = "";*/
                             DataManager.Cars[i].parkingTime = DateTime.Now; // 알아서 처리                            
 
+                            // 이용시간 메서드
                             Timetxt();
 
                             string contents = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
-                            //MessageBox.Show(contents);
-                            writeLog($"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.");
+                            //MessageBox.Show(contents);                            
                             writeLog(contents);
                             dataGridView_main.DataSource = null; // dataGridView1의 데이터를 한 번 지워주고
                             dataGridView_main.DataSource = DataManager.Cars; // 다시 리셋
@@ -326,11 +324,15 @@ namespace Managing_Car_Program
             DateTime intime = Convert.ToDateTime(label_in_time.Text);
             DateTime outtime = Convert.ToDateTime(label_out_time.Text);
 
-            TimeSpan dataresult = outtime - intime;            
+            TimeSpan dataresult = outtime - intime;
 
             string timeresult = dataresult.ToString();
 
             label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));
+
+            string contents = $"이용시간 : {label_in_out_result.Text}";
+            //MessageBox.Show(contents);           
+            writeLog(contents);
         }
 
         private string calctime(TimeSpan ts)
@@ -364,8 +366,10 @@ namespace Managing_Car_Program
                     //textBox_carnum.Text = temp.carNumber;
                     //textBox_carnm.Text = temp.driverName;
                     //textBox_carph.Text = temp.phoneNumber;
+
                     // 조회 기능에 바로 공간 번호를 넣고 싶으면
-                    //textBox_spotnum.Text = temp.parkingSpot.ToString();
+                    textBox_spotnum.Text = temp.parkingSpot.ToString();
+                    
                     label_in_time.Text = temp.parkingTime.ToString("HH:mm:ss");
                     label_out_time.Text = DateTime.Now.ToString("HH:mm:ss");
                 }

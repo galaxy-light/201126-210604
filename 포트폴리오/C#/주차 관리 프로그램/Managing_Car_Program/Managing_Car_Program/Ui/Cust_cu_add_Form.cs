@@ -52,7 +52,7 @@ namespace Managing_Car_Program.Ui
                 VipData.vips.Add(new VipCust(uiTextBox_name_text.Text, uiTextBox_car_text.Text, uiTextBox_ph_text.Text,
                     uiTextBox_start_text.Text, uiTextBox_end_text.Text));
                 
-                MessageBox.Show("구매에 성공했습니다.");
+                MessageBox.Show("정기권 구매에 성공했습니다.");
                 VipData.Savetxt();               
 
                 string str = $"사용자 - 이름 : {uiTextBox_name_text.Text}, 차량번호 : {uiTextBox_car_text.Text}," +
@@ -64,7 +64,7 @@ namespace Managing_Car_Program.Ui
             }
             else
             {
-                MessageBox.Show("구매에 실패했습니다.\r 입력창을 다시 확인해주세요.");
+                MessageBox.Show("정기권 구매에 실패했습니다.\r 입력창을 다시 확인해주세요.");
                 return;
             }
         }

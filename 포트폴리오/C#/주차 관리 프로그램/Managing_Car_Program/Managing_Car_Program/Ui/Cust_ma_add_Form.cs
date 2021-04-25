@@ -52,7 +52,7 @@ namespace Managing_Car_Program.Ui
                 VipData.vips.Add(new VipCust(uiTextBox_nm.Text, uiTextBox_carnum.Text, uiTextBox_ph.Text,
                     uiTextBox_start.Text, uiTextBox_end.Text));
                 
-                MessageBox.Show("정보를 등록했습니다.");
+                MessageBox.Show("정기권을 등록했습니다.");
                 VipData.Savetxt();
 
                 string str = $"관리자 - 이름 : {uiTextBox_nm.Text}, 차량번호 : {uiTextBox_carnum.Text}, 전화번호 : {uiTextBox_ph.Text}," +
@@ -63,7 +63,7 @@ namespace Managing_Car_Program.Ui
             }
             else
             {
-                MessageBox.Show("정보를 등록하지 못했습니다.");
+                MessageBox.Show("정기권을 등록하지 못했습니다.");
                 return;
             }
         }

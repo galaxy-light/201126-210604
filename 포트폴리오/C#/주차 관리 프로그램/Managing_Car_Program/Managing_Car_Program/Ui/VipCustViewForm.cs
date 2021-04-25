@@ -178,7 +178,7 @@ namespace Managing_Car_Program.Ui
                 }
 
                 txtwriteLog("삭제 버튼 클릭");
-                string str = $"데이터를 삭제 했습니다.";
+                string str = $"정기권 사용자를 삭제 했습니다.";
                 txtwriteLog(str);
                 //List<VipCust> vips = VipData.vips;
 

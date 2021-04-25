@@ -59,6 +59,7 @@ namespace Managing_Car_Program
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Button_adminlog = new Sunny.UI.UISymbolButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label_result = new System.Windows.Forms.Label();
             this.label_in_out_result = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -75,7 +76,6 @@ namespace Managing_Car_Program
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.Label_Current_Time = new System.Windows.Forms.Label();
-            this.label_result = new System.Windows.Forms.Label();
             this.parkingSpotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parkingTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -438,6 +438,15 @@ namespace Managing_Car_Program
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "요금 안내";
             // 
+            // label_result
+            // 
+            this.label_result.AutoSize = true;
+            this.label_result.Location = new System.Drawing.Point(331, 26);
+            this.label_result.Name = "label_result";
+            this.label_result.Size = new System.Drawing.Size(63, 14);
+            this.label_result.TabIndex = 18;
+            this.label_result.Text = "이용시간";
+            // 
             // label_in_out_result
             // 
             this.label_in_out_result.AutoSize = true;
@@ -555,7 +564,7 @@ namespace Managing_Car_Program
             this.dataGridView_main.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_main.Size = new System.Drawing.Size(650, 175);
             this.dataGridView_main.TabIndex = 6;
-            this.dataGridView_main.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_main_CellClick);
+            this.dataGridView_main.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_main_CellClick);            
             // 
             // uiSymbolButton_help
             // 
@@ -629,15 +638,6 @@ namespace Managing_Car_Program
             this.Label_Current_Time.Size = new System.Drawing.Size(83, 13);
             this.Label_Current_Time.TabIndex = 0;
             this.Label_Current_Time.Text = "CurrentTime";
-            // 
-            // label_result
-            // 
-            this.label_result.AutoSize = true;
-            this.label_result.Location = new System.Drawing.Point(331, 26);
-            this.label_result.Name = "label_result";
-            this.label_result.Size = new System.Drawing.Size(63, 14);
-            this.label_result.TabIndex = 18;
-            this.label_result.Text = "이용시간";
             // 
             // parkingSpotDataGridViewTextBoxColumn
             // 
