@@ -1,0 +1,16 @@
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\bin\Debug\Tour_guide_program.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\bin\Debug\Tour_guide_program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\bin\Debug\Tour_guide_program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\bin\Debug\MetroFramework.Design.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\bin\Debug\MetroFramework.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\obj\Debug\Tour_guide_program.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\obj\Debug\Tour_guide_program.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\obj\Debug\Tour_guide_program.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\obj\Debug\Tour_guide_program.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\obj\Debug\Tour_guide_program.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\obj\Debug\Tour_guide_program.csproj.CopyComplete
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\obj\Debug\Tour_guide_program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\여행\Tour_guide_program\Tour_guide_program\obj\Debug\Tour_guide_program.pdb
