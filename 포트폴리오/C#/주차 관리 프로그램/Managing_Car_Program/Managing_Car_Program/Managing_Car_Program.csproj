@@ -69,8 +69,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\Apidata.cs" />
     <Compile Include="Control\Autoclosingmbox.cs" />
     <Compile Include="Control\VipData.cs" />
+    <Compile Include="Model\Api_parking.cs" />
     <Compile Include="Model\VipCust.cs" />
     <Compile Include="Ui\AdminForm.cs">
       <SubType>Form</SubType>
@@ -90,6 +92,12 @@
     </Compile>
     <Compile Include="Ui\Cust_ma_add_Form.Designer.cs">
       <DependentUpon>Cust_ma_add_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Other_view_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\Other_view_Form.Designer.cs">
+      <DependentUpon>Other_view_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Ui\Txt_view_Form.cs">
       <SubType>Form</SubType>
@@ -127,6 +135,9 @@
     <EmbeddedResource Include="Ui\Cust_ma_add_Form.resx">
       <DependentUpon>Cust_ma_add_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ui\Other_view_Form.resx">
+      <DependentUpon>Other_view_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ui\Txt_view_Form.resx">
       <DependentUpon>Txt_view_Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +160,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Managing_Car_Program.Model.Api_parking.datasource" />
     <None Include="Properties\DataSources\ParkingCar.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

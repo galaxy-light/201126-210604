@@ -76,6 +76,7 @@ namespace Managing_Car_Program
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.Label_Current_Time = new System.Windows.Forms.Label();
+            this.uiSymbolButton_other = new Sunny.UI.UISymbolButton();
             this.parkingSpotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parkingTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -564,7 +565,7 @@ namespace Managing_Car_Program
             this.dataGridView_main.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_main.Size = new System.Drawing.Size(650, 175);
             this.dataGridView_main.TabIndex = 6;
-            this.dataGridView_main.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_main_CellClick);            
+            this.dataGridView_main.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_main_CellClick);
             // 
             // uiSymbolButton_help
             // 
@@ -639,6 +640,29 @@ namespace Managing_Car_Program
             this.Label_Current_Time.TabIndex = 0;
             this.Label_Current_Time.Text = "CurrentTime";
             // 
+            // uiSymbolButton_other
+            // 
+            this.uiSymbolButton_other.BackColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_other.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton_other.FillColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_other.FillHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_other.FillPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_other.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_other.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiSymbolButton_other.Location = new System.Drawing.Point(173, 29);
+            this.uiSymbolButton_other.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiSymbolButton_other.Name = "uiSymbolButton_other";
+            this.uiSymbolButton_other.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_other.RectHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_other.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_other.RectSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_other.Size = new System.Drawing.Size(36, 31);
+            this.uiSymbolButton_other.Style = Sunny.UI.UIStyle.Custom;
+            this.uiSymbolButton_other.Symbol = 61442;
+            this.uiSymbolButton_other.SymbolSize = 30;
+            this.uiSymbolButton_other.TabIndex = 20;
+            this.uiSymbolButton_other.Click += new System.EventHandler(this.uiSymbolButton_other_Click);
+            // 
             // parkingSpotDataGridViewTextBoxColumn
             // 
             this.parkingSpotDataGridViewTextBoxColumn.DataPropertyName = "parkingSpot";
@@ -670,6 +694,7 @@ namespace Managing_Car_Program
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(980, 728);
+            this.Controls.Add(this.uiSymbolButton_other);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.uiSymbolButton_cust_add);
             this.Controls.Add(this.uiSymbolButton_help);
@@ -755,6 +780,7 @@ namespace Managing_Car_Program
         private System.Windows.Forms.Label Label_Current_Time;
         private System.Windows.Forms.Label label_in_out_result;
         private System.Windows.Forms.Label label_result;
+        private Sunny.UI.UISymbolButton uiSymbolButton_other;
     }
 }
 

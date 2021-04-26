@@ -44,7 +44,12 @@ namespace Managing_Car_Program
 
             // datagridview 셀클릭입력편집 방지
             dataGridView_main.ReadOnly = true;            
-        }        
+        }
+
+        ~MainForm() // 소멸자
+        {
+            DataManager.Save();
+        }
 
         private void timer1_Tick(object sender, EventArgs e)
         {            
@@ -393,6 +398,11 @@ namespace Managing_Car_Program
         private void uiSymbolButton_cust_add_Click(object sender, EventArgs e)
         {
             new Cust_cu_add_Form().Show();
+        }
+
+        private void uiSymbolButton_other_Click(object sender, EventArgs e)
+        {
+            new Other_view_Form().Show();
         }
     }
 }
