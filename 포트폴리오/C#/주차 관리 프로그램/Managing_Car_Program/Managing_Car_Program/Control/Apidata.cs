@@ -62,7 +62,7 @@ namespace Managing_Car_Program.Control
         private static XElement getelement()
         {
             string apiurl = "http://210.99.248.79/rest/PublicParkingAreaService/getPublicParkingAreaList";
-            apiurl += "?ServiceKey=" + "HQgKgYZmyYSD59RIxPaVemafErQvF0cQVprgggIgaK7Zznh3nu%2F7FYGPXo9lHIDgaqeZDvJRD93rc9RASG31Jw%3D%3D";
+            apiurl += "?authApiKey=" + "HQgKgYZmyYSD59RIxPaVemafErQvF0cQVprgggIgaK7Zznh3nu%2F7FYGPXo9lHIDgaqeZDvJRD93rc9RASG31Jw%3D%3D";
             XElement element = XElement.Load(apiurl);
             return element;
         }
