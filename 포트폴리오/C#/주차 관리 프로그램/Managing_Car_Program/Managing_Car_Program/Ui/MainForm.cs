@@ -300,6 +300,9 @@ namespace Managing_Car_Program
                             // 이용시간 메서드
                             Timetxt();
 
+                            // 정산요금 메서드
+                            resultmoney();
+
                             string contents = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
                             //MessageBox.Show(contents);                            
                             writeLog(contents);
@@ -318,10 +321,6 @@ namespace Managing_Car_Program
                 writeLog(ex.StackTrace);
                 //throw;
             }
-
-            // 계산법 = (주차시간/단위시간)*요금
-            //TimeSpan ts = parkingout - parkingin;
-            label12.Text = calctime(parkingout - parkingin) + "원";           
         }
 
         public void Timetxt()
@@ -340,8 +339,15 @@ namespace Managing_Car_Program
             writeLog(contents);
         }
 
+        private void resultmoney()
+        {            
+            // 계산법 = (주차시간/단위시간)*요금
+            //TimeSpan ts = parkingout - parkingin;
+            label_money_result.Text = calctime(parkingout - parkingin) + "원";
+        }
+
         private string calctime(TimeSpan ts)
-        {
+        {           
             return ((Convert.ToInt32(ts.Minutes / Convert.ToInt32(label_time.Text)))
                 * Convert.ToInt32(label_money.Text)).ToString();
         }

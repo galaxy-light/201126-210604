@@ -46,7 +46,7 @@ namespace Managing_Car_Program.Control
 
                 createfile();
                 apisave();
-                apiload(); // 단, Load 함수자체가 잘못됐다면 무한루프에 빠짐
+                apiload(); // 단, apiload 함수 자체가 잘못됐다면 무한루프에 빠짐
                 //throw;
             }
         }
@@ -62,7 +62,7 @@ namespace Managing_Car_Program.Control
         private static XElement getelement()
         {
             string apiurl = "http://210.99.248.79/rest/PublicParkingAreaService/getPublicParkingAreaList";
-            apiurl += "?authApiKey=" + "HQgKgYZmyYSD59RIxPaVemafErQvF0cQVprgggIgaK7Zznh3nu%2F7FYGPXo9lHIDgaqeZDvJRD93rc9RASG31Jw%3D%3D";
+            apiurl += "?ServiceKey=" + "HQgKgYZmyYSD59RIxPaVemafErQvF0cQVprgggIgaK7Zznh3nu%2F7FYGPXo9lHIDgaqeZDvJRD93rc9RASG31Jw%3D%3D";
             XElement element = XElement.Load(apiurl);
             return element;
         }
@@ -76,23 +76,23 @@ namespace Managing_Car_Program.Control
             {
                 foreach (var item in parkinglist)
                 {
-                    dataoutput += "<parking>\n";
+                    dataoutput += "<list>\n";
                     dataoutput += $"  <name>{item.Name}</name>"; // xml 파일과 태그 동일                   
                     dataoutput += $"  <location>{item.Location}</location>";
                     dataoutput += $"  <pcount>{item.Pcount}</pcount>";
-                    dataoutput += "</parking>\n";
+                    dataoutput += "</list>\n";
                 }
             }
-            else
+            else // xml파일에 아무 것도 없는 경우
             {
                 XElement element = getelement();
                 foreach (var item in element.Descendants("item"))
                 {
-                    dataoutput += "<parking>\n";
+                    dataoutput += "<list>\n";
                     dataoutput += $"  <name>{item.Element("ITEM_NAME").Value}</name>"; // xml 파일과 태그 동일                    
                     dataoutput += $"  <location>{item.Element("ITEM_LOCATION").Value}</location>";
                     dataoutput += $"  <pcount>{item.Element("ITEM_PCOUNT").Value}</pcount>";
-                    dataoutput += "</parking>\n";
+                    dataoutput += "</list>\n";
                 }
             }
             dataoutput += "</parkings>";

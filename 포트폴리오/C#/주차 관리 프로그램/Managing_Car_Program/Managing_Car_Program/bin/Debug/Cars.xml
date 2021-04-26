@@ -1,36 +1,36 @@
 <cars>
 <car>
-  <parkingSpot>1</parkingSpot>  <carNumber>123</carNumber>  <parkingTime>2021-04-26 오전 9:34:58</parkingTime></car>
+  <parkingSpot>1</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 10:58:18</parkingTime></car>
 <car>
-  <parkingSpot>2</parkingSpot>  <carNumber>1</carNumber>  <parkingTime>2021-04-26 오전 9:35:12</parkingTime></car>
+  <parkingSpot>2</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 11:02:38</parkingTime></car>
 <car>
-  <parkingSpot>3</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오전 9:36:49</parkingTime></car>
+  <parkingSpot>3</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 11:02:41</parkingTime></car>
 <car>
-  <parkingSpot>4</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>4</parkingSpot>  <carNumber>567</carNumber>  <parkingTime>2021-04-26 오후 10:52:15</parkingTime></car>
 <car>
-  <parkingSpot>5</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>5</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 11:02:42</parkingTime></car>
 <car>
-  <parkingSpot>6</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>6</parkingSpot>  <carNumber>123</carNumber>  <parkingTime>2021-04-26 오후 10:56:36</parkingTime></car>
 <car>
-  <parkingSpot>7</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>7</parkingSpot>  <carNumber>123</carNumber>  <parkingTime>2021-04-26 오후 10:56:38</parkingTime></car>
 <car>
-  <parkingSpot>8</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>8</parkingSpot>  <carNumber>123</carNumber>  <parkingTime>2021-04-26 오후 10:56:42</parkingTime></car>
 <car>
-  <parkingSpot>9</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>9</parkingSpot>  <carNumber>123</carNumber>  <parkingTime>2021-04-26 오후 10:56:39</parkingTime></car>
 <car>
-  <parkingSpot>10</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>10</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 10:49:35</parkingTime></car>
 <car>
-  <parkingSpot>11</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>11</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 10:49:37</parkingTime></car>
 <car>
-  <parkingSpot>12</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>12</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 10:49:38</parkingTime></car>
 <car>
-  <parkingSpot>13</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>13</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 10:49:40</parkingTime></car>
 <car>
-  <parkingSpot>14</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>14</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 10:49:41</parkingTime></car>
 <car>
-  <parkingSpot>15</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>15</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 10:49:43</parkingTime></car>
 <car>
-  <parkingSpot>16</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>16</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오후 10:49:44</parkingTime></car>
 <car>
   <parkingSpot>17</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
 <car>

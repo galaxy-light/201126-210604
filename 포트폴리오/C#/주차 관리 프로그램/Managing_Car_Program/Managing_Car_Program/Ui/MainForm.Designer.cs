@@ -61,7 +61,7 @@ namespace Managing_Car_Program
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label_result = new System.Windows.Forms.Label();
             this.label_in_out_result = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.label_money_result = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label_money = new System.Windows.Forms.Label();
             this.label_time = new System.Windows.Forms.Label();
@@ -421,7 +421,7 @@ namespace Managing_Car_Program
             this.groupBox3.BackColor = System.Drawing.Color.White;
             this.groupBox3.Controls.Add(this.label_result);
             this.groupBox3.Controls.Add(this.label_in_out_result);
-            this.groupBox3.Controls.Add(this.label12);
+            this.groupBox3.Controls.Add(this.label_money_result);
             this.groupBox3.Controls.Add(this.label13);
             this.groupBox3.Controls.Add(this.label_money);
             this.groupBox3.Controls.Add(this.label_time);
@@ -457,15 +457,15 @@ namespace Managing_Car_Program
             this.label_in_out_result.TabIndex = 17;
             this.label_in_out_result.Text = "-";
             // 
-            // label12
+            // label_money_result
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(563, 26);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(15, 14);
-            this.label12.TabIndex = 15;
-            this.label12.Text = "-";
+            this.label_money_result.AutoSize = true;
+            this.label_money_result.BackColor = System.Drawing.Color.White;
+            this.label_money_result.Location = new System.Drawing.Point(563, 26);
+            this.label_money_result.Name = "label_money_result";
+            this.label_money_result.Size = new System.Drawing.Size(15, 14);
+            this.label_money_result.TabIndex = 15;
+            this.label_money_result.Text = "-";
             // 
             // label13
             // 
@@ -492,9 +492,9 @@ namespace Managing_Car_Program
             this.label_time.AutoSize = true;
             this.label_time.Location = new System.Drawing.Point(126, 26);
             this.label_time.Name = "label_time";
-            this.label_time.Size = new System.Drawing.Size(23, 14);
+            this.label_time.Size = new System.Drawing.Size(15, 14);
             this.label_time.TabIndex = 12;
-            this.label_time.Text = "30";
+            this.label_time.Text = "1";
             // 
             // label11
             // 
@@ -767,7 +767,7 @@ namespace Managing_Car_Program
         private System.Windows.Forms.Button button_check2;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.DataGridView dataGridView_main;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label_money_result;
         private System.Windows.Forms.Label label13;
         private Sunny.UI.UISymbolButton uiSymbolButton_help;
         private System.Windows.Forms.GroupBox groupBox4;
