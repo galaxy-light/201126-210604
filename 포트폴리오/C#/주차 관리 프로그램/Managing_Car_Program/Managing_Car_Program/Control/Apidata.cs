@@ -76,11 +76,11 @@ namespace Managing_Car_Program.Control
             {
                 foreach (var item in parkinglist)
                 {
-                    dataoutput += "<list>\n";
+                    dataoutput += "<parking>\n";
                     dataoutput += $"  <name>{item.Name}</name>"; // xml 파일과 태그 동일                   
                     dataoutput += $"  <location>{item.Location}</location>";
                     dataoutput += $"  <pcount>{item.Pcount}</pcount>";
-                    dataoutput += "</list>\n";
+                    dataoutput += "</parking>\n";
                 }
             }
             else // xml파일에 아무 것도 없는 경우
@@ -89,9 +89,9 @@ namespace Managing_Car_Program.Control
                 foreach (var item in element.Descendants("item"))
                 {
                     dataoutput += "<list>\n";
-                    dataoutput += $"  <name>{item.Element("ITEM_NAME").Value}</name>"; // xml 파일과 태그 동일                    
-                    dataoutput += $"  <location>{item.Element("ITEM_LOCATION").Value}</location>";
-                    dataoutput += $"  <pcount>{item.Element("ITEM_PCOUNT").Value}</pcount>";
+                    dataoutput += $"  <name>{item.Element("name").Value}</name>"; // xml 파일과 태그 동일                    
+                    dataoutput += $"  <location>{item.Element("location").Value}</location>";
+                    dataoutput += $"  <pcount>{item.Element("pcount").Value}</pcount>";
                     dataoutput += "</list>\n";
                 }
             }
