@@ -1,10 +1,10 @@
 <cars>
 <car>
-  <parkingSpot>1</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>1</parkingSpot>  <carNumber>123</carNumber>  <parkingTime>2021-04-26 오전 9:34:58</parkingTime></car>
 <car>
-  <parkingSpot>2</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>2</parkingSpot>  <carNumber>1</carNumber>  <parkingTime>2021-04-26 오전 9:35:12</parkingTime></car>
 <car>
-  <parkingSpot>3</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
+  <parkingSpot>3</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-26 오전 9:36:49</parkingTime></car>
 <car>
   <parkingSpot>4</parkingSpot>  <carNumber></carNumber>  <parkingTime>2021-04-25 오후 9:23:50</parkingTime></car>
 <car>
