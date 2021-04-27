@@ -14,3 +14,4 @@ C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\오디오 가이�
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\오디오 가이드 프로그램\Guide_program\Guide_program\obj\Debug\Guide_program.csproj.CopyComplete
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\오디오 가이드 프로그램\Guide_program\Guide_program\obj\Debug\Guide_program.exe
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\오디오 가이드 프로그램\Guide_program\Guide_program\obj\Debug\Guide_program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\오디오 가이드 프로그램\Guide_program\Guide_program\obj\Debug\Guide_program.Ui.ViewForm.resources

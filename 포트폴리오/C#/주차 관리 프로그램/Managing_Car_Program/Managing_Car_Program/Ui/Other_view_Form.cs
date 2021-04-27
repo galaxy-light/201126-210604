@@ -29,8 +29,7 @@ namespace Managing_Car_Program.Ui
             apiurl += "?ServiceKey=" + "HQgKgYZmyYSD59RIxPaVemafErQvF0cQVprgggIgaK7Zznh3nu%2F7FYGPXo9lHIDgaqeZDvJRD93rc9RASG31Jw%3D%3D"; // Service Key
             XElement element = XElement.Load(apiurl);
             foreach (var item in element.Descendants("list"))
-            {
-                
+            {                
                 string tempname = item.Element("name").Value;
                 string templocation = item.Element("location").Value;
                 string tempcount = item.Element("pcount").Value;
