@@ -214,7 +214,8 @@ namespace Managing_Car_Program
                     }
                     else // 아직 차량 정보가 없음
                     {
-                        parkingin = DateTime.Now;
+                        DateTime Now = DateTime.Now;
+                        parkingin = Now;
                         label_in_time.Text = parkingin.ToString("HH:mm:ss");
 
                         for (int i = 0; i < VipData.vips.Count; i++)
@@ -232,13 +233,13 @@ namespace Managing_Car_Program
                         car.carNumber = textBox_carnum.Text;
                         /*car.driverName = textBox_cust_start.Text;
                         car.phoneNumber = textBox_cust_end.Text;*/
-                        car.parkingTime = DateTime.Now;
+                        car.parkingTime = Now;
 
                         dataGridView_main.DataSource = null;
                         dataGridView_main.DataSource = DataManager.Cars;                       
                                                 
                         string contents = $"주차공간 : {textBox_num.Text}에 차량번호 : {textBox_carnum.Text}을 주차합니다.";                        
-                        writeLog(contents, DateTime.Now.ToString("yyyy_MM_dd")); // 두번째 파라미터값(DateTime.Now.ToString("yyyy_MM_dd"))은 적어도 되고 안적어도 되고
+                        writeLog(contents, Now.ToString("yyyy_MM_dd")); // 두번째 파라미터값(DateTime.Now.ToString("yyyy_MM_dd"))은 적어도 되고 안적어도 되고
                         
                         DataManager.Save();
                     }
@@ -288,17 +289,18 @@ namespace Managing_Car_Program
                                     textBox_cust_end.Text = VipData.vips[j].custend;                                                                       
                                 }                                
                             }
-
-                            parkingout = DateTime.Now;
+                            DateTime Now = DateTime.Now;
+                            parkingout = Now;
                             label_out_time.Text = parkingout.ToString("HH:mm:ss");
+
+                            // 이용시간 메서드
+                            Timetxt(DataManager.Cars[i].parkingTime, Now);
 
                             DataManager.Cars[i].carNumber = "";
                             /*DataManager.Cars[i].driverName = "";
                             DataManager.Cars[i].phoneNumber = "";*/
-                            DataManager.Cars[i].parkingTime = DateTime.Now; // 알아서 처리                            
+                            DataManager.Cars[i].parkingTime = Now; // 알아서 처리                            
 
-                            // 이용시간 메서드
-                            Timetxt();
 
                             // 정산요금 메서드
                             resultmoney();
@@ -323,16 +325,55 @@ namespace Managing_Car_Program
             }
         }
 
-        public void Timetxt()
+        public void Timetxt(DateTime incar, DateTime outcar)
         {
-            DateTime intime = Convert.ToDateTime(label_in_time.Text);
-            DateTime outtime = Convert.ToDateTime(label_out_time.Text);
 
-            TimeSpan dataresult = outtime - intime;
+            //DateTime intime = Convert.ToDateTime(label_in_time.Text);
+            //DateTime outtime = Convert.ToDateTime(label_out_time.Text);
 
-            string timeresult = dataresult.ToString();
+            TimeSpan timeDiff = outcar - incar;          
 
-            label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));
+            int hourDiff = timeDiff.Hours; //시간 차이는 이 값 이용!!
+            int DayDiff = timeDiff.Days;
+            double totalHourDiff = timeDiff.TotalHours;
+            double totalSecondDiff = timeDiff.TotalSeconds;
+            writeLog("출차시간 : "+ outcar.Hour.ToString());
+            writeLog("주차시간 : " + incar.Hour.ToString());
+            writeLog("주차일자 : " + incar.Day.ToString());
+            writeLog("출차일자 : " + outcar.Day.ToString());
+            writeLog("출차-주차 시간차이 : " + hourDiff.ToString());
+            writeLog("출차-주차 날짜차이 : " + DayDiff.ToString());
+            writeLog("출차-주차 전체시간차이 : " + totalHourDiff.ToString());
+            //string timeresult = string.Format("{0:hh:mm:ss}", timeDiff.ToString());
+            string timeresult = timeDiff.Hours + ":" + timeDiff.Minutes + ":" + timeDiff.Seconds;
+
+
+            //잘 안 됨! (10시에 주차하고 14시 출차시... 다음날14시인지 당일14시인지 모름)
+            //if (dataresult.Equals("24:00:00"))
+            //{
+            //    label_in_out_result.Text = "24:00:00";
+            //}
+            //else
+            //{
+            //    label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));
+            //}
+            if (totalHourDiff >= 24)
+            {
+                //MessageBox.Show("24시간 넘게 이용하셨습니다.");
+                label_in_out_result.Text = "24시간초과";
+            }            
+            else
+            {
+                //label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));                  
+                writeLog("totalsecond : " + totalSecondDiff.ToString());
+                //label_in_out_result.Text = timeresult;
+
+                int totalsecond = (int)totalSecondDiff; //소수점 버림
+                int sec = totalsecond % 60 % 60;
+                int min = totalsecond / 60;
+                int hour = min / 60;
+                label_in_out_result.Text = hour.ToString("00") + ":" + (min % 60).ToString("00") + ":" + sec.ToString("00");
+            }
 
             string contents = $"이용시간 : {label_in_out_result.Text}";
             //MessageBox.Show(contents);           
@@ -347,9 +388,16 @@ namespace Managing_Car_Program
         }
 
         private string calctime(TimeSpan ts)
-        {           
-            return ((Convert.ToInt32(ts.Minutes / Convert.ToInt32(label_time.Text)))
-                * Convert.ToInt32(label_money.Text)).ToString();
+        {
+            if (label_in_out_result.Text == "24시간초과")
+            {
+                return 10000.ToString();
+            }
+            else
+            {
+                return ((Convert.ToInt32(ts.Minutes / Convert.ToInt32(label_time.Text)))
+                    * Convert.ToInt32(label_money.Text)).ToString();
+            }            
         }
 
         private void button_check2_Click(object sender, EventArgs e)

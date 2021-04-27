@@ -481,7 +481,7 @@ namespace Managing_Car_Program
             // label_money
             // 
             this.label_money.AutoSize = true;
-            this.label_money.Location = new System.Drawing.Point(248, 26);
+            this.label_money.Location = new System.Drawing.Point(240, 26);
             this.label_money.Name = "label_money";
             this.label_money.Size = new System.Drawing.Size(31, 14);
             this.label_money.TabIndex = 13;
@@ -490,7 +490,7 @@ namespace Managing_Car_Program
             // label_time
             // 
             this.label_time.AutoSize = true;
-            this.label_time.Location = new System.Drawing.Point(126, 26);
+            this.label_time.Location = new System.Drawing.Point(121, 26);
             this.label_time.Name = "label_time";
             this.label_time.Size = new System.Drawing.Size(23, 14);
             this.label_time.TabIndex = 12;
@@ -499,7 +499,7 @@ namespace Managing_Car_Program
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(275, 26);
+            this.label11.Location = new System.Drawing.Point(267, 26);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(21, 14);
             this.label11.TabIndex = 11;
@@ -508,7 +508,7 @@ namespace Managing_Car_Program
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(146, 26);
+            this.label10.Location = new System.Drawing.Point(139, 26);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 14);
             this.label10.TabIndex = 10;
@@ -518,7 +518,7 @@ namespace Managing_Car_Program
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label6.Location = new System.Drawing.Point(208, 26);
+            this.label6.Location = new System.Drawing.Point(200, 26);
             this.label6.Margin = new System.Windows.Forms.Padding(0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 14);

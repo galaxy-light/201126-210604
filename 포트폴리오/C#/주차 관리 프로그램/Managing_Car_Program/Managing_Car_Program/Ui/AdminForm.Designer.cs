@@ -258,9 +258,7 @@ namespace Managing_Car_Program
         #endregion
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView_parkingAd;
-        private System.Windows.Forms.BindingSource parkingCarBindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn driverNameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phoneNumberDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource parkingCarBindingSource;        
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label_menu1;
         private System.Windows.Forms.Button button1;
