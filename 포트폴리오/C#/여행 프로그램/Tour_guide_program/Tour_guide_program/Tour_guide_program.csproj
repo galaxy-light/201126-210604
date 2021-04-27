@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\DataControl.cs" />
+    <Compile Include="Model\Tourlist.cs" />
     <Compile Include="Ui\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

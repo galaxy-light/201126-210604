@@ -35,6 +35,8 @@ namespace Tour_guide_program
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -82,7 +84,7 @@ namespace Tour_guide_program
             "수정일순",
             "등록일순",
             "인기순"});
-            this.comboBox4.Location = new System.Drawing.Point(239, 199);
+            this.comboBox4.Location = new System.Drawing.Point(239, 142);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(121, 20);
             this.comboBox4.TabIndex = 3;
@@ -95,7 +97,7 @@ namespace Tour_guide_program
             "수정일순",
             "등록일순",
             "인기순"});
-            this.comboBox5.Location = new System.Drawing.Point(383, 199);
+            this.comboBox5.Location = new System.Drawing.Point(383, 142);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(121, 20);
             this.comboBox5.TabIndex = 4;
@@ -115,16 +117,27 @@ namespace Tour_guide_program
             "길안내정보",
             "이미지정보",
             "연계관광정보"});
-            this.comboBox6.Location = new System.Drawing.Point(239, 272);
+            this.comboBox6.Location = new System.Drawing.Point(239, 184);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(121, 20);
             this.comboBox6.TabIndex = 5;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(56, 235);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(892, 397);
+            this.dataGridView1.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1008, 709);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBox6);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.comboBox4);
@@ -134,6 +147,7 @@ namespace Tour_guide_program
             this.Name = "Form1";
             this.Text = "나랑 여행가자";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -146,6 +160,7 @@ namespace Tour_guide_program
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
