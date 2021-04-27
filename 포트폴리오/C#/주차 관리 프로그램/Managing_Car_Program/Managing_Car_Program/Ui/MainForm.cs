@@ -299,7 +299,7 @@ namespace Managing_Car_Program
                             DataManager.Cars[i].carNumber = "";
                             /*DataManager.Cars[i].driverName = "";
                             DataManager.Cars[i].phoneNumber = "";*/
-                            DataManager.Cars[i].parkingTime = Now; // 알아서 처리                            
+                            DataManager.Cars[i].parkingTime = Now;                          
 
 
                             // 정산요금 메서드
@@ -392,7 +392,7 @@ namespace Managing_Car_Program
             if (label_in_out_result.Text == "24시간초과")
             {
                 return 10000.ToString();
-            }
+            }           
             else
             {
                 return ((Convert.ToInt32(ts.Minutes / Convert.ToInt32(label_time.Text)))

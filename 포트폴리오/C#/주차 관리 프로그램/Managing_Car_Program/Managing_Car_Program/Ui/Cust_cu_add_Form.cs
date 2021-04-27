@@ -119,5 +119,10 @@ namespace Managing_Car_Program.Ui
         {
             MessageBox.Show("정기권 문의 : 000-0000-000");
         }
+
+        private void uiSymbolButton_help5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("월정기주차권 금액 : 150,000원");
+        }
     }
 }

@@ -42,6 +42,7 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_end = new Sunny.UI.UISymbolLabel();
             this.uiSymbolButton_help2 = new Sunny.UI.UISymbolButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.uiSymbolButton_help5 = new Sunny.UI.UISymbolButton();
             this.SuspendLayout();
             // 
             // button_okay
@@ -219,7 +220,7 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolButton_help2.FillPressColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_help2.FillSelectedColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_help2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton_help2.Location = new System.Drawing.Point(115, 29);
+            this.uiSymbolButton_help2.Location = new System.Drawing.Point(634, 29);
             this.uiSymbolButton_help2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolButton_help2.Name = "uiSymbolButton_help2";
             this.uiSymbolButton_help2.RectColor = System.Drawing.Color.Transparent;
@@ -241,12 +242,35 @@ namespace Managing_Car_Program.Ui
             this.panel1.Size = new System.Drawing.Size(714, 25);
             this.panel1.TabIndex = 28;
             // 
+            // uiSymbolButton_help5
+            // 
+            this.uiSymbolButton_help5.BackColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton_help5.FillColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help5.FillHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help5.FillPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help5.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiSymbolButton_help5.Location = new System.Drawing.Point(116, 29);
+            this.uiSymbolButton_help5.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiSymbolButton_help5.Name = "uiSymbolButton_help5";
+            this.uiSymbolButton_help5.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help5.RectHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help5.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_help5.Size = new System.Drawing.Size(36, 31);
+            this.uiSymbolButton_help5.Style = Sunny.UI.UIStyle.Custom;
+            this.uiSymbolButton_help5.Symbol = 61528;
+            this.uiSymbolButton_help5.SymbolSize = 35;
+            this.uiSymbolButton_help5.TabIndex = 29;
+            this.uiSymbolButton_help5.Click += new System.EventHandler(this.uiSymbolButton_help5_Click);
+            // 
             // Cust_cu_add_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(714, 477);
+            this.Controls.Add(this.uiSymbolButton_help5);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.uiSymbolButton_help2);
             this.Controls.Add(this.uiTextBox_end_text);
@@ -282,5 +306,6 @@ namespace Managing_Car_Program.Ui
         private Sunny.UI.UISymbolLabel uiSymbolLabel_end;
         private Sunny.UI.UISymbolButton uiSymbolButton_help2;
         private System.Windows.Forms.Panel panel1;
+        private Sunny.UI.UISymbolButton uiSymbolButton_help5;
     }
 }
