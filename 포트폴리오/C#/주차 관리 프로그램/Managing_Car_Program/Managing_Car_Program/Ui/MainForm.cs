@@ -280,17 +280,18 @@ namespace Managing_Car_Program
                         }                        
                         else
                         {
+                            VipData.Load();
+                            Boolean isThisJungGiGwon = false;
                             for (int j = 0; j < VipData.vips.Count; j++)
                             {
                                 if (textBox_carnum.Text == VipData.vips[j].custcarnum)
                                 {
                                     textBox_cust_start.Text = VipData.vips[j].custstart;
                                     textBox_cust_end.Text = VipData.vips[j].custend;
-
-                                    label_money_result.Text = "정기권";
+                                   
+                                    isThisJungGiGwon = true;
 
                                     string contents1 = null;
-
                                     contents1 = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
                                     //MessageBox.Show(contents);                            
                                     writeLog(contents1);
@@ -314,8 +315,15 @@ namespace Managing_Car_Program
                             DataManager.Cars[i].phoneNumber = "";*/
                             DataManager.Cars[i].parkingTime = Now;     
                             
-                            // 정산요금 메서드
-                            resultmoney();
+                            if(isThisJungGiGwon) // isThisJungGiGwon = true
+                            {
+                                label_money_result.Text = "정기권";
+                            }
+                            else
+                            {
+                                // 정산요금 메서드
+                                resultmoney();
+                            }
 
                             string contents = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
                             //MessageBox.Show(contents);                            
@@ -404,7 +412,11 @@ namespace Managing_Car_Program
             if (label_in_out_result.Text == "24시간초과")
             {
                 return 10000.ToString();
-            }            
+            }
+            else if (label_in_out_result.Text == "정기권")
+            {
+                return "정기권";
+            }
             else
             {
                 return ((Convert.ToInt32(ts.Minutes / Convert.ToInt32(label_time.Text)))

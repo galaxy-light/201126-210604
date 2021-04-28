@@ -72,11 +72,11 @@ namespace Managing_Car_Program
                 foreach (var item in vips)
                 {
                     txtsOutput += "<vip>\n";
-                    txtsOutput += $"  <vipname>{item.custnm}</vipname>";
-                    txtsOutput += $"  <vipcarnum>{item.custcarnum}</vipcarnum>";
-                    txtsOutput += $"  <vipphone>{item.custph}</vipphone>";
-                    txtsOutput += $"  <vipstart>{item.custstart}</vipstart>";
-                    txtsOutput += $"  <vipend>{item.custend}</vipend>";
+                    txtsOutput += $"  <vipname>{item.custnm}</vipname>\n";
+                    txtsOutput += $"  <vipcarnum>{item.custcarnum}</vipcarnum>\n";
+                    txtsOutput += $"  <vipphone>{item.custph}</vipphone>\n";
+                    txtsOutput += $"  <vipstart>{item.custstart}</vipstart>\n";
+                    txtsOutput += $"  <vipend>{item.custend}</vipend>\n";
                     txtsOutput += "</vip>\n";
                 }
             }
@@ -85,11 +85,11 @@ namespace Managing_Car_Program
                 for (int i = 0; i < VipData.vips.Count; i++)
                 {
                     txtsOutput += "<vip>\n";
-                    txtsOutput += $"  <vipname></vipname>";
-                    txtsOutput += $"  <vipcarnum></vipcarnum>";
-                    txtsOutput += $"  <vipphone></vipphone>";
-                    txtsOutput += $"  <vipstart></vipstart>";
-                    txtsOutput += $"  <vipend></vipend>";
+                    txtsOutput += $"  <vipname></vipname>\n";
+                    txtsOutput += $"  <vipcarnum></vipcarnum>\n";
+                    txtsOutput += $"  <vipphone></vipphone>\n";
+                    txtsOutput += $"  <vipstart></vipstart>\n";
+                    txtsOutput += $"  <vipend></vipend>\n";
                     txtsOutput += "</vip>\n";
                 }                
             }

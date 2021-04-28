@@ -16,6 +16,8 @@ namespace Managing_Car_Program.Ui
         public Cust_cu_add_Form()
         {
             InitializeComponent();
+
+            uiTextBox_start_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
         }
 
         private void button_okay_Click(object sender, EventArgs e)
@@ -133,6 +135,11 @@ namespace Managing_Car_Program.Ui
         private void uiSymbolButton_help5_Click(object sender, EventArgs e)
         {
             MessageBox.Show("월정기주차권 금액 : 150,000원");
+        }
+
+        private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
+        {
+            uiTextBox_start_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
         }
     }
 }
