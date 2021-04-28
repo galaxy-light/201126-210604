@@ -46,6 +46,16 @@ namespace Managing_Car_Program.Ui
                 return;
             }
 
+            // 차량 번호 중복 확인
+            for (int i = 0; i < VipData.vips.Count; i++)
+            {
+                if (uiTextBox_carnum.Text == VipData.vips[i].custcarnum)
+                {
+                    MessageBox.Show("이미 등록된 차량 번호입니다.");
+                    return;
+                }
+            }            
+
             if (uiTextBox_nm.Text != "" && uiTextBox_carnum.Text != "" && uiTextBox_ph.Text != "" &&
                 uiTextBox_start.Text != "" && uiTextBox_end.Text != "")
             {

@@ -14,8 +14,7 @@ using System.Windows.Forms;
 namespace Managing_Car_Program
 {
     public partial class MainForm : MaterialForm
-    {        
-        static int n;
+    {       
         private DateTime parkingin;
         private DateTime parkingout;
 
@@ -265,7 +264,7 @@ namespace Managing_Car_Program
             {
                 MessageBox.Show("주차 공간 번호를 입력해주세요.");
                 return;
-            }
+            }           
             // Single없이 조회하고 해당하는 데이터 변경
             try
             {
@@ -278,7 +277,7 @@ namespace Managing_Car_Program
                             MessageBox.Show("주차 공간에 차량이 없습니다.");
                             writeLog("주차 공간에 차량이 없습니다.");
                             break;
-                        }
+                        }                        
                         else
                         {
                             for (int j = 0; j < VipData.vips.Count; j++)
@@ -286,9 +285,23 @@ namespace Managing_Car_Program
                                 if (textBox_carnum.Text == VipData.vips[j].custcarnum)
                                 {
                                     textBox_cust_start.Text = VipData.vips[j].custstart;
-                                    textBox_cust_end.Text = VipData.vips[j].custend;                                                                       
+                                    textBox_cust_end.Text = VipData.vips[j].custend;
+
+                                    label_money_result.Text = "정기권";
+
+                                    string contents1 = null;
+
+                                    contents1 = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
+                                    //MessageBox.Show(contents);                            
+                                    writeLog(contents1);
+                                    dataGridView_main.DataSource = null; // dataGridView1의 데이터를 한 번 지워주고
+                                    dataGridView_main.DataSource = DataManager.Cars; // 다시 리셋
+                                    DataManager.Save();
+
+                                    break;
                                 }                                
                             }
+
                             DateTime Now = DateTime.Now;
                             parkingout = Now;
                             label_out_time.Text = parkingout.ToString("HH:mm:ss");
@@ -299,9 +312,8 @@ namespace Managing_Car_Program
                             DataManager.Cars[i].carNumber = "";
                             /*DataManager.Cars[i].driverName = "";
                             DataManager.Cars[i].phoneNumber = "";*/
-                            DataManager.Cars[i].parkingTime = Now;                          
-
-
+                            DataManager.Cars[i].parkingTime = Now;     
+                            
                             // 정산요금 메서드
                             resultmoney();
 
@@ -314,7 +326,7 @@ namespace Managing_Car_Program
                             break;
                         }
                     }
-                }
+                }                
             }
             catch (Exception ex)
             {
@@ -383,7 +395,7 @@ namespace Managing_Car_Program
         private void resultmoney()
         {            
             // 계산법 = (주차시간/단위시간)*요금
-            //TimeSpan ts = parkingout - parkingin;
+            //TimeSpan ts = parkingout - parkingin;            
             label_money_result.Text = calctime(parkingout - parkingin) + "원";
         }
 
@@ -392,7 +404,7 @@ namespace Managing_Car_Program
             if (label_in_out_result.Text == "24시간초과")
             {
                 return 10000.ToString();
-            }           
+            }            
             else
             {
                 return ((Convert.ToInt32(ts.Minutes / Convert.ToInt32(label_time.Text)))
@@ -422,7 +434,7 @@ namespace Managing_Car_Program
                     // DataBoundItem : 클릭한 리스트의 저장된 데이터
                     ParkingCar temp = dataGridView_main.CurrentRow.DataBoundItem as ParkingCar; // ParkingCar를 형변환해서 temp에 넣음
                     textBox_num.Text = temp.parkingSpot.ToString();
-                    //textBox_carnum.Text = temp.carNumber;
+                    textBox_carnum.Text = temp.carNumber;
                     //textBox_carnm.Text = temp.driverName;
                     //textBox_carph.Text = temp.phoneNumber;
 
