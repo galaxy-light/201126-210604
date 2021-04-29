@@ -130,8 +130,17 @@ namespace Managing_Car_Program.Ui
 
         private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
         {
-            uiTextBox_start.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
-            uiTextBox_end.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            //uiTextBox_start.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            //uiTextBox_end.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+
+            if (uiRadioButton_start.Checked == true)
+            {
+                uiTextBox_start.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            }
+            else
+            {
+                uiTextBox_end.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            }           
         }
     } 
 }

@@ -71,7 +71,8 @@ namespace Managing_Car_Program
         {
             count = count + 1;           
             textBox_cust_start.Text = "";
-            textBox_cust_end.Text = "";            
+            textBox_cust_end.Text = "";
+            //label_money_result.Text = "-";
         }
 
         private void starttimer()
@@ -182,8 +183,16 @@ namespace Managing_Car_Program
         }
 
         private void button_in_Click(object sender, EventArgs e)
-        {            
+        {
             //writeLog("주차 버튼 클릭");
+            for (int i = 0; i < DataManager.Cars.Count; i++)
+            {
+                if (textBox_carnum.Text.Trim() == DataManager.Cars[i].carNumber)
+                {
+                    MessageBox.Show("이미 주차된 차량입니다.");
+                    return;
+                }
+            }            
             if (textBox_num.Text.Trim() == "") // Trim : 공백 제거 함수 / 공간 번호가 공백일 경우
             {
                 MessageBox.Show("주차 공간을 입력하세요.");
@@ -194,7 +203,7 @@ namespace Managing_Car_Program
                 MessageBox.Show("차량 번호를 입력하세요.");
                 writeLog("차량 번호를 입력하세요.");
                 return;
-            }
+            }            
             else
             {
                 try
@@ -309,21 +318,21 @@ namespace Managing_Car_Program
 
                             // 이용시간 메서드
                             Timetxt(DataManager.Cars[i].parkingTime, Now);
-
-                            DataManager.Cars[i].carNumber = "";
-                            /*DataManager.Cars[i].driverName = "";
-                            DataManager.Cars[i].phoneNumber = "";*/
-                            DataManager.Cars[i].parkingTime = Now;     
                             
-                            if(isThisJungGiGwon) // isThisJungGiGwon = true
+                            if(isThisJungGiGwon) // isThisJungGiGwon = true일 때
                             {
-                                label_money_result.Text = "정기권";
+                                label_money_result.Text = "정기권"; // 실행
                             }
                             else
                             {
                                 // 정산요금 메서드
-                                resultmoney();
+                                resultmoney(DataManager.Cars[i].parkingTime, Now);
                             }
+
+                            DataManager.Cars[i].carNumber = "";
+                            /*DataManager.Cars[i].driverName = "";
+                            DataManager.Cars[i].phoneNumber = "";*/
+                            DataManager.Cars[i].parkingTime = Now;
 
                             string contents = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
                             //MessageBox.Show(contents);                            
@@ -339,6 +348,49 @@ namespace Managing_Car_Program
             catch (Exception ex)
             {
                 writeLog("출차가 되지 않았습니다.");
+                writeLog(ex.Message);
+                writeLog(ex.StackTrace);
+                //throw;
+            }
+        }
+
+        public void expire(DateTime outDate)
+        {            
+            try
+            {
+                VipData.Load();
+                for (int i = 0; i < VipData.vips.Count; i++)
+                {
+                    if (textBox_carnum.Text == VipData.vips[i].custcarnum)
+                    {
+                        String[] YMD = VipData.vips[i].custend.Split('-'); //2021-04-29
+                        DateTime expireDate = new DateTime( int.Parse(YMD[0]), int.Parse(YMD[1]), int.Parse(YMD[2]));
+                        TimeSpan diff = expireDate - outDate;
+                        if(diff.TotalSeconds < 0)
+                        {
+                            //만기 이후!
+                            int totalSecond = (int)diff.TotalSeconds;
+                            int totalMinute = totalSecond / 60;
+                            int totalHour = totalSecond / 60 / 60;
+                            if(totalHour >= 24)
+                            {
+                                label_money_result.Text = "10000";
+                            }
+                            else
+                            {
+                                //label_money_result.Text = totalMinute;
+                            }
+
+                        }
+                        else
+                        {
+                            //이거는 만기전에 출차함
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
                 writeLog(ex.Message);
                 writeLog(ex.StackTrace);
                 //throw;
@@ -400,11 +452,12 @@ namespace Managing_Car_Program
             writeLog(contents);
         }
 
-        private void resultmoney()
-        {            
+        private void resultmoney(DateTime parkIn, DateTime parkOut)
+        {
             // 계산법 = (주차시간/단위시간)*요금
-            //TimeSpan ts = parkingout - parkingin;            
-            label_money_result.Text = calctime(parkingout - parkingin) + "원";
+            //TimeSpan ts = parkingout - parkingin;    
+            
+            label_money_result.Text = calctime(parkOut - parkIn) + "원";            
         }
 
         private string calctime(TimeSpan ts)
@@ -421,7 +474,7 @@ namespace Managing_Car_Program
             {
                 return ((Convert.ToInt32(ts.Minutes / Convert.ToInt32(label_time.Text)))
                     * Convert.ToInt32(label_money.Text)).ToString();
-            }            
+            }
         }
 
         private void button_check2_Click(object sender, EventArgs e)

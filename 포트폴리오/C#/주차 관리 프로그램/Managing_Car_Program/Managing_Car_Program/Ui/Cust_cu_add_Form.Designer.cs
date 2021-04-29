@@ -44,6 +44,10 @@ namespace Managing_Car_Program.Ui
             this.panel1 = new System.Windows.Forms.Panel();
             this.uiSymbolButton_help5 = new Sunny.UI.UISymbolButton();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.groupBox_start_end = new System.Windows.Forms.GroupBox();
+            this.uiRadioButton_end = new Sunny.UI.UIRadioButton();
+            this.uiRadioButton_start = new Sunny.UI.UIRadioButton();
+            this.groupBox_start_end.SuspendLayout();
             this.SuspendLayout();
             // 
             // button_okay
@@ -66,7 +70,7 @@ namespace Managing_Car_Program.Ui
             // 
             this.uiSymbolLabel_name.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_name.Font = new System.Drawing.Font("굴림", 11.25F);
-            this.uiSymbolLabel_name.Location = new System.Drawing.Point(359, 124);
+            this.uiSymbolLabel_name.Location = new System.Drawing.Point(359, 132);
             this.uiSymbolLabel_name.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_name.Name = "uiSymbolLabel_name";
             this.uiSymbolLabel_name.Padding = new System.Windows.Forms.Padding(39, 0, 0, 0);
@@ -81,7 +85,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_name_text.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_name_text.FillColor = System.Drawing.Color.White;
             this.uiTextBox_name_text.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox_name_text.Location = new System.Drawing.Point(498, 128);
+            this.uiTextBox_name_text.Location = new System.Drawing.Point(498, 136);
             this.uiTextBox_name_text.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiTextBox_name_text.Maximum = 2147483647D;
             this.uiTextBox_name_text.Minimum = -2147483648D;
@@ -97,7 +101,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_car_text.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_car_text.FillColor = System.Drawing.Color.White;
             this.uiTextBox_car_text.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox_car_text.Location = new System.Drawing.Point(498, 181);
+            this.uiTextBox_car_text.Location = new System.Drawing.Point(498, 189);
             this.uiTextBox_car_text.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiTextBox_car_text.Maximum = 2147483647D;
             this.uiTextBox_car_text.Minimum = -2147483648D;
@@ -112,7 +116,7 @@ namespace Managing_Car_Program.Ui
             // 
             this.uiSymbolLabel_carnum.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_carnum.Font = new System.Drawing.Font("굴림", 11.25F);
-            this.uiSymbolLabel_carnum.Location = new System.Drawing.Point(359, 177);
+            this.uiSymbolLabel_carnum.Location = new System.Drawing.Point(359, 185);
             this.uiSymbolLabel_carnum.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_carnum.Name = "uiSymbolLabel_carnum";
             this.uiSymbolLabel_carnum.Padding = new System.Windows.Forms.Padding(39, 0, 0, 0);
@@ -127,7 +131,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_ph_text.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_ph_text.FillColor = System.Drawing.Color.White;
             this.uiTextBox_ph_text.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox_ph_text.Location = new System.Drawing.Point(498, 235);
+            this.uiTextBox_ph_text.Location = new System.Drawing.Point(498, 243);
             this.uiTextBox_ph_text.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiTextBox_ph_text.Maximum = 2147483647D;
             this.uiTextBox_ph_text.Minimum = -2147483648D;
@@ -142,7 +146,7 @@ namespace Managing_Car_Program.Ui
             // 
             this.uiSymbolLabel_phone.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_phone.Font = new System.Drawing.Font("굴림", 11.25F);
-            this.uiSymbolLabel_phone.Location = new System.Drawing.Point(359, 232);
+            this.uiSymbolLabel_phone.Location = new System.Drawing.Point(359, 240);
             this.uiSymbolLabel_phone.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_phone.Name = "uiSymbolLabel_phone";
             this.uiSymbolLabel_phone.Padding = new System.Windows.Forms.Padding(39, 0, 0, 0);
@@ -157,7 +161,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_start_text.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_start_text.FillColor = System.Drawing.Color.White;
             this.uiTextBox_start_text.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox_start_text.Location = new System.Drawing.Point(498, 288);
+            this.uiTextBox_start_text.Location = new System.Drawing.Point(498, 296);
             this.uiTextBox_start_text.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiTextBox_start_text.Maximum = 2147483647D;
             this.uiTextBox_start_text.Minimum = -2147483648D;
@@ -172,7 +176,7 @@ namespace Managing_Car_Program.Ui
             // 
             this.uiSymbolLabel_start.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_start.Font = new System.Drawing.Font("굴림", 11.25F);
-            this.uiSymbolLabel_start.Location = new System.Drawing.Point(322, 288);
+            this.uiSymbolLabel_start.Location = new System.Drawing.Point(322, 296);
             this.uiSymbolLabel_start.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_start.Name = "uiSymbolLabel_start";
             this.uiSymbolLabel_start.Padding = new System.Windows.Forms.Padding(39, 0, 0, 0);
@@ -187,7 +191,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_end_text.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_end_text.FillColor = System.Drawing.Color.White;
             this.uiTextBox_end_text.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox_end_text.Location = new System.Drawing.Point(498, 343);
+            this.uiTextBox_end_text.Location = new System.Drawing.Point(498, 351);
             this.uiTextBox_end_text.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiTextBox_end_text.Maximum = 2147483647D;
             this.uiTextBox_end_text.Minimum = -2147483648D;
@@ -202,7 +206,7 @@ namespace Managing_Car_Program.Ui
             // 
             this.uiSymbolLabel_end.BackColor = System.Drawing.Color.White;
             this.uiSymbolLabel_end.Font = new System.Drawing.Font("굴림", 11.25F);
-            this.uiSymbolLabel_end.Location = new System.Drawing.Point(322, 338);
+            this.uiSymbolLabel_end.Location = new System.Drawing.Point(322, 346);
             this.uiSymbolLabel_end.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel_end.Name = "uiSymbolLabel_end";
             this.uiSymbolLabel_end.Padding = new System.Windows.Forms.Padding(39, 0, 0, 0);
@@ -267,10 +271,51 @@ namespace Managing_Car_Program.Ui
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(56, 170);
+            this.monthCalendar1.Location = new System.Drawing.Point(56, 116);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 30;
             this.monthCalendar1.DateSelected += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateSelected);
+            // 
+            // groupBox_start_end
+            // 
+            this.groupBox_start_end.Controls.Add(this.uiRadioButton_end);
+            this.groupBox_start_end.Controls.Add(this.uiRadioButton_start);
+            this.groupBox_start_end.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox_start_end.Location = new System.Drawing.Point(56, 291);
+            this.groupBox_start_end.Name = "groupBox_start_end";
+            this.groupBox_start_end.Size = new System.Drawing.Size(220, 107);
+            this.groupBox_start_end.TabIndex = 31;
+            this.groupBox_start_end.TabStop = false;
+            this.groupBox_start_end.Text = "정기권 날짜 지정";
+            // 
+            // uiRadioButton_end
+            // 
+            this.uiRadioButton_end.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiRadioButton_end.Font = new System.Drawing.Font("굴림", 11.25F);
+            this.uiRadioButton_end.Location = new System.Drawing.Point(23, 64);
+            this.uiRadioButton_end.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiRadioButton_end.Name = "uiRadioButton_end";
+            this.uiRadioButton_end.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.uiRadioButton_end.RadioButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
+            this.uiRadioButton_end.Size = new System.Drawing.Size(173, 29);
+            this.uiRadioButton_end.Style = Sunny.UI.UIStyle.Custom;
+            this.uiRadioButton_end.TabIndex = 1;
+            this.uiRadioButton_end.Text = "정기권 종료일 지정";
+            // 
+            // uiRadioButton_start
+            // 
+            this.uiRadioButton_start.Checked = true;
+            this.uiRadioButton_start.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiRadioButton_start.Font = new System.Drawing.Font("굴림", 11.25F);
+            this.uiRadioButton_start.Location = new System.Drawing.Point(23, 29);
+            this.uiRadioButton_start.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiRadioButton_start.Name = "uiRadioButton_start";
+            this.uiRadioButton_start.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.uiRadioButton_start.RadioButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
+            this.uiRadioButton_start.Size = new System.Drawing.Size(173, 29);
+            this.uiRadioButton_start.Style = Sunny.UI.UIStyle.Custom;
+            this.uiRadioButton_start.TabIndex = 0;
+            this.uiRadioButton_start.Text = "정기권 시작일 지정";
             // 
             // Cust_cu_add_Form
             // 
@@ -278,6 +323,7 @@ namespace Managing_Car_Program.Ui
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(767, 498);
+            this.Controls.Add(this.groupBox_start_end);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.uiSymbolButton_help5);
             this.Controls.Add(this.panel1);
@@ -296,6 +342,7 @@ namespace Managing_Car_Program.Ui
             this.Name = "Cust_cu_add_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "정기권 구매";
+            this.groupBox_start_end.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -317,5 +364,8 @@ namespace Managing_Car_Program.Ui
         private System.Windows.Forms.Panel panel1;
         private Sunny.UI.UISymbolButton uiSymbolButton_help5;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.GroupBox groupBox_start_end;
+        private Sunny.UI.UIRadioButton uiRadioButton_end;
+        private Sunny.UI.UIRadioButton uiRadioButton_start;
     }
 }

@@ -95,6 +95,7 @@ C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프�
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.Common.dll
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.AdminForm.resources
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_cu_add_Form.resources
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_ma_add_Form.resources
@@ -109,4 +110,3 @@ C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프�
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CopyComplete
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
-C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
