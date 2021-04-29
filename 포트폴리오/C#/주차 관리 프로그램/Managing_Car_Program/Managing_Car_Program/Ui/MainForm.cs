@@ -18,6 +18,8 @@ namespace Managing_Car_Program
         private DateTime parkingin;
         private DateTime parkingout;
 
+        static int money;
+
         public MainForm()
         {
             InitializeComponent();
@@ -187,7 +189,9 @@ namespace Managing_Car_Program
             //writeLog("주차 버튼 클릭");
             for (int i = 0; i < DataManager.Cars.Count; i++)
             {
-                if (textBox_carnum.Text.Trim() == DataManager.Cars[i].carNumber)
+                string str = textBox_carnum.Text;
+                str = string.Concat(str.Where(x => !char.IsWhiteSpace(x))); // 모든 공백 삭제               
+                if (str == DataManager.Cars[i].carNumber)
                 {
                     MessageBox.Show("이미 주차된 차량입니다.");
                     return;
@@ -363,28 +367,30 @@ namespace Managing_Car_Program
                 {
                     if (textBox_carnum.Text == VipData.vips[i].custcarnum)
                     {
-                        String[] YMD = VipData.vips[i].custend.Split('-'); //2021-04-29
-                        DateTime expireDate = new DateTime( int.Parse(YMD[0]), int.Parse(YMD[1]), int.Parse(YMD[2]));
+                        String[] YMD = VipData.vips[i].custend.Split('-'); //2021-04-29에서 - 삭제
+                        DateTime expireDate = new DateTime(int.Parse(YMD[0]), int.Parse(YMD[1]), int.Parse(YMD[2]));
                         TimeSpan diff = expireDate - outDate;
                         if(diff.TotalSeconds < 0)
                         {
-                            //만기 이후!
-                            int totalSecond = (int)diff.TotalSeconds;
-                            int totalMinute = totalSecond / 60;
-                            int totalHour = totalSecond / 60 / 60;
-                            if(totalHour >= 24)
+                            //만기 이후 출차함!
+                            int totalSecond = (int)diff.TotalSeconds; // 전체 시간
+                            int totalMinute = totalSecond / 60; // 분
+                            int totalHour = totalSecond / 60 / 60; // 시
+                            if(totalHour >= 24) // 24시간부터는 무조건 10000 반환
                             {
                                 label_money_result.Text = "10000";
                             }
                             else
                             {
                                 //label_money_result.Text = totalMinute;
-                            }
 
+                                // 30분마다 500원이 추가됨 -> 모르겠음.... 모르겠어요......
+                                
+                            }
                         }
                         else
                         {
-                            //이거는 만기전에 출차함
+                            // 이거는 만기 전에 출차함
                         }
                     }
                 }
@@ -405,7 +411,7 @@ namespace Managing_Car_Program
 
             TimeSpan timeDiff = outcar - incar;          
 
-            int hourDiff = timeDiff.Hours; //시간 차이는 이 값 이용!!
+            int hourDiff = timeDiff.Hours; //시간 차이는 이 값 이용
             int DayDiff = timeDiff.Days;
             double totalHourDiff = timeDiff.TotalHours;
             double totalSecondDiff = timeDiff.TotalSeconds;
@@ -429,6 +435,7 @@ namespace Managing_Car_Program
             //{
             //    label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));
             //}
+
             if (totalHourDiff >= 24)
             {
                 //MessageBox.Show("24시간 넘게 이용하셨습니다.");

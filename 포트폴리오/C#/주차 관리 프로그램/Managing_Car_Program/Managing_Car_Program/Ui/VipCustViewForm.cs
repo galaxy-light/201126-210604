@@ -338,5 +338,10 @@ namespace Managing_Car_Program.Ui
                 textBox_end.Enabled = false;
             }
         }
+
+        private void uiSymbolButton_conn_db_Click(object sender, EventArgs e)
+        {
+            new DB_view_Form().Show();
+        }
     }
 }
