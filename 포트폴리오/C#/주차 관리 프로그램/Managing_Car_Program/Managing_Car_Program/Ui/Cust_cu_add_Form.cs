@@ -17,7 +17,9 @@ namespace Managing_Car_Program.Ui
         {
             InitializeComponent();
 
+            // 달력
             uiTextBox_start_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            uiTextBox_end_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
         }
 
         private void button_okay_Click(object sender, EventArgs e)
@@ -139,7 +141,26 @@ namespace Managing_Car_Program.Ui
 
         private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
         {
+            //selectcalendar();
+
             uiTextBox_start_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            uiTextBox_end_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+        }
+
+        private void selectcalendar()
+        {
+            // 이 코드 사용X : 시작일과 종료일 캘린더 동기화 해제 안됨
+            /*if (uiTextBox_start_text.Focused)
+            {
+                uiSymbolLabel_start.Enabled = true;
+                uiTextBox_start_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            }          
+
+            if (uiTextBox_end_text.Focused)
+            {
+                uiTextBox_end_text.Enabled = true;
+                uiTextBox_end_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            }*/
         }
     }
 }

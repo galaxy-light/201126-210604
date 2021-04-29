@@ -16,6 +16,10 @@ namespace Managing_Car_Program.Ui
         public Cust_ma_add_Form()
         {
             InitializeComponent();
+
+            // 달력
+            uiTextBox_start.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            uiTextBox_end.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
         }              
 
         private void button_okay_Click(object sender, EventArgs e)
@@ -122,6 +126,12 @@ namespace Managing_Car_Program.Ui
             {
                 button_okay.Focus();
             }
+        }
+
+        private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
+        {
+            uiTextBox_start.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            uiTextBox_end.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
         }
     } 
 }
