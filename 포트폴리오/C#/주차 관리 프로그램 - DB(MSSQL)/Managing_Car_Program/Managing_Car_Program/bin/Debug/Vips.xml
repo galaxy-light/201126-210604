@@ -1,0 +1,30 @@
+<vips>
+<vip>
+  <vipname>사용자</vipname>
+  <vipcarnum>01사0101</vipcarnum>
+  <vipphone>010-1234-1234</vipphone>
+  <vipstart>2021-04-30</vipstart>
+  <vipend>2021-05-01</vipend>
+</vip>
+<vip>
+  <vipname>관리자</vipname>
+  <vipcarnum>02관0202</vipcarnum>
+  <vipphone>010-9876-9876</vipphone>
+  <vipstart>2021-05-03</vipstart>
+  <vipend>2021-05-05</vipend>
+</vip>
+<vip>
+  <vipname>1</vipname>
+  <vipcarnum>1</vipcarnum>
+  <vipphone>1</vipphone>
+  <vipstart>2021-04-30</vipstart>
+  <vipend>2021-04-30</vipend>
+</vip>
+<vip>
+  <vipname>2</vipname>
+  <vipcarnum>2</vipcarnum>
+  <vipphone>2</vipphone>
+  <vipstart>2021-04-30</vipstart>
+  <vipend>2021-04-30</vipend>
+</vip>
+</vips>
