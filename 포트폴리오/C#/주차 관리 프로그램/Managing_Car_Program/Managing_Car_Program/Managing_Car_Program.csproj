@@ -71,7 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\Autoclosingmbox.cs" />
-    <Compile Include="Control\DataBase_MySql.cs" />
+    <Compile Include="DB\DB_mysql.cs" />
     <Compile Include="Control\VipData.cs" />
     <Compile Include="Model\Api_parking.cs" />
     <Compile Include="Model\VipCust.cs" />
@@ -99,6 +99,12 @@
     </Compile>
     <Compile Include="Ui\Other_view_Form.Designer.cs">
       <DependentUpon>Other_view_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\testDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\testDB.Designer.cs">
+      <DependentUpon>testDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Ui\Txt_view_Form.cs">
       <SubType>Form</SubType>
@@ -138,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ui\Other_view_Form.resx">
       <DependentUpon>Other_view_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\testDB.resx">
+      <DependentUpon>testDB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ui\Txt_view_Form.resx">
       <DependentUpon>Txt_view_Form.cs</DependentUpon>

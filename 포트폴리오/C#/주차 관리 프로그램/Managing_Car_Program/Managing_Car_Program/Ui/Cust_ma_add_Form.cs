@@ -13,10 +13,7 @@ using System.Windows.Forms;
 namespace Managing_Car_Program.Ui
 {
     partial class Cust_ma_add_Form : MaterialForm
-    {
-        /*MySqlConnection connection = new MySqlConnection("Server=localhost;Database=vipdata;Uid=root;Pwd:1126;");
-        // localhost : 서버 / vipdata : DB / root : 유저이름 / 1126 : 비밀번호*/
-
+    {       
         public MySqlConnection connection;
 
         public Cust_ma_add_Form()

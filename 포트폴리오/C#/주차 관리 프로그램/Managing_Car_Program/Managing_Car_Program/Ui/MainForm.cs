@@ -563,5 +563,10 @@ namespace Managing_Car_Program
         {
             new Other_view_Form().Show();
         }
+
+        private void uiSymbolButton1_Click_1(object sender, EventArgs e)
+        {
+            new testDB().Show();
+        }
     }
 }
