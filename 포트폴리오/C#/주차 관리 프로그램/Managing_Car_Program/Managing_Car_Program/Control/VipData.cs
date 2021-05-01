@@ -80,19 +80,6 @@ namespace Managing_Car_Program
                     txtsOutput += "</vip>\n";
                 }
             }
-            else
-            {
-                for (int i = 0; i < VipData.vips.Count; i++)
-                {
-                    txtsOutput += "<vip>\n";
-                    txtsOutput += $"  <vipname></vipname>\n";
-                    txtsOutput += $"  <vipcarnum></vipcarnum>\n";
-                    txtsOutput += $"  <vipphone></vipphone>\n";
-                    txtsOutput += $"  <vipstart></vipstart>\n";
-                    txtsOutput += $"  <vipend></vipend>\n";
-                    txtsOutput += "</vip>\n";
-                }                
-            }
             txtsOutput += "</vips>";
             File.WriteAllText(@"./Vips.xml", txtsOutput);
         }

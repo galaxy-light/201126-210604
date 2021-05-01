@@ -93,11 +93,11 @@ namespace Managing_Car_Program
                 foreach (var item in Cars)
                 {
                     booksOutput += "<car>\n";
-                    booksOutput += $"  <parkingSpot>{item.parkingSpot}</parkingSpot>";
-                    booksOutput += $"  <carNumber>{item.carNumber}</carNumber>";
+                    booksOutput += $"  <parkingSpot>{item.parkingSpot}</parkingSpot>\n";
+                    booksOutput += $"  <carNumber>{item.carNumber}</carNumber>\n";
                     /*booksOutput += $"  <driverName>{item.driverName}</driverName>";
                     booksOutput += $"  <phoneNumber>{item.phoneNumber}</phoneNumber>";*/
-                    booksOutput += $"  <parkingTime>{item.parkingTime}</parkingTime>";
+                    booksOutput += $"  <parkingTime>{item.parkingTime}</parkingTime>\n";
                     booksOutput += "</car>\n";
                 }
             }
@@ -106,11 +106,11 @@ namespace Managing_Car_Program
                 for (int i = 1; i <= 30; i++)
                 {
                     booksOutput += "<car>\n";
-                    booksOutput += $"  <parkingSpot>{i}</parkingSpot>";
-                    booksOutput += "  <carNumber></carNumber>";
+                    booksOutput += $"  <parkingSpot>{i}</parkingSpot>\n";
+                    booksOutput += "  <carNumber></carNumber>\n";
                     /*booksOutput += "  <driverName></driverName>";
                     booksOutput += "  <phoneNumber></phoneNumber>";*/
-                    booksOutput += "  <parkingTime></parkingTime>";
+                    booksOutput += "  <parkingTime></parkingTime>\n";
                     booksOutput += "</car>\n";                    
                 }
             }

@@ -59,7 +59,6 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolButton_update = new Sunny.UI.UISymbolButton();
             this.uiSymbolButton_help = new Sunny.UI.UISymbolButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.uiSymbolButton_conn_db = new Sunny.UI.UISymbolButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -430,36 +429,12 @@ namespace Managing_Car_Program.Ui
             this.panel1.Size = new System.Drawing.Size(882, 25);
             this.panel1.TabIndex = 25;
             // 
-            // uiSymbolButton_conn_db
-            // 
-            this.uiSymbolButton_conn_db.BackColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_conn_db.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiSymbolButton_conn_db.FillColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_conn_db.FillHoverColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_conn_db.FillPressColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_conn_db.FillSelectedColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_conn_db.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiSymbolButton_conn_db.Location = new System.Drawing.Point(178, 29);
-            this.uiSymbolButton_conn_db.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiSymbolButton_conn_db.Name = "uiSymbolButton_conn_db";
-            this.uiSymbolButton_conn_db.RectColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_conn_db.RectHoverColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_conn_db.RectPressColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_conn_db.RectSelectedColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_conn_db.Size = new System.Drawing.Size(27, 31);
-            this.uiSymbolButton_conn_db.Style = Sunny.UI.UIStyle.Custom;
-            this.uiSymbolButton_conn_db.Symbol = 61564;
-            this.uiSymbolButton_conn_db.SymbolSize = 30;
-            this.uiSymbolButton_conn_db.TabIndex = 26;
-            this.uiSymbolButton_conn_db.Click += new System.EventHandler(this.uiSymbolButton_conn_db_Click);
-            // 
             // VipCustViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(882, 576);
-            this.Controls.Add(this.uiSymbolButton_conn_db);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.uiSymbolButton_help);
             this.Controls.Add(this.uiSymbolButton_update);
@@ -512,6 +487,5 @@ namespace Managing_Car_Program.Ui
         private Sunny.UI.UICheckBox uiCheckBox_update;
         private Sunny.UI.UISymbolButton uiSymbolButton_help;
         private System.Windows.Forms.Panel panel1;
-        private Sunny.UI.UISymbolButton uiSymbolButton_conn_db;
     }
 }

@@ -48,6 +48,7 @@
     <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="SunnyUI, Version=3.0.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SunnyUI.3.0.3\lib\net40\SunnyUI.dll</HintPath>
     </Reference>
@@ -70,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\Autoclosingmbox.cs" />
+    <Compile Include="Control\DataBase_MySql.cs" />
     <Compile Include="Control\VipData.cs" />
     <Compile Include="Model\Api_parking.cs" />
     <Compile Include="Model\VipCust.cs" />
@@ -91,12 +93,6 @@
     </Compile>
     <Compile Include="Ui\Cust_ma_add_Form.Designer.cs">
       <DependentUpon>Cust_ma_add_Form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ui\DB_view_Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ui\DB_view_Form.Designer.cs">
-      <DependentUpon>DB_view_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Ui\Other_view_Form.cs">
       <SubType>Form</SubType>
@@ -139,9 +135,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ui\Cust_ma_add_Form.resx">
       <DependentUpon>Cust_ma_add_Form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ui\DB_view_Form.resx">
-      <DependentUpon>DB_view_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ui\Other_view_Form.resx">
       <DependentUpon>Other_view_Form.cs</DependentUpon>

@@ -23,7 +23,6 @@ namespace Managing_Car_Program
         public MainForm()
         {
             InitializeComponent();
-
             starttimer();
 
             /*List<ParkingCar> cars = new List<ParkingCar>();
@@ -319,6 +318,12 @@ namespace Managing_Car_Program
                             DateTime Now = DateTime.Now;
                             parkingout = Now;
                             label_out_time.Text = parkingout.ToString("HH:mm:ss");
+                            
+                            DataManager.Cars[i].parkingTime = checkExpire(Now, out isThisJungGiGwon, DataManager.Cars[i].parkingTime);
+                            if (isThisJungGiGwon == false)
+                            {
+                                VipData.Savetxt();
+                            }
 
                             // 이용시간 메서드
                             Timetxt(DataManager.Cars[i].parkingTime, Now);
@@ -357,9 +362,15 @@ namespace Managing_Car_Program
                 //throw;
             }
         }
-
-        public void expire(DateTime outDate)
-        {            
+        #region 정기권 체크
+        //정기권이 있는가?
+        //없다면 아무것도 변경하지 않고 그대로 끝내면 된다.
+        //하지만 있다면?
+        //있는 데 주차할 때부터 기간이 지난 경우 그대로 끝냄
+        //있는 데 기간을 지나지 않았다면 이 때도 그대로 보낸다.(정기권 소멸일 전에 주차해서 출차함)
+        //있는 데 기간을 지나서 출차한 것이라면 정기권은 소멸되고 대신 입차 시간을 정기권 소멸시점으로 바꿔줘야 한다.
+        public DateTime checkExpire(DateTime outDate, out Boolean isThisJungGiGwon, DateTime inDate)
+        {
             try
             {
                 VipData.Load();
@@ -370,38 +381,42 @@ namespace Managing_Car_Program
                         String[] YMD = VipData.vips[i].custend.Split('-'); //2021-04-29에서 - 삭제
                         DateTime expireDate = new DateTime(int.Parse(YMD[0]), int.Parse(YMD[1]), int.Parse(YMD[2]));
                         TimeSpan diff = expireDate - outDate;
-                        if(diff.TotalSeconds < 0)
+                        TimeSpan diff_already_expired = expireDate - inDate; //너무 옛날꺼라서 주차할 때부터 이미 만기된 상태
+                        int already_total = (int)diff_already_expired.TotalSeconds;
+                        if (already_total < 0) //아무런 연산을 할 게 없다. 정기권 없는 상태랑 똑같다.
                         {
-                            //만기 이후 출차함!
-                            int totalSecond = (int)diff.TotalSeconds; // 전체 시간
-                            int totalMinute = totalSecond / 60; // 분
-                            int totalHour = totalSecond / 60 / 60; // 시
-                            if(totalHour >= 24) // 24시간부터는 무조건 10000 반환
-                            {
-                                label_money_result.Text = "10000";
-                            }
-                            else
-                            {
-                                //label_money_result.Text = totalMinute;
-
-                                // 30분마다 500원이 추가됨 -> 모르겠음.... 모르겠어요......
-                                
-                            }
+                            VipData.vips.RemoveAt(i);
+                            break;
                         }
-                        else
+
+                        if (diff.TotalSeconds < 0) //만기 이후 출차함!
                         {
-                            // 이거는 만기 전에 출차함
+                            isThisJungGiGwon = false;
+                            VipData.vips.RemoveAt(i);
+                            int totalSecond = (int)diff.TotalSeconds; // 전체 시간
+                            int totalHour = totalSecond / 60 / 60; // 시
+                            inDate = expireDate; //주차일시를 만기권 일시로 변경한다. 어차피 만기된 시점부터 계산할거고 그 계산은 밑에서부터 한다.
+                            return inDate;
+                        }
+                        else //만기 이전 출차
+                        {
+                            isThisJungGiGwon = true;
+                            return inDate; //받아온 값을 그대로 리턴함. 왜냐면 어차피 정기권 상태니까. 뭘 해도 됨...
                         }
                     }
                 }
+                //정기권이 없을 경우
+                isThisJungGiGwon = false;
+                return inDate; //받아온 값 그대로 리턴함
             }
             catch (Exception ex)
             {
                 writeLog(ex.Message);
                 writeLog(ex.StackTrace);
-                //throw;
+                throw new Exception("정기권 만료 체크 실패 예외 메시지 확인해주세요.");
             }
         }
+        #endregion
 
         public void Timetxt(DateTime incar, DateTime outcar)
         {
@@ -436,11 +451,11 @@ namespace Managing_Car_Program
             //    label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));
             //}
 
-            if (totalHourDiff >= 24)
+            if (totalHourDiff <= 24)
             {
-                //MessageBox.Show("24시간 넘게 이용하셨습니다.");
-                label_in_out_result.Text = "24시간초과";
-            }            
+                //MessageBox.Show("24시간 이용하셨습니다.");
+                label_in_out_result.Text = "1일 이용";
+            }           
             else
             {
                 //label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));                  
@@ -463,23 +478,29 @@ namespace Managing_Car_Program
         {
             // 계산법 = (주차시간/단위시간)*요금
             //TimeSpan ts = parkingout - parkingin;    
-            
-            label_money_result.Text = calctime(parkOut - parkIn) + "원";            
+            string totalMoney = calctime(parkOut - parkIn);
+            writeLog("resultmoney :"  + totalMoney);
+            label_money_result.Text = totalMoney + "원";            
         }
 
         private string calctime(TimeSpan ts)
         {
-            if (label_in_out_result.Text == "24시간초과")
+            writeLog("calctime " + "label_in_out_result " + ((Convert.ToInt32((int)ts.TotalMinutes / Convert.ToInt32(label_time.Text)))
+                    * Convert.ToInt32(label_money.Text)));
+            writeLog("" + (int)ts.TotalMinutes);
+            writeLog(label_time.Text);
+            writeLog(label_money.Text);
+            if (label_in_out_result.Text == "1일 이용")
             {
                 return 10000.ToString();
-            }
+            }            
             else if (label_in_out_result.Text == "정기권")
             {
                 return "정기권";
-            }
+            }            
             else
             {
-                return ((Convert.ToInt32(ts.Minutes / Convert.ToInt32(label_time.Text)))
+                return ((Convert.ToInt32( (int)ts.TotalMinutes / Convert.ToInt32(label_time.Text)))
                     * Convert.ToInt32(label_money.Text)).ToString();
             }
         }

@@ -1,4 +1,6 @@
 ﻿using MaterialSkin.Controls;
+using MySql.Data.Common;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,13 +15,30 @@ namespace Managing_Car_Program.Ui
 {
     public partial class Cust_cu_add_Form : MaterialForm
     {
+        /*MySqlConnection connection = new MySqlConnection("Server=localhost;Database=vipdata;Uid=root;Pwd:1126;");
+        // localhost : 서버 / vipdata : DB / root : 유저이름 / 1126 : 비밀번호*/
+
+        public MySqlConnection connection;
+
         public Cust_cu_add_Form()
         {
             InitializeComponent();
-            
+
+            InitializeDB();
+
             // 달력
             uiTextBox_start_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
             uiTextBox_end_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+        }
+
+        // MySQL DB셋팅 초기화
+        private void InitializeDB()
+        {
+            Console.WriteLine("DB 초기화");
+            string connectionString;
+            connectionString = $"SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;";
+
+            connection = new MySqlConnection(connectionString);
         }
 
         private void button_okay_Click(object sender, EventArgs e)
@@ -65,12 +84,40 @@ namespace Managing_Car_Program.Ui
             {                
                 VipData.vips.Add(new VipCust(uiTextBox_name_text.Text, uiTextBox_car_text.Text, uiTextBox_ph_text.Text,
                     uiTextBox_start_text.Text, uiTextBox_end_text.Text));
-                
-                MessageBox.Show("정기권 구매에 성공했습니다.");
+
+                // SQL
+                // 칼럼에 추가하는 커리문 insertQuery
+                string insertQuery = "INSERT INTO viplist(name, carnumber, phone, start, end) VALUES ('" + uiTextBox_name_text.Text + "', '" + uiTextBox_car_text.Text + "', '" + uiTextBox_ph_text.Text + "', '" + uiTextBox_start_text.Text + "', '" + uiTextBox_end_text.Text + "')";
+                // 텍스트 박스에 입력한 내용이 테이블 viplist에 추가됨
+
+                connection.Open();
+                MySqlCommand command = new MySqlCommand(insertQuery, connection);
+
+                try
+                {
+                    if (command.ExecuteNonQuery() == 1) // 정상적으로 들어갔다면
+                    {
+                        //MessageBox.Show("DB에 저장되었습니다.");
+                    }
+                    else
+                    {
+                        //MessageBox.Show("DB 저장에 실패했습니다.");
+                        return;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.StackTrace);
+                    //throw;
+                }
+                connection.Close();
+
+                MessageBox.Show("정기권 구매에 성공했습니다. (DB 저장 완료)");
                 VipData.Savetxt();               
 
                 string str = $"사용자 - 이름 : {uiTextBox_name_text.Text}, 차량번호 : {uiTextBox_car_text.Text}," +
-                    $"전화번호 : {uiTextBox_ph_text.Text}, 정기권 시작일 : {uiTextBox_start_text.Text}, 정기권 종료일 : {uiTextBox_end_text.Text}를 구매했습니다.";
+                    $"전화번호 : {uiTextBox_ph_text.Text}, 정기권 시작일 : {uiTextBox_start_text.Text}, 정기권 종료일 : {uiTextBox_end_text.Text}를 구매했습니다. (DB 저장 완료)";
                                 
                 custwritelog(str);
                 DataManager.Save();
@@ -78,7 +125,7 @@ namespace Managing_Car_Program.Ui
             }
             else
             {
-                MessageBox.Show("정기권 구매에 실패했습니다.\r 입력창을 다시 확인해주세요.");
+                MessageBox.Show("정기권 구매에 실패했습니다.\r 입력창을 다시 확인해주세요. (DB 저장 실패)");
                 return;
             }
         }
