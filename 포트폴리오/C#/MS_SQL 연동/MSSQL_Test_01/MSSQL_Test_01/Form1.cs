@@ -21,7 +21,7 @@ namespace MSSQL_Test_01
             InitializeComponent();
         }
 
-        private void ConnectDB()
+        private void ConnectDB() // DB연결시 사용할 객체 및 함수선언
         {
             conn.ConnectionString = string.Format("Data Source=({0}); " +
                 "Initial Catalog = {1};" +
