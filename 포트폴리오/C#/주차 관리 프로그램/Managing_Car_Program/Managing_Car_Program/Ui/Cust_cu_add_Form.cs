@@ -55,7 +55,9 @@ namespace Managing_Car_Program.Ui
             // 차량 번호 중복 확인
             for (int i = 0; i < VipData.vips.Count; i++)
             {
-                if (uiTextBox_car_text.Text == VipData.vips[i].custcarnum)
+                string str = uiTextBox_car_text.Text;
+                str = string.Concat(str.Where(x => !char.IsWhiteSpace(x))); // 모든 공백 삭제  
+                if (str == VipData.vips[i].custcarnum)
                 {
                     MessageBox.Show("이미 등록된 차량 번호입니다.");
                     return;

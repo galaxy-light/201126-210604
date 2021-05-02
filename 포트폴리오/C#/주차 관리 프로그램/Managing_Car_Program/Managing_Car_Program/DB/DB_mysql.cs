@@ -111,13 +111,13 @@ namespace Managing_Car_Program.DB
                     // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
                     if (command.ExecuteNonQuery() == 1)
                     {
-                        Console.WriteLine("DB insert 성공");
-                        connection.Close();
+                        Console.WriteLine("DB insert 성공");                        
                     }
                     else
                     {
                         Console.WriteLine("DB insert 실패");
-                    }                    
+                    }
+                    connection.Close();
                 }
                 catch (Exception ex)
                 {
@@ -150,13 +150,13 @@ namespace Managing_Car_Program.DB
                     // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
                     if (command.ExecuteNonQuery() == 1)
                     {
-                        Console.WriteLine("DB update 성공");
-                        connection.Close();
+                        Console.WriteLine("DB update 성공");                       
                     }
                     else
                     {
                         Console.WriteLine("DB update 실패");
                     }
+                    connection.Close();
                 }
                 catch (Exception ex)
                 {
@@ -185,13 +185,13 @@ namespace Managing_Car_Program.DB
                     // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
                     if (command.ExecuteNonQuery() == 1)
                     {
-                        Console.WriteLine("DB delete 성공");
-                        connection.Close();
+                        Console.WriteLine("DB delete 성공");                        
                     }
                     else
                     {
                         Console.WriteLine("DB delete 실패");
                     }
+                    connection.Close();
                 }
                 catch (Exception ex)
                 {

@@ -12,8 +12,8 @@ namespace Managing_Car_Program.Ui
 {
     partial class VipCustViewForm : MaterialForm
     {        
-        static int n;
-        int count = 0;
+        static int n;       
+        static int selectrow;
 
         // https://link2me.tistory.com/779
         // https://link2me.tistory.com/889
@@ -32,13 +32,34 @@ namespace Managing_Car_Program.Ui
             textBox_end.Enabled = false;
 
             VipData.Load();
-            showListView();
+            viewload();
+            showListView();            
             if (VipData.vips.Count == 0)
             {
                 MessageBox.Show("등록된 고객이 없습니다.");
                 return;
             }
             infonull();
+        }
+
+        private void viewload()
+        {
+            try
+            {
+                DataSet ds = DB_mysql.vipdb("viplist");
+                VipCust v = new VipCust();
+                v.custnm = ds.Tables[1].Rows[1]["custnm"].ToString();
+                v.custcarnum = ds.Tables[2].Rows[2]["custcarnum"].ToString();
+                v.custph = ds.Tables[3].Rows[3]["custph"].ToString();
+                v.custstart = ds.Tables[4].Rows[4]["custstart"].ToString();
+                v.custend = ds.Tables[5].Rows[5]["custend"].ToString();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+                //throw;
+            }            
         }
 
         private void uiSymbolButton_add_Click(object sender, EventArgs e)
@@ -178,10 +199,11 @@ namespace Managing_Car_Program.Ui
 
         private void updateDB()
         {
+            selectrow = listView1.SelectedItems[0].Index;
             try
             {
-                Console.WriteLine("count : " + count);
-                DB.DB_mysql.updateDB(count, textBox_name.Text, textBox_carnum.Text, textBox_phnum.Text, textBox_start.Text, textBox_end.Text);
+                Console.WriteLine("count : " + selectrow);
+                DB.DB_mysql.updateDB(selectrow, textBox_name.Text, textBox_carnum.Text, textBox_phnum.Text, textBox_start.Text, textBox_end.Text);
                 listView1.Refresh();               
             }
             catch (Exception ex)
@@ -231,13 +253,9 @@ namespace Managing_Car_Program.Ui
         {
             try
             {
-                if (listView1.SelectedIndices.Count > 0) // 선택됐을 때
-                {
-                    n = listView1.SelectedIndices[0]; // n에 선택한 인덱스 저장   
-
-                    DB_mysql.deleteDB(n);
-                    listView1.Refresh();                   
-                }                
+                selectrow = listView1.SelectedItems[0].Index;
+                DB_mysql.deleteDB(selectrow);
+                listView1.Refresh();
             }
             catch (Exception ex)
             {
@@ -347,7 +365,7 @@ namespace Managing_Car_Program.Ui
         {
             if (listView1.SelectedItems.Count != 0)
             {
-                count = listView1.SelectedItems[0].Index;
+                int count = listView1.SelectedItems[0].Index;
                 string name = listView1.Items[count].SubItems[1].Text;
                 string carnum = listView1.Items[count].SubItems[2].Text;
                 string phone = listView1.Items[count].SubItems[3].Text;

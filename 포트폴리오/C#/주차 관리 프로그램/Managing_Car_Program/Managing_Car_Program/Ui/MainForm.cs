@@ -365,6 +365,7 @@ namespace Managing_Car_Program
                 //throw;
             }
         }
+
         #region 정기권 체크
         //정기권이 있는가?
         //없다면 아무것도 변경하지 않고 그대로 끝내면 된다.
@@ -443,7 +444,6 @@ namespace Managing_Car_Program
             //string timeresult = string.Format("{0:hh:mm:ss}", timeDiff.ToString());
             string timeresult = timeDiff.Hours + ":" + timeDiff.Minutes + ":" + timeDiff.Seconds;
 
-
             //잘 안 됨! (10시에 주차하고 14시 출차시... 다음날14시인지 당일14시인지 모름)
             //if (dataresult.Equals("24:00:00"))
             //{
@@ -453,12 +453,12 @@ namespace Managing_Car_Program
             //{
             //    label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));
             //}
-            
+
             if (totalHourDiff <= 24)
             {
                 //MessageBox.Show("24시간 이용하셨습니다.");
                 label_in_out_result.Text = "1일 이용";
-            }           
+            }
             else
             {
                 //label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));                  
@@ -482,8 +482,8 @@ namespace Managing_Car_Program
             // 계산법 = (주차시간/단위시간)*요금
             //TimeSpan ts = parkingout - parkingin;    
             string totalMoney = calctime(parkOut - parkIn);
-            writeLog("resultmoney :"  + totalMoney);
-            label_money_result.Text = totalMoney + "원";            
+            writeLog("resultmoney :" + totalMoney);
+            label_money_result.Text = totalMoney + "원";
         }
 
         private string calctime(TimeSpan ts)
@@ -493,17 +493,18 @@ namespace Managing_Car_Program
             writeLog("" + (int)ts.TotalMinutes);
             writeLog(label_time.Text);
             writeLog(label_money.Text);
+
             if (label_in_out_result.Text == "1일 이용")
             {
                 return 10000.ToString();
-            }            
+            }
             else if (label_in_out_result.Text == "정기권")
             {
                 return "정기권";
-            }            
+            }
             else
             {
-                return ((Convert.ToInt32( (int)ts.TotalMinutes / Convert.ToInt32(label_time.Text)))
+                return ((Convert.ToInt32((int)ts.TotalMinutes / Convert.ToInt32(label_time.Text)))
                     * Convert.ToInt32(label_money.Text)).ToString();
             }
         }
