@@ -14,30 +14,16 @@ using System.Windows.Forms;
 namespace Managing_Car_Program.Ui
 {
     public partial class Cust_cu_add_Form : MaterialForm
-    {        
-        public MySqlConnection connection;
-
+    {               
         public Cust_cu_add_Form()
         {
             InitializeComponent();
-
-            InitializeDB();
 
             // 달력
             uiTextBox_start_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
             uiTextBox_end_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
         }
-
-        // MySQL DB셋팅 초기화
-        private void InitializeDB()
-        {
-            Console.WriteLine("DB 초기화");
-            string connectionString;
-            connectionString = $"SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;";
-
-            connection = new MySqlConnection(connectionString);
-        }
-
+        
         private void button_okay_Click(object sender, EventArgs e)
         {
             if (uiTextBox_name_text.Text.Trim() == "")
@@ -82,7 +68,10 @@ namespace Managing_Car_Program.Ui
                 VipData.vips.Add(new VipCust(uiTextBox_name_text.Text, uiTextBox_car_text.Text, uiTextBox_ph_text.Text,
                     uiTextBox_start_text.Text, uiTextBox_end_text.Text));
 
-                // SQL
+                DB.DB_mysql.insertDB(uiTextBox_name_text.Text, uiTextBox_car_text.Text, uiTextBox_ph_text.Text,
+                    uiTextBox_start_text.Text, uiTextBox_end_text.Text);
+
+                /*// SQL
                 // 칼럼에 추가하는 커리문 insertQuery
                 string insertQuery = "INSERT INTO viplist(name, carnumber, phone, start, end) VALUES ('" + uiTextBox_name_text.Text + "', '" + uiTextBox_car_text.Text + "', '" + uiTextBox_ph_text.Text + "', '" + uiTextBox_start_text.Text + "', '" + uiTextBox_end_text.Text + "')";
                 // 텍스트 박스에 입력한 내용이 테이블 viplist에 추가됨
@@ -108,7 +97,7 @@ namespace Managing_Car_Program.Ui
                     MessageBox.Show(ex.StackTrace);
                     //throw;
                 }
-                connection.Close();
+                connection.Close();*/
 
                 MessageBox.Show("정기권 구매에 성공했습니다. (DB 저장 완료)");
                 VipData.Savetxt();               

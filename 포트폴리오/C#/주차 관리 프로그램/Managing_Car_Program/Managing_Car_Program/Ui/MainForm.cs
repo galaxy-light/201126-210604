@@ -25,6 +25,9 @@ namespace Managing_Car_Program
             InitializeComponent();
             starttimer();
 
+            // MySQL DB셋팅 초기화
+            DB.DB_mysql.InitializeDB();
+
             /*List<ParkingCar> cars = new List<ParkingCar>();
             cars.Add(new ParkingCar() { parkingSpot = 1, carNumber = "30고1234",
                 driverName = "홍길동", phoneNumber = "010-1234-9876", parkingTime = DateTime.Now });
@@ -450,7 +453,7 @@ namespace Managing_Car_Program
             //{
             //    label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));
             //}
-
+            
             if (totalHourDiff <= 24)
             {
                 //MessageBox.Show("24시간 이용하셨습니다.");
@@ -562,11 +565,6 @@ namespace Managing_Car_Program
         private void uiSymbolButton_other_Click(object sender, EventArgs e)
         {
             new Other_view_Form().Show();
-        }
-
-        private void uiSymbolButton1_Click_1(object sender, EventArgs e)
-        {
-            new testDB().Show();
         }
     }
 }

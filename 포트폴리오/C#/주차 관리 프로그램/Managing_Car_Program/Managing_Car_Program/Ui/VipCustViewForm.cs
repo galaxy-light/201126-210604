@@ -1,4 +1,5 @@
-﻿using MaterialSkin.Controls;
+﻿using Managing_Car_Program.DB;
+using MaterialSkin.Controls;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -10,30 +11,17 @@ using System.Windows.Forms;
 namespace Managing_Car_Program.Ui
 {
     partial class VipCustViewForm : MaterialForm
-    {
-        public MySqlConnection connection;
-
+    {        
         static int n;
+        int count = 0;
 
         // https://link2me.tistory.com/779
         // https://link2me.tistory.com/889
 
         public VipCustViewForm()
-        {
-            InitializeDB();
-
+        {           
             InitializeComponent();
-        }
-
-        // MySQL DB셋팅 초기화
-        private void InitializeDB()
-        {
-            Console.WriteLine("DB 초기화");
-            string connectionString;
-            connectionString = $"SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;";
-
-            connection = new MySqlConnection(connectionString);
-        }
+        }       
 
         private void Vip_Customer_Load(object sender, EventArgs e)
         {            
@@ -124,6 +112,8 @@ namespace Managing_Car_Program.Ui
                     vips[i].custph,
                     vips[i].custstart,
                     vips[i].custend}));
+
+                    
                 }
                 setRowColor(listView1, Color.White, Color.LightBlue);
                 //int index = listView1.Items.Count - 1;
@@ -135,7 +125,7 @@ namespace Managing_Car_Program.Ui
             {
                 return;
             }
-        }
+        }        
 
         private void uiSymbolButton_update_on_Click(object sender, EventArgs e)
         {            
@@ -160,12 +150,14 @@ namespace Managing_Car_Program.Ui
                     txtwriteLog("수정 버튼 클릭");
 
                     List<VipCust> vips = VipData.vips;
-                    vips[n].custnm = textBox_name.Text;                     
+                    vips[n].custnm = textBox_name.Text;
                     vips[n].custcarnum = textBox_carnum.Text;
                     vips[n].custph = textBox_phnum.Text;
                     vips[n].custstart = textBox_start.Text;
                     vips[n].custend = textBox_end.Text;
-                    
+
+                    updateDB();
+
                     MessageBox.Show("정보가 수정되었습니다.");
 
                     string str = $"이름 : {textBox_name.Text}, 차량번호 : {textBox_carnum.Text}, 전화번호 : {textBox_phnum.Text}," +
@@ -174,51 +166,34 @@ namespace Managing_Car_Program.Ui
                     DataManager.Save();
                     VipData.Savetxt();
                     showListView();
-                }                
+                }
             }
             else
             {
                 MessageBox.Show("수정할 데이터가 없거나 방법을 먼저 확인하세요.");
                 VipData.Savetxt();
                 showListView();
-            }                         
+            }
         }
 
         private void updateDB()
         {
-            // SQL
-            // 칼럼에 추가하는 커리문 insertQuery
-            string insertQuery = "INSERT INTO viplist(name, carnumber, phone, start, end) VALUES ('" + textBox_name.Text + "', '" + textBox_carnum.Text + "', '" + textBox_phnum.Text + "', '" + textBox_start.Text + "', '" + textBox_end.Text + "')";
-            // 텍스트 박스에 입력한 내용이 테이블 viplist에 추가됨
-
-            string updateQuery = "UPDATE viplist SET name = ('" + textBox_name.Text + "', '" + textBox_carnum.Text + "', '" + textBox_phnum.Text + "', '" + textBox_start.Text + "', '" + textBox_end.Text + "')";
-
-            connection.Open();
-            MySqlCommand command = new MySqlCommand(insertQuery, connection);
-
             try
             {
-                if (command.ExecuteNonQuery() == 1) // 정상적으로 들어갔다면
-                {
-                    //MessageBox.Show("DB에 저장되었습니다.");
-                }
-                else
-                {
-                    //MessageBox.Show("DB 저장에 실패했습니다.");
-                    return;
-                }
+                Console.WriteLine("count : " + count);
+                DB.DB_mysql.updateDB(count, textBox_name.Text, textBox_carnum.Text, textBox_phnum.Text, textBox_start.Text, textBox_end.Text);
+                listView1.Refresh();               
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
-                MessageBox.Show(ex.StackTrace);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);                               
                 //throw;
             }
-            connection.Close();
         }
        
         private void uiSymbolButton_del_Click(object sender, EventArgs e)
-        {
+        {           
             //listView1.Items.Clear(); // 이거 주석 처리 안하면 삭제했을 때 0번째 인덱스가 삭제됨
 
             try
@@ -235,7 +210,7 @@ namespace Managing_Car_Program.Ui
                 txtwriteLog(str);
                 //List<VipCust> vips = VipData.vips;
 
-                VipData.vips.RemoveAt(n);               
+                VipData.vips.RemoveAt(n);
 
                 VipData.Savetxt();
                 DataManager.Save();
@@ -254,38 +229,22 @@ namespace Managing_Car_Program.Ui
 
         private void deleteDB()
         {
-            // SQL
-            // 칼럼에 추가하는 커리문 insertQuery
-            //string insertQuery = "INSERT INTO viplist(name, carnumber, phone, start, end) VALUES ('" + textBox_name.Text + "', '" + textBox_carnum.Text + "', '" + textBox_phnum.Text + "', '" + textBox_start.Text + "', '" + textBox_end.Text + "')";
-            // 텍스트 박스에 입력한 내용이 테이블 viplist에 추가됨
-
-            string deleteQuery = "DELETE FROM viplist WHERE carnumber = @custcarnum";
-            
-            connection.Open();            
-            MySqlCommand command = new MySqlCommand();
-            command.CommandType = CommandType.Text;
-            //command.Parameters.AddWithValue("@custcarnum", carnumber);
-            command.CommandText = deleteQuery;
-
             try
             {
-                if (command.ExecuteNonQuery() == 1) // 정상적으로 들어갔다면
+                if (listView1.SelectedIndices.Count > 0) // 선택됐을 때
                 {
-                    //MessageBox.Show("DB에 저장되었습니다.");
-                }
-                else
-                {
-                    //MessageBox.Show("DB 저장에 실패했습니다.");
-                    return;
-                }
+                    n = listView1.SelectedIndices[0]; // n에 선택한 인덱스 저장   
+
+                    DB_mysql.deleteDB(n);
+                    listView1.Refresh();                   
+                }                
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
-                MessageBox.Show(ex.StackTrace);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);                         
                 //throw;
             }
-            connection.Close();
         }
 
         private void uiCheckBox_start_1_ValueChanged(object sender, bool value)
@@ -385,10 +344,10 @@ namespace Managing_Car_Program.Ui
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {            
+        {
             if (listView1.SelectedItems.Count != 0)
             {
-                int count = listView1.SelectedItems[0].Index;
+                count = listView1.SelectedItems[0].Index;
                 string name = listView1.Items[count].SubItems[1].Text;
                 string carnum = listView1.Items[count].SubItems[2].Text;
                 string phone = listView1.Items[count].SubItems[3].Text;
@@ -426,11 +385,6 @@ namespace Managing_Car_Program.Ui
                 textBox_start.Enabled = false;
                 textBox_end.Enabled = false;
             }
-        }
-
-        private void uiSymbolButton_conn_db_Click(object sender, EventArgs e)
-        {
-            //new DB_view_Form().Show();
         }
     }
 }

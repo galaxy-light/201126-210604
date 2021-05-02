@@ -1,4 +1,5 @@
-﻿using MaterialSkin.Controls;
+﻿using Managing_Car_Program.DB;
+using MaterialSkin.Controls;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -13,30 +14,16 @@ using System.Windows.Forms;
 namespace Managing_Car_Program.Ui
 {
     partial class Cust_ma_add_Form : MaterialForm
-    {       
-        public MySqlConnection connection;
-
+    {        
         public Cust_ma_add_Form()
         {
             InitializeComponent();
 
-            InitializeDB();
-
             // 달력
             uiTextBox_start.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
             uiTextBox_end.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
-        }
-
-        // MySQL DB셋팅 초기화
-        private void InitializeDB()
-        {
-            Console.WriteLine("DB 초기화");
-            string connectionString;
-            connectionString = $"SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;";
-
-            connection = new MySqlConnection(connectionString);
-        }
-
+        }      
+        
         private void button_okay_Click(object sender, EventArgs e)
         {
             if (uiTextBox_nm.Text.Trim() == "")
@@ -73,7 +60,7 @@ namespace Managing_Car_Program.Ui
                     MessageBox.Show("이미 등록된 차량 번호입니다.");
                     return;
                 }
-            }            
+            }
 
             if (uiTextBox_nm.Text != "" && uiTextBox_carnum.Text != "" && uiTextBox_ph.Text != "" &&
                 uiTextBox_start.Text != "" && uiTextBox_end.Text != "")
@@ -82,8 +69,12 @@ namespace Managing_Car_Program.Ui
                     uiTextBox_start.Text, uiTextBox_end.Text));
 
                 // SQL
+                DB.DB_mysql.insertDB(uiTextBox_nm.Text, uiTextBox_carnum.Text, uiTextBox_ph.Text,
+                    uiTextBox_start.Text, uiTextBox_end.Text);
+
+                /*// SQL
                 // 칼럼에 추가하는 커리문 insertQuery
-                string insertQuery = "INSERT INTO viplist(name, carnumber, phone, start, end) VALUES ('" + uiTextBox_nm.Text + "', '" + uiTextBox_carnum.Text + "', '" + uiTextBox_ph.Text + "', '" + uiTextBox_start.Text + "', '" + uiTextBox_end.Text + "')";
+                string insertQuery = "INSERT INTO viplist(name, carnumber, phone, start, end) VALUES ('" + uiTextBox_name_text.Text + "', '" + uiTextBox_car_text.Text + "', '" + uiTextBox_ph_text.Text + "', '" + uiTextBox_start_text.Text + "', '" + uiTextBox_end_text.Text + "')";
                 // 텍스트 박스에 입력한 내용이 테이블 viplist에 추가됨
 
                 connection.Open();
@@ -107,7 +98,7 @@ namespace Managing_Car_Program.Ui
                     MessageBox.Show(ex.StackTrace);
                     //throw;
                 }
-                connection.Close();
+                connection.Close();*/
 
                 MessageBox.Show("정기권을 등록했습니다.(DB 저장 완료)");
                 VipData.Savetxt();
