@@ -20,7 +20,52 @@ namespace Managing_Car_Program.Ui
         public VipCustViewForm()
         {           
             InitializeComponent();
-        }       
+
+            tooltip();
+        }
+
+        private void tooltip()
+        {
+            ToolTip tooltip1 = new ToolTip();
+            tooltip1.ShowAlways = true;
+            tooltip1.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip1.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip1.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip1.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip1.SetToolTip(uiSymbolButton_db, "Data Base");
+
+            ToolTip tooltip2 = new ToolTip();
+            tooltip2.ShowAlways = true;
+            tooltip2.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip2.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip2.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip2.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip2.SetToolTip(uiSymbolButton_add, "정기권 등록");
+
+            ToolTip tooltip3 = new ToolTip();
+            tooltip3.ShowAlways = true;
+            tooltip3.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip3.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip3.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip3.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip3.SetToolTip(uiSymbolButton_update, "정기권 수정");
+
+            ToolTip tooltip4 = new ToolTip();
+            tooltip4.ShowAlways = true;
+            tooltip4.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip4.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip4.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip4.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip4.SetToolTip(uiSymbolButton_del, "정기권 삭제");
+
+            ToolTip tooltip5 = new ToolTip();
+            tooltip5.ShowAlways = true;
+            tooltip5.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip5.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip5.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip5.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip5.SetToolTip(uiSymbolButton_help, "도움말");
+        }
 
         private void Vip_Customer_Load(object sender, EventArgs e)
         {            
@@ -175,7 +220,7 @@ namespace Managing_Car_Program.Ui
         {            
             try
             {                
-                DB.DB_mysql.updateDB(textBox_name.Text, textBox_carnum.Text, textBox_phnum.Text, textBox_start.Text, textBox_end.Text, textBox_carnum.Text);                          
+                DB.DB_mysql.update_vip_DB(textBox_name.Text, textBox_carnum.Text, textBox_phnum.Text, textBox_start.Text, textBox_end.Text, textBox_carnum.Text);                          
             }
             catch (Exception ex)
             {
@@ -224,7 +269,7 @@ namespace Managing_Car_Program.Ui
         {
             try
             {               
-                DB.DB_mysql.deleteDB(textBox_carnum.Text);
+                DB.DB_mysql.delete_vip_DB(textBox_carnum.Text);
                 listView1.Refresh();
             }
             catch (Exception ex)

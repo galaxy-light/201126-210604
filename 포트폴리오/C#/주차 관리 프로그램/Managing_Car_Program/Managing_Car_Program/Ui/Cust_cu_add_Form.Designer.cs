@@ -42,7 +42,6 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolLabel_end = new Sunny.UI.UISymbolLabel();
             this.uiSymbolButton_help2 = new Sunny.UI.UISymbolButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.uiSymbolButton_help5 = new Sunny.UI.UISymbolButton();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.groupBox_start_end = new System.Windows.Forms.GroupBox();
             this.uiRadioButton_end = new Sunny.UI.UIRadioButton();
@@ -94,7 +93,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_name_text.Padding = new System.Windows.Forms.Padding(5);
             this.uiTextBox_name_text.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_name_text.TabIndex = 19;
-            this.uiTextBox_name_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_name_text_KeyDown);            
+            this.uiTextBox_name_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_name_text_KeyDown);
             // 
             // uiTextBox_car_text
             // 
@@ -110,7 +109,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_car_text.Padding = new System.Windows.Forms.Padding(5);
             this.uiTextBox_car_text.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_car_text.TabIndex = 21;
-            this.uiTextBox_car_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_car_text_KeyDown);            
+            this.uiTextBox_car_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_car_text_KeyDown);
             // 
             // uiSymbolLabel_carnum
             // 
@@ -140,7 +139,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_ph_text.Padding = new System.Windows.Forms.Padding(5);
             this.uiTextBox_ph_text.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_ph_text.TabIndex = 23;
-            this.uiTextBox_ph_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_ph_text_KeyDown);            
+            this.uiTextBox_ph_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_ph_text_KeyDown);
             // 
             // uiSymbolLabel_phone
             // 
@@ -170,7 +169,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_start_text.Padding = new System.Windows.Forms.Padding(5);
             this.uiTextBox_start_text.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_start_text.TabIndex = 25;
-            this.uiTextBox_start_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_start_text_KeyDown);            
+            this.uiTextBox_start_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_start_text_KeyDown);
             // 
             // uiSymbolLabel_start
             // 
@@ -200,7 +199,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_end_text.Padding = new System.Windows.Forms.Padding(5);
             this.uiTextBox_end_text.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_end_text.TabIndex = 27;
-            this.uiTextBox_end_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_end_text_KeyDown);            
+            this.uiTextBox_end_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_end_text_KeyDown);
             // 
             // uiSymbolLabel_end
             // 
@@ -246,28 +245,6 @@ namespace Managing_Car_Program.Ui
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(767, 25);
             this.panel1.TabIndex = 28;
-            // 
-            // uiSymbolButton_help5
-            // 
-            this.uiSymbolButton_help5.BackColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiSymbolButton_help5.FillColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help5.FillHoverColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help5.FillPressColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help5.FillSelectedColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton_help5.Location = new System.Drawing.Point(116, 29);
-            this.uiSymbolButton_help5.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiSymbolButton_help5.Name = "uiSymbolButton_help5";
-            this.uiSymbolButton_help5.RectColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help5.RectHoverColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help5.RectPressColor = System.Drawing.Color.Transparent;
-            this.uiSymbolButton_help5.Size = new System.Drawing.Size(36, 31);
-            this.uiSymbolButton_help5.Style = Sunny.UI.UIStyle.Custom;
-            this.uiSymbolButton_help5.Symbol = 61528;
-            this.uiSymbolButton_help5.SymbolSize = 35;
-            this.uiSymbolButton_help5.TabIndex = 29;
-            this.uiSymbolButton_help5.Click += new System.EventHandler(this.uiSymbolButton_help5_Click);
             // 
             // monthCalendar1
             // 
@@ -325,7 +302,6 @@ namespace Managing_Car_Program.Ui
             this.ClientSize = new System.Drawing.Size(767, 498);
             this.Controls.Add(this.groupBox_start_end);
             this.Controls.Add(this.monthCalendar1);
-            this.Controls.Add(this.uiSymbolButton_help5);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.uiSymbolButton_help2);
             this.Controls.Add(this.uiTextBox_end_text);
@@ -363,7 +339,6 @@ namespace Managing_Car_Program.Ui
         private Sunny.UI.UISymbolLabel uiSymbolLabel_end;
         private Sunny.UI.UISymbolButton uiSymbolButton_help2;
         private System.Windows.Forms.Panel panel1;
-        private Sunny.UI.UISymbolButton uiSymbolButton_help5;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.GroupBox groupBox_start_end;
         private Sunny.UI.UIRadioButton uiRadioButton_end;

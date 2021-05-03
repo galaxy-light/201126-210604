@@ -19,9 +19,22 @@ namespace Managing_Car_Program.Ui
         {
             InitializeComponent();
 
+            tooltip();
+
             // 달력
             uiTextBox_start_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
             uiTextBox_end_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+        }
+
+        private void tooltip()
+        {
+            ToolTip tooltip1 = new ToolTip();
+            tooltip1.ShowAlways = true;
+            tooltip1.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip1.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip1.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip1.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip1.SetToolTip(uiSymbolButton_help2, "도움말");
         }
         
         private void button_okay_Click(object sender, EventArgs e)
@@ -70,7 +83,7 @@ namespace Managing_Car_Program.Ui
                 VipData.vips.Add(new VipCust(uiTextBox_name_text.Text, uiTextBox_car_text.Text, uiTextBox_ph_text.Text,
                     uiTextBox_start_text.Text, uiTextBox_end_text.Text));
 
-                DB.DB_mysql.insertDB(uiTextBox_name_text.Text, uiTextBox_car_text.Text, uiTextBox_ph_text.Text,
+                DB.DB_mysql.insert_vip_DB(uiTextBox_name_text.Text, uiTextBox_car_text.Text, uiTextBox_ph_text.Text,
                     uiTextBox_start_text.Text, uiTextBox_end_text.Text);
 
                 /*// SQL
@@ -126,12 +139,7 @@ namespace Managing_Car_Program.Ui
 
         private void uiSymbolButton_help2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("정기권 문의 : 000-0000-000");
-        }
-
-        private void uiSymbolButton_help5_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("월정기주차권 금액 : 150,000원");
+            MessageBox.Show("월정기주차권 금액 : 150,000원 \r정기권 문의 : 000-0000-000");
         }
 
         private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)

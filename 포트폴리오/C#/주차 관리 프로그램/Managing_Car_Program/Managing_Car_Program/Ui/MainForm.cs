@@ -182,6 +182,42 @@ namespace Managing_Car_Program
         private void MainForm_Load(object sender, EventArgs e)
         {
             timer1.Start();
+            tooltip();
+        }
+
+        private void tooltip()
+        {
+            ToolTip tooltip1 = new ToolTip();
+            tooltip1.ShowAlways = true;
+            tooltip1.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip1.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip1.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip1.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip1.SetToolTip(uiSymbolButton_other, "다른 주차장 보기");
+
+            ToolTip tooltip2 = new ToolTip();
+            tooltip2.ShowAlways = true;
+            tooltip2.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip2.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip2.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip2.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip2.SetToolTip(uiSymbolButton_cust_add, "정기권 구매");
+
+            ToolTip tooltip3 = new ToolTip();
+            tooltip3.ShowAlways = true;
+            tooltip3.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip3.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip3.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip3.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip3.SetToolTip(uiSymbolButton_help, "도움말");
+
+            ToolTip tooltip4 = new ToolTip();
+            tooltip4.ShowAlways = true;
+            tooltip4.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip4.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip4.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip4.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip4.SetToolTip(Button_adminlog, "관리자 로그인");
         }
 
         private void button_in_Click(object sender, EventArgs e)
@@ -248,9 +284,12 @@ namespace Managing_Car_Program
                         car.parkingTime = Now;
 
                         dataGridView_main.DataSource = null;
-                        dataGridView_main.DataSource = DataManager.Cars;                       
-                                                
-                        string contents = $"주차공간 : {textBox_num.Text}에 차량번호 : {textBox_carnum.Text}을 주차합니다.";                        
+                        dataGridView_main.DataSource = DataManager.Cars;
+
+                        // MySql 저장
+                        DB.DB_mysql.insert_in_DB(textBox_num.Text, textBox_carnum.Text, label_in_time.Text);
+
+                        string contents = $"주차공간 : {textBox_num.Text}에 차량번호 : {textBox_carnum.Text}을 주차합니다. (DB 저장 완료)";                        
                         writeLog(contents, Now.ToString("yyyy_MM_dd")); // 두번째 파라미터값(DateTime.Now.ToString("yyyy_MM_dd"))은 적어도 되고 안적어도 되고
                         
                         DataManager.Save();
@@ -343,6 +382,9 @@ namespace Managing_Car_Program
                             /*DataManager.Cars[i].driverName = "";
                             DataManager.Cars[i].phoneNumber = "";*/
                             DataManager.Cars[i].parkingTime = Now;
+
+                            // MySql 저장
+                            DB.DB_mysql.insert_out_DB(textBox_num.Text, textBox_carnum.Text, label_out_time.Text);
 
                             string contents = $"주차공간 : {textBox_num.Text} 차량번호 : {textBox_carnum.Text}을 출차합니다.";
                             //MessageBox.Show(contents);                            

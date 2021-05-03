@@ -71,7 +71,7 @@ namespace Managing_Car_Program.Ui
                     uiTextBox_start.Text, uiTextBox_end.Text));
 
                 // SQL
-                DB.DB_mysql.insertDB(uiTextBox_nm.Text, uiTextBox_carnum.Text, uiTextBox_ph.Text,
+                DB.DB_mysql.insert_vip_DB(uiTextBox_nm.Text, uiTextBox_carnum.Text, uiTextBox_ph.Text,
                     uiTextBox_start.Text, uiTextBox_end.Text);
 
                 /*// SQL

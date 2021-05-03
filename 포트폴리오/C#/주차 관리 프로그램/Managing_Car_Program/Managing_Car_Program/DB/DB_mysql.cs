@@ -49,46 +49,9 @@ namespace Managing_Car_Program.DB
                 }
                 return false;
             }
-        }
+        }               
 
-        /*// 데이터베이스 연결을 Close
-        public static bool CloseConnection()
-        {
-            try
-            {
-                connection.Close();
-                return true;
-            }
-            catch (MySqlException ex)
-            {
-                Console.WriteLine(ex.Message);
-                Console.WriteLine(ex.StackTrace);
-                return false;
-            }
-        }        
-
-        public static DataSet vipDB(string tableName)
-        {
-            InitializeDB();
-
-            MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;");
-
-            connection.Open();
-
-            //SQL명령어 선언
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandText = "SELECT * FROM " + tableName;        
-
-            //DataAdapter와 DataSet으로 DB table 불러오기
-            SqlDataAdapter da = new SqlDataAdapter(cmd); // select 구문이 들어감
-            DataSet ds = new DataSet();
-            da.Fill(ds, tableName); // SELECT * FROM 테이블의 결과가 da에 입력됨
-            connection.Close(); //연결 해제
-
-            return ds;
-            //listView / dataGridView에 DB에서 가져온 데이터 입력하기
-        }*/
-
+        // DB 전체
         public static List<VipCust> SelectDB()
         {
             List<VipCust> tempFromDB = new List<VipCust>();
@@ -122,47 +85,61 @@ namespace Managing_Car_Program.DB
             }
         }
 
-        /*public static void SelectUsingAdapter()
+        // carnumber 조회
+        public static List<VipCust> selectcar(string carnumbertext)
         {
-            DataSet ds = new DataSet();
-            string connStr = "SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;";
-
-            using (MySqlConnection conn = new MySqlConnection(connStr))
-            {
-                //MySqlDataAdapter 클래스를 이용하여
-                //비연결 모드로 데이터 가져오기
-                string sql = "SELECT * FROM viplist WHERE Id>=2";
-                MySqlDataAdapter adpt = new MySqlDataAdapter(sql, conn);
-                adpt.Fill(ds, "viplist");
-            }
-
-            foreach (DataRow r in ds.Tables[0].Rows)
-            {
-                Console.WriteLine(r["Name"]);
-            }
-        }*/
-
-        public static void insertDB(string nametext, string carnumbertext, string phonetext, string starttext, string endtext)
-        {
+            List<VipCust> tempDB = new List<VipCust>();
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
             {
-                string insertQuery = "INSERT INTO viplist(name, carnumber, phone, start, end) VALUES ('" + nametext + "', '" + carnumbertext + "', '" + phonetext + "', '" + starttext + "', '" + endtext + "')";
-
-                try//예외 처리
+                try
                 {
                     connection.Open();
-                    MySqlCommand command = new MySqlCommand(insertQuery, connection);
+                    string sql = "select * from viplist where carnumber=" + "'" + carnumbertext + "'";
+
+                    //ExecuteReader를 이용하여
+                    //연결 모드로 데이터 가져오기
+                    MySqlCommand cmd = new MySqlCommand(sql, connection);
+                    MySqlDataReader table = cmd.ExecuteReader();
+
+                    while (table.Read())
+                    {
+                        Console.WriteLine("{0} {1} {2} {3} {4}", table["name"], table["carnumber"], table["phone"], table["start"], table["end"]);
+                        tempDB.Add(new VipCust() { custnm = table["name"].ToString(), custcarnum = table["carnumber"].ToString(), custph = table["phone"].ToString(), custstart = table["start"].ToString(), custend = table["end"].ToString() });
+                    }
+                    table.Close();
+                    return tempDB;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("DB select carnumber 실패");
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine(ex.StackTrace);
+                    return null;
+                }
+            }
+        }
+
+        public static void insert_in_DB(string parkingspottext, string carnumbertext, string parkingintext)
+        {
+            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingindata;UID=root;PASSWORD=1126;"))
+            {
+                string insertinQuery = "INSERT INTO parkinginlist(parkingspot, carnumber, parkingin) VALUES ('" + parkingspottext + "', '" + carnumbertext + "', '" + parkingintext + "')";
+
+                try
+                {
+                    connection.Open();
+                    MySqlCommand command = new MySqlCommand(insertinQuery, connection);
 
                     //command.CommandText = insertQuery;
 
                     // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
                     if (command.ExecuteNonQuery() == 1)
                     {
-                        Console.WriteLine("DB insert 성공");
+                        Console.WriteLine("DB insert parkingin 성공");
                     }
                     else
                     {
-                        Console.WriteLine("DB insert 실패");
+                        Console.WriteLine("DB insert parkingin 실패");
                     }
                     connection.Close();
                 }
@@ -174,7 +151,71 @@ namespace Managing_Car_Program.DB
             }
         }
 
-        public static void updateDB(string nametext, string carnumbertext, string phonetext, string starttext, string endtext, string carnumber)
+        public static void insert_out_DB(string parkingspottext, string carnumbertext, string parkingouttext)
+        {
+            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingoutdata;UID=root;PASSWORD=1126;"))
+            {
+                string insertoutQuery = "INSERT INTO parkingoutlist(parkingspot, carnumber, parkingout) VALUES ('" + parkingspottext + "', '" + carnumbertext + "', '" + parkingouttext + "')";
+
+                try
+                {
+                    connection.Open();
+                    MySqlCommand command = new MySqlCommand(insertoutQuery, connection);
+
+                    //command.CommandText = insertQuery;
+
+                    // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
+                    if (command.ExecuteNonQuery() == 1)
+                    {
+                        Console.WriteLine("DB insert parkingout 성공");
+                    }
+                    else
+                    {
+                        Console.WriteLine("DB insert parkingout 실패");
+                    }
+                    connection.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine(ex.StackTrace);
+                }
+            }
+        }
+
+        public static void insert_vip_DB(string nametext, string carnumbertext, string phonetext, string starttext, string endtext)
+        {
+            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
+            {
+                string insertvipQuery = "INSERT INTO viplist(name, carnumber, phone, start, end) VALUES ('" + nametext + "', '" + carnumbertext + "', '" + phonetext + "', '" + starttext + "', '" + endtext + "')";
+
+                try
+                {
+                    connection.Open();
+                    MySqlCommand command = new MySqlCommand(insertvipQuery, connection);
+
+                    //command.CommandText = insertQuery;
+
+                    // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
+                    if (command.ExecuteNonQuery() == 1)
+                    {
+                        Console.WriteLine("DB insert vip 성공");
+                    }
+                    else
+                    {
+                        Console.WriteLine("DB insert vip 실패");
+                    }
+                    connection.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine(ex.StackTrace);
+                }
+            }
+        }
+
+        public static void update_vip_DB(string nametext, string carnumbertext, string phonetext, string starttext, string endtext, string carnumber)
         {
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
             {
@@ -189,11 +230,11 @@ namespace Managing_Car_Program.DB
                     // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
                     if (command.ExecuteNonQuery() == 1)
                     {
-                        Console.WriteLine("DB update 성공");
+                        Console.WriteLine("DB update vip 성공");
                     }
                     else
                     {
-                        Console.WriteLine("DB update 실패");
+                        Console.WriteLine("DB update vip 실패");
                     }
                     connection.Close();
                 }
@@ -206,7 +247,7 @@ namespace Managing_Car_Program.DB
             }
         }
 
-        public static void deleteDB(string carnumber)
+        public static void delete_vip_DB(string carnumber)
         {
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
             {
@@ -223,11 +264,11 @@ namespace Managing_Car_Program.DB
                     // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
                     if (command.ExecuteNonQuery() == 1)
                     {
-                        Console.WriteLine("DB delete 성공");
+                        Console.WriteLine("DB delete vip 성공");
                     }
                     else
                     {
-                        Console.WriteLine("DB delete 실패");
+                        Console.WriteLine("DB delete vip 실패");
                     }
                     connection.Close();
                 }

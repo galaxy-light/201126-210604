@@ -19,6 +19,19 @@ namespace Managing_Car_Program
         public LogForm()
         {
             InitializeComponent();
+
+            tooltip();
+        }
+
+        private void tooltip()
+        {
+            ToolTip tooltip1 = new ToolTip();
+            tooltip1.ShowAlways = true;
+            tooltip1.IsBalloon = false; // true : 테두리 둥글게 / false : 테두리 각지게
+            tooltip1.AutoPopDelay = 0; // 설명이 표시되는 시간
+            tooltip1.InitialDelay = 0; // 설명이 나타나기까지의 시간
+            tooltip1.ReshowDelay = 100; // 다음 도구 설명 창이 나타날 때까지 걸리는 시간(밀리초)
+            tooltip1.SetToolTip(uiSymbolButton_help3, "도움말");
         }
 
         private void button_login_Click(object sender, EventArgs e)

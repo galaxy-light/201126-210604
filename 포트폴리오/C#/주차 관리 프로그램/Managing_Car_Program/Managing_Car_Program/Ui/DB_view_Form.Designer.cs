@@ -37,13 +37,17 @@ namespace Managing_Car_Program.Ui
             this.columnHeader_phone = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader_start = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader_end = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button_search = new System.Windows.Forms.Button();
+            this.textBox = new System.Windows.Forms.TextBox();
+            this.label = new System.Windows.Forms.Label();
+            this.uiSymbolButton_refresh = new Sunny.UI.UISymbolButton();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 449);
+            this.panel1.Location = new System.Drawing.Point(0, 481);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(836, 25);
             this.panel1.TabIndex = 32;
@@ -58,9 +62,9 @@ namespace Managing_Car_Program.Ui
             this.columnHeader_start,
             this.columnHeader_end});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(31, 95);
+            this.listView1.Location = new System.Drawing.Point(31, 93);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(774, 311);
+            this.listView1.Size = new System.Drawing.Size(774, 313);
             this.listView1.TabIndex = 33;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -100,11 +104,67 @@ namespace Managing_Car_Program.Ui
             this.columnHeader_end.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader_end.Width = 170;
             // 
+            // button_search
+            // 
+            this.button_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
+            this.button_search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_search.ForeColor = System.Drawing.Color.White;
+            this.button_search.Location = new System.Drawing.Point(462, 427);
+            this.button_search.Name = "button_search";
+            this.button_search.Size = new System.Drawing.Size(88, 30);
+            this.button_search.TabIndex = 39;
+            this.button_search.Text = "조회";
+            this.button_search.UseVisualStyleBackColor = false;
+            this.button_search.Click += new System.EventHandler(this.button_search_Click);
+            // 
+            // textBox
+            // 
+            this.textBox.Location = new System.Drawing.Point(354, 432);
+            this.textBox.Name = "textBox";
+            this.textBox.Size = new System.Drawing.Size(100, 21);
+            this.textBox.TabIndex = 38;
+            // 
+            // label
+            // 
+            this.label.AutoSize = true;
+            this.label.BackColor = System.Drawing.Color.White;
+            this.label.Location = new System.Drawing.Point(295, 437);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(53, 12);
+            this.label.TabIndex = 37;
+            this.label.Text = "차량번호";
+            // 
+            // uiSymbolButton_refresh
+            // 
+            this.uiSymbolButton_refresh.BackColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton_refresh.FillColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.FillHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.FillPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiSymbolButton_refresh.Location = new System.Drawing.Point(94, 30);
+            this.uiSymbolButton_refresh.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiSymbolButton_refresh.Name = "uiSymbolButton_refresh";
+            this.uiSymbolButton_refresh.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.RectHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_refresh.Size = new System.Drawing.Size(36, 31);
+            this.uiSymbolButton_refresh.Style = Sunny.UI.UIStyle.Custom;
+            this.uiSymbolButton_refresh.Symbol = 61470;
+            this.uiSymbolButton_refresh.SymbolSize = 30;
+            this.uiSymbolButton_refresh.TabIndex = 40;
+            this.uiSymbolButton_refresh.Click += new System.EventHandler(this.uiSymbolButton_refresh_Click);
+            // 
             // DB_view_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 474);
+            this.ClientSize = new System.Drawing.Size(836, 506);
+            this.Controls.Add(this.uiSymbolButton_refresh);
+            this.Controls.Add(this.button_search);
+            this.Controls.Add(this.textBox);
+            this.Controls.Add(this.label);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.panel1);
             this.Name = "DB_view_Form";
@@ -112,6 +172,7 @@ namespace Managing_Car_Program.Ui
             this.Text = "Data Base";
             this.Load += new System.EventHandler(this.DB_view_Form_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -124,5 +185,9 @@ namespace Managing_Car_Program.Ui
         private System.Windows.Forms.ColumnHeader columnHeader_phone;
         private System.Windows.Forms.ColumnHeader columnHeader_start;
         private System.Windows.Forms.ColumnHeader columnHeader_end;
+        private System.Windows.Forms.Button button_search;
+        private System.Windows.Forms.TextBox textBox;
+        private System.Windows.Forms.Label label;
+        private Sunny.UI.UISymbolButton uiSymbolButton_refresh;
     }
 }

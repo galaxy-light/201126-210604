@@ -36,7 +36,6 @@ namespace WindowsFormsApp0408
             //toolTip1.SetToolTip(linkbutton, "Insert space");
 
             toolTip1.SetToolTip(linkbutton, "동행복권");
-
         }
 
         private void button_test_Click(object sender, EventArgs e)
