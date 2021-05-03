@@ -49,10 +49,10 @@ namespace Managing_Car_Program.DB
                 }
                 return false;
             }
-        }               
+        }
 
-        // DB 전체
-        public static List<VipCust> SelectDB()
+        // vip DB 전체
+        public static List<VipCust> Select_vip_DB()
         {
             List<VipCust> tempFromDB = new List<VipCust>();
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
@@ -86,7 +86,7 @@ namespace Managing_Car_Program.DB
         }
 
         // carnumber 조회
-        public static List<VipCust> selectcar(string carnumbertext)
+        public static List<VipCust> select_vip_car(string carnumbertext)
         {
             List<VipCust> tempDB = new List<VipCust>();
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))

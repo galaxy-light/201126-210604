@@ -19,6 +19,8 @@ namespace Managing_Car_Program.Ui
             InitializeComponent();
 
             tooltip();
+
+            button_search.FlatAppearance.BorderSize = 0;
         }
 
         private void tooltip()
@@ -34,13 +36,13 @@ namespace Managing_Car_Program.Ui
 
         private void DB_view_Form_Load(object sender, EventArgs e)
         {
-            showdata();
+            showvipdata();
         }
 
-        private void showdata()
+        private void showvipdata()
         {
             listView1.Items.Clear(); // Clear() 안해주면 중복으로 뜸
-            List<VipCust> dbList = DB.DB_mysql.SelectDB(); // dbList : 참조변수(주소값)
+            List<VipCust> dbList = DB.DB_mysql.Select_vip_DB(); // dbList : 참조변수(주소값)
             int count = 1;
             foreach (var item in dbList)
             {
@@ -73,13 +75,13 @@ namespace Managing_Car_Program.Ui
 
         private void uiSymbolButton_refresh_Click(object sender, EventArgs e)
         {
-            showdata();
+            showvipdata();
         }
 
         private void button_search_Click(object sender, EventArgs e)
         {
             listView1.Items.Clear(); // Clear() 안해주면 중복으로 뜸
-            List<VipCust> templist = DB.DB_mysql.selectcar(textBox.Text); // dbList : 참조변수(주소값)
+            List<VipCust> templist = DB.DB_mysql.select_vip_car(textBox.Text); // dbList : 참조변수(주소값)
             int count = 1;
             foreach (var item in templist)
             {

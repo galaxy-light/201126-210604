@@ -236,10 +236,18 @@ namespace Managing_Car_Program.Ui
 
             try
             {
-                if (listView1.SelectedIndices.Count > 0) // 선택됐을 때
+                if (textBox_carnum.Text.Trim() != "")
                 {
-                    n = listView1.SelectedIndices[0]; // n에 선택한 인덱스 저장   
+                    if (listView1.SelectedIndices.Count > 0) // 선택됐을 때
+                    {
+                        n = listView1.SelectedIndices[0]; // n에 선택한 인덱스 저장   
+                    }
                 }
+                else
+                {
+                    MessageBox.Show("삭제할 대상자를 먼저 클릭하세요.");
+                    return;
+                }                
 
                 deleteDB();
 
