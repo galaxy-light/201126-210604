@@ -15,11 +15,6 @@ namespace Managing_Car_Program.DB
 
         public static MySqlConnection connection = new MySqlConnection();
 
-        // Sql 새연결정보 생성 (Query문)               
-        //cmd.CommandText = "insert into tbl_member (id,name,addr) values ('abc','홍길동','서울');";
-        //cmd.CommandText = "update tbl_member set addr='서울' where id='abc' and name='홍길동';";
-        //cmd.CommandText = "delete tbl_member where id='abc' and name='홍길동' and addr='서울';";   
-
         // MySQL DB셋팅 초기화
         public static void InitializeDB()
         {
@@ -56,7 +51,7 @@ namespace Managing_Car_Program.DB
             }
         }
 
-        // 데이터베이스 연결을 Close
+        /*// 데이터베이스 연결을 Close
         public static bool CloseConnection()
         {
             try
@@ -92,7 +87,7 @@ namespace Managing_Car_Program.DB
 
             return ds;
             //listView / dataGridView에 DB에서 가져온 데이터 입력하기
-        }
+        }*/
 
         public static List<VipCust> SelectDB()
         {
@@ -127,7 +122,7 @@ namespace Managing_Car_Program.DB
             }
         }
 
-        public static void SelectUsingAdapter()
+        /*public static void SelectUsingAdapter()
         {
             DataSet ds = new DataSet();
             string connStr = "SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;";
@@ -145,8 +140,7 @@ namespace Managing_Car_Program.DB
             {
                 Console.WriteLine(r["Name"]);
             }
-        }
-
+        }*/
 
         public static void insertDB(string nametext, string carnumbertext, string phonetext, string starttext, string endtext)
         {
@@ -191,19 +185,7 @@ namespace Managing_Car_Program.DB
                 {
                     connection.Open();
                     MySqlCommand command = new MySqlCommand(updateQuery, connection);
-
-                    /*connection.Open();
-                    MySqlCommand command = new MySqlCommand(updateQuery, connection);
-                    command.Parameters.AddWithValue("@nametext", nametext);
-                    command.Parameters.AddWithValue("@carnumbertext", carnumbertext);
-                    command.Parameters.AddWithValue("@phonetext", phonetext);
-                    command.Parameters.AddWithValue("@starttext", starttext);
-                    command.Parameters.AddWithValue("@endtext", endtext);
-                    command.Parameters.AddWithValue("@carnumber", carnumber);
-                    command.CommandText = updateQuery;*/
-
-                    //command.CommandText = updateQuery;
-
+                                        
                     // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
                     if (command.ExecuteNonQuery() == 1)
                     {
@@ -255,37 +237,6 @@ namespace Managing_Car_Program.DB
                     Console.WriteLine(ex.StackTrace);
                 }
             }
-
-            /*using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
-            {
-                string deleteQuery = "DELETE FROM viplist WHERE id=@count";
-
-                try
-                {
-                    connection.Open();
-                    MySqlCommand command = new MySqlCommand(deleteQuery, connection);
-                    
-                    command.Parameters.AddWithValue("@count", count);
-                    command.CommandText = deleteQuery;
-
-                    // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
-                    if (command.ExecuteNonQuery() == 1)
-                    {
-                        Console.WriteLine("DB delete 성공");                        
-                    }
-                    else
-                    {
-                        Console.WriteLine("DB delete 실패");
-                    }
-                    connection.Close();
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                    Console.WriteLine(ex.StackTrace);                   
-                    //throw;
-                }
-            }*/
         }
     }
 }
