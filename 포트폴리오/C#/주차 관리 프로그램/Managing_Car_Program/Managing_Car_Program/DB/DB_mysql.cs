@@ -11,6 +11,8 @@ namespace Managing_Car_Program.DB
 {
     class DB_mysql
     {
+        // 코드 참고 : https://wiseraintown.tistory.com/entry/C-MySQL-DataBase-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-1
+
         public static MySqlConnection connection = new MySqlConnection();
 
         // Sql 새연결정보 생성 (Query문)               
@@ -25,16 +27,62 @@ namespace Managing_Car_Program.DB
             string connectionString;
             connectionString = $"SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;";
 
-            connection = new MySqlConnection(connectionString);
+            connection = new MySqlConnection(connection.ConnectionString);
         }
 
-        public static DataSet vipdb(string tableName)
+        // 데이터베이스 연결을 Open
+        public static bool OpenConnection()
         {
+            InitializeDB();
+            try
+            {
+                connection.Open();
+                Console.WriteLine("DataBase 연동 성공");
+                return true;
+            }
+            catch (MySqlException ex)
+            {
+                switch (ex.Number)
+                {
+                    case 0:
+                        Console.WriteLine("데이터베이스 서버에 연결할 수 없습니다.");
+                        break;
+
+                    case 1045:
+                        Console.WriteLine("유저 ID 또는 Password를 확인해주세요.");
+                        break;
+                }
+                return false;
+            }
+        }
+
+        // 데이터베이스 연결을 Close
+        public static bool CloseConnection()
+        {
+            try
+            {
+                connection.Close();
+                return true;
+            }
+            catch (MySqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+                return false;
+            }
+        }        
+
+        public static DataSet vipDB(string tableName)
+        {
+            InitializeDB();
+
+            MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;");
+
             connection.Open();
 
             //SQL명령어 선언
-            SqlCommand cmd = new SqlCommand();           
-            cmd.CommandText = "SELECT * FROM " + tableName;
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "SELECT * FROM " + tableName;        
 
             //DataAdapter와 DataSet으로 DB table 불러오기
             SqlDataAdapter da = new SqlDataAdapter(cmd); // select 구문이 들어감
@@ -46,31 +94,35 @@ namespace Managing_Car_Program.DB
             //listView / dataGridView에 DB에서 가져온 데이터 입력하기
         }
 
-        public static void SelectDB(string nametext, string carnumbertext, string phonetext, string starttext, string endtext)
+        public static List<VipCust> SelectDB()
         {
+            List<VipCust> tempFromDB = new List<VipCust>();
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
-            {
-                try//예외 처리
+            {                
+                try
                 {
                     connection.Open();
-                    string sql = "SELECT * FROM viplist";
+                    string selectQuery = "select * from viplist";
 
                     //ExecuteReader를 이용하여
                     //연결 모드로 데이터 가져오기
-                    MySqlCommand cmd = new MySqlCommand(sql, connection);
+                    MySqlCommand cmd = new MySqlCommand(selectQuery, connection);
                     MySqlDataReader table = cmd.ExecuteReader();
 
                     while (table.Read())
                     {
                         Console.WriteLine("{0} {1} {2} {3} {4}", table["name"], table["carnumber"], table["phone"], table["start"], table["end"]);
+                        tempFromDB.Add(new VipCust() { custnm = table["name"].ToString(), custcarnum = table["carnumber"].ToString(), custph = table["phone"].ToString(), custstart = table["start"].ToString(), custend = table["end"].ToString() });
                     }
                     table.Close();
+                    return tempFromDB;
                 }
                 catch (Exception ex)
                 {
+                    Console.WriteLine("DB select 실패");
                     Console.WriteLine(ex.Message);
                     Console.WriteLine(ex.StackTrace);
-                    Console.WriteLine(ex.ToString());
+                    return null;
                 }
             }
         }
@@ -95,6 +147,7 @@ namespace Managing_Car_Program.DB
             }
         }
 
+
         public static void insertDB(string nametext, string carnumbertext, string phonetext, string starttext, string endtext)
         {
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
@@ -106,12 +159,12 @@ namespace Managing_Car_Program.DB
                     connection.Open();
                     MySqlCommand command = new MySqlCommand(insertQuery, connection);
 
-                    command.CommandText = insertQuery;
+                    //command.CommandText = insertQuery;
 
                     // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
                     if (command.ExecuteNonQuery() == 1)
                     {
-                        Console.WriteLine("DB insert 성공");                        
+                        Console.WriteLine("DB insert 성공");
                     }
                     else
                     {
@@ -123,34 +176,38 @@ namespace Managing_Car_Program.DB
                 {
                     Console.WriteLine(ex.Message);
                     Console.WriteLine(ex.StackTrace);
-                    Console.WriteLine(ex.ToString());
                 }
             }
         }
 
-        public static void updateDB(int count, string nametext, string carnumbertext, string phonetext, string starttext, string endtext)
-        {          
+        public static void updateDB(string nametext, string carnumbertext, string phonetext, string starttext, string endtext, string carnumber)
+        {
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
-            {               
-                string updateQuery = "UPDATE viplist SET name=@nametext, carnumber=@nametext, phone=@phonetext, start=@starttext, end=@endtext WHERE id=@count";
+            {
+                //string updateQuery = "UPDATE viplist SET name=@nametext, carnumber=@nametext, phone=@phonetext, start=@starttext, end=@endtext WHERE carnumber=@carnumber";
+                string updateQuery = "UPDATE viplist SET name=" + "'" + nametext + "', " + "carnumber=" + "'" + carnumbertext + "', " + "phone=" + "'" + phonetext + "', " + "start=" + "'" + starttext + "', " + "end=" + "'" + endtext + "' " + "WHERE " + "carnumber=" + "'" + carnumber + "'";
 
                 try
                 {
                     connection.Open();
                     MySqlCommand command = new MySqlCommand(updateQuery, connection);
 
+                    /*connection.Open();
+                    MySqlCommand command = new MySqlCommand(updateQuery, connection);
                     command.Parameters.AddWithValue("@nametext", nametext);
                     command.Parameters.AddWithValue("@carnumbertext", carnumbertext);
                     command.Parameters.AddWithValue("@phonetext", phonetext);
                     command.Parameters.AddWithValue("@starttext", starttext);
                     command.Parameters.AddWithValue("@endtext", endtext);
-                    command.Parameters.AddWithValue("@count", count);
-                    command.CommandText = updateQuery;
+                    command.Parameters.AddWithValue("@carnumber", carnumber);
+                    command.CommandText = updateQuery;*/
+
+                    //command.CommandText = updateQuery;
 
                     // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
                     if (command.ExecuteNonQuery() == 1)
                     {
-                        Console.WriteLine("DB update 성공");                       
+                        Console.WriteLine("DB update 성공");
                     }
                     else
                     {
@@ -162,15 +219,44 @@ namespace Managing_Car_Program.DB
                 {
                     Console.WriteLine(ex.Message);
                     Console.WriteLine(ex.StackTrace);
-                    Console.WriteLine(ex.ToString());
                     //throw;
-                }                
+                }
             }
         }
 
-        public static void deleteDB(int count)
+        public static void deleteDB(string carnumber)
         {
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
+            {
+                //string deleteQuery = "DELETE FROM viplist WHERE carnumber = @carnumber";
+                string deleteQuery = "DELETE FROM viplist WHERE carnumber=" + "'" + carnumber + "'";
+
+                try
+                {
+                    connection.Open();
+                    MySqlCommand command = new MySqlCommand(deleteQuery, connection);
+
+                    //command.CommandText = deleteQuery;
+
+                    // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
+                    if (command.ExecuteNonQuery() == 1)
+                    {
+                        Console.WriteLine("DB delete 성공");
+                    }
+                    else
+                    {
+                        Console.WriteLine("DB delete 실패");
+                    }
+                    connection.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine(ex.StackTrace);
+                }
+            }
+
+            /*using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
             {
                 string deleteQuery = "DELETE FROM viplist WHERE id=@count";
 
@@ -196,11 +282,10 @@ namespace Managing_Car_Program.DB
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
-                    Console.WriteLine(ex.StackTrace);
-                    Console.WriteLine(ex.ToString());
+                    Console.WriteLine(ex.StackTrace);                   
                     //throw;
                 }
-            }
+            }*/
         }
     }
 }

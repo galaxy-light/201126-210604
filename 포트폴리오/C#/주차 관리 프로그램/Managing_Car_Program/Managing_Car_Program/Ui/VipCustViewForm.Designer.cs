@@ -59,6 +59,7 @@ namespace Managing_Car_Program.Ui
             this.uiSymbolButton_update = new Sunny.UI.UISymbolButton();
             this.uiSymbolButton_help = new Sunny.UI.UISymbolButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.uiSymbolButton_db = new Sunny.UI.UISymbolButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -275,7 +276,7 @@ namespace Managing_Car_Program.Ui
             this.groupBox3.Size = new System.Drawing.Size(838, 115);
             this.groupBox3.TabIndex = 22;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "수정";
+            this.groupBox3.Text = "시작일 / 종료일 수정";
             // 
             // uiCheckBox_update
             // 
@@ -429,12 +430,35 @@ namespace Managing_Car_Program.Ui
             this.panel1.Size = new System.Drawing.Size(882, 25);
             this.panel1.TabIndex = 25;
             // 
+            // uiSymbolButton_db
+            // 
+            this.uiSymbolButton_db.BackColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_db.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton_db.FillColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_db.FillHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_db.FillPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_db.FillSelectedColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_db.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiSymbolButton_db.Location = new System.Drawing.Point(176, 29);
+            this.uiSymbolButton_db.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiSymbolButton_db.Name = "uiSymbolButton_db";
+            this.uiSymbolButton_db.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_db.RectHoverColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_db.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton_db.Size = new System.Drawing.Size(36, 31);
+            this.uiSymbolButton_db.Style = Sunny.UI.UIStyle.Custom;
+            this.uiSymbolButton_db.Symbol = 61717;
+            this.uiSymbolButton_db.SymbolSize = 35;
+            this.uiSymbolButton_db.TabIndex = 31;
+            this.uiSymbolButton_db.Click += new System.EventHandler(this.uiSymbolButton_db_Click);
+            // 
             // VipCustViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(882, 576);
+            this.Controls.Add(this.uiSymbolButton_db);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.uiSymbolButton_help);
             this.Controls.Add(this.uiSymbolButton_update);
@@ -487,5 +511,6 @@ namespace Managing_Car_Program.Ui
         private Sunny.UI.UICheckBox uiCheckBox_update;
         private Sunny.UI.UISymbolButton uiSymbolButton_help;
         private System.Windows.Forms.Panel panel1;
+        private Sunny.UI.UISymbolButton uiSymbolButton_db;
     }
 }

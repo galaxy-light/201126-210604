@@ -1,7 +1,7 @@
 ﻿
 namespace Managing_Car_Program.Ui
 {
-    partial class Other_view_Form
+    partial class Other_parking_view_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -31,11 +31,11 @@ namespace Managing_Car_Program.Ui
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button_close = new System.Windows.Forms.Button();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.locationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pcountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apiparkingBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.apiparkingBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -55,22 +55,6 @@ namespace Managing_Car_Program.Ui
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(654, 274);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // button_close
-            // 
-            this.button_close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
-            this.button_close.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_close.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_close.ForeColor = System.Drawing.Color.White;
-            this.button_close.Location = new System.Drawing.Point(305, 383);
-            this.button_close.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.button_close.Name = "button_close";
-            this.button_close.Size = new System.Drawing.Size(105, 33);
-            this.button_close.TabIndex = 17;
-            this.button_close.Text = "닫기";
-            this.button_close.UseVisualStyleBackColor = false;
-            this.button_close.Click += new System.EventHandler(this.button_close_Click);
             // 
             // nameDataGridViewTextBoxColumn
             // 
@@ -97,12 +81,21 @@ namespace Managing_Car_Program.Ui
             // 
             this.apiparkingBindingSource.DataSource = typeof(Managing_Car_Program.Model.Api_parking);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 395);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(715, 25);
+            this.panel1.TabIndex = 21;
+            // 
             // Other_view_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(715, 439);
-            this.Controls.Add(this.button_close);
+            this.ClientSize = new System.Drawing.Size(715, 420);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Other_view_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -118,9 +111,9 @@ namespace Managing_Car_Program.Ui
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource apiparkingBindingSource;
-        private System.Windows.Forms.Button button_close;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn locationDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn pcountDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Panel panel1;
     }
 }

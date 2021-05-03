@@ -101,7 +101,7 @@ namespace Managing_Car_Program.Ui
                 }
                 connection.Close();*/
 
-                MessageBox.Show("정기권 구매에 성공했습니다. (DB 저장 완료)");
+                MessageBox.Show("정기권 구매에 성공했습니다.");
                 VipData.Savetxt();               
 
                 string str = $"사용자 - 이름 : {uiTextBox_name_text.Text}, 차량번호 : {uiTextBox_car_text.Text}," +
@@ -113,7 +113,7 @@ namespace Managing_Car_Program.Ui
             }
             else
             {
-                MessageBox.Show("정기권 구매에 실패했습니다.\r 입력창을 다시 확인해주세요. (DB 저장 실패)");
+                MessageBox.Show("정기권 구매에 실패했습니다.\r 입력창을 다시 확인해주세요.");
                 return;
             }
         }
@@ -122,46 +122,6 @@ namespace Managing_Car_Program.Ui
         {
             string custbuycontents = $"[{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}]{custcontents}";
             DataManager.printLog(custbuycontents);
-        }
-
-        private void uiTextBox_name_text_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Tab)
-            {
-                uiSymbolLabel_carnum.Focus();                
-            }
-        }
-
-        private void uiTextBox_car_text_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Tab)
-            {
-                uiSymbolLabel_phone.Focus();
-            }
-        }
-
-        private void uiTextBox_ph_text_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Tab)
-            {
-                uiSymbolLabel_start.Focus();
-            }
-        }
-
-        private void uiTextBox_start_text_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Tab)
-            {
-                uiSymbolLabel_end.Focus();
-            }
-        }
-
-        private void uiTextBox_end_text_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Tab)
-            {
-                button_okay.Focus();
-            }
         }
 
         private void uiSymbolButton_help2_Click(object sender, EventArgs e)
@@ -186,6 +146,46 @@ namespace Managing_Car_Program.Ui
             else
             {
                 uiTextBox_end_text.Text = monthCalendar1.SelectionRange.Start.ToString("yyyy-MM-dd");
+            }
+        }
+
+        private void uiTextBox_name_text_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                uiTextBox_car_text.Focus();
+            }
+        }
+
+        private void uiTextBox_car_text_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                uiTextBox_ph_text.Focus();
+            }
+        }
+
+        private void uiTextBox_ph_text_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                uiTextBox_start_text.Focus();
+            }
+        }
+
+        private void uiTextBox_start_text_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                uiTextBox_end_text.Focus();
+            }
+        }
+
+        private void uiTextBox_end_text_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                button_okay.Focus();
             }
         }
     }

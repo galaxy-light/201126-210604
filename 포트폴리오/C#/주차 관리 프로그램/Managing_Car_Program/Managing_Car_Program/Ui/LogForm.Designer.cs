@@ -47,7 +47,7 @@ namespace Managing_Car_Program
             this.textBox_id.Name = "textBox_id";
             this.textBox_id.Size = new System.Drawing.Size(148, 21);
             this.textBox_id.TabIndex = 0;
-            this.textBox_id.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_id_KeyPress);
+            this.textBox_id.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_id_KeyDown);            
             // 
             // textBox_pw
             // 
@@ -56,7 +56,7 @@ namespace Managing_Car_Program
             this.textBox_pw.PasswordChar = '*';
             this.textBox_pw.Size = new System.Drawing.Size(148, 21);
             this.textBox_pw.TabIndex = 1;
-            this.textBox_pw.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_pw_KeyPress);
+            this.textBox_pw.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_pw_KeyDown);            
             // 
             // label_id
             // 
@@ -148,6 +148,7 @@ namespace Managing_Car_Program
             this.Controls.Add(this.label_id);
             this.Controls.Add(this.textBox_pw);
             this.Controls.Add(this.textBox_id);
+            this.KeyPreview = true;
             this.Name = "LogForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "관리자 로그인";

@@ -94,7 +94,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_name_text.Padding = new System.Windows.Forms.Padding(5);
             this.uiTextBox_name_text.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_name_text.TabIndex = 19;
-            this.uiTextBox_name_text.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_name_text_KeyPress);
+            this.uiTextBox_name_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_name_text_KeyDown);            
             // 
             // uiTextBox_car_text
             // 
@@ -110,7 +110,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_car_text.Padding = new System.Windows.Forms.Padding(5);
             this.uiTextBox_car_text.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_car_text.TabIndex = 21;
-            this.uiTextBox_car_text.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_car_text_KeyPress);
+            this.uiTextBox_car_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_car_text_KeyDown);            
             // 
             // uiSymbolLabel_carnum
             // 
@@ -140,7 +140,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_ph_text.Padding = new System.Windows.Forms.Padding(5);
             this.uiTextBox_ph_text.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_ph_text.TabIndex = 23;
-            this.uiTextBox_ph_text.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_ph_text_KeyPress);
+            this.uiTextBox_ph_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_ph_text_KeyDown);            
             // 
             // uiSymbolLabel_phone
             // 
@@ -170,7 +170,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_start_text.Padding = new System.Windows.Forms.Padding(5);
             this.uiTextBox_start_text.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_start_text.TabIndex = 25;
-            this.uiTextBox_start_text.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_start_text_KeyPress);
+            this.uiTextBox_start_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_start_text_KeyDown);            
             // 
             // uiSymbolLabel_start
             // 
@@ -200,7 +200,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_end_text.Padding = new System.Windows.Forms.Padding(5);
             this.uiTextBox_end_text.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_end_text.TabIndex = 27;
-            this.uiTextBox_end_text.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_end_text_KeyPress);
+            this.uiTextBox_end_text.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_end_text_KeyDown);            
             // 
             // uiSymbolLabel_end
             // 
@@ -339,6 +339,7 @@ namespace Managing_Car_Program.Ui
             this.Controls.Add(this.uiTextBox_name_text);
             this.Controls.Add(this.uiSymbolLabel_name);
             this.Controls.Add(this.button_okay);
+            this.KeyPreview = true;
             this.Name = "Cust_cu_add_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "정기권 구매";

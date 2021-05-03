@@ -26,24 +26,8 @@ namespace Managing_Car_Program
             loginsec();
         }
 
-        private void textBox_id_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Tab)
-            {
-                textBox_pw.Focus();
-            }
-        }
-
-        private void textBox_pw_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Enter)
-            {
-                button_login.Focus();
-            }
-        }
-
         private void loginsec()
-        {
+        {            
             if (textBox_id.Text == adminid)
             {
                 if (textBox_pw.Text == adminpw)
@@ -77,6 +61,22 @@ namespace Managing_Car_Program
         {
             string logcontents = $"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")}]{txtcontents}";
             DataManager.printLog(logcontents);
+        }
+
+        private void textBox_id_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                textBox_pw.Focus();
+            }
+        }
+
+        private void textBox_pw_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                button_login.Focus();
+            }
         }
     }
 }

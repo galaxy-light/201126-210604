@@ -13,8 +13,7 @@ namespace Managing_Car_Program.Ui
     partial class VipCustViewForm : MaterialForm
     {        
         static int n;       
-        static int selectrow;
-
+        
         // https://link2me.tistory.com/779
         // https://link2me.tistory.com/889
 
@@ -31,8 +30,7 @@ namespace Managing_Car_Program.Ui
             textBox_start.Enabled = false;
             textBox_end.Enabled = false;
 
-            VipData.Load();
-            viewload();
+            VipData.Load();            
             showListView();            
             if (VipData.vips.Count == 0)
             {
@@ -40,26 +38,6 @@ namespace Managing_Car_Program.Ui
                 return;
             }
             infonull();
-        }
-
-        private void viewload()
-        {
-            try
-            {
-                DataSet ds = DB_mysql.vipdb("viplist");
-                VipCust v = new VipCust();
-                v.custnm = ds.Tables[1].Rows[1]["custnm"].ToString();
-                v.custcarnum = ds.Tables[2].Rows[2]["custcarnum"].ToString();
-                v.custph = ds.Tables[3].Rows[3]["custph"].ToString();
-                v.custstart = ds.Tables[4].Rows[4]["custstart"].ToString();
-                v.custend = ds.Tables[5].Rows[5]["custend"].ToString();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                Console.WriteLine(ex.StackTrace);
-                //throw;
-            }            
         }
 
         private void uiSymbolButton_add_Click(object sender, EventArgs e)
@@ -132,9 +110,7 @@ namespace Managing_Car_Program.Ui
                     vips[i].custcarnum,
                     vips[i].custph,
                     vips[i].custstart,
-                    vips[i].custend}));
-
-                    
+                    vips[i].custend}));                    
                 }
                 setRowColor(listView1, Color.White, Color.LightBlue);
                 //int index = listView1.Items.Count - 1;
@@ -157,11 +133,9 @@ namespace Managing_Car_Program.Ui
         {
             //listView1.Items.Clear();  // 이거 주석 처리 안하면 수정했을 때 0번째 인덱스가 수정됨
 
-            if (uiCheckBox_update.Enabled == true && textBox_name.Enabled == true && textBox_carnum.Enabled == true &&
-            textBox_phnum.Enabled == true && textBox_start.Enabled == true && textBox_end.Enabled == true)
+            if (textBox_start.Enabled == true && textBox_end.Enabled == true)
             {
-                if (textBox_name.Text.Trim() != "" && textBox_carnum.Text.Trim() != "" &&
-                textBox_phnum.Text.Trim() != "" && textBox_start.Text.Trim() != "" && textBox_end.Text.Trim() != "")
+                if (textBox_start.Text.Trim() != "" && textBox_end.Text.Trim() != "")
                 {
                     if (listView1.SelectedIndices.Count > 0) // 선택됐을 때
                     {
@@ -182,7 +156,7 @@ namespace Managing_Car_Program.Ui
                     MessageBox.Show("정보가 수정되었습니다.");
 
                     string str = $"이름 : {textBox_name.Text}, 차량번호 : {textBox_carnum.Text}, 전화번호 : {textBox_phnum.Text}," +
-                        $"정기권 시작일 : {textBox_start.Text}, 정기권 종료일 : {textBox_end.Text}이 수정되었습니다.";
+                        $"정기권 시작일 : {textBox_start.Text}, 정기권 종료일 : {textBox_end.Text}이 수정되었습니다. (DB 수정 완료)";
                     txtwriteLog(str);
                     DataManager.Save();
                     VipData.Savetxt();
@@ -198,13 +172,10 @@ namespace Managing_Car_Program.Ui
         }
 
         private void updateDB()
-        {
-            selectrow = listView1.SelectedItems[0].Index;
+        {            
             try
-            {
-                Console.WriteLine("count : " + selectrow);
-                DB.DB_mysql.updateDB(selectrow, textBox_name.Text, textBox_carnum.Text, textBox_phnum.Text, textBox_start.Text, textBox_end.Text);
-                listView1.Refresh();               
+            {                
+                DB.DB_mysql.updateDB(textBox_name.Text, textBox_carnum.Text, textBox_phnum.Text, textBox_start.Text, textBox_end.Text, textBox_carnum.Text);                          
             }
             catch (Exception ex)
             {
@@ -252,9 +223,8 @@ namespace Managing_Car_Program.Ui
         private void deleteDB()
         {
             try
-            {
-                selectrow = listView1.SelectedItems[0].Index;
-                DB_mysql.deleteDB(selectrow);
+            {               
+                DB.DB_mysql.deleteDB(textBox_carnum.Text);
                 listView1.Refresh();
             }
             catch (Exception ex)
@@ -389,20 +359,25 @@ namespace Managing_Car_Program.Ui
         {
             if (uiCheckBox_update.Checked == true)
             {
-                textBox_name.Enabled = true;
+                /*textBox_name.Enabled = true;
                 textBox_carnum.Enabled = true;
-                textBox_phnum.Enabled = true;
+                textBox_phnum.Enabled = true;*/
                 textBox_start.Enabled = true;
                 textBox_end.Enabled = true;
             }
             else
             {
-                textBox_name.Enabled = false;
+                /*textBox_name.Enabled = false;
                 textBox_carnum.Enabled = false;
-                textBox_phnum.Enabled = false;
+                textBox_phnum.Enabled = false;*/
                 textBox_start.Enabled = false;
                 textBox_end.Enabled = false;
             }
+        }
+
+        private void uiSymbolButton_db_Click(object sender, EventArgs e)
+        {
+            new DB_view_Form().Show();
         }
     }
 }

@@ -18,15 +18,13 @@ namespace Managing_Car_Program
         private DateTime parkingin;
         private DateTime parkingout;
 
-        static int money;
-
         public MainForm()
         {
             InitializeComponent();
             starttimer();
 
             // MySQL DB셋팅 초기화
-            DB.DB_mysql.InitializeDB();
+            DB.DB_mysql.OpenConnection();
 
             /*List<ParkingCar> cars = new List<ParkingCar>();
             cars.Add(new ParkingCar() { parkingSpot = 1, carNumber = "30고1234",
@@ -454,12 +452,26 @@ namespace Managing_Car_Program
             //    label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));
             //}
 
+                /*if (totalHourDiff >= 24)
+                {
+                    //MessageBox.Show("24시간 이용하셨습니다.");
+                    label_in_out_result.Text = "1일 이용";
+                }
+                else
+                {
+                    //label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));                  
+                    writeLog("totalsecond : " + totalSecondDiff.ToString());
+                    //label_in_out_result.Text = timeresult;
+
+                    int totalsecond = (int)totalSecondDiff; //소수점 버림
+                    int sec = totalsecond % 60 % 60;
+                    int min = totalsecond / 60;
+                    int hour = min / 60;
+                    label_in_out_result.Text = hour.ToString("00") + ":" + (min % 60).ToString("00") + ":" + sec.ToString("00");
+                }*/
+
+
             if (totalHourDiff <= 24)
-            {
-                //MessageBox.Show("24시간 이용하셨습니다.");
-                label_in_out_result.Text = "1일 이용";
-            }
-            else
             {
                 //label_in_out_result.Text = (string.Format("{0:HH:mm:ss}", timeresult));                  
                 writeLog("totalsecond : " + totalSecondDiff.ToString());
@@ -471,7 +483,20 @@ namespace Managing_Car_Program
                 int hour = min / 60;
                 label_in_out_result.Text = hour.ToString("00") + ":" + (min % 60).ToString("00") + ":" + sec.ToString("00");
             }
-
+            else if (totalHourDiff > 24 && totalHourDiff <= 48)
+            {
+                //MessageBox.Show("24시간 이용하셨습니다.");
+                label_in_out_result.Text = "1일 이용";
+            }
+            else if (totalHourDiff > 48 && totalHourDiff <= 60)
+            {
+                label_in_out_result.Text = "2일 이용";
+            }
+            else if (totalHourDiff > 60)
+            {
+                label_in_out_result.Text = "3일 초과";
+            }                       
+           
             string contents = $"이용시간 : {label_in_out_result.Text}";
             //MessageBox.Show(contents);           
             writeLog(contents);
@@ -496,7 +521,15 @@ namespace Managing_Car_Program
 
             if (label_in_out_result.Text == "1일 이용")
             {
-                return 10000.ToString();
+                return 20000.ToString();
+            }
+            else if (label_in_out_result.Text == "2일 이용")
+            {
+                return 50000.ToString();
+            }
+            else if (label_in_out_result.Text == "3일 초과")
+            {
+                return 150000.ToString();
             }
             else if (label_in_out_result.Text == "정기권")
             {
@@ -565,7 +598,7 @@ namespace Managing_Car_Program
 
         private void uiSymbolButton_other_Click(object sender, EventArgs e)
         {
-            new Other_view_Form().Show();
+            new Other_parking_view_Form().Show();
         }
     }
 }

@@ -14,11 +14,11 @@ using System.Xml.Linq;
 
 namespace Managing_Car_Program.Ui
 {
-    partial class Other_view_Form : MaterialForm
+    partial class Other_parking_view_Form : MaterialForm
     {
         List<Api_parking> parkinglist = new List<Api_parking>();
                 
-        public Other_view_Form()
+        public Other_parking_view_Form()
         {
             InitializeComponent();
         }
@@ -37,11 +37,6 @@ namespace Managing_Car_Program.Ui
                 parkinglist.Add(new Api_parking(tempname, templocation, tempcount));
             }
             dataGridView1.DataSource = parkinglist;
-        }
-
-        private void button_close_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }

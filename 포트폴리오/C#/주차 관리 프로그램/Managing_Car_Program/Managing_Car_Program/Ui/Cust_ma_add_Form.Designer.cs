@@ -43,8 +43,8 @@ namespace Managing_Car_Program.Ui
             this.panel1 = new System.Windows.Forms.Panel();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.uiRadioButton_start = new Sunny.UI.UIRadioButton();
             this.uiRadioButton_end = new Sunny.UI.UIRadioButton();
+            this.uiRadioButton_start = new Sunny.UI.UIRadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +62,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_nm.Padding = new System.Windows.Forms.Padding(6);
             this.uiTextBox_nm.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_nm.TabIndex = 6;
-            this.uiTextBox_nm.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_nm_KeyPress);
+            this.uiTextBox_nm.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_nm_KeyDown);           
             // 
             // uiSymbolLabel_nm
             // 
@@ -93,7 +93,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_carnum.Padding = new System.Windows.Forms.Padding(6);
             this.uiTextBox_carnum.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_carnum.TabIndex = 8;
-            this.uiTextBox_carnum.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_carnum_KeyPress);
+            this.uiTextBox_carnum.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_carnum_KeyDown);            
             // 
             // uiSymbolLabel_carnum
             // 
@@ -124,7 +124,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_ph.Padding = new System.Windows.Forms.Padding(6);
             this.uiTextBox_ph.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_ph.TabIndex = 10;
-            this.uiTextBox_ph.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_ph_KeyPress);
+            this.uiTextBox_ph.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_ph_KeyDown);           
             // 
             // uiSymbolLabel_ph
             // 
@@ -155,7 +155,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_start.Padding = new System.Windows.Forms.Padding(6);
             this.uiTextBox_start.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_start.TabIndex = 12;
-            this.uiTextBox_start.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_start_KeyPress);
+            this.uiTextBox_start.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_start_KeyDown);          
             // 
             // uiSymbolLabel_start
             // 
@@ -186,7 +186,7 @@ namespace Managing_Car_Program.Ui
             this.uiTextBox_end.Padding = new System.Windows.Forms.Padding(6);
             this.uiTextBox_end.Size = new System.Drawing.Size(218, 29);
             this.uiTextBox_end.TabIndex = 14;
-            this.uiTextBox_end.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_end_KeyPress);
+            this.uiTextBox_end.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uiTextBox_end_KeyDown);            
             // 
             // uiSymbolLabel_end
             // 
@@ -247,6 +247,20 @@ namespace Managing_Car_Program.Ui
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "정기권 날짜 지정";
             // 
+            // uiRadioButton_end
+            // 
+            this.uiRadioButton_end.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiRadioButton_end.Font = new System.Drawing.Font("굴림", 11.25F);
+            this.uiRadioButton_end.Location = new System.Drawing.Point(23, 64);
+            this.uiRadioButton_end.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiRadioButton_end.Name = "uiRadioButton_end";
+            this.uiRadioButton_end.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.uiRadioButton_end.RadioButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
+            this.uiRadioButton_end.Size = new System.Drawing.Size(173, 29);
+            this.uiRadioButton_end.Style = Sunny.UI.UIStyle.Custom;
+            this.uiRadioButton_end.TabIndex = 1;
+            this.uiRadioButton_end.Text = "정기권 종료일 지정";
+            // 
             // uiRadioButton_start
             // 
             this.uiRadioButton_start.Checked = true;
@@ -261,20 +275,6 @@ namespace Managing_Car_Program.Ui
             this.uiRadioButton_start.Style = Sunny.UI.UIStyle.Custom;
             this.uiRadioButton_start.TabIndex = 0;
             this.uiRadioButton_start.Text = "정기권 시작일 지정";
-            // 
-            // uiRadioButton_end
-            // 
-            this.uiRadioButton_end.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiRadioButton_end.Font = new System.Drawing.Font("굴림", 11.25F);
-            this.uiRadioButton_end.Location = new System.Drawing.Point(23, 64);
-            this.uiRadioButton_end.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiRadioButton_end.Name = "uiRadioButton_end";
-            this.uiRadioButton_end.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
-            this.uiRadioButton_end.RadioButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
-            this.uiRadioButton_end.Size = new System.Drawing.Size(173, 29);
-            this.uiRadioButton_end.Style = Sunny.UI.UIStyle.Custom;
-            this.uiRadioButton_end.TabIndex = 1;
-            this.uiRadioButton_end.Text = "정기권 종료일 지정";
             // 
             // Cust_ma_add_Form
             // 
@@ -296,6 +296,7 @@ namespace Managing_Car_Program.Ui
             this.Controls.Add(this.uiTextBox_nm);
             this.Controls.Add(this.uiSymbolLabel_nm);
             this.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Cust_ma_add_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
