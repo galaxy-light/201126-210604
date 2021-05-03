@@ -129,7 +129,7 @@ namespace Managing_Car_Program
             this.groupBox4.Controls.Add(this.textBox_cust_start);
             this.groupBox4.Location = new System.Drawing.Point(9, 79);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(240, 84);
+            this.groupBox4.Size = new System.Drawing.Size(237, 84);
             this.groupBox4.TabIndex = 17;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "정기권";
@@ -190,7 +190,7 @@ namespace Managing_Car_Program
             this.button_out.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_out.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_out.ForeColor = System.Drawing.Color.White;
-            this.button_out.Location = new System.Drawing.Point(270, 123);
+            this.button_out.Location = new System.Drawing.Point(275, 126);
             this.button_out.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.button_out.Name = "button_out";
             this.button_out.Size = new System.Drawing.Size(84, 30);
@@ -206,7 +206,7 @@ namespace Managing_Car_Program
             this.button_in.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_in.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_in.ForeColor = System.Drawing.Color.White;
-            this.button_in.Location = new System.Drawing.Point(270, 89);
+            this.button_in.Location = new System.Drawing.Point(275, 92);
             this.button_in.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.button_in.Name = "button_in";
             this.button_in.Size = new System.Drawing.Size(84, 30);
