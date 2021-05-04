@@ -567,15 +567,15 @@ namespace Managing_Car_Program
 
             if (label_in_out_result.Text == "1일 이용")
             {
-                return 10000 + "원".ToString();
+                return "10000원";
             }
             else if (label_in_out_result.Text == "2일 이용")
             {
-                return 20000 + "원".ToString();
+                return "20000원";
             }
             else if (label_in_out_result.Text == "3일 이용")
             {
-                return 30000 + "원".ToString();
+                return "30000원";
             }           
             else if (label_in_out_result.Text == "두달 초과")
             {

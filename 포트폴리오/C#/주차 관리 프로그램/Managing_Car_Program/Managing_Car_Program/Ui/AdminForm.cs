@@ -44,22 +44,31 @@ namespace Managing_Car_Program
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DB.DB_mysql.truncate_parking_in_DB();
-            DB.DB_mysql.truncate_parking_out_DB();
-
-            dataGridView_parkingAd.DataSource = null;
-
-            for (int i = 0; i < DataManager.Cars.Count; i++)
+            if (MessageBox.Show("모든 주차 정보를 삭제하시겠습니까? 삭제 시 복구할 수 없습니다.", "경고", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                DataManager.Cars[i].carNumber = "";
-                //DataManager.Cars[i].driverName ="";
-                DataManager.Cars[i].parkingTime = DateTime.Now;
-                //DataManager.Cars[i].phoneNumber = "";
-            }
+                DB.DB_mysql.truncate_parking_in_DB();
+                DB.DB_mysql.truncate_parking_out_DB();
 
-            string str = $"데이터를 전체 삭제했습니다. (DB 전체 삭제 완료)";
-            txtwriteLog(str);
-            DataManager.Save();
+                dataGridView_parkingAd.DataSource = null;
+
+                for (int i = 0; i < DataManager.Cars.Count; i++)
+                {
+                    DataManager.Cars[i].carNumber = "";
+                    //DataManager.Cars[i].driverName ="";
+                    DataManager.Cars[i].parkingTime = DateTime.Now;
+                    //DataManager.Cars[i].phoneNumber = "";
+                }
+
+                string str = $"데이터를 전체 삭제했습니다. (DB 전체 삭제 완료)";
+                txtwriteLog(str);
+                DataManager.Save();
+
+                MessageBox.Show("모든 데이터가 삭제되었습니다.");
+            }
+            else
+            {
+                MessageBox.Show("취소되었습니다.");
+            }            
         }
 
         private void txtwriteLog(string txtcontents)
