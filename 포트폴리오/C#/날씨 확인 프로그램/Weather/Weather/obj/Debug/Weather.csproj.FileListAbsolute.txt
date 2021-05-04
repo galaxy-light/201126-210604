@@ -12,3 +12,17 @@ C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로�
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.dll
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.exe.config
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.exe
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.pdb
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Design.dll
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.dll
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Fonts.dll
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.Form1.resources
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.Properties.Resources.resources
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.GenerateResource.cache
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.exe
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.pdb
