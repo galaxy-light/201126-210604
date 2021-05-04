@@ -47,7 +47,7 @@ namespace Managing_Car_Program
             dataGridView_main.ReadOnly = true;            
         }
 
-        ~MainForm() // 소멸자
+        ~MainForm() // 소멸자(프로그램의 안정성을 위해 사용)
         {
             DataManager.Save();
         }
@@ -534,10 +534,18 @@ namespace Managing_Car_Program
             {
                 label_in_out_result.Text = "2일 이용";
             }
-            else if (totalHourDiff > 60)
+            else if (totalHourDiff > 60 && totalHourDiff <= 96)
             {
-                label_in_out_result.Text = "3일 초과";
-            }                       
+                label_in_out_result.Text = "3일 이용";
+            }            
+            else if (totalHourDiff > 744)
+            {
+                label_in_out_result.Text = "한달 초과";
+            }
+            else if (totalHourDiff > 1440)
+            {
+                label_in_out_result.Text = "두달 초과";
+            }
            
             string contents = $"이용시간 : {label_in_out_result.Text}";
             //MessageBox.Show(contents);           
@@ -563,15 +571,23 @@ namespace Managing_Car_Program
 
             if (label_in_out_result.Text == "1일 이용")
             {
-                return 20000.ToString();
+                return 10000.ToString();
             }
             else if (label_in_out_result.Text == "2일 이용")
             {
-                return 50000.ToString();
+                return 20000.ToString();
             }
-            else if (label_in_out_result.Text == "3일 초과")
+            else if (label_in_out_result.Text == "3일 이용")
             {
-                return 150000.ToString();
+                return 30000.ToString();
+            }            
+            else if (label_in_out_result.Text == "한달 초과")
+            {
+                return 170000.ToString();
+            }
+            else if (label_in_out_result.Text == "두달 초과")
+            {
+                return "견인";
             }
             else if (label_in_out_result.Text == "정기권")
             {

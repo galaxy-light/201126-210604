@@ -410,7 +410,7 @@ namespace Managing_Car_Program.Ui
 
         private void uiCheckBox_update_ValueChanged(object sender, bool value)
         {
-            if (uiCheckBox_update.Checked == true)
+            if (uiCheckBox_enable.Checked == true)
             {
                 /*textBox_name.Enabled = true;
                 textBox_carnum.Enabled = true;

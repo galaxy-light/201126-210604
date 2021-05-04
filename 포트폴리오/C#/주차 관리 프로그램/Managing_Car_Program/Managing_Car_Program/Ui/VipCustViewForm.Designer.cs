@@ -45,7 +45,7 @@ namespace Managing_Car_Program.Ui
             this.uiCheckBox_start_2 = new Sunny.UI.UICheckBox();
             this.uiCheckBox_start_1 = new Sunny.UI.UICheckBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.uiCheckBox_update = new Sunny.UI.UICheckBox();
+            this.uiCheckBox_enable = new Sunny.UI.UICheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox_end = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -260,7 +260,7 @@ namespace Managing_Car_Program.Ui
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.White;
-            this.groupBox3.Controls.Add(this.uiCheckBox_update);
+            this.groupBox3.Controls.Add(this.uiCheckBox_enable);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.textBox_end);
             this.groupBox3.Controls.Add(this.label4);
@@ -278,21 +278,21 @@ namespace Managing_Car_Program.Ui
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "시작일 / 종료일 수정";
             // 
-            // uiCheckBox_update
+            // uiCheckBox_enable
             // 
-            this.uiCheckBox_update.BackColor = System.Drawing.Color.Transparent;
-            this.uiCheckBox_update.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
-            this.uiCheckBox_update.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiCheckBox_update.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiCheckBox_update.Location = new System.Drawing.Point(34, 50);
-            this.uiCheckBox_update.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiCheckBox_update.Name = "uiCheckBox_update";
-            this.uiCheckBox_update.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
-            this.uiCheckBox_update.Size = new System.Drawing.Size(60, 29);
-            this.uiCheckBox_update.Style = Sunny.UI.UIStyle.Custom;
-            this.uiCheckBox_update.TabIndex = 10;
-            this.uiCheckBox_update.Text = "수정";
-            this.uiCheckBox_update.ValueChanged += new Sunny.UI.UICheckBox.OnValueChanged(this.uiCheckBox_update_ValueChanged);
+            this.uiCheckBox_enable.BackColor = System.Drawing.Color.Transparent;
+            this.uiCheckBox_enable.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(55)))), ((int)(((byte)(65)))));
+            this.uiCheckBox_enable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiCheckBox_enable.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiCheckBox_enable.Location = new System.Drawing.Point(34, 50);
+            this.uiCheckBox_enable.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiCheckBox_enable.Name = "uiCheckBox_enable";
+            this.uiCheckBox_enable.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.uiCheckBox_enable.Size = new System.Drawing.Size(72, 29);
+            this.uiCheckBox_enable.Style = Sunny.UI.UIStyle.Custom;
+            this.uiCheckBox_enable.TabIndex = 10;
+            this.uiCheckBox_enable.Text = "활성화";
+            this.uiCheckBox_enable.ValueChanged += new Sunny.UI.UICheckBox.OnValueChanged(this.uiCheckBox_update_ValueChanged);
             // 
             // label5
             // 
@@ -508,7 +508,7 @@ namespace Managing_Car_Program.Ui
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox_carnum;
         private Sunny.UI.UISymbolButton uiSymbolButton_update;
-        private Sunny.UI.UICheckBox uiCheckBox_update;
+        private Sunny.UI.UICheckBox uiCheckBox_enable;
         private Sunny.UI.UISymbolButton uiSymbolButton_help;
         private System.Windows.Forms.Panel panel1;
         private Sunny.UI.UISymbolButton uiSymbolButton_db;

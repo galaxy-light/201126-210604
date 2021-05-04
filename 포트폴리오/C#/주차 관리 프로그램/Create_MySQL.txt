@@ -1,0 +1,27 @@
+* 데이터베이스 생성 후 데이터베이스 생성 줄에 주석 처리하고 테이블 생성하기*
+
+CREATE DATABASE parkingindata DEFAULT CHARACTER SET UTF8;
+CREATE TABLE parkinginlist
+(
+	parkinginspot VARCHAR(100) NOT NULL,
+	parkingincar VARCHAR(100) NOT NULL,
+	parkingintime VARCHAR(100) NOT NULL
+)
+
+CREATE DATABASE parkingoutdata DEFAULT CHARACTER SET UTF8;
+CREATE TABLE parkingoutlist
+(
+	parkingoutspot VARCHAR(100) NOT NULL,
+	parkingoutcar VARCHAR(100) NOT NULL,
+	parkingouttime VARCHAR(100) NOT NULL
+)
+
+CREATE DATABASE parkingvipdata DEFAULT CHARACTER SET UTF8;
+CREATE TABLE parkingviplist
+(
+	NAME VARCHAR(50) NOT NULL,
+	carnumber VARCHAR(50) NOT NULL,
+	phone VARCHAR(50) NOT NULL,
+	START VARCHAR(100) NOT NULL,
+	END VARCHAR(100) NOT NULL
+)

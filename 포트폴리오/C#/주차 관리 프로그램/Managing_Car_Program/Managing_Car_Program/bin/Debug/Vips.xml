@@ -1,2 +1,16 @@
 <vips>
+<vip>
+  <vipname>홍길동</vipname>
+  <vipcarnum>02홍0202</vipcarnum>
+  <vipphone>010-2222-2222</vipphone>
+  <vipstart>2021-05-04</vipstart>
+  <vipend>2021-05-20</vipend>
+</vip>
+<vip>
+  <vipname>아무개</vipname>
+  <vipcarnum>02아0202</vipcarnum>
+  <vipphone>010-2222-2222</vipphone>
+  <vipstart>2021-05-04</vipstart>
+  <vipend>2021-05-22</vipend>
+</vip>
 </vips>

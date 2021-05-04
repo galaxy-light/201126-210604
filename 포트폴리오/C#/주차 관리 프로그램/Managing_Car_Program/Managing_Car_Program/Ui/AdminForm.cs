@@ -44,6 +44,9 @@ namespace Managing_Car_Program
 
         private void button1_Click(object sender, EventArgs e)
         {
+            DB.DB_mysql.truncate_parking_in_DB();
+            DB.DB_mysql.truncate_parking_out_DB();
+
             dataGridView_parkingAd.DataSource = null;
 
             for (int i = 0; i < DataManager.Cars.Count; i++)
@@ -54,7 +57,7 @@ namespace Managing_Car_Program
                 //DataManager.Cars[i].phoneNumber = "";
             }
 
-            string str = $"데이터를 전체 삭제했습니다.";
+            string str = $"데이터를 전체 삭제했습니다. (DB 전체 삭제 완료)";
             txtwriteLog(str);
             DataManager.Save();
         }

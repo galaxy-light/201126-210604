@@ -55,12 +55,12 @@ namespace Managing_Car_Program.DB
         public static List<VipCust> Select_vip_DB()
         {
             List<VipCust> tempFromDB = new List<VipCust>();
-            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
+            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingvipdata;UID=root;PASSWORD=1126;"))
             {                
                 try
                 {
                     connection.Open();
-                    string selectQuery = "select * from viplist";
+                    string selectQuery = "select * from parkingviplist";
 
                     //ExecuteReader를 이용하여
                     //연결 모드로 데이터 가져오기
@@ -89,12 +89,12 @@ namespace Managing_Car_Program.DB
         public static List<VipCust> select_vip_car(string carnumbertext)
         {
             List<VipCust> tempDB = new List<VipCust>();
-            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
+            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingvipdata;UID=root;PASSWORD=1126;"))
             {
                 try
                 {
                     connection.Open();
-                    string sql = "select * from viplist where carnumber=" + "'" + carnumbertext + "'";
+                    string sql = "select * from parkingviplist where carnumber=" + "'" + carnumbertext + "'";
 
                     //ExecuteReader를 이용하여
                     //연결 모드로 데이터 가져오기
@@ -123,7 +123,7 @@ namespace Managing_Car_Program.DB
         {
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingindata;UID=root;PASSWORD=1126;"))
             {
-                string insertinQuery = "INSERT INTO parkinginlist(parkingspot, carnumber, parkingin) VALUES ('" + parkingspottext + "', '" + carnumbertext + "', '" + parkingintext + "')";
+                string insertinQuery = "INSERT INTO parkinginlist(parkinginspot, parkingincar, parkingintime) VALUES ('" + parkingspottext + "', '" + carnumbertext + "', '" + parkingintext + "')";
 
                 try
                 {
@@ -155,7 +155,7 @@ namespace Managing_Car_Program.DB
         {
             using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingoutdata;UID=root;PASSWORD=1126;"))
             {
-                string insertoutQuery = "INSERT INTO parkingoutlist(parkingspot, carnumber, parkingout) VALUES ('" + parkingspottext + "', '" + carnumbertext + "', '" + parkingouttext + "')";
+                string insertoutQuery = "INSERT INTO parkingoutlist(parkingoutspot, parkingoutcar, parkingouttime) VALUES ('" + parkingspottext + "', '" + carnumbertext + "', '" + parkingouttext + "')";
 
                 try
                 {
@@ -185,9 +185,9 @@ namespace Managing_Car_Program.DB
 
         public static void insert_vip_DB(string nametext, string carnumbertext, string phonetext, string starttext, string endtext)
         {
-            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
+            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingvipdata;UID=root;PASSWORD=1126;"))
             {
-                string insertvipQuery = "INSERT INTO viplist(name, carnumber, phone, start, end) VALUES ('" + nametext + "', '" + carnumbertext + "', '" + phonetext + "', '" + starttext + "', '" + endtext + "')";
+                string insertvipQuery = "INSERT INTO parkingviplist(name, carnumber, phone, start, end) VALUES ('" + nametext + "', '" + carnumbertext + "', '" + phonetext + "', '" + starttext + "', '" + endtext + "')";
 
                 try
                 {
@@ -217,10 +217,10 @@ namespace Managing_Car_Program.DB
 
         public static void update_vip_DB(string nametext, string carnumbertext, string phonetext, string starttext, string endtext, string carnumber)
         {
-            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
+            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingvipdata;UID=root;PASSWORD=1126;"))
             {
                 //string updateQuery = "UPDATE viplist SET name=@nametext, carnumber=@nametext, phone=@phonetext, start=@starttext, end=@endtext WHERE carnumber=@carnumber";
-                string updateQuery = "UPDATE viplist SET name=" + "'" + nametext + "', " + "carnumber=" + "'" + carnumbertext + "', " + "phone=" + "'" + phonetext + "', " + "start=" + "'" + starttext + "', " + "end=" + "'" + endtext + "' " + "WHERE " + "carnumber=" + "'" + carnumber + "'";
+                string updateQuery = "UPDATE parkingviplist SET name=" + "'" + nametext + "', " + "carnumber=" + "'" + carnumbertext + "', " + "phone=" + "'" + phonetext + "', " + "start=" + "'" + starttext + "', " + "end=" + "'" + endtext + "' " + "WHERE " + "carnumber=" + "'" + carnumber + "'";
 
                 try
                 {
@@ -249,10 +249,10 @@ namespace Managing_Car_Program.DB
 
         public static void delete_vip_DB(string carnumber)
         {
-            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=vipdata;UID=root;PASSWORD=1126;"))
+            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingvipdata;UID=root;PASSWORD=1126;"))
             {
                 //string deleteQuery = "DELETE FROM viplist WHERE carnumber = @carnumber";
-                string deleteQuery = "DELETE FROM viplist WHERE carnumber=" + "'" + carnumber + "'";
+                string deleteQuery = "DELETE FROM parkingviplist WHERE carnumber=" + "'" + carnumber + "'";
 
                 try
                 {
@@ -269,6 +269,70 @@ namespace Managing_Car_Program.DB
                     else
                     {
                         Console.WriteLine("DB delete vip 실패");
+                    }
+                    connection.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine(ex.StackTrace);
+                }
+            }
+        }
+
+        public static void truncate_parking_in_DB()
+        {
+            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingindata;UID=root;PASSWORD=1126;"))
+            {                
+                string truncateinQuery = "TRUNCATE TABLE parkinginlist";                
+
+                try
+                {
+                    connection.Open();
+                    MySqlCommand command = new MySqlCommand(truncateinQuery, connection);
+
+                    //command.CommandText = deleteQuery;
+
+                    // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
+                    if (command.ExecuteNonQuery() != 1)
+                    {
+                        Console.WriteLine("DB truncate in 성공");
+                    }
+                    else
+                    {
+                        Console.WriteLine("DB truncate in 실패");
+                    }
+                    connection.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine(ex.StackTrace);
+                }
+            }
+        }
+
+        public static void truncate_parking_out_DB()
+        {
+            using (MySqlConnection connection = new MySqlConnection("SERVER=localhost;DATABASE=parkingoutdata;UID=root;PASSWORD=1126;"))
+            {                
+                string truncateoutQuery = "TRUNCATE TABLE parkingoutlist";
+
+                try
+                {
+                    connection.Open();
+                    MySqlCommand command = new MySqlCommand(truncateoutQuery, connection);
+
+                    //command.CommandText = insertQuery;
+
+                    // 만약에 내가처리한 Mysql에 정상적으로 들어갔다면 메세지를 보여주라는 뜻
+                    if (command.ExecuteNonQuery() != 1)
+                    {
+                        Console.WriteLine("DB truncate out 성공");
+                    }
+                    else
+                    {
+                        Console.WriteLine("DB truncate out 실패");
                     }
                     connection.Close();
                 }
