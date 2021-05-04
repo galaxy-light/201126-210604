@@ -537,11 +537,7 @@ namespace Managing_Car_Program
             else if (totalHourDiff > 60 && totalHourDiff <= 96)
             {
                 label_in_out_result.Text = "3일 이용";
-            }            
-            else if (totalHourDiff > 744)
-            {
-                label_in_out_result.Text = "한달 초과";
-            }
+            }                
             else if (totalHourDiff > 1440)
             {
                 label_in_out_result.Text = "두달 초과";
@@ -557,8 +553,8 @@ namespace Managing_Car_Program
             // 계산법 = (주차시간/단위시간)*요금
             //TimeSpan ts = parkingout - parkingin;    
             string totalMoney = calctime(parkOut - parkIn);
-            writeLog("resultmoney :" + totalMoney);
-            label_money_result.Text = totalMoney + "원";
+            writeLog("resultmoney :" + totalMoney);            
+            label_money_result.Text = totalMoney;
         }
 
         private string calctime(TimeSpan ts)
@@ -571,20 +567,16 @@ namespace Managing_Car_Program
 
             if (label_in_out_result.Text == "1일 이용")
             {
-                return 10000.ToString();
+                return 10000 + "원".ToString();
             }
             else if (label_in_out_result.Text == "2일 이용")
             {
-                return 20000.ToString();
+                return 20000 + "원".ToString();
             }
             else if (label_in_out_result.Text == "3일 이용")
             {
-                return 30000.ToString();
-            }            
-            else if (label_in_out_result.Text == "한달 초과")
-            {
-                return 170000.ToString();
-            }
+                return 30000 + "원".ToString();
+            }           
             else if (label_in_out_result.Text == "두달 초과")
             {
                 return "견인";
