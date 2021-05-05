@@ -49,7 +49,9 @@ namespace Address0303.Ui
             {
                 MessageBox.Show("이메일을 입력하세요.");
             }
+
             Random r = new Random();
+
             // 싱글톤
             // StudentCtrl.getInst().getList().Add(new Student(new RandData(r).getId(), AddName.Text, AddTel.Text, AddAddress.Text, AddEmail.Text));
             // 싱글톤X
