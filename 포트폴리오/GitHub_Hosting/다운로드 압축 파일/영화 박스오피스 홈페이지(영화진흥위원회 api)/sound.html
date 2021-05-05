@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <style>      
+        .container
+        {
+            position: relative;           
+            color:white;
+            padding:5px;
+            font-size: 18px;
+            align-items: center;          
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .blank
+        {
+            width: 300px;
+            height: 30px;
+        }     
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <h1 style="margin-top: 10px;" style="font-size: 100px;">Today's Event!</h1>
+            <br>
+            <h2>아래의 초록색 바를 눌러 재생되는 노래의 제목을 입력하고 1천원 상품권을 받으세요.</h2>
+            <br>
+        </header>
+        <div class="visual"></div>
+        <div class="pads">
+            <!-- (div[class=pad$]>audio[class=sound][src=sound/$.mp3])*6 -->
+            <div class="pad1">
+                <audio src="sound/6.mp3" class="sound"></audio>
+            </div>
+        </div>
+    </div>
+  
+    <div class="container">
+        <input type="text" class="blank">
+        <input type="button" value="확인하기" class="click">
+    </div>
+    <!-- 답을 맞추면 정답입니다. 이런 창을 띄우려고 했으나 방법을 몰라서 중단함 -->
+</body>
+<script src="main.js"></script>
+</html>

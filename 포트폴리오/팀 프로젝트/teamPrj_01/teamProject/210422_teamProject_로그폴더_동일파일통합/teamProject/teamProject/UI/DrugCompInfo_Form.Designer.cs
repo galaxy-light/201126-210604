@@ -30,6 +30,7 @@ namespace teamProject
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DrugCompInfo_Form));
             this.btn_DrugComp_Edit = new System.Windows.Forms.Button();
             this.btn_DrugComp_Add = new System.Windows.Forms.Button();
             this.btn_DrugComp_Del = new System.Windows.Forms.Button();
@@ -324,6 +325,7 @@ namespace teamProject
             this.Controls.Add(this.compSubTitle);
             this.Controls.Add(this.drugComp_dtGridView);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DrugCompInfo_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "제약사 정보";

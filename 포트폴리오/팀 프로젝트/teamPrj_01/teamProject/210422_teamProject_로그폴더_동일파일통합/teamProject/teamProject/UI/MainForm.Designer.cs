@@ -95,6 +95,7 @@ namespace teamProject
             this.Controls.Add(this.btn_mainDrugs);
             this.Controls.Add(this.btn_mainDrugComp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "온누리약국 재고관리 프로그램 v1.0";

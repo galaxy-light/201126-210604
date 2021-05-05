@@ -29,6 +29,7 @@ namespace teamProject
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DrugOrderForm));
             this.orderTitle = new System.Windows.Forms.Label();
             this.drugOrder_dtGridView = new System.Windows.Forms.DataGridView();
             this.DrugName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -189,6 +190,7 @@ namespace teamProject
             this.Controls.Add(this.compSubTitle);
             this.Controls.Add(this.orderTitle);
             this.Controls.Add(this.drugOrder_dtGridView);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DrugOrderForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "약품 주문";
