@@ -64,19 +64,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Control\StudentCtrl.cs" />
+    <Compile Include="Control\AdderessCtrl.cs" />
+    <Compile Include="DB\MYSQL.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Ui\AddForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Ui\AddForm.Designer.cs">
       <DependentUpon>AddForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ui\DelForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ui\DelForm.Designer.cs">
-      <DependentUpon>DelForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Ui\UpdateForm.cs">
       <SubType>Form</SubType>
@@ -90,7 +85,7 @@
     <Compile Include="Ui\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\Student.cs" />
+    <Compile Include="Model\Address_attri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ui\ViewForm.cs">
@@ -103,9 +98,6 @@
     <Compile Include="Util\RandData.cs" />
     <EmbeddedResource Include="Ui\AddForm.resx">
       <DependentUpon>AddForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ui\DelForm.resx">
-      <DependentUpon>DelForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ui\UpdateForm.resx">
       <DependentUpon>UpdateForm.cs</DependentUpon>
@@ -136,6 +128,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\AddressTest0222.Address_attri.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

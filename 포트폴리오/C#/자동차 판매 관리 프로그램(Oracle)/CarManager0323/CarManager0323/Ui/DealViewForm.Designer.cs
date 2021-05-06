@@ -37,7 +37,6 @@ namespace CarManager0331.Ui
             this.Deal_Seller = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Deal_Date = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.addOkay = new Sunny.UI.UISymbolButton();
-            this.CusDetailView = new Sunny.UI.UISymbolButton();
             this.SuspendLayout();
             // 
             // DealList
@@ -52,9 +51,9 @@ namespace CarManager0331.Ui
             this.DealList.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.DealList.FullRowSelect = true;
             this.DealList.HideSelection = false;
-            this.DealList.Location = new System.Drawing.Point(11, 115);
+            this.DealList.Location = new System.Drawing.Point(12, 76);
             this.DealList.Name = "DealList";
-            this.DealList.Size = new System.Drawing.Size(779, 345);
+            this.DealList.Size = new System.Drawing.Size(779, 340);
             this.DealList.TabIndex = 1;
             this.DealList.UseCompatibleStateImageBehavior = false;
             this.DealList.View = System.Windows.Forms.View.Details;
@@ -110,28 +109,11 @@ namespace CarManager0331.Ui
             this.addOkay.Text = "확인";
             this.addOkay.Click += new System.EventHandler(this.addOkay_Click);
             // 
-            // CusDetailView
-            // 
-            this.CusDetailView.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CusDetailView.FillColor = System.Drawing.Color.SkyBlue;
-            this.CusDetailView.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.CusDetailView.Location = new System.Drawing.Point(21, 72);
-            this.CusDetailView.MinimumSize = new System.Drawing.Size(1, 1);
-            this.CusDetailView.Name = "CusDetailView";
-            this.CusDetailView.RectColor = System.Drawing.Color.SkyBlue;
-            this.CusDetailView.Size = new System.Drawing.Size(148, 34);
-            this.CusDetailView.Style = Sunny.UI.UIStyle.Custom;
-            this.CusDetailView.Symbol = 61454;
-            this.CusDetailView.TabIndex = 40;
-            this.CusDetailView.Text = "고객 상세 정보";
-            this.CusDetailView.Click += new System.EventHandler(this.CusDetailView_Click);
-            // 
             // DealViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 535);
-            this.Controls.Add(this.CusDetailView);
             this.Controls.Add(this.addOkay);
             this.Controls.Add(this.DealList);
             this.Name = "DealViewForm";
@@ -146,7 +128,6 @@ namespace CarManager0331.Ui
 
         private System.Windows.Forms.ListView DealList;
         private Sunny.UI.UISymbolButton addOkay;
-        private Sunny.UI.UISymbolButton CusDetailView;
         private System.Windows.Forms.ColumnHeader list_number;
         private System.Windows.Forms.ColumnHeader Deal_Name;
         private System.Windows.Forms.ColumnHeader Deal_Car;

@@ -106,8 +106,8 @@ namespace Address0303.Ui
             this.AddName.MinimumSize = new System.Drawing.Size(1, 1);
             this.AddName.Name = "AddName";
             this.AddName.Padding = new System.Windows.Forms.Padding(5);
-            this.AddName.Size = new System.Drawing.Size(544, 29);
-            this.AddName.TabIndex = 4;            
+            this.AddName.Size = new System.Drawing.Size(297, 29);
+            this.AddName.TabIndex = 4;
             // 
             // AddTel
             // 
@@ -121,8 +121,8 @@ namespace Address0303.Ui
             this.AddTel.MinimumSize = new System.Drawing.Size(1, 1);
             this.AddTel.Name = "AddTel";
             this.AddTel.Padding = new System.Windows.Forms.Padding(5);
-            this.AddTel.Size = new System.Drawing.Size(544, 29);
-            this.AddTel.TabIndex = 5;            
+            this.AddTel.Size = new System.Drawing.Size(297, 29);
+            this.AddTel.TabIndex = 5;
             // 
             // AddAddress
             // 
@@ -136,8 +136,8 @@ namespace Address0303.Ui
             this.AddAddress.MinimumSize = new System.Drawing.Size(1, 1);
             this.AddAddress.Name = "AddAddress";
             this.AddAddress.Padding = new System.Windows.Forms.Padding(5);
-            this.AddAddress.Size = new System.Drawing.Size(544, 29);
-            this.AddAddress.TabIndex = 5;           
+            this.AddAddress.Size = new System.Drawing.Size(297, 29);
+            this.AddAddress.TabIndex = 5;
             // 
             // AddEmail
             // 
@@ -151,19 +151,19 @@ namespace Address0303.Ui
             this.AddEmail.MinimumSize = new System.Drawing.Size(1, 1);
             this.AddEmail.Name = "AddEmail";
             this.AddEmail.Padding = new System.Windows.Forms.Padding(5);
-            this.AddEmail.Size = new System.Drawing.Size(544, 29);
-            this.AddEmail.TabIndex = 5;            
+            this.AddEmail.Size = new System.Drawing.Size(297, 29);
+            this.AddEmail.TabIndex = 5;
             // 
             // addrOkay
             // 
             this.addrOkay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addrOkay.FillColor = System.Drawing.Color.MediumAquamarine;
             this.addrOkay.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addrOkay.Location = new System.Drawing.Point(233, 368);
+            this.addrOkay.Location = new System.Drawing.Point(170, 365);
             this.addrOkay.MinimumSize = new System.Drawing.Size(1, 1);
             this.addrOkay.Name = "addrOkay";
             this.addrOkay.RectColor = System.Drawing.Color.MediumAquamarine;
-            this.addrOkay.Size = new System.Drawing.Size(132, 38);
+            this.addrOkay.Size = new System.Drawing.Size(98, 38);
             this.addrOkay.Style = Sunny.UI.UIStyle.Custom;
             this.addrOkay.TabIndex = 6;
             this.addrOkay.Text = "확인";
@@ -174,11 +174,11 @@ namespace Address0303.Ui
             this.addrCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addrCancel.FillColor = System.Drawing.Color.LightSalmon;
             this.addrCancel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addrCancel.Location = new System.Drawing.Point(433, 368);
+            this.addrCancel.Location = new System.Drawing.Point(299, 365);
             this.addrCancel.MinimumSize = new System.Drawing.Size(1, 1);
             this.addrCancel.Name = "addrCancel";
             this.addrCancel.RectColor = System.Drawing.Color.LightSalmon;
-            this.addrCancel.Size = new System.Drawing.Size(132, 38);
+            this.addrCancel.Size = new System.Drawing.Size(98, 38);
             this.addrCancel.Style = Sunny.UI.UIStyle.Custom;
             this.addrCancel.TabIndex = 7;
             this.addrCancel.Text = "취소";
@@ -205,7 +205,7 @@ namespace Address0303.Ui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(803, 450);
+            this.ClientSize = new System.Drawing.Size(569, 436);
             this.Controls.Add(this.arrHelp);
             this.Controls.Add(this.addrCancel);
             this.Controls.Add(this.addrOkay);
@@ -219,8 +219,9 @@ namespace Address0303.Ui
             this.Controls.Add(this.uiSymbolLabel1);
             this.Name = "AddForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "주소록 추가";            
+            this.Text = "주소록 추가";
             this.ResumeLayout(false);
+
         }
 
         #endregion

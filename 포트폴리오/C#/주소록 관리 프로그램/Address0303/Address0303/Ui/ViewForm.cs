@@ -15,7 +15,9 @@ namespace Address0303.Ui
 {
     partial class ViewForm : MaterialForm // public 삭제 -> 영역 충돌 방지
     {
-        StudentCtrl sc;
+        AddressCtrl sc;
+
+        DataSet ds = new DataSet();
 
         public ViewForm() // 싱글톤
         {
@@ -23,7 +25,7 @@ namespace Address0303.Ui
         }
 
         // 오버로딩
-        public ViewForm(StudentCtrl sc)
+        public ViewForm(AddressCtrl sc)
         {           
             InitializeComponent(); // InitializeComponent(); : 초기화 
             this.sc = sc;
@@ -33,19 +35,15 @@ namespace Address0303.Ui
         {
             // initListView();
             // initGridView();
-            showListView();
-            // showGridView();
-            if (sc.getList().Count == 0)
-            {
-                MessageBox.Show("데이터가 없습니다.");
-                return;
-            }
+            // showListView();
+            showGridView();
+
             nullinfo();
         }
 
         private void nullinfo()
         {
-            List<Student> addrList = sc.getList();
+            List<Address_attri> addrList = sc.getList();
             for (int i = 0; i < addrList.Count; i++)
             {
                 if (addrList[i].Name == "")
@@ -73,7 +71,7 @@ namespace Address0303.Ui
 
         private void initListView() // 이 클래스에서만 사용해서 private
         {
-            string[] data = { "1", "홍길동", "010-1234-1234", "조선 한양 홍대감댁", "hong@naver.com" };
+            /*string[] data = { "1", "홍길동", "010-1234-1234", "조선 한양 홍대감댁", "hong@naver.com" };
             listView.Items.Add(new ListViewItem(data));
 
             for (int i = 0; i < 50; i++)
@@ -85,7 +83,14 @@ namespace Address0303.Ui
             int index = listView.Items.Count - 1;
             // listView.Items[index].Selected = true;
             listView.Items[index].Focused = true;
-            listView.EnsureVisible(index);
+            listView.EnsureVisible(index);*/
+        }
+
+        private void showGridView()
+        {
+            ds = Address0324.DB.MYSQL.Query_Select("My_Address");
+            dataGridView1.DataSource = ds;
+            dataGridView1.DataMember = "My_Address";
         }
 
         private void setRowColor(ListView list, Color color1, Color color2)
@@ -118,12 +123,12 @@ namespace Address0303.Ui
         //    gridView.CurrentCell = gridView.Rows[count - 1].Cells[0];
         //}               
 
-        private void showListView()
+        /*private void showListView()
         {
             int cnt = sc.getList().Count;
             for (int i = 0; i < cnt; i++)
             {
-                List<Student> addrList = sc.getList();
+                List<Address_attri> addrList = sc.getList();
                 listView.Items.Add(new ListViewItem(new String[] {
                     (i+1).ToString(),
                     addrList[i].Name,
@@ -136,7 +141,7 @@ namespace Address0303.Ui
             // listView.Items[index].Selected = true;
             // listView.Items[index].Focused = true;
             // listView.EnsureVisible(index);
-        }
+        }*/
 
         //private void showGridView()
         //{
@@ -156,23 +161,7 @@ namespace Address0303.Ui
         //    gridView.CurrentCell = gridView.Rows[count - 1].Cells[0];
         //}
 
-        private void listView_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listView.SelectedItems.Count != 0)
-            {
-                int n = listView.SelectedItems[0].Index;
-                string name = listView.Items[n].SubItems[1].Text;
-                string tel = listView.Items[n].SubItems[2].Text;
-                string addr = listView.Items[n].SubItems[3].Text;
-                string email = listView.Items[n].SubItems[4].Text;
-                Console.WriteLine("이름 : {0}", name);
-                Console.WriteLine("전화 번호 : {0}", tel);
-                Console.WriteLine("주소 : {0}", addr);
-                Console.WriteLine("이메일 : {0}", email);
-                Console.WriteLine("--------------------------");
-                // listView.Items.RemoveAt(n); // 콘솔로 내용이 빠지지 않게 주석 처리
-            }
-        }
+        
 
         private void viewExit_Click(object sender, EventArgs e)
         {

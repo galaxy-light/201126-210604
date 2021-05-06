@@ -47,12 +47,14 @@ namespace CarManager0323
         {
             //db.createTable()
             db.makeAllTB();
+            MessageBox.Show("테이블, 시퀀스 생성 성공");
         }
 
         private void dropTB_Click(object sender, EventArgs e)
         {
             //db.dropTable();
             db.dropAllTB();
+            MessageBox.Show("테이블, 시퀀스 삭제 성공");
         }
 
         private void insertAll_Click(object sender, EventArgs e)
@@ -126,7 +128,6 @@ namespace CarManager0323
             //db.insertDeal(list[0]); // Deal클래스의 객체 정보
             db.insertDeal(list[0].Customer, list[0].Car, list[0].Seller); // 매개 변수의 순서와 일치해야 됨
             dHandler.dealListClear();
-
         }
 
         private void DateView_Click(object sender, EventArgs e)

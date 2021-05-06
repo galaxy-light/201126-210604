@@ -51,7 +51,7 @@ namespace CarManager0331.Ui
             this.CusDetailList.HideSelection = false;
             this.CusDetailList.Location = new System.Drawing.Point(11, 97);
             this.CusDetailList.Name = "CusDetailList";
-            this.CusDetailList.Size = new System.Drawing.Size(779, 350);
+            this.CusDetailList.Size = new System.Drawing.Size(779, 283);
             this.CusDetailList.TabIndex = 2;
             this.CusDetailList.UseCompatibleStateImageBehavior = false;
             this.CusDetailList.View = System.Windows.Forms.View.Details;
@@ -91,7 +91,7 @@ namespace CarManager0331.Ui
             this.addOkay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addOkay.FillColor = System.Drawing.Color.MediumAquamarine;
             this.addOkay.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addOkay.Location = new System.Drawing.Point(346, 473);
+            this.addOkay.Location = new System.Drawing.Point(346, 419);
             this.addOkay.MinimumSize = new System.Drawing.Size(1, 1);
             this.addOkay.Name = "addOkay";
             this.addOkay.RectColor = System.Drawing.Color.MediumAquamarine;
@@ -105,7 +105,7 @@ namespace CarManager0331.Ui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 535);
+            this.ClientSize = new System.Drawing.Size(800, 475);
             this.Controls.Add(this.addOkay);
             this.Controls.Add(this.CusDetailList);
             this.Name = "CusDetailView";

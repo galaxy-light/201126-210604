@@ -67,7 +67,7 @@ namespace CarManager0323.DB
             }
         }
 
-        public void createTable()
+        public void createTable() // testDB라서 사용X
         {
             try
             {
@@ -138,6 +138,7 @@ namespace CarManager0323.DB
                 cmd.CommandText = querySeq;
                 cmd.ExecuteNonQuery();
                 Console.WriteLine("Car 테이블, 시퀀스 생성 성공");
+                //System.Windows.Forms.MessageBox.Show("Car 테이블, 시퀀스 생성 성공");
             }
             catch (OracleException e)
             {
@@ -163,6 +164,7 @@ namespace CarManager0323.DB
                 cmd.CommandText = querySeq;
                 cmd.ExecuteNonQuery();
                 Console.WriteLine("Seller 테이블, 시퀀스 생성 성공");
+                //System.Windows.Forms.MessageBox.Show("Seller 테이블, 시퀀스 생성 성공");
             }
             catch (OracleException e)
             {
@@ -193,6 +195,7 @@ namespace CarManager0323.DB
                 cmd.CommandText = querySeq;
                 cmd.ExecuteNonQuery();
                 Console.WriteLine("Deal 테이블, 시퀀스 생성 성공");
+                //System.Windows.Forms.MessageBox.Show("Deal 테이블, 시퀀스 생성 성공");
             }
             catch (OracleException e)
             {
@@ -204,6 +207,7 @@ namespace CarManager0323.DB
 
         public void makeAllTB()
         {
+            //createTable(); // TestDB라서 사용X
             makeTbCar();
             makeTbCustomer();
             makeTbSeller();
@@ -231,6 +235,7 @@ namespace CarManager0323.DB
                 cmd.CommandText = querySeq;
                 cmd.ExecuteNonQuery();
                 Console.WriteLine("테이블, 시퀀스 삭제 성공");
+                //System.Windows.Forms.MessageBox.Show("테이블, 시퀀스 삭제 성공");
             }
             catch (OracleException e)
             {
@@ -254,6 +259,7 @@ namespace CarManager0323.DB
                 cmd.CommandText = querySeq;
                 cmd.ExecuteNonQuery();
                 Console.WriteLine("테이블, 시퀀스 삭제 성공");
+                //System.Windows.Forms.MessageBox.Show("테이블, 시퀀스 삭제 성공");
             }
             catch (OracleException e)
             {
@@ -423,6 +429,7 @@ namespace CarManager0323.DB
                 string query = "select cu.cu_nm, ca.ca_mod, ca.ca_pri, se.se_nm, d.de_dat " +
                     "from Car_Deal d, Car_Car ca, Car_Customer cu, Car_Seller se " +
                     "where d.de_carnum = ca.ca_num and d.de_cunum = cu.cu_num and d.de_num = se.se_num";
+                                
                 cmd.Connection = conn;
                 cmd.CommandText = query;
                 cmd.CommandType = System.Data.CommandType.Text;

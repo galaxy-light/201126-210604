@@ -1,5 +1,4 @@
 ﻿using Address0303.Ui;
-using Address0308.Ui;
 using AddressTest0222.control;
 using AddressTest0222.util;
 using AddressTest0222.view;
@@ -21,7 +20,7 @@ namespace Address0303
     public partial class MainForm : MaterialForm
     {
         MyMenu menu = new MyMenu();
-        StudentCtrl sc = new StudentCtrl(); // 객체 생성
+        AddressCtrl sc = new AddressCtrl(); // 객체 생성
 
         public MainForm()
         {
@@ -35,14 +34,14 @@ namespace Address0303
             Font font = new Font(pFont.Families[0], 20f);
             addrAdd.Font = font;
             addrView.Font = font;
-            addrRand.Font = font;
-            addrDel.Font = font;
+            //addrRand.Font = font;
+            //addrDel.Font = font;
             addrUpdate.Font = font;
         }
 
         private void arrHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Update 2021년 3월 24일 by y");
+            MessageBox.Show("최신 버전입니다.");
         }
 
         private void arrExit_Click(object sender, EventArgs e)
@@ -69,7 +68,7 @@ namespace Address0303
             //}
         }
 
-        private void addrRand_Click(object sender, EventArgs e)
+        /*private void addrRand_Click(object sender, EventArgs e)
         {
             string cnt = myInputBox("랜덤 데이터 생성", "랜덤하게 데이터를 생성할 개수를 입력하세요.", "0");
             // StudentCtrl.getInst().randData(Convert.ToInt32(cnt));
@@ -80,15 +79,16 @@ namespace Address0303
             }
             // return;
             // sc.randData(50);
-            /*Random r = new Random();
-            new RandData(r);    */            
-        }
-        private void addrDel_Click(object sender, EventArgs e)
+            *//*Random r = new Random();
+            new RandData(r);    *//*            
+        }*/
+
+        /*private void addrDel_Click(object sender, EventArgs e)
         {
             // sc.delItem("홍길동");
             // StudentCtrl.getInst().delItem("홍길동"); // 싱글톤 -> StudentCtrl.getInst() : 클래스 / delItem("홍길동"); : 객체 
             new DelForm(sc).ShowDialog();
-        }
+        }*/
 
         private void addrUpdate_Click(object sender, EventArgs e)
         {

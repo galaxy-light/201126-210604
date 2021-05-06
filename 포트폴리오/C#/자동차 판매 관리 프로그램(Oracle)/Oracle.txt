@@ -1,0 +1,89 @@
+--CREATE TABLE Customer_c
+--(
+--    cu_num     INT             NOT NULL, 
+--    cu_nm      VARCHAR2(20)    NOT NULL, 
+--    cu_ph      VARCHAR2(20)    NOT NULL, 
+--    cu_addr    VARCHAR2(20)    NOT NULL, 
+--    cu_em      VARCHAR2(20)    NULL, 
+--    CONSTRAINT CUSTOMER_C_PK PRIMARY KEY (cu_num)
+--);
+--
+--CREATE SEQUENCE Customer_c_SEQ
+--START WITH 1
+--INCREMENT BY 1;
+--
+--CREATE TABLE Car_c
+--(
+--    ca_num     INT             NOT NULL, 
+--    ca_mod     VARCHAR2(20)    NOT NULL, 
+--    ca_pri     VARCHAR2(20)    NOT NULL, 
+--    ca_col     VARCHAR2(20)    NOT NULL, 
+--    ca_com     VARCHAR2(20)    NOT NULL, 
+--    ca_year    VARCHAR2(20)    NOT NULL, 
+--    CONSTRAINT CAR_C_PK PRIMARY KEY (ca_num)
+--);
+--
+--CREATE SEQUENCE Car_c_SEQ
+--START WITH 1
+--INCREMENT BY 1;
+--
+--CREATE TABLE Seller_c
+--(
+--    se_num    INT             NOT NULL, 
+--    se_nm     VARCHAR2(20)    NOT NULL, 
+--    se_ph     VARCHAR2(20)    NOT NULL, 
+--    se_em     VARCHAR2(20)    NULL, 
+--    se_ran    VARCHAR2(20)    NOT NULL, 
+--    se_pla    VARCHAR2(20)    NOT NULL, 
+--    CONSTRAINT SELLER_C_PK PRIMARY KEY (se_num)
+--);
+--
+--CREATE SEQUENCE Seller_c_SEQ
+--START WITH 1
+--INCREMENT BY 1;
+--
+--CREATE TABLE Dealer_c
+--(
+--    de_num       INT             NOT NULL, 
+--    de_dat       VARCHAR2(20)    NOT NULL, 
+--    de_senum     INT             NOT NULL, 
+--    de_cunum     INT             NOT NULL, 
+--    de_carnum    INT             NOT NULL, 
+--    de_pri       INT             NOT NULL, 
+--    CONSTRAINT DEALER_C_PK PRIMARY KEY (de_num)
+--);
+--
+--CREATE SEQUENCE Dealer_c_SEQ
+--START WITH 1
+--INCREMENT BY 1;
+--
+--ALTER TABLE Dealer_c
+--    ADD CONSTRAINT FK_Dealer_c_de_senum_Seller_c_ FOREIGN KEY (de_senum)
+--        REFERENCES Seller_c (se_num);
+--
+--ALTER TABLE Dealer_c
+--    ADD CONSTRAINT FK_Dealer_c_de_carnum_Car_c_ca FOREIGN KEY (de_carnum)
+--        REFERENCES Car_c (ca_num);
+--
+--ALTER TABLE Dealer_c
+--    ADD CONSTRAINT FK_Dealer_c_de_cunum_Customer_ FOREIGN KEY (de_cunum)
+--        REFERENCES Customer_c (cu_num);
+
+--INSERT INTO Customer_c (cu_num, cu_nm, cu_ph, cu_addr, cu_em) VALUES (Customer_c_SEQ.NEXTVAL, '홍길동', '010-1234-5678', '서울시', 'hong@gmail.com');
+--INSERT INTO Customer_c (cu_num, cu_nm, cu_ph, cu_addr, cu_em) VALUES (Customer_c_SEQ.NEXTVAL, '전우치', '010-9687-6543', '인천시', 'jeon@naver.com');
+--INSERT INTO Customer_c (cu_num, cu_nm, cu_ph, cu_addr, cu_em) VALUES (Customer_c_SEQ.NEXTVAL, '아무개', '010-1478-5236', '성남시', 'aa@daum.net');
+
+--INSERT INTO Car_c (ca_num, ca_mod, ca_pri, ca_col, ca_com, ca_year) VALUES (Car_c_SEQ.NEXTVAL, '제네시스', '8천만원', 'black', '현대', '2021');
+--INSERT INTO Car_c (ca_num, ca_mod, ca_pri, ca_col, ca_com, ca_year) VALUES (Car_c_SEQ.NEXTVAL, 'K5', '5천만원', 'gray', '기아', '2020');
+--INSERT INTO Car_c (ca_num, ca_mod, ca_pri, ca_col, ca_com, ca_year) VALUES (Car_c_SEQ.NEXTVAL, '코나', '3천만원', 'blue', '현대', '2019');
+
+--INSERT INTO Seller_c (se_num, se_nm, se_ph, se_em, se_ran, se_pla) VALUES (Seller_c_SEQ.NEXTVAL, '사이전', '010-1245-7896', 'sa@gamil.com', '팀장', '강남');
+--INSERT INTO Seller_c (se_num, se_nm, se_ph, se_em, se_ran, se_pla) VALUES (Seller_c_SEQ.NEXTVAL, '이직영', '010-9847-4556', 'lee@daum.net', '대리', '구로');
+--INSERT INTO Seller_c (se_num, se_nm, se_ph, se_em, se_ran, se_pla) VALUES (Seller_c_SEQ.NEXTVAL, '차모가', '010-3456-9874', 'ch@naver.com', '사원', '동작');
+
+INSERT INTO Dealer_c (de_num, de_dat, de_senum, de_cunum, de_carnum, de_pri) VALUES (Dealer_c_SEQ.NEXTVAL, '2021-03-20', 1, 1, 1, 80000000);
+INSERT INTO Dealer_c (de_num, de_dat, de_senum, de_cunum, de_carnum, de_pri) VALUES (Dealer_c_SEQ.NEXTVAL, '2021-03-21', 2, 2, 2, 50000000);
+INSERT INTO Dealer_c (de_num, de_dat, de_senum, de_cunum, de_carnum, de_pri) VALUES (Dealer_c_SEQ.NEXTVAL, '2021-03-22', 3, 3, 3, 30000000);
+
+-- FK키는 부모키와 동일하게 작성해야 됨
+

@@ -68,6 +68,7 @@ namespace CarManager0323
             this.createTB.Size = new System.Drawing.Size(35, 35);
             this.createTB.Style = Sunny.UI.UIStyle.Custom;
             this.createTB.Symbol = 61543;
+            this.createTB.SymbolSize = 30;
             this.createTB.TabIndex = 3;
             this.createTB.Click += new System.EventHandler(this.createTB_Click);
             // 
@@ -84,6 +85,7 @@ namespace CarManager0323
             this.dropTB.Size = new System.Drawing.Size(34, 35);
             this.dropTB.Style = Sunny.UI.UIStyle.Custom;
             this.dropTB.Symbol = 61544;
+            this.dropTB.SymbolSize = 30;
             this.dropTB.TabIndex = 4;
             this.dropTB.Click += new System.EventHandler(this.dropTB_Click);
             // 
@@ -196,6 +198,7 @@ namespace CarManager0323
             this.help.Size = new System.Drawing.Size(35, 35);
             this.help.Style = Sunny.UI.UIStyle.Custom;
             this.help.Symbol = 61529;
+            this.help.SymbolSize = 30;
             this.help.TabIndex = 11;
             this.help.Click += new System.EventHandler(this.help_Click);
             // 
@@ -212,6 +215,7 @@ namespace CarManager0323
             this.DateView.Size = new System.Drawing.Size(35, 35);
             this.DateView.Style = Sunny.UI.UIStyle.Custom;
             this.DateView.Symbol = 61442;
+            this.DateView.SymbolSize = 30;
             this.DateView.TabIndex = 13;
             this.DateView.Click += new System.EventHandler(this.DateView_Click);
             this.DateView.MouseHover += new System.EventHandler(this.DateView_MouseHover);

@@ -34,7 +34,27 @@ namespace CarManager0331.Ui
         {
 
         }
-                
+
+        private void initDealView() // 이 클래스에서만 사용해서 private
+        {
+            
+        }
+
+        private void setRowColor(ListView list, Color color1, Color color2)
+        {
+            foreach (ListViewItem item in list.Items)
+            {
+                if ((item.Index % 2) == 0) // 짝수 행
+                {
+                    item.BackColor = color1;
+                }
+                else // 홀수 행
+                {
+                    item.BackColor = color2;
+                }
+            }
+        }
+
 
         private void addOkay_Click(object sender, EventArgs e)
         {

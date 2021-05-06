@@ -16,7 +16,7 @@ namespace Address0303.Ui
 {
     partial class AddForm : MaterialForm // 상속
     {
-        StudentCtrl sc;
+        AddressCtrl sc;
 
         // 생성자 오버로딩
         public AddForm()
@@ -24,7 +24,7 @@ namespace Address0303.Ui
             InitializeComponent();
         }
 
-        public AddForm(StudentCtrl sc)
+        public AddForm(AddressCtrl sc)
         {
             InitializeComponent();
             this.sc = sc;
@@ -58,16 +58,14 @@ namespace Address0303.Ui
             // sc.getList().Add(new Student(new RandData(r).getId(), AddName.Text, AddTel.Text, AddAddress.Text, AddEmail.Text));
 
             if (AddName.Text != "" && AddTel.Text != "" && AddAddress.Text != "" && AddEmail.Text != "")
-            {
-                sc.getList().Add(new Student(new RandData(r).getId(), AddName.Text, AddTel.Text, AddAddress.Text, AddEmail.Text));
+            {                
+                Address0324.DB.MYSQL.InsertDB(AddName.Text, AddTel.Text, AddAddress.Text, AddEmail.Text);
                 MessageBox.Show("정보 등록에 성공했습니다.");
             }
             else
             {
                 MessageBox.Show("정보 등록에 실패했습니다.");
-            }
-            // MessageBox.Show("정보가 정상적으로 추가되었습니다.");
-            // Console.WriteLine("정보가 정상적으로 입력되었습니다.");                               
+            }                                        
             Close();
         }
 
