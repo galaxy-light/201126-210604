@@ -91,6 +91,7 @@ namespace teamProject
                 //함수 종료
                 return;
             }
+            //제네릭 클래스 왜써?: 
             System.Collections.Generic.List<Entp> tempComps = new List<Entp>();
             drugComp_dtGridView.DataSource = null;
             try

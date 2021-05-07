@@ -1,0 +1,37 @@
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\bin\Debug\teamProject.exe.config
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\bin\Debug\teamProject.exe
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\bin\Debug\teamProject.pdb
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\obj\Debug\teamProject.exe
+D:\9 임시\Git\teamPrj\teamProject\210419_teamProject_2합본\teamProject\teamProject\obj\Debug\teamProject.pdb
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\bin\Debug\teamProject.exe.config
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\bin\Debug\teamProject.exe
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\bin\Debug\teamProject.pdb
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\obj\Debug\teamProject.exe
+C:\Users\KB\Desktop\가현\night\teamPrj\teamProject\210419_teamProject_2합본 - 복사본\teamProject\teamProject\obj\Debug\teamProject.pdb
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\bin\Debug\teamProject.exe.config
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\bin\Debug\teamProject.exe
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\bin\Debug\teamProject.pdb
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\obj\Debug\teamProject.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\obj\Debug\teamProject.exe
+C:\Users\KB\Desktop\teamproj\210420_teamProject_폼2추가\teamProject\teamProject\obj\Debug\teamProject.pdb

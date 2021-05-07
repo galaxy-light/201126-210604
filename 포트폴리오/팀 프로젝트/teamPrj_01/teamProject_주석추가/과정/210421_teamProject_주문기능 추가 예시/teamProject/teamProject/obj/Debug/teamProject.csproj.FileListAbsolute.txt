@@ -1,0 +1,13 @@
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\bin\Debug\teamProject.exe.config
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\bin\Debug\teamProject.exe
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\bin\Debug\teamProject.pdb
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.exe
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.pdb
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.UI.Form1.resources
