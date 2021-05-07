@@ -1,0 +1,94 @@
+[2021-04-16 12:47:39]3번 버튼 클릭
+[2021-04-16 14:05:15]1번 버튼 클릭
+[2021-04-16 14:05:16]2번 버튼 클릭
+[2021-04-16 14:05:16]3번 버튼 클릭
+[2021-04-16 14:05:17]1번 버튼 클릭
+[2021-04-16 14:05:17]2번 버튼 클릭
+[2021-04-16 14:05:17]3번 버튼 클릭
+[2021-04-16 14:05:18]3번 버튼 클릭
+[2021-04-16 14:05:18]1번 버튼 클릭
+[2021-04-16 14:05:18]2번 버튼 클릭
+[2021-04-16 14:14:39]1번 버튼 클릭
+[2021-04-16 14:14:40]2번 버튼 클릭
+[2021-04-16 14:14:41]1번 버튼 클릭
+[2021-04-16 14:14:41]2번 버튼 클릭
+[2021-04-16 14:14:41]1번 버튼 클릭
+[2021-04-16 14:14:41]2번 버튼 클릭
+[2021-04-16 14:14:41]1번 버튼 클릭
+[2021-04-16 14:14:42]2번 버튼 클릭
+[2021-04-16 14:14:42]2번 버튼 클릭
+[2021-04-16 14:14:43]1번 버튼 클릭
+[2021-04-16 14:14:43]2번 버튼 클릭
+[2021-04-16 14:14:43]2번 버튼 클릭
+[2021-04-16 14:29:36]1번 버튼 클릭
+[2021-04-16 14:29:36]2번 버튼 클릭
+[2021-04-16 14:29:37]1번 버튼 클릭
+[2021-04-16 14:29:37]2번 버튼 클릭
+'D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.Datamanger.Load() 파일 D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\Datamanger.cs:줄 31
+'D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.Datamanger.Load() 파일 D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\Datamanger.cs:줄 31
+'D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.Datamanger.Load() 파일 D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\Datamanger.cs:줄 31
+'D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.Datamanger.Load() 파일 D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\Datamanger.cs:줄 31
+'D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.Datamanger.Load() 파일 D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\Datamanger.cs:줄 31
+[2021-04-19 10:24:17]주차 버튼 클릭
+[2021-04-19 10:24:18]해당 공간에는 이미 차 있어요.1
+[2021-04-19 10:24:22]주차 버튼 클릭
+[2021-04-19 10:34:39]주차 버튼 클릭
+[2021-04-19 10:34:42]주차 할 수 없습니다.aaaa
+[2021-04-19 10:56:29]출차 버튼 클릭
+[2021-04-19 10:56:30]주차공간 1에 30고9484차량 출차
+[2021-04-19 10:56:34]출차 버튼 클릭
+[2021-04-19 10:56:36]주차공간 2에 30고9484차량 출차
+[2021-04-19 11:12:14]출차 버튼 클릭
+[2021-04-19 11:12:15]아직 차 없음
+[2021-04-19 11:17:36]주차 버튼 클릭
+[2021-04-19 11:28:47]주차공간 5에 주차된 차가 없습니다.
+[2021-04-19 11:28:50]주차공간 4에 주차된 차가 없습니다.
+[2021-04-19 11:28:53]주차공간 3에 주차된 차는 30고9484입니다.
+[2021-04-19 11:29:59]주차공간 3에 주차된 차는 30고9484입니다.
+[2021-04-19 11:30:02]주차공간 1에 주차된 차가 없습니다.
+[2021-04-19 11:49:18]주차 버튼 클릭
+[2021-04-19 11:49:20]출차 버튼 클릭
+[2021-04-19 11:49:21]아직 차 없음
+[2021-04-19 11:49:24]주차공간 3에 주차된 차는 30고9484입니다.
+[2021-04-19 11:49:26]주차공간 1에 주차된 차는 21두1234입니다.
+[2021-04-19 11:49:28]출차 버튼 클릭
+[2021-04-19 11:49:30]주차공간 1에 21두1234차량 출차
+[2021-04-19 11:49:32]출차 버튼 클릭
+[2021-04-19 11:49:32]주차공간 3에 30고9484차량 출차
+[2021-04-19 12:01:12]주차 버튼 클릭
+[2021-04-28 09:53:02]주차공간 1에 주차된 차는 12고1234입니다.
