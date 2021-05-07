@@ -1,0 +1,187 @@
+[2021-04-23 10:24:42] 이름: 1
+[2021-04-23 10:24:42] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 10:24:42]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 44
+[2021-04-23 10:24:42] 이름: 1
+[2021-04-23 10:24:42] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 10:24:42]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 44
+[2021-04-23 10:24:44] 이름: 1
+[2021-04-23 10:24:44] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 10:24:44]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 44
+[2021-04-23 11:35:19] 이름: dafdsfdsf
+[2021-04-23 11:35:19] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 11:35:19]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 44
+[2021-04-23 11:35:20] 이름: dafdsfdsf
+[2021-04-23 11:35:20] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 11:35:20]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 44
+[2021-04-23 11:35:20] 이름: dafdsfdsf
+[2021-04-23 11:35:20] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 11:35:20]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 44
+[2021-04-23 13:53:19] 이름: dffdfddf
+[2021-04-23 13:53:19] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 13:53:19]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 44
+[2021-04-23 13:53:19] 이름: dffdfddf
+[2021-04-23 13:53:19] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 13:53:19]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 44
+[2021-04-23 13:58:05] 이름: 1
+[2021-04-23 13:58:05] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 13:58:05]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 46
+[2021-04-23 13:58:05] 이름: 1
+[2021-04-23 13:58:05] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 13:58:05]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 46
+[2021-04-23 13:58:05] 이름: 1
+[2021-04-23 13:58:05] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 13:58:05]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 46
+[2021-04-23 13:58:06] 이름: 1
+[2021-04-23 13:58:06] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 13:58:06]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 46
+[2021-04-23 14:06:36] 이름: dd
+[2021-04-23 14:06:36] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 14:06:36]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 46
+[2021-04-23 14:11:02] 이름: 321123
+[2021-04-23 14:11:02] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 14:11:02]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 46
+[2021-04-23 14:37:53] 이름: dfsfd
+[2021-04-23 14:37:53] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 14:37:53]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 46
+[2021-04-23 14:46:54] 이름: 이동준
+[2021-04-23 14:46:54] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 14:46:54]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 47
+[2021-04-23 14:47:31] 이름: 이동준
+[2021-04-23 14:47:31] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 14:47:31]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 47
+[2021-04-23 14:47:51] 이름: 이동준
+[2021-04-23 14:47:51] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 14:47:51]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 47
+[2021-04-23 14:48:44] 이름: 이동준
+[2021-04-23 14:48:44] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-23 14:48:45]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: FlappyBird_Windows_Form.Form2.button1_Click(Object sender, EventArgs e) 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\Form2.cs:줄 47
+'C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\bin\Debug\ranking.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: FlappyBird_Windows_Form.data.Load() 파일 C:\Users\KB\Desktop\project\FlappyBird Windows Form\FlappyBird Windows Form\data.cs:줄 24
+[2021-04-26 16:56:22] 이름 입력하라고
+[2021-04-26 16:56:24] 이름 입력하라고
+[2021-04-26 16:56:27] 이름 입력하라고
+[2021-04-26 16:56:58] 이름 입력하라고
+[2021-04-27 09:33:25] 이름 입력하라고
+[2021-04-27 09:34:11] 이름 입력하라고
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:25] 이름: 11은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:29] 이름: 111은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:36:32] 이름: 11은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:39:14] 이름: 123123123은 없습니다.
+[2021-04-27 09:42:45] 이름 입력하라고
+[2021-04-27 09:44:38] 이름 입력하라고
+[2021-04-27 09:47:51] 이름: aweasdsadffsad은 없습니다.
+[2021-04-27 09:48:18] 이름: ㅁㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇ은 없습니다.

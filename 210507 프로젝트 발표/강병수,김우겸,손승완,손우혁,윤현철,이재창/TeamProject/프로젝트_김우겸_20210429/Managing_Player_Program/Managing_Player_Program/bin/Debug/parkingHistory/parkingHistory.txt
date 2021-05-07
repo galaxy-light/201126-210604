@@ -1,0 +1,560 @@
+[2021-04-16 12:47:42]3번 버튼 클릭
+[2021-04-16 14:05:12]1번 버튼 클릭
+[2021-04-16 14:05:13]2번 버튼 클릭
+[2021-04-16 14:05:14]3번 버튼 클릭
+[2021-04-16 14:13:40]1번 버튼 클릭
+[2021-04-16 14:13:41]2번 버튼 클릭
+[2021-04-16 14:13:42]3번 버튼 클릭
+[2021-04-16 14:15:04]3번 버튼 클릭
+[2021-04-16 14:15:05]3번 버튼 클릭
+[2021-04-16 14:15:05]3번 버튼 클릭
+[2021-04-16 14:15:06]3번 버튼 클릭
+[2021-04-16 14:15:06]3번 버튼 클릭
+[2021-04-16 14:15:07]3번 버튼 클릭
+[2021-04-16 14:15:07]3번 버튼 클릭
+[2021-04-16 14:15:07]3번 버튼 클릭
+[2021-04-16 14:15:50]1번 버튼 클릭
+[2021-04-16 14:15:51]2번 버튼 클릭
+[2021-04-16 14:15:52]3번 버튼 클릭
+[2021-04-16 14:17:28]1번 버튼 클릭
+[2021-04-16 14:17:29]2번 버튼 클릭
+[2021-04-16 14:17:30]3번 버튼 클릭
+[2021-04-16 14:18:48]1번 버튼 클릭
+[2021-04-16 14:18:49]2번 버튼 클릭
+[2021-04-16 14:18:49]2번 버튼 클릭
+[2021-04-16 14:20:11]1번 버튼 클릭
+[2021-04-16 14:20:11]2번 버튼 클릭
+[2021-04-16 14:20:11]1번 버튼 클릭
+[2021-04-16 14:20:12]2번 버튼 클릭
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 24
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 24
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 24
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 24
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 24
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+[2021-04-19 10:24:20]주차 버튼 클릭
+[2021-04-19 10:24:22]차 번호를 입력해라.
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+[2021-04-19 10:25:00]주차 버튼 클릭
+[2021-04-19 10:25:01]차 번호를 입력해라.
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+[2021-04-19 10:26:38]주차 버튼 클릭
+[2021-04-19 10:27:12]주차 버튼 클릭
+[2021-04-19 10:27:24]주차 버튼 클릭
+[2021-04-19 10:27:27]해당 공간에는 이미 차가 있어요.1
+[2021-04-19 10:38:04]주차 버튼 클릭
+[2021-04-19 10:38:05]해당 공간에는 이미 차가 있어요.1
+[2021-04-19 10:38:07]주차 버튼 클릭
+[2021-04-19 10:38:09]해당 공간에는 이미 차가 있어요.2
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+[2021-04-19 10:39:04]주차 버튼 클릭
+[2021-04-19 10:39:19]주차 버튼 클릭
+[2021-04-19 10:39:21]해당 공간에는 이미 차가 있어요.2
+[2021-04-19 10:39:23]주차 버튼 클릭
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+[2021-04-19 10:57:48]출차 버튼 클릭
+[2021-04-19 10:57:50]아직 차 없음
+[2021-04-19 10:58:10]주차 버튼 클릭
+[2021-04-19 10:58:14]출차 버튼 클릭
+[2021-04-19 10:58:17]주차공간 1에 5676차량 출차
+[2021-04-19 10:58:34]출차 버튼 클릭
+[2021-04-19 10:58:35]아직 차 없음
+[2021-04-19 10:58:47]주차 버튼 클릭
+[2021-04-19 10:58:56]출차 버튼 클릭
+[2021-04-19 10:59:01]주차공간 2에 5677차량 출차
+[2021-04-19 11:02:36]주차 버튼 클릭
+[2021-04-19 11:02:59]출차 버튼 클릭
+[2021-04-19 11:03:00]주차공간 2에 5677차량 출차
+[2021-04-19 11:17:58]주차 버튼 클릭
+[2021-04-19 11:37:54]출차 버튼 클릭
+[2021-04-19 11:37:56]해당 번호의 정보가 조회되었습니다.
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 25
+[2021-04-19 12:19:33]주차공간 5에 주차된 차가 없습니다.
+[2021-04-19 12:19:55]주차 버튼 클릭
+[2021-04-19 12:19:59]주차공간 5에 주차된 차는 8888입니다.
+[2021-04-19 12:20:07]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 12:20:07]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 12:20:54]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 12:20:54]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 12:21:00]주차공간 5에 주차된 차는 8888입니다.
+[2021-04-19 12:21:40]주차공간 1에 주차된 차가 없습니다.
+[2021-04-19 12:22:19]주차 버튼 클릭
+[2021-04-19 12:22:21]주차공간 1에 주차된 차는 4444입니다.
+[2021-04-19 12:22:35]주차 버튼 클릭
+[2021-04-19 12:22:38]주차공간 2에 주차된 차는 5555입니다.
+[2021-04-19 12:23:07]주차 버튼 클릭
+[2021-04-19 12:23:11]주차공간 3에 주차된 차는 6666입니다.
+[2021-04-19 12:23:42]주차 버튼 클릭
+[2021-04-19 12:23:46]주차공간 4에 주차된 차는 7777입니다.
+[2021-04-19 12:23:50]주차공간 1에 주차된 차는 4444입니다.
+[2021-04-19 12:23:52]주차공간 2에 주차된 차는 5555입니다.
+[2021-04-19 12:23:55]주차공간 3에 주차된 차는 6666입니다.
+[2021-04-19 12:23:57]주차공간 4에 주차된 차는 7777입니다.
+[2021-04-19 12:24:00]주차공간 5에 주차된 차는 8888입니다.
+[2021-04-19 12:24:03]출차 버튼 클릭
+[2021-04-19 12:24:04]주차공간 1에 4444차량 출차
+[2021-04-19 12:24:08]출차 버튼 클릭
+[2021-04-19 12:24:09]주차공간 2에 5555차량 출차
+[2021-04-19 12:24:11]출차 버튼 클릭
+[2021-04-19 12:24:12]주차공간 3에 6666차량 출차
+[2021-04-19 12:24:17]출차 버튼 클릭
+[2021-04-19 12:24:18]주차공간 4에 7777차량 출차
+[2021-04-19 12:24:28]출차 버튼 클릭
+[2021-04-19 12:24:30]주차공간 5에 8888차량 출차
+[2021-04-19 12:24:36]주차공간 1에 주차된 차가 없습니다.
+[2021-04-19 12:24:39]주차공간 2에 주차된 차가 없습니다.
+[2021-04-19 12:24:42]주차공간 3에 주차된 차가 없습니다.
+[2021-04-19 12:24:45]주차공간 4에 주차된 차가 없습니다.
+[2021-04-19 12:24:53]주차공간 5에 주차된 차가 없습니다.
+[2021-04-19 12:29:00]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 12:29:00]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 12:29:19]주차공간 4에 주차된 차가 없습니다.
+[2021-04-19 12:30:33]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 12:30:33]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 12:30:36]주차공간 3에 주차된 차가 없습니다.
+[2021-04-19 12:30:59]주차 버튼 클릭
+[2021-04-19 12:31:33]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 12:31:33]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 12:31:38]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 12:31:38]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 12:31:40]주차공간 1에 주차된 차가 없습니다.
+[2021-04-19 12:31:45]주차공간 3에 주차된 차는 3333입니다.
+[2021-04-19 12:34:29]주차공간 1에 주차된 차가 없습니다.
+[2021-04-19 12:34:49]주차공간 2에 주차된 차가 없습니다.
+[2021-04-19 12:35:02]주차공간 3에 주차된 차는 3333입니다.
+[2021-04-19 12:35:09]주차공간 4에 주차된 차가 없습니다.
+[2021-04-19 12:35:17]주차공간 5에 주차된 차가 없습니다.
+[2021-04-19 13:53:19]출차 버튼 클릭
+[2021-04-19 13:53:19]주차공간 3에 3333차량 출차
+[2021-04-19 13:53:57]주차 버튼 클릭
+[2021-04-19 13:54:08]주차 버튼 클릭
+[2021-04-19 13:54:28]주차 버튼 클릭
+[2021-04-19 13:54:49]주차 버튼 클릭
+[2021-04-19 13:55:05]주차 버튼 클릭
+[2021-04-19 13:55:34]주차공간 1에 주차된 차는 1111입니다.
+[2021-04-19 13:55:38]주차공간 2에 주차된 차는 2222입니다.
+[2021-04-19 13:55:42]주차공간 3에 주차된 차는 3333입니다.
+[2021-04-19 13:55:46]주차공간 4에 주차된 차는 4444입니다.
+[2021-04-19 13:56:13]주차공간 5에 주차된 차는 5555입니다.
+[2021-04-19 13:56:38]출차 버튼 클릭
+[2021-04-19 13:56:39]주차공간 4에 4444차량 출차
+[2021-04-19 13:56:42]출차 버튼 클릭
+[2021-04-19 13:56:43]주차공간 3에 3333차량 출차
+[2021-04-19 13:56:45]출차 버튼 클릭
+[2021-04-19 13:56:45]주차공간 2에 2222차량 출차
+[2021-04-19 13:57:07]주차공간 2에 주차된 차가 없습니다.
+[2021-04-19 13:59:39]주차 버튼 클릭
+[2021-04-19 13:59:42]차 번호를 입력해라.
+[2021-04-19 13:59:45]주차 버튼 클릭
+[2021-04-19 13:59:48]해당 공간에는 이미 차가 있어요.1
+[2021-04-19 13:59:54]주차 버튼 클릭
+[2021-04-19 13:59:55]해당 공간에는 이미 차가 있어요.5
+[2021-04-19 14:02:15]주차 버튼 클릭
+[2021-04-19 14:04:07]주차공간 1에 주차된 차는 1111입니다.
+[2021-04-19 14:04:19]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 14:04:19]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 14:04:23]주차 버튼 클릭
+[2021-04-19 14:04:24]주차공간을 입력해라.
+[2021-04-19 14:05:55]출차 버튼 클릭
+[2021-04-19 14:06:11]출차 버튼 클릭
+[2021-04-19 14:06:20]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 14:06:20]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 14:06:21]출차 버튼 클릭
+[2021-04-19 14:06:27]출차 버튼 클릭
+[2021-04-19 14:06:32]아직 차 없음
+[2021-04-19 14:07:11]출차 버튼 클릭
+[2021-04-19 14:07:12]아직 차 없음
+[2021-04-19 14:07:13]주차 버튼 클릭
+[2021-04-19 14:07:17]출차 버튼 클릭
+[2021-04-19 14:07:19]주차공간 3에 3333차량 출차
+[2021-04-19 14:08:11]주차공간 3에 주차된 차가 없습니다.
+[2021-04-19 14:08:13]주차 버튼 클릭
+[2021-04-19 14:08:15]주차공간 3에 주차된 차는 3333입니다.
+[2021-04-19 14:08:21]출차 버튼 클릭
+[2021-04-19 14:08:22]주차공간 3에 3333차량 출차
+[2021-04-19 14:08:24]주차공간 3에 주차된 차가 없습니다.
+[2021-04-19 14:09:04]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 14:09:04]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 14:10:08]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 14:10:08]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 14:10:14]주차공간 3에 주차된 차가 없습니다.
+[2021-04-19 14:10:23]주차 버튼 클릭
+[2021-04-19 14:10:27]주차공간 3에 주차된 차는 3333입니다.
+[2021-04-19 14:11:25]주차 버튼 클릭
+[2021-04-19 14:12:16]출차 버튼 클릭
+[2021-04-19 14:12:17]주차공간 2에 2222차량 출차
+[2021-04-19 14:12:18]주차공간 2에 주차된 차가 없습니다.
+[2021-04-19 14:12:21]출차 버튼 클릭
+[2021-04-19 14:12:25]아직 차 없음
+[2021-04-19 14:14:26]출차 버튼 클릭
+[2021-04-19 14:14:28]주차공간 4에 4444차량 출차
+[2021-04-19 14:14:28]출차 버튼 클릭
+[2021-04-19 14:14:38]아직 차 없음
+[2021-04-19 14:17:01]출차 버튼 클릭
+[2021-04-19 14:17:02]주차공간 5에 5555차량 출차
+[2021-04-19 14:17:03]출차 버튼 클릭
+[2021-04-19 14:17:06]아직 차 없음
+[2021-04-19 14:17:07]출차 버튼 클릭
+[2021-04-19 14:17:08]주차공간 3에 3333차량 출차
+[2021-04-19 14:17:11]출차 버튼 클릭
+[2021-04-19 14:17:12]주차공간 1에 1111차량 출차
+[2021-04-19 14:17:40]주차 버튼 클릭
+[2021-04-19 14:17:41]주차공간을 입력해라.
+[2021-04-19 14:17:44]출차 버튼 클릭
+[2021-04-19 14:17:47]아직 차 없음
+[2021-04-19 14:17:52]주차공간 1에 주차된 차가 없습니다.
+[2021-04-19 14:18:06]주차 버튼 클릭
+[2021-04-19 14:18:08]차 번호를 입력해라.
+[2021-04-19 14:18:25]주차 버튼 클릭
+[2021-04-19 14:18:27]주차 버튼 클릭
+[2021-04-19 14:18:42]해당 공간에는 이미 차가 있어요.1
+[2021-04-19 14:19:49]주차 버튼 클릭
+[2021-04-19 14:20:54]주차 버튼 클릭
+[2021-04-19 14:20:56]해당 공간에는 이미 차가 있어요.2
+[2021-04-19 14:21:23]주차 버튼 클릭
+[2021-04-19 14:21:24]해당 공간에는 이미 차가 있어요.2
+[2021-04-19 14:21:34]주차 버튼 클릭
+[2021-04-19 14:21:35]해당 공간에는 이미 차가 있어요.1
+[2021-04-19 14:21:40]주차 버튼 클릭
+[2021-04-19 14:21:43]출차 버튼 클릭
+[2021-04-19 14:21:43]주차공간 3에 3333차량 출차
+[2021-04-19 14:21:58]출차 버튼 클릭
+[2021-04-19 14:22:14]출차 버튼 클릭
+[2021-04-19 14:22:19]아직 차 없음
+[2021-04-19 14:22:55]출차 버튼 클릭
+[2021-04-19 14:22:56]주차공간 2에 3333차량 출차
+[2021-04-19 14:24:27]주차 버튼 클릭
+[2021-04-19 14:24:33]주차공간 2에 주차된 차는 3333입니다.
+[2021-04-19 14:24:44]주차공간 3에 주차된 차가 없습니다.
+[2021-04-19 14:27:45]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 14:27:45]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 14:28:01]출차 버튼 클릭
+[2021-04-19 14:28:02]아직 차 없음
+[2021-04-19 14:28:57]출차 버튼 클릭
+[2021-04-19 14:28:58]주차공간 2에 3333차량 출차
+[2021-04-19 14:29:00]출차 버튼 클릭
+[2021-04-19 14:29:02]아직 차 없음
+[2021-04-19 14:29:04]출차 버튼 클릭
+[2021-04-19 14:29:08]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 14:29:08]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 14:29:08]출차 버튼 클릭
+[2021-04-19 14:30:16]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 14:30:16]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-19 14:30:20]주차공간 1에 주차된 차는 1111입니다.
+[2021-04-19 14:32:03]주차 버튼 클릭
+[2021-04-19 14:32:04]차 번호를 입력해라.
+[2021-04-19 14:32:15]주차 버튼 클릭
+[2021-04-19 14:32:52]주차 할 수 없습니다.6
+[2021-04-19 14:32:52]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-19 14:32:52]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 57
+[2021-04-19 14:33:43]출차 버튼 클릭
+[2021-04-19 14:33:43]출차 버튼 클릭
+[2021-04-19 14:33:44]출차 버튼 클릭
+[2021-04-19 14:33:44]출차 버튼 클릭
+[2021-04-19 14:33:44]출차 버튼 클릭
+[2021-04-19 14:33:44]출차 버튼 클릭
+[2021-04-19 14:33:44]출차 버튼 클릭
+[2021-04-19 14:33:45]출차 버튼 클릭
+[2021-04-19 14:33:56]출차 버튼 클릭
+[2021-04-19 14:33:57]아직 차 없음
+[2021-04-19 14:34:11]출차 버튼 클릭
+[2021-04-19 14:34:11]출차 버튼 클릭
+[2021-04-19 14:34:11]출차 버튼 클릭
+[2021-04-19 14:34:11]출차 버튼 클릭
+[2021-04-19 14:34:12]출차 버튼 클릭
+[2021-04-19 14:34:12]출차 버튼 클릭
+[2021-04-19 14:35:02]출차 버튼 클릭
+[2021-04-19 14:35:03]아직 차 없음
+[2021-04-19 14:35:08]주차 버튼 클릭
+[2021-04-19 14:35:09]차 번호를 입력해라.
+[2021-04-19 14:35:11]주차 버튼 클릭
+[2021-04-19 14:35:12]주차 할 수 없습니다.7
+[2021-04-19 14:35:12]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-19 14:35:12]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 57
+[2021-04-19 14:35:20]출차 버튼 클릭
+[2021-04-19 14:35:21]주차 버튼 클릭
+[2021-04-19 14:35:22]주차 할 수 없습니다.7
+[2021-04-19 14:35:22]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-19 14:35:22]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 57
+[2021-04-19 14:35:24]주차공간 7에 주차된 차가 없습니다.
+[2021-04-19 14:35:28]출차 버튼 클릭
+[2021-04-19 14:35:28]출차 버튼 클릭
+[2021-04-19 14:35:28]출차 버튼 클릭
+[2021-04-19 14:35:28]출차 버튼 클릭
+[2021-04-19 14:35:29]출차 버튼 클릭
+[2021-04-19 14:35:29]출차 버튼 클릭
+[2021-04-19 14:38:08]주차 버튼 클릭
+[2021-04-19 14:38:09]해당 공간에는 이미 차가 있어요.1
+[2021-04-19 14:38:18]출차 버튼 클릭
+[2021-04-19 14:38:20]주차공간 1에 1111차량 출차
+[2021-04-19 14:38:22]출차 버튼 클릭
+[2021-04-19 14:38:23]아직 차 없음
+[2021-04-19 14:39:17]주차 버튼 클릭
+[2021-04-19 14:39:19]주차 할 수 없습니다.aaa
+[2021-04-19 14:39:19]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-19 14:39:19]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 57
+[2021-04-19 14:39:25]출차 버튼 클릭
+[2021-04-19 14:39:25]출차 버튼 클릭
+[2021-04-19 14:39:25]출차 버튼 클릭
+[2021-04-19 14:39:25]출차 버튼 클릭
+[2021-04-19 14:39:25]출차 버튼 클릭
+[2021-04-19 14:39:26]출차 버튼 클릭
+[2021-04-19 14:39:28]출차 버튼 클릭
+[2021-04-19 14:39:29]아직 차 없음
+[2021-04-19 14:39:50]주차 버튼 클릭
+[2021-04-19 14:40:41]주차 버튼 클릭
+[2021-04-19 14:40:42]해당 공간에는 이미 차가 있어요.3
+[2021-04-19 14:42:01]출차 버튼 클릭
+[2021-04-19 14:42:01]출차 버튼 클릭
+[2021-04-19 14:42:01]출차 버튼 클릭
+[2021-04-19 14:42:01]출차 버튼 클릭
+[2021-04-19 14:42:02]출차 버튼 클릭
+[2021-04-19 14:42:02]출차 버튼 클릭
+[2021-04-19 14:42:02]출차 버튼 클릭
+[2021-04-19 14:42:02]출차 버튼 클릭
+[2021-04-19 14:42:19]출차 버튼 클릭
+[2021-04-19 14:42:20]출차 버튼 클릭
+[2021-04-19 14:42:20]출차 버튼 클릭
+[2021-04-19 14:42:20]출차 버튼 클릭
+[2021-04-19 14:42:20]출차 버튼 클릭
+[2021-04-19 14:42:20]출차 버튼 클릭
+[2021-04-19 14:42:20]출차 버튼 클릭
+[2021-04-19 14:42:21]출차 버튼 클릭
+[2021-04-19 14:42:21]출차 버튼 클릭
+[2021-04-19 14:42:21]출차 버튼 클릭
+[2021-04-19 14:50:38]출차 버튼 클릭
+[2021-04-19 14:50:39]주차공간 3에 23424차량 출차
+[2021-04-19 14:50:47]주차 버튼 클릭
+[2021-04-19 14:50:48]주차공간을 입력해라.
+[2021-04-19 14:51:03]주차 버튼 클릭
+[2021-04-19 14:51:08]차 번호를 입력해라.
+[2021-04-19 14:51:14]주차 버튼 클릭
+[2021-04-19 14:51:16]주차 버튼 클릭
+[2021-04-19 14:51:17]해당 공간에는 이미 차가 있어요.1
+[2021-04-19 14:52:22]주차 버튼 클릭
+[2021-04-19 14:52:29]주차 버튼 클릭
+[2021-04-19 14:52:30]주차 할 수 없습니다.7
+[2021-04-19 14:52:30]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-19 14:52:30]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 57
+[2021-04-19 14:52:44]주차 버튼 클릭
+[2021-04-19 14:52:44]해당 공간에는 이미 차가 있어요.2
+[2021-04-19 14:52:56]출차 버튼 클릭
+[2021-04-19 14:52:58]출차 버튼 클릭
+[2021-04-19 14:53:07]출차 버튼 클릭
+[2021-04-19 14:53:08]아직 차 없음
+[2021-04-19 14:53:19]출차 버튼 클릭
+[2021-04-19 14:53:21]주차공간 2에 2222차량 출차
+[2021-04-19 14:54:15]주차 버튼 클릭
+[2021-04-19 14:54:17]주차공간 2에 주차된 차는 2222입니다.
+[2021-04-19 14:54:24]주차공간 3에 주차된 차가 없습니다.
+[2021-04-19 14:54:36]주차공간 2에 주차된 차는 2222입니다.
+[2021-04-19 14:54:41]주차공간 3에 주차된 차가 없습니다.
+[2021-04-19 14:54:46]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-19 14:54:46]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 150
+[2021-04-27 11:43:17]출차 버튼 클릭
+[2021-04-27 11:43:18]주차공간 1에 1111차량 출차
+[2021-04-27 11:45:26]출차 버튼 클릭
+[2021-04-27 11:45:28]주차공간 2에 2222차량 출차
+[2021-04-27 11:56:18]주차 버튼 클릭

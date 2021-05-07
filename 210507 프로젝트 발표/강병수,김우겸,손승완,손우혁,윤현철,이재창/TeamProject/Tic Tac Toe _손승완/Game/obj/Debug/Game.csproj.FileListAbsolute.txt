@@ -1,0 +1,10 @@
+E:\학교자료\C#\Game\Game\bin\Debug\Game.exe.config
+E:\학교자료\C#\Game\Game\bin\Debug\Game.exe
+E:\학교자료\C#\Game\Game\bin\Debug\Game.pdb
+E:\학교자료\C#\Game\Game\obj\Debug\Game.csprojAssemblyReference.cache
+E:\학교자료\C#\Game\Game\obj\Debug\Game.Form1.resources
+E:\학교자료\C#\Game\Game\obj\Debug\Game.Properties.Resources.resources
+E:\학교자료\C#\Game\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\학교자료\C#\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\학교자료\C#\Game\Game\obj\Debug\Game.exe
+E:\학교자료\C#\Game\Game\obj\Debug\Game.pdb

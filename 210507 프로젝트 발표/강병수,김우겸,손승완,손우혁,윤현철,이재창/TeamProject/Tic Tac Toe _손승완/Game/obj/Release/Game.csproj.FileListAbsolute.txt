@@ -1,0 +1,20 @@
+E:\학교자료\C#\Game\Game\bin\Release\Game.exe.config
+E:\학교자료\C#\Game\Game\bin\Release\Game.exe
+E:\학교자료\C#\Game\Game\bin\Release\Game.pdb
+E:\학교자료\C#\Game\Game\obj\Release\Game.csprojAssemblyReference.cache
+E:\학교자료\C#\Game\Game\obj\Release\Game.Form1.resources
+E:\학교자료\C#\Game\Game\obj\Release\Game.Properties.Resources.resources
+E:\학교자료\C#\Game\Game\obj\Release\Game.csproj.GenerateResource.cache
+E:\학교자료\C#\Game\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
+E:\학교자료\C#\Game\Game\obj\Release\Game.exe
+E:\학교자료\C#\Game\Game\obj\Release\Game.pdb
+D:\blacksheep\TeamProject\TeamProject\Tic Tac Toe _손승완\Game\bin\Release\Game.exe.config
+D:\blacksheep\TeamProject\TeamProject\Tic Tac Toe _손승완\Game\bin\Release\Game.exe
+D:\blacksheep\TeamProject\TeamProject\Tic Tac Toe _손승완\Game\bin\Release\Game.pdb
+D:\blacksheep\TeamProject\TeamProject\Tic Tac Toe _손승완\Game\obj\Release\Game.csprojAssemblyReference.cache
+D:\blacksheep\TeamProject\TeamProject\Tic Tac Toe _손승완\Game\obj\Release\Game.Form1.resources
+D:\blacksheep\TeamProject\TeamProject\Tic Tac Toe _손승완\Game\obj\Release\Game.Properties.Resources.resources
+D:\blacksheep\TeamProject\TeamProject\Tic Tac Toe _손승완\Game\obj\Release\Game.csproj.GenerateResource.cache
+D:\blacksheep\TeamProject\TeamProject\Tic Tac Toe _손승완\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
+D:\blacksheep\TeamProject\TeamProject\Tic Tac Toe _손승완\Game\obj\Release\Game.exe
+D:\blacksheep\TeamProject\TeamProject\Tic Tac Toe _손승완\Game\obj\Release\Game.pdb

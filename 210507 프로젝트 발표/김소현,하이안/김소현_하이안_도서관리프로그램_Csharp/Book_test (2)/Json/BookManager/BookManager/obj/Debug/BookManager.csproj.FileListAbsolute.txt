@@ -1,0 +1,15 @@
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\bin\Debug\BookManager.exe.config
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\bin\Debug\BookManager.exe
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\bin\Debug\BookManager.pdb
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\bin\Debug\Newtonsoft.Json.dll
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\bin\Debug\Newtonsoft.Json.xml
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\obj\Debug\BookManager.Form1.resources
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\obj\Debug\BookManager.Form2.resources
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\obj\Debug\BookManager.Form3.resources
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.CopyComplete
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\obj\Debug\BookManager.exe
+D:\Test1\C#과제\Book_test\Json\BookManager\BookManager\obj\Debug\BookManager.pdb

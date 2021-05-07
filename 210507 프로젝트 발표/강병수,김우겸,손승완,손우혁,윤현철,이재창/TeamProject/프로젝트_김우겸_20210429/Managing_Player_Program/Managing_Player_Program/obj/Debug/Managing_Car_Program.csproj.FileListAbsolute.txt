@@ -1,0 +1,10 @@
+D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe.config
+D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe
+D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.pdb
+D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
+D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Properties.Resources.resources
+D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.GenerateResource.cache
+D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CoreCompileInputs.cache
+D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
+D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
+D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Player_Profile.resources

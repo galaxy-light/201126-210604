@@ -1,0 +1,15 @@
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\bin\Debug\비트코인정보.exe.config
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\bin\Debug\비트코인정보.exe
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\bin\Debug\비트코인정보.pdb
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\bin\Debug\websocket-sharp.dll
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\obj\Debug\UPbitMonitoring.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\obj\Debug\비트코인정보.MainForm.resources
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\obj\Debug\비트코인정보.Properties.Resources.resources
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\obj\Debug\비트코인정보.SettingForm.resources
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\obj\Debug\UPbitMonitoring.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\obj\Debug\UPbitMonitoring.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\obj\Debug\UPbitMonitoring.csproj.CopyComplete
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\obj\Debug\비트코인정보.exe
+C:\Users\KB\Desktop\UPbitMonitoring\UPbitMonitoring\obj\Debug\비트코인정보.pdb

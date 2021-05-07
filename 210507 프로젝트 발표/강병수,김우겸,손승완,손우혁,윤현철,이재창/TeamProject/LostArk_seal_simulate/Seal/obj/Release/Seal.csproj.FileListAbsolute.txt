@@ -1,0 +1,10 @@
+D:\swh\20210405\LostArk_seal_simulate\Seal\bin\Release\Seal.exe.config
+D:\swh\20210405\LostArk_seal_simulate\Seal\bin\Release\Seal.exe
+D:\swh\20210405\LostArk_seal_simulate\Seal\bin\Release\Seal.pdb
+D:\swh\20210405\LostArk_seal_simulate\Seal\obj\Release\Seal.csprojAssemblyReference.cache
+D:\swh\20210405\LostArk_seal_simulate\Seal\obj\Release\Seal.MainForm.resources
+D:\swh\20210405\LostArk_seal_simulate\Seal\obj\Release\Seal.Properties.Resources.resources
+D:\swh\20210405\LostArk_seal_simulate\Seal\obj\Release\Seal.csproj.GenerateResource.cache
+D:\swh\20210405\LostArk_seal_simulate\Seal\obj\Release\Seal.csproj.CoreCompileInputs.cache
+D:\swh\20210405\LostArk_seal_simulate\Seal\obj\Release\Seal.exe
+D:\swh\20210405\LostArk_seal_simulate\Seal\obj\Release\Seal.pdb

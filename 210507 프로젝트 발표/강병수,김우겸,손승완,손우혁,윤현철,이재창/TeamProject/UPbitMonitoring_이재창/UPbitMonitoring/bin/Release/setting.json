@@ -1,0 +1,71 @@
+{
+  "Setting": {
+    "Pos": {
+      "X": 1524,
+      "Y": 5
+    },
+    "Size": {
+      "Width": 390,
+      "Height": 320
+    },
+    "Opacity": 0.85,
+    "Font": "맑은 고딕",
+    "FontSize": 13.0,
+    "FontStyle": 1,
+    "NamePos": {
+      "X": 5,
+      "Y": 5
+    },
+    "PricePos": {
+      "X": 145,
+      "Y": 4
+    },
+    "ChangePos": {
+      "X": 285,
+      "Y": 4
+    },
+    "KeyInfo": {
+      "Key": 115,
+      "IsShift": false,
+      "IsCtrl": false,
+      "IsAlt": false
+    },
+    "Interval": 26,
+    "NameColor": "FF20FF20",
+    "UPColor": "FFFF2020",
+    "KeepColor": "FFFFFFFF",
+    "DownColor": "FF0080FF",
+    "WindowColor": "FF101010",
+    "IsMove": true,
+    "CoinList": [
+      {
+        "Name": "비트코인",
+        "Code": "KRW-BTC"
+      },
+      {
+        "Name": "이더리움",
+        "Code": "KRW-ETH"
+      },
+      {
+        "Name": "도지코인",
+        "Code": "KRW-DOGE"
+      },
+      {
+        "Name": "그로스톨코인",
+        "Code": "KRW-GRS"
+      },
+      {
+        "Name": "에스티피",
+        "Code": "KRW-STPT"
+      },
+      {
+        "Name": "비트토렌트",
+        "Code": "KRW-BTT"
+      },
+      {
+        "Name": "메디블록",
+        "Code": "KRW-MED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\bin\Release\비트코인정보.exe.config
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\bin\Release\비트코인정보.exe
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\bin\Release\비트코인정보.pdb
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\bin\Release\Newtonsoft.Json.dll
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\bin\Release\websocket-sharp.dll
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\bin\Release\Newtonsoft.Json.xml
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\obj\Release\UPbitMonitoring.csprojAssemblyReference.cache
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\obj\Release\비트코인정보.MainForm.resources
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\obj\Release\비트코인정보.Properties.Resources.resources
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\obj\Release\비트코인정보.SettingForm.resources
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\obj\Release\UPbitMonitoring.csproj.GenerateResource.cache
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\obj\Release\UPbitMonitoring.csproj.CoreCompileInputs.cache
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\obj\Release\UPbitMonitoring.csproj.CopyComplete
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\obj\Release\비트코인정보.exe
+D:\Git\TeamProject\TeamProject\UPbitMonitoring_이재창\UPbitMonitoring\obj\Release\비트코인정보.pdb

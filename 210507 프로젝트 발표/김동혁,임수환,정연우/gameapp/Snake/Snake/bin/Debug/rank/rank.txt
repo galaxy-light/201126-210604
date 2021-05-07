@@ -1,0 +1,17 @@
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Snake.data.Load() 파일 C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\data.cs:줄 26
+'C:\Users\KB\Desktop\gameapp\Snake\Snake\bin\Debug\ranking3.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Snake.data.Load() 파일 C:\Users\KB\Desktop\gameapp\Snake\Snake\data.cs:줄 25

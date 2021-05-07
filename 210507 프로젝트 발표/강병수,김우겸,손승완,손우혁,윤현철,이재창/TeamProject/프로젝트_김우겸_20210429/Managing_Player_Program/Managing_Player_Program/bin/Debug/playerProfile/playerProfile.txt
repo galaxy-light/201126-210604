@@ -1,0 +1,1305 @@
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Players.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 32
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+줄 1, 위치 2의 'Players' 시작 태그가 'players'의 끝 태그와 일치하지 않습니다. 줄 42, 위치 3
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   위치: System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   위치: System.Xml.XmlTextReaderImpl.ParseEndElement()
+   위치: System.Xml.XmlTextReaderImpl.ParseElementContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   위치: System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Players.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 32
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Players.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 32
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Players.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 32
+입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 39
+[2021-04-27 16:12:50]입력 버튼 클릭
+[2021-04-27 16:12:53]들어갈 수 있는 선수가 없습니다.이동준
+[2021-04-27 16:12:53]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:12:53]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:16:55]입력 버튼 클릭
+[2021-04-27 16:16:57]들어갈 수 있는 선수가 없습니다.아무개
+[2021-04-27 16:16:57]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:16:57]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:17:13]입력 버튼 클릭
+[2021-04-27 16:17:15]이미 선수가 있어요.김우겸
+[2021-04-27 16:17:18]입력 버튼 클릭
+[2021-04-27 16:17:19]선수이름을 입력해라.
+[2021-04-27 16:17:22]입력 버튼 클릭
+[2021-04-27 16:17:23]선수번호를 입력해라.
+[2021-04-27 16:17:28]입력 버튼 클릭
+[2021-04-27 16:17:29]선수이름을 입력해라.
+[2021-04-27 16:17:30]삭제 버튼 클릭
+[2021-04-27 16:18:24]입력 버튼 클릭
+[2021-04-27 16:18:26]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:18:26]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:18:26]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:19:51]삭제 버튼 클릭
+[2021-04-27 16:19:52]선수이름 김우겸의 1 삭제
+[2021-04-27 16:19:56]삭제 버튼 클릭
+[2021-04-27 16:20:11]입력 버튼 클릭
+[2021-04-27 16:20:12]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:20:12]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:20:12]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:20:31]삭제 버튼 클릭
+[2021-04-27 16:20:41]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-27 16:20:41]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 152
+[2021-04-27 16:20:43]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-27 16:23:08]입력 버튼 클릭
+[2021-04-27 16:23:11]들어갈 수 있는 선수가 없습니다.sdfasd
+[2021-04-27 16:23:11]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:23:11]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:23:24]삭제 버튼 클릭
+[2021-04-27 16:23:31]입력 버튼 클릭
+[2021-04-27 16:23:32]선수이름을 입력해라.
+[2021-04-27 16:23:39]입력 버튼 클릭
+[2021-04-27 16:23:40]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:23:40]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:23:40]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:24:01]입력 버튼 클릭
+[2021-04-27 16:24:02]선수이름을 입력해라.
+[2021-04-27 16:24:04]입력 버튼 클릭
+[2021-04-27 16:24:05]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:24:05]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:24:05]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:26:46]삭제 버튼 클릭
+[2021-04-27 16:26:57]입력 버튼 클릭
+[2021-04-27 16:26:59]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:26:59]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:26:59]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:28:07]입력 버튼 클릭
+[2021-04-27 16:28:09]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:28:09]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:28:09]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:28:15]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-27 16:30:47]입력 버튼 클릭
+[2021-04-27 16:30:48]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:30:48]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:30:48]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:33:04]입력 버튼 클릭
+[2021-04-27 16:33:05]선수이름을 입력해라.
+[2021-04-27 16:33:13]입력 버튼 클릭
+[2021-04-27 16:33:14]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:33:14]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:33:14]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:34:57]삭제 버튼 클릭
+[2021-04-27 16:34:59]입력 버튼 클릭
+[2021-04-27 16:35:00]선수이름을 입력해라.
+[2021-04-27 16:35:01]입력 문자열의 형식이 잘못되었습니다.
+[2021-04-27 16:35:01]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 152
+[2021-04-27 16:45:11]입력 버튼 클릭
+[2021-04-27 16:45:12]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:45:12]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:45:12]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:47:18]입력 버튼 클릭
+[2021-04-27 16:47:19]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:47:19]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:47:19]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:47:49]입력 버튼 클릭
+[2021-04-27 16:47:50]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:47:50]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:47:50]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-27 16:49:06]입력 버튼 클릭
+[2021-04-27 16:49:07]들어갈 수 있는 선수가 없습니다.
+[2021-04-27 16:49:07]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-27 16:49:07]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-28 09:21:12]입력 버튼 클릭
+[2021-04-28 09:21:24]삭제 버튼 클릭
+[2021-04-28 09:21:25]선수이름 sdfasd의 1 삭제
+[2021-04-28 09:21:42]입력 버튼 클릭
+[2021-04-28 09:21:43]들어갈 수 있는 선수가 없습니다.
+[2021-04-28 09:21:43]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-28 09:21:43]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-28 09:21:50]입력 버튼 클릭
+[2021-04-28 09:21:51]선수이름을 입력해라.
+[2021-04-28 09:22:09]입력 버튼 클릭
+[2021-04-28 09:22:15]입력 버튼 클릭
+[2021-04-28 09:22:16]들어갈 수 있는 선수가 없습니다.
+[2021-04-28 09:22:16]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-28 09:22:16]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-28 09:22:39]선수번호 0을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:22:44]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:23:06]입력 버튼 클릭
+[2021-04-28 09:23:09]들어갈 수 있는 선수가 없습니다.
+[2021-04-28 09:23:09]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-28 09:23:09]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-28 09:23:12]삭제 버튼 클릭
+[2021-04-28 09:23:13]삭제 버튼 클릭
+[2021-04-28 09:23:13]삭제 버튼 클릭
+[2021-04-28 09:23:15]삭제 버튼 클릭
+[2021-04-28 09:23:16]선수이름 커쇼의 0 삭제
+[2021-04-28 09:30:47]입력 버튼 클릭
+[2021-04-28 09:30:49]들어갈 수 있는 선수가 없습니다.
+[2021-04-28 09:30:49]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-28 09:30:49]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-28 09:31:54]입력 버튼 클릭
+[2021-04-28 09:32:17]입력 버튼 클릭
+[2021-04-28 09:34:32]입력 버튼 클릭
+[2021-04-28 09:35:32]입력 버튼 클릭
+[2021-04-28 09:36:01]입력 버튼 클릭
+[2021-04-28 09:36:31]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:36:36]선수번호 2을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:36:41]선수번호 3을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:37:32]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:37:37]입력 버튼 클릭
+[2021-04-28 09:37:38]이미 선수가 있어요.커쇼
+[2021-04-28 09:37:48]선수번호 5을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:37:55]선수번호 5을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:39:50]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:41:53]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:42:00]삭제 버튼 클릭
+[2021-04-28 09:42:01]선수이름 커쇼의 1 삭제
+[2021-04-28 09:42:03]삭제 버튼 클릭
+[2021-04-28 09:42:03]선수이름 아로자레나의 2 삭제
+[2021-04-28 09:42:06]삭제 버튼 클릭
+[2021-04-28 09:42:07]선수이름 프리먼의 3 삭제
+[2021-04-28 09:42:08]삭제 버튼 클릭
+[2021-04-28 09:42:10]선수이름 스프링어의 4 삭제
+[2021-04-28 09:42:10]삭제 버튼 클릭
+[2021-04-28 09:42:13]삭제 버튼 클릭
+[2021-04-28 09:42:15]선수이름 페르난도 타티스 주니어의 5 삭제
+[2021-04-28 09:46:37]입력 버튼 클릭
+[2021-04-28 09:46:38]들어갈 수 있는 선수가 없습니다.
+[2021-04-28 09:46:38]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-28 09:46:38]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-28 09:46:53]입력 버튼 클릭
+[2021-04-28 09:47:21]입력 버튼 클릭
+[2021-04-28 09:47:59]입력 버튼 클릭
+[2021-04-28 09:48:02]선수번호 3을(를) 쓰고 있는 선수는 Form1입니다.
+[2021-04-28 09:48:08]선수번호 2을(를) 쓰고 있는 선수는 Form1입니다.
+[2021-04-28 09:48:35]선수번호 1을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 09:49:08]선수번호 1을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 09:49:23]선수번호 커쇼을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 09:49:32]선수번호 1을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 09:52:51]선수번호 1을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 09:53:37]선수번호 1을(를) 쓰고 있는 선수는 1입니다.
+[2021-04-28 09:53:49]선수번호 1을(를) 쓰고 있는 선수는 Form1입니다.
+[2021-04-28 09:54:04]선수번호 1을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 09:54:53]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:55:05]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:55:23]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 09:55:29]선수번호 2을(를) 쓰고 있는 선수는 스넬입니다.
+[2021-04-28 09:55:36]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 09:55:42]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 09:56:38]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 10:02:10]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 10:11:04]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 10:11:53]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 10:12:01]선수번호 2을(를) 쓰고 있는 선수는 스넬입니다.
+[2021-04-28 10:12:06]선수번호 3을(를) 쓰고 있는 선수는 프리먼입니다.
+[2021-04-28 10:13:05]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Players.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 32
+[2021-04-28 10:14:13]입력 버튼 클릭
+[2021-04-28 10:14:32]입력 버튼 클릭
+[2021-04-28 10:21:14]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 10:21:43]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 10:24:05]선수번호 1을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 10:24:29]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:24:44]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:24:48]선수번호 커쇼을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:24:53]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:25:10]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:32:20]선수번호 커쇼을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 10:32:35]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 10:33:05]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:33:21]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:33:24]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:33:28]선수번호 2을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:34:35]선수번호 2을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:35:00]선수번호 2을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:35:04]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:35:52]선수번호 1을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 10:36:36]선수번호 1을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 10:39:18]선수번호 1을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 10:40:23]선수번호 1을(를) 쓰고 있는 선수는 Form1입니다.
+[2021-04-28 10:40:27]선수번호 2을(를) 쓰고 있는 선수는 Form1입니다.
+[2021-04-28 10:40:49]선수번호 1을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 10:40:52]선수번호 2을(를) 쓰고 있는 선수는 글라스나우입니다.
+[2021-04-28 10:42:19]삭제 버튼 클릭
+[2021-04-28 10:42:20]선수이름 글라스나우의 2 삭제
+[2021-04-28 10:42:24]삭제 버튼 클릭
+[2021-04-28 10:42:24]선수이름 커쇼의 1 삭제
+[2021-04-28 10:44:08]입력 버튼 클릭
+[2021-04-28 10:44:51]입력 버튼 클릭
+[2021-04-28 10:44:52]이미 선수가 있어요.클레이튼 커쇼
+[2021-04-28 10:44:57]삭제 버튼 클릭
+[2021-04-28 10:45:00]선수이름 커쇼 22 삭제
+[2021-04-28 10:45:26]개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2021-04-28 10:45:26]   위치: Managing_Car_Program.Form1.dataGridView1_CellClick(Object sender, DataGridViewCellEventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 240
+[2021-04-28 10:45:31]개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2021-04-28 10:45:31]   위치: Managing_Car_Program.Form1.dataGridView1_CellClick(Object sender, DataGridViewCellEventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 240
+[2021-04-28 10:46:09]입력 버튼 클릭
+[2021-04-28 10:46:10]들어갈 수 있는 선수가 없습니다.
+[2021-04-28 10:46:10]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-28 10:46:10]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-28 10:46:55]입력 버튼 클릭
+[2021-04-28 10:49:39]입력 버튼 클릭
+[2021-04-28 10:49:40]들어갈 수 있는 선수가 없습니다.
+[2021-04-28 10:49:40]개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2021-04-28 10:49:40]   위치: Managing_Car_Program.Form1.<button1_Click>b__2_0(Player x) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 59
+   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-28 10:49:45]입력 버튼 클릭
+[2021-04-28 10:49:46]선수이름을 입력해라.
+[2021-04-28 10:50:03]입력 버튼 클릭
+[2021-04-28 10:50:04]들어갈 수 있는 선수가 없습니다.
+[2021-04-28 10:50:04]개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2021-04-28 10:50:04]   위치: Managing_Car_Program.Form1.<button1_Click>b__2_0(Player x) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 59
+   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 58
+[2021-04-28 10:50:20]개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2021-04-28 10:50:20]   위치: Managing_Car_Program.Form1.dataGridView1_CellClick(Object sender, DataGridViewCellEventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 240
+[2021-04-28 10:52:37]개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2021-04-28 10:52:37]   위치: Managing_Car_Program.Form1.dataGridView1_CellClick(Object sender, DataGridViewCellEventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 240
+[2021-04-28 10:55:46]입력 버튼 클릭
+[2021-04-28 10:56:19]입력 버튼 클릭
+[2021-04-28 10:57:09]입력 버튼 클릭
+[2021-04-28 10:58:03]입력 버튼 클릭
+[2021-04-28 10:58:29]삭제 버튼 클릭
+[2021-04-28 10:58:30]선수이름 페르난도 타티스 주니어 삭제
+[2021-04-28 10:58:32]삭제 버튼 클릭
+[2021-04-28 10:58:33]선수이름 코디 벨린저 삭제
+[2021-04-28 10:58:34]삭제 버튼 클릭
+[2021-04-28 10:58:35]선수이름 블레이크 스넬 삭제
+[2021-04-28 10:58:36]삭제 버튼 클릭
+[2021-04-28 10:58:37]선수이름 저스틴 터너 삭제
+[2021-04-28 10:58:39]삭제 버튼 클릭
+[2021-04-28 10:58:40]선수이름 클레이튼 커쇼 삭제
+[2021-04-28 11:12:00]입력 버튼 클릭
+[2021-04-28 11:12:53]입력 버튼 클릭
+[2021-04-28 11:13:33]입력 버튼 클릭
+[2021-04-28 11:14:32]입력 버튼 클릭
+[2021-04-28 11:15:24]입력 버튼 클릭
+[2021-04-28 11:16:51]삭제 버튼 클릭
+[2021-04-28 11:16:53]선수이름 디넬슨 라멧 삭제
+[2021-04-28 11:16:55]삭제 버튼 클릭
+[2021-04-28 11:16:56]선수이름 호세 우르퀴디 삭제
+[2021-04-28 11:16:58]삭제 버튼 클릭
+[2021-04-28 11:16:59]선수이름 맥스 프리드 삭제
+[2021-04-28 11:17:01]삭제 버튼 클릭
+[2021-04-28 11:17:02]선수이름 타일러 글라스나우 삭제
+[2021-04-28 11:17:03]삭제 버튼 클릭
+[2021-04-28 11:17:05]삭제 버튼 클릭
+[2021-04-28 11:17:06]선수이름 워커 뷸러 삭제
+[2021-04-28 14:07:05]입력 버튼 클릭
+[2021-04-28 14:07:10]입력 버튼 클릭
+[2021-04-28 14:07:11]이미 선수가 있어요.커쇼
+[2021-04-28 14:34:30]등번호 22을(를) 쓰고 있는 선수는 커쇼입니다.
+[2021-04-28 14:50:45]삭제 버튼 클릭
+[2021-04-28 14:50:46]선수이름 커쇼 삭제
+[2021-04-28 14:50:54]입력 버튼 클릭
+[2021-04-28 14:50:55]선수이름을 입력해라.
+[2021-04-28 14:51:05]입력 버튼 클릭
+[2021-04-28 14:51:10]들어갈 수 있는 선수가 없습니다.
+[2021-04-28 14:51:10]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-28 14:51:10]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Player_Profile.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Player_Profile.cs:줄 50
+[2021-04-28 14:51:29]입력 버튼 클릭
+[2021-04-28 14:53:52]등번호 75을(를) 쓰고 있는 선수는 gfhfgh입니다.
+[2021-04-28 15:02:45]등번호 을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 15:02:50]등번호 55을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 15:02:56]등번호 5을(를) 쓰고 있는 선수는 입니다.
+[2021-04-28 15:03:07]등번호 을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 15:22:20]입력 버튼 클릭
+[2021-04-28 15:22:21]이미 선수가 있어요.gfhfgh
+[2021-04-28 15:22:24]삭제 버튼 클릭
+[2021-04-28 15:22:25]선수이름 gfhfgh 삭제
+[2021-04-28 15:22:27]등번호 을(를) 쓰고 있는 선수가 없습니다.
+[2021-04-28 15:22:46]입력 버튼 클릭
+[2021-04-28 15:22:47]들어갈 수 있는 선수가 없습니다.
+[2021-04-28 15:22:47]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-28 15:22:47]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Player_Profile.button1_Click(Object sender, EventArgs e) 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\Player_Profile.cs:줄 50
+[2021-04-28 15:22:48]삭제 버튼 클릭
+[2021-04-28 15:22:49]삭제 버튼 클릭
+[2021-04-28 15:22:50]등번호 을(를) 쓰고 있는 선수가 없습니다.
+'D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Players.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\WK508---20201214_Webhosting\20210416\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 24
+[2021-04-29 10:15:10]입력 버튼 클릭
+[2021-04-29 10:15:11]선수이름을 입력해라.
+[2021-04-29 10:15:23]입력 버튼 클릭
+[2021-04-29 10:15:44]입력 버튼 클릭
+[2021-04-29 10:15:59]입력 버튼 클릭
+[2021-04-29 10:16:15]입력 버튼 클릭
+[2021-04-29 10:16:30]입력 버튼 클릭
+[2021-04-29 10:16:33]등번호 5을(를) 쓰고 있는 선수는 최아무개입니다.
+[2021-04-29 10:16:36]등번호 4을(를) 쓰고 있는 선수는 박아무개입니다.
+[2021-04-29 10:16:38]등번호 3을(를) 쓰고 있는 선수는 이아무개입니다.
+[2021-04-29 10:16:41]등번호 2을(를) 쓰고 있는 선수는 김아무개입니다.
+[2021-04-29 10:16:44]등번호 1을(를) 쓰고 있는 선수는 아무개입니다.
+[2021-04-29 10:38:23]삭제 버튼 클릭
+[2021-04-29 10:38:25]선수이름 아무개 삭제
+[2021-04-29 10:38:27]삭제 버튼 클릭
+[2021-04-29 10:38:27]선수이름 김아무개 삭제
+[2021-04-29 10:38:29]삭제 버튼 클릭
+[2021-04-29 10:38:30]선수이름 이아무개 삭제
+[2021-04-29 10:38:31]삭제 버튼 클릭
+[2021-04-29 10:38:32]선수이름 박아무개 삭제
+[2021-04-29 10:38:34]삭제 버튼 클릭
+[2021-04-29 10:38:35]선수이름 최아무개 삭제
+[2021-04-29 10:47:40]입력 버튼 클릭
+[2021-04-29 10:48:36]삭제 버튼 클릭
+[2021-04-29 10:48:37]선수이름 스티브 피어스 삭제
+[2021-04-29 10:49:38]입력 버튼 클릭
+[2021-04-29 10:51:05]입력 버튼 클릭
+[2021-04-29 10:55:21]입력 버튼 클릭
+[2021-04-29 10:56:53]등번호 5을(를) 쓰고 있는 선수는 코리 시거입니다.
+[2021-04-29 10:57:16]등번호 37을(를) 쓰고 있는 선수는 스티븐 스트라스버그입니다.
+[2021-04-29 10:57:46]등번호 25을(를) 쓰고 있는 선수는 스티브 피어스입니다.
+[2021-04-29 10:58:25]등번호 37을(를) 쓰고 있는 선수는 스티븐 스트라스버그입니다.
+[2021-04-29 10:59:00]등번호 25을(를) 쓰고 있는 선수는 스티브 피어스입니다.
+[2021-04-29 10:59:32]삭제 버튼 클릭
+[2021-04-29 10:59:58]선수이름 코리 시거 삭제
+[2021-04-29 11:00:05]삭제 버튼 클릭
+[2021-04-29 11:00:11]선수이름 스티븐 스트라스버그 삭제
+[2021-04-29 11:00:13]삭제 버튼 클릭
+[2021-04-29 11:00:53]입력 버튼 클릭
+[2021-04-29 11:00:58]삭제 버튼 클릭
+[2021-04-29 11:01:22]선수이름 스티븐 스트라스버그 삭제
+[2021-04-29 11:01:26]삭제 버튼 클릭
+[2021-04-29 11:01:57]선수이름 스티브 피어스 삭제
+[2021-05-04 09:55:59]입력 버튼 클릭
+[2021-05-04 09:56:01]들어갈 수 있는 선수가 없습니다.
+[2021-05-04 09:56:01]시퀀스에 일치하는 요소가 없습니다.
+[2021-05-04 09:56:01]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Player_Profile.button1_Click(Object sender, EventArgs e) 파일 D:\Git\TeamProject\TeamProject\프로젝트_김우겸_20210429\Managing_Player_Program\Managing_Player_Program\Player_Profile.cs:줄 50
+[2021-05-04 09:56:18]입력 버튼 클릭
+[2021-05-04 09:56:19]들어갈 수 있는 선수가 없습니다.
+[2021-05-04 09:56:19]시퀀스에 일치하는 요소가 없습니다.
+[2021-05-04 09:56:19]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Player_Profile.button1_Click(Object sender, EventArgs e) 파일 D:\Git\TeamProject\TeamProject\프로젝트_김우겸_20210429\Managing_Player_Program\Managing_Player_Program\Player_Profile.cs:줄 50
+[2021-05-04 09:56:22]입력 버튼 클릭
+[2021-05-04 09:56:23]들어갈 수 있는 선수가 없습니다.
+[2021-05-04 09:56:23]시퀀스에 일치하는 요소가 없습니다.
+[2021-05-04 09:56:23]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Player_Profile.button1_Click(Object sender, EventArgs e) 파일 D:\Git\TeamProject\TeamProject\프로젝트_김우겸_20210429\Managing_Player_Program\Managing_Player_Program\Player_Profile.cs:줄 50
