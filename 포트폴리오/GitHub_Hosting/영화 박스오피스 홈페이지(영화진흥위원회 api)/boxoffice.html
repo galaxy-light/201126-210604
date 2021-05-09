@@ -65,28 +65,73 @@
 
 <script>
     window.addEventListener('load', () => {
-        //const key= "fbbdc90573b9fd2689329924d4c35312";        
-        //어제 날짜 구하기
-        let y = ( d => new Date(d.setDate(d.getDate() -1)))(new Date);
-        // y = y.getFullYear()+""+(y.getMonth()+1)+""+ y.getDate();
-        var month = y.getMonth();
-        if (Number(month)<9) { // 현재가 1월부터 9월인 경우 예외 처리
-            // month의 특징 : 현재가 1월이면 0을 주고 현재가 12월이면 11을 줌. 즉, 현재 월보다 -1한 숫자를 줌.
-            month = '0'+(Number(month)+1);
-        }
-        var day = y.getDate();
-        if(Number(day)<9){ // 현재가 1월부터 9월인 경우 예외 처리
-            // day의 특징 : 현재가 1월이면 0을 주고 현재가 12월이면 11을 줌. 즉, 현재 월보다 -1한 숫자를 줌.
-            day = '0'+(Number(day));
-        }
-        y = y.getFullYear()+""+month+""+day;
-        console.log(y);
-        const date = y; //어제 날짜를 넣어 준다.  
+        //const key= "fbbdc90573b9fd2689329924d4c35312";   
+
+        // 어제 날짜 구하기 1 - 오류
+        // let y = ( d => new Date(d.setDate(d.getDate() -1)))(new Date);
+        // // y = y.getFullYear()+""+(y.getMonth()+1)+""+ y.getDate();
+        // var month = y.getMonth();
+        // if (Number(month)<9) { // 현재가 1월부터 9월인 경우 예외 처리
+        //     // month의 특징 : 현재가 1월이면 0을 주고 현재가 12월이면 11을 줌. 즉, 현재 월보다 -1한 숫자를 줌.
+        //     month = '0'+(Number(month)+1);
+        // }
+        // var day = y.getDate();
+        // // if(Number(day)<9){ // 현재가 1월부터 9월인 경우 예외 처리
+        // //     // day의 특징 : 현재가 1월이면 0을 주고 현재가 12월이면 11을 줌. 즉, 현재 월보다 -1한 숫자를 줌.
+        // //     day = '0'+(Number(day));
+        // // }
+        // y.setDate(date.getDate() -1);
+        // y = y.getFullYear()+""+month+""+day;
+        // console.log(y);
+        // const date = y; //어제 날짜를 넣어 준다.  
+
+        // 어제 날짜 구하기 2 - 오류
+        // var now = new Date(); // 현재 날짜 및 시간
+        // console.log("현재 : ", now);
+        // var yesterday = new Date(now.setDate(now.getDate() - 1)); // 어제
+        // console.log("어제 : ", yesterday);
+        // console.log(y);
+        // const date = y; //어제 날짜를 넣어 준다.  
+
+        // 오늘 날짜 구하기 
+        var nowdate = new Date();
+ 
+        var year = nowdate.getFullYear();
+        var month = nowdate.getMonth() + 1; // 0부터라서 1을 더해줌
+        var day = nowdate.getDate();        
+
+        console.log(year) // 연도    
+        console.log(month) // 월
+        console.log(day) // 일      
+        
+        // if (("" + month).length == 1)
+        // { month = "0" + month; }
+        // if (("" + day).length   == 1)
+        // { day   = "0" + day;   }
+
+        if(month < 10)    
+        { month = "0" + month; }
+        if(day < 10)    
+        { day = "0" + day; }
+
+        var today = year + month + day;       
+        //document.write(today); 
+        
+        // 어제 날짜 구하기
+        // if(month < 10)    
+        // { month = "0" + month; }
+        var yesterdayresult = day-1;
+        var yesterday1 = year + month + (yesterdayresult);
+        if(yesterdayresult < 10)    
+        { yesterdayresult = "0" + yesterdayresult; }
+        var yesterday2 = year + month + yesterdayresult;
+        //document.write(yesterday2);             
+
         // 테스트      
         //const apiUrl = `http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=${key}&targetDt=${date}`;
         //const apiUrl = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=fbbdc90573b9fd2689329924d4c35312&targetDt=20120101`; 
         //const apiUrl = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=fbbdc90573b9fd2689329924d4c35312&targetDt=20210508`; // 하루 전 날짜는 화면에 출력됨   
-        const apiUrl = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=fbbdc90573b9fd2689329924d4c35312&targetDt=${date}`;          
+        const apiUrl = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=fbbdc90573b9fd2689329924d4c35312&targetDt=${yesterday2}`;          
         console.log(apiUrl);
         const boxOfficeType = document.querySelector('.boxOfficeType');
         const showRange = document.querySelector('.showRange');
