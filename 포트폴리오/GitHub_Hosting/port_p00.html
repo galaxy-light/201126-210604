@@ -1,165 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello, world!</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello, world!</title>
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <style>
-        .intro
-        {
-            font-size: 30px;            
-        }                      
-    </style>
+  <style>
+    .intro {
+      visibility: hidden;
+    }
+
+    .outtro {
+      visibility: hidden;
+    }
+
+    #str {
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 0px auto;
+    }
+  </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-dark bg-primary">
-        <!-- Navbar content -->
-    </nav>
+  <nav class="navbar navbar-dark bg-primary">
+    <!-- Navbar content -->
+  </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="port_p00.html">Profile</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Everything
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="port_p01.html">C#</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="port_p02.html">JAVA</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="port_p03.html">HTML</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="port_p04.html">Team Project</a>
-              </div>
-            </li>
-          </ul>
-          <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
-        </div>
-      </nav>
-    
-    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
-        <div class="col-md-6 px-0">
-          <h1 class="display-4 fst-italic" margin-top="10px">안녕하세요.</h1>
-          <p class="intro" margin-bottom="50px">개발자를 꿈꾸는 양화영입니다.</p>          
-        </div>
-    </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <main class="container">
-        <div class="row">
-            <div class="col-md-8">
-              <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                소개 / Introduction
-              </h3>
-        
-              <article class="blog-post">
-                <h2 class="blog-post-title"></h2>
-                <p class="blog-post-meta">양화영 / Yang Hwayeong</p>       
-                <p>1994.03.10 / 영천시</p>
-                <blockquote>
-                  <p>Tel. 010-7529-3261</p>
-                  <p>Email. vili1265@naver.com</p>   
-                  <br>                
-                </blockquote>                
-              </article>
-              
-              <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                학력 / Graduation
-              </h3>
-        
-              <article class="blog-post">
-                <h2 class="blog-post-title"></h2>
-                <p class="blog-post-meta">2013.02. 영천여자고등학교 졸업</p>
-                <p>2013.03. 영진전문대학교 사회복지과 입학</p>
-                <blockquote>
-                  <p>2015.02. 영진전문대학교 사회복지과 졸업</p>                   
-                  <br>                
-                </blockquote>                
-              </article>
-        
-              <article class="blog-post">
-                <h2 class="blog-post-title">ميزة جديدة</h2>
-                <p class="blog-post-meta">14 ديسمبر 2020 بواسطة <a href="#">Jacob</a></p>
-        
-                <p>كما أن الشركة الفنلندية (Solar Foods) طوَّرت تقنية لإنتاج البروتين من الهواء، حيث تبدأ العملية بتقسيم الماء إلى مكوناته الهيدروجين والأكسجين عن طريق الكهرباء. فالهيدروجين يوفِّر الطاقة للبكتريا لتحويل ثاني أكسيد الكربون والنيتروجين الموجودين في الهواء إلى مادة عضوية غنية بالبروتين بشكل أكفأ من نمو النباتات باستخدام البناء الضوئي. وهذا البروتين يشبه دقيق القمح وقد أطلق عليه اسم "سولين" (Solein).</p>
-                <p>وتقوم الشركة حالياً بجمع البيانات حول المنتج الغذائي لتقديمه إلى الاتحاد الأوروبي بهدف الحصول على ترخيص غذائي، كما أنها تخطط لبدء الإنتاج التجاري في العام المقبل 2021م. وقد أوضحت الشركة أنها مهتمة بإنتاج أطعمة صديقة للبيئة من خلال استخدام المواد الأساسية: الكهرباء وثاني أكسيد الكربون، وهذه الأطعمة سوف تجنبنا الأثر السلبي البيئي للزراعة التقليدية الذي يشمل كل شيء من استخدام الأرض والمياه إلى الانبعاثات الناتجة من تسميد المحاصيل أو تربية الحيوانات.</p>
-                <p>وعلى هذا، فإن البروتينات المشتقة من الميكروبات سوف:</p>
-                <ul>
-                  <li>توفر حلاً ممكناً في ظل زيادة الطلب العالمي المستقبلي على الغذاء</li>
-                  <li>تتوسع مصانع الغذاء في المستقبل لتكون أكفأ وأكثر استدامة</li>
-                  <li>تصبح قادرة على توفير الغذاء لروَّاد الفضاء في سفرهم إلى المريخ وجميع سكان كوكب الأرض في عام 2050م</li>
-                </ul>
-                <p>فتخيّل أن الميكروبات ستكون مصانع المستقبل، وأن غذاء المستقبل سيكون مصنوعاً من الهواء! وأن عام 2050م سيكون مختلفاً تماماً عن عالمنا اليوم. فهو عالم من دون زراعة ولا تربية حيوانات من أجل الغذاء! قد يبدو ذلك خيالياً لكنه ليس مستحيلاً!</p>
-              </article>
-        
-              <nav class="blog-pagination" aria-label="Pagination">
-                <a class="btn btn-outline-primary" href="#">تدوينات أقدم</a>
-                <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">تدوينات أحدث</a>
-              </nav>
-        
-            </div>
-        
-            <div class="col-md-4">
-              <div class="position-sticky" style="top: 2rem;">
-                <div class="p-4 mb-3 bg-light rounded">
-                  <h4 class="fst-italic">حول</h4>
-                  <p class="mb-0">أقبلت، فأقبلت معك الحياة بجميع صنوفها وألوانها: فالنبات ينبت، والأشجار تورق وتزهر، والهرة تموء، والقمري يسجع، والغنم يثغو، والبقر يخور، وكل أليف يدعو أليفه. كل شيء يشعر بالحياة وينسي هموم الحياة، ولا يذكر إلا سعادة الحياة، فإن كان الزمان جسدا فأنت روحه، وإن كان عمرا فأنت شبابه.</p>
-                </div>
-        
-                <div class="p-4">
-                  <h4 class="fst-italic">الأرشيف</h4>
-                  <ol class="list-unstyled mb-0">
-                    <li><a href="#">مارس 2021</a></li>
-                    <li><a href="#">شباط 2021</a></li>
-                    <li><a href="#">يناير 2021</a></li>
-                    <li><a href="#">ديسمبر 2020</a></li>
-                    <li><a href="#">نوفمبر 2020</a></li>
-                    <li><a href="#">أكتوبر 2020</a></li>
-                    <li><a href="#">سبتمبر 2020</a></li>
-                    <li><a href="#">اغسطس 2020</a></li>
-                    <li><a href="#">يوليو 2020</a></li>
-                    <li><a href="#">يونيو 2020</a></li>
-                    <li><a href="#">مايو 2020</a></li>
-                    <li><a href="#">ابريل 2020</a></li>
-                  </ol>
-                </div>
-        
-                <div class="p-4">
-                  <h4 class="fst-italic">في مكان آخر</h4>
-                  <ol class="list-unstyled">
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Facebook</a></li>
-                  </ol>
-                </div>
-              </div>
-            </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="port_p00.html">Profile</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Everything
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="port_p01.html">C#</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="port_p02.html">JAVA</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="port_p03.html">HTML</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="port_p04.html">Team Project</a>
           </div>
-        
-        </main>
-          
+        </li>
+      </ul>
+      <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+    </div>
+  </nav>
+
+  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h1 class="display-4 fst-italic" margin-top="20px">안녕하세요.</h1>
+      <p class="outtro" margin-bottom="50px">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure cupiditate
+        maxime laborum vitae ipsa.</p>
+    </div>
+  </div>
+
+  <br>
+  <main class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h3 class="pb-4 mb-4 fst-italic border-bottom">
+          소개 / Introduction
+        </h3>
+
+        <article class="blog-post">
+          <h2 class="blog-post-title"></h2>
+          <p class="blog-post-meta">양화영 / Yang Hwayeong</p>
+          <p>1994.03.10 / 영천시</p>
+          <p>Tel. 010-7529-3261</p>
+          <p>Email. vili1265@naver.com</p>
+          <br>
+        </article>
+
+        <h3 class="pb-4 mb-4 fst-italic border-bottom">
+          학력 / Graduation
+        </h3>
+
+        <article class="blog-post">
+          <h2 class="blog-post-title"></h2>
+          <p class="blog-post-meta">2013.02. 영천여자고등학교 졸업</p>
+          <p>2013.03. 영진전문대학교 사회복지과 입학</p>
+          <p>2015.02. 영진전문대학교 사회복지과 졸업</p>
+          <br>
+        </article>
+
+        <h3 class="pb-4 mb-4 fst-italic border-bottom">
+          보유기술 / Skill
+        </h3>
+
+        <article class="blog-post">
+          <h2 class="blog-post-title"></h2>
+          <p class="blog-post-meta">C#</p>
+          <p>JAVA</p>
+          <p>JavaScript</p>
+          <p>HTML</p>
+          <p>DBMS(MSSQL, MySQL, ORACLE)</p>
+          <p>Arduino</p>
+          <br>
+        </article>
+      </div>
+
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3 bg-light rounded">
+            <h4 id="str" class="fst-italic">성장하는 개발자<br> 양화영입니다.</h4>
+            <p class="mb-0"><img src="프로필/daum_gallery_photo_20141106222549.jpg" alt=""></p>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic">About</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/galaxy-light/Portfolio">GitHub</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+
+  <p></p>
 </body>
+
 </html>
