@@ -144,8 +144,7 @@
             //const apiUrl = `http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=${key}&targetDt=${date}`;
             //const apiUrl = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=fbbdc90573b9fd2689329924d4c35312&targetDt=20120101`; 
             //const apiUrl = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=fbbdc90573b9fd2689329924d4c35312&targetDt=20210508`; // 하루 전 날짜는 화면에 출력됨   
-            const apiUrl =
-                `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=fbbdc90573b9fd2689329924d4c35312&targetDt=${yesterday2}`;
+            const apiUrl = `https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=fbbdc90573b9fd2689329924d4c35312&targetDt=${yesterday2}`;
             console.log(apiUrl);
             const boxOfficeType = document.querySelector('.boxOfficeType');
             const showRange = document.querySelector('.showRange');
