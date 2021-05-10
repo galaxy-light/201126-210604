@@ -1,0 +1,78 @@
+/*회원테이블생성*/
+USE [GYM_DB]
+GO
+
+/****** Object:  Table [dbo].[M_TB]    Script Date: 2021-04-30 오후 2:19:57 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[M_TB](
+	[m_num] [int] IDENTITY(1001,1) NOT NULL,
+	[m_name] [varchar](50) NOT NULL,
+	[m_phone] [varchar](50) NOT NULL,
+	[m_addr] [varchar](100) NOT NULL,
+	[m_age] [varchar](50) NULL,
+	[m_gender] [varchar](20) NULL,
+	[m_height] [varchar](50) NULL,
+	[m_weight] [varchar](50) NULL,
+	[m_bmi] [varchar](50) NULL,
+	[m_membership] [varchar](50) NULL,
+	[m_lent] [varchar](50) NULL,
+	[m_pt] [varchar](50) NULL,
+	[m_trainer] [varchar](50) NULL,
+	[m_startday] [varchar](50) NOT NULL,
+	[m_endday] [varchar](50) NOT NULL
+) ON [PRIMARY]
+GO
+
+/*트레이너 테이블 생성*/
+USE [GYM_DB]
+GO
+
+/****** Object:  Table [dbo].[T_TB]    Script Date: 2021-04-30 오후 2:27:08 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[T_TB](
+	[t_num] [int] IDENTITY(9001,1) NOT NULL,
+	[t_name] [varchar](50) NOT NULL,
+	[t_age] [varchar](50) NOT NULL,
+	[t_gender] [varchar](50) NOT NULL,
+	[t_career] [varchar](100) NULL
+) ON [PRIMARY]
+GO
+
+/*등록정보테이블생성(수정예정, 수정후 재배포함)*/
+USE [GYM_DB]
+GO
+
+/****** Object:  Table [dbo].[Info_TB]    Script Date: 2021-04-30 오후 2:33:38 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Info_TB](
+	[m_num] [int] NOT NULL,
+	[lent] [varchar](50) NULL,
+	[pt] [varchar](50) NULL,
+	[t_num] [int] NULL,
+	[health] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+
+
+
+
+
+
+
+
+

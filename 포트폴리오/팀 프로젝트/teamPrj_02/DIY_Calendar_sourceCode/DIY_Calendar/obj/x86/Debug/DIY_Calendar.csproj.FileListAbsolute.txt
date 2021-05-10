@@ -1,0 +1,32 @@
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\bin\Debug\DIY_Calendar.exe
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\bin\Debug\DIY_Calendar.pdb
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\obj\x86\Debug\exCalendar.CustomCalendar.resources
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\obj\x86\Debug\DIY_Calendar.MainForm.resources
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\obj\x86\Debug\DIY_Calendar.Properties.Resources.resources
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\obj\x86\Debug\GenerateResource-ResGen.write.4.tlog
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\obj\x86\Debug\DIY_Calendar.exe
+c:\users\company\documents\visual studio 2010\Projects\DIY_Calendar\DIY_Calendar\obj\x86\Debug\DIY_Calendar.pdb
+C:\Users\KB\Desktop\DIY_Calendar_sourceCode\DIY_Calendar\bin\Debug\DIY_Calendar.exe
+C:\Users\KB\Desktop\DIY_Calendar_sourceCode\DIY_Calendar\bin\Debug\DIY_Calendar.pdb
+C:\Users\KB\Desktop\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\exCalendar.CustomCalendar.resources
+C:\Users\KB\Desktop\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.MainForm.resources
+C:\Users\KB\Desktop\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.Properties.Resources.resources
+C:\Users\KB\Desktop\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.exe
+C:\Users\KB\Desktop\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.pdb
+D:\Git\fitness\DIY_Calendar_sourceCode\DIY_Calendar\bin\Debug\DIY_Calendar.exe
+D:\Git\fitness\DIY_Calendar_sourceCode\DIY_Calendar\bin\Debug\DIY_Calendar.pdb
+D:\Git\fitness\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.csprojAssemblyReference.cache
+D:\Git\fitness\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\exCalendar.CustomCalendar.resources
+D:\Git\fitness\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.MainForm.resources
+D:\Git\fitness\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.Properties.Resources.resources
+D:\Git\fitness\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.csproj.GenerateResource.cache
+D:\Git\fitness\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.csproj.CoreCompileInputs.cache
+D:\Git\fitness\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.exe
+D:\Git\fitness\DIY_Calendar_sourceCode\DIY_Calendar\obj\x86\Debug\DIY_Calendar.pdb

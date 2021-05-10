@@ -1,0 +1,69 @@
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\bin\Debug\KIMHealth.exe.config
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\bin\Debug\KIMHealth.exe
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\bin\Debug\KIMHealth.pdb
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\obj\Debug\KIMHealth.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csproj.CopyComplete
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\obj\Debug\KIMHealth.exe
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\obj\Debug\KIMHealth.pdb
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\obj\Debug\KIMHealth.add_change.resources
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\obj\Debug\KIMHealth.main.resources
+C:\Users\KB\Desktop\가현\night\포폴\KIMHealth\KIMHealth\obj\Debug\KIMHealth.manage_member.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\bin\Debug\KIMHealth.exe.config
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\bin\Debug\KIMHealth.exe
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\bin\Debug\KIMHealth.pdb
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.add_change.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\DIY_Calendar.Calendar.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\exCalendar.CustomCalendar.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.main.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.manage_member.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.Properties.Resources.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.Ui.TrainerForm.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csproj.CopyComplete
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.exe
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.pdb
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\bin\Debug\KIMHealth.exe.config
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\bin\Debug\KIMHealth.exe
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\bin\Debug\KIMHealth.pdb
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.add_change.resources
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\DIY_Calendar.Calendar.resources
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\exCalendar.CustomCalendar.resources
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.main.resources
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.manage_member.resources
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.Properties.Resources.resources
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.Ui.TrainerForm.resources
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.csproj.CopyComplete
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.exe
+C:\Users\KB\Desktop\fitness\fitness\KIMHealth\KIMHealth\obj\Debug\KIMHealth.pdb
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\bin\Debug\KIMHealth.exe.config
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\bin\Debug\KIMHealth.exe
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\bin\Debug\KIMHealth.pdb
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.add_change.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\DIY_Calendar.Calendar.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\exCalendar.CustomCalendar.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.main.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.manage_member.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.Properties.Resources.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.Ui.TrainerForm.resources
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.csproj.CopyComplete
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.exe
+C:\Users\KB\Desktop\teamproj2\fitness\KIMHealth - 복사본\KIMHealth\obj\Debug\KIMHealth.pdb
