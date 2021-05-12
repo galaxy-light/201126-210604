@@ -18,23 +18,104 @@ namespace Weather
     {
         string url = "http://www.kma.go.kr/weather/forecast/mid-term-xml.jsp";
         string city = "";
-        static int avg1;
-        static int avg2;
-        static int avg3;
-        static int avg4;
-        static int avg5;
-        static int avg6;
+        static double avg;
+
+        Label[,] labelArray;
+
 
         public MainForm()
         {
             InitializeComponent();
 
             comboBox_city.SelectedIndex = 0;            
-            label_nowday.Text = "오늘은 "+ DateTime.Now.ToString("yyyy-MM-dd");
+            label_nowday.Text = "오늘은 "+ DateTime.Now.ToString("yyyy-MM-dd") + " 입니다.";
+
+            Initializelabel();
+            Initializelabelcolor();
+
+            // 라벨을 클릭해도 버튼 클릭 이벤트와 동일하게 동작하기 위해서 일단 2차원 배열을 만듦
+            labelArray = new Label[,] {
+                { label_day1, label_low1, label_high1, label_weather_text1, label_low_text1, label_high_text1, label1, label2 },
+                { label_day2, label_low2, label_high2, label_weather_text2, label_low_text2, label_high_text2, label3, label4},
+                { label_day3, label_low3, label_high3, label_weather_text3, label_low_text3, label_high_text3, label5, label6},
+                { label_day4, label_low4, label_high4, label_weather_text4, label_low_text4, label_high_text4, label7, label8 },
+                { label_day5, label_low5, label_high5, label_weather_text5, label_low_text5, label_high_text5, label9, label10 },
+                { label_day6, label_low6, label_high6, label_weather_text6, label_low_text6, label_high_text6, label11, label12 }
+            };
+
+            for (int i = 0; i < labelArray.GetLength(0); i++) // 행
+            {
+                for (int j = 0; j < labelArray.GetLength(1); j++) // 그 행 안에 몇 개가 있는지
+                {
+                    switch (i + 1)
+                    {
+                        case 1:
+                            labelArray[i, j].Click += button1_Click; // button1_Click 이벤트
+                            break;
+
+                        case 2:
+                            labelArray[i, j].Click += button2_Click;
+                            break;
+
+                        case 3:
+                            labelArray[i, j].Click += button3_Click;
+                            break;
+
+                        case 4:
+                            labelArray[i, j].Click += button4_Click;
+                            break;
+
+                        case 5:
+                            labelArray[i, j].Click += button5_Click;
+                            break;
+                        case 6:
+                            labelArray[i, j].Click += button6_Click;
+                            break;
+
+                        default:
+                            break;
+                    }
+                }
+            }
+        }
+
+        // 참고
+        private void label_click(object sender, EventArgs e)
+        {            
+            button1.PerformClick(); //버튼1을 강제로 클릭하게 하는 함수
+        }
+
+        public void Initializelabel()
+        {
+            label1.Text = "℃";
+            label2.Text = "℃";
+            label3.Text = "℃";
+            label4.Text = "℃";
+            label5.Text = "℃";
+            label6.Text = "℃";
+            label7.Text = "℃";
+            label8.Text = "℃";
+            label9.Text = "℃";
+            label10.Text = "℃";
+            label11.Text = "℃";
+            label12.Text = "℃";
+            label13.Text = "℃";
+        }
+
+        public void Initializelabelcolor()
+        {
+            Button button = new Button();
+            button.Parent = this;        
+
+            Label label = new Label();
+            label.Parent = button; 
+            label.AutoSize = true; 
+            label.BackColor = Color.Transparent;        
         }
 
         private void comboBox_city_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Console.WriteLine(comboBox_city.Text);
             try
             {
                 using (XmlReader xr = XmlReader.Create(url))
@@ -120,83 +201,57 @@ namespace Weather
                     //요일별 데이터
                     string[] strtemp1 = strtemp[1].Split(',');
                     label_day1.Text = strtemp1[0];
-                    label_low_text1.Text = strtemp1[2] + "℃";
-                    label_high_text1.Text = strtemp1[3] + "℃";
-                    label_weather_text1.Text = strtemp1[1];                
-                    avg1 = (int.Parse(strtemp1[2]) + int.Parse(strtemp1[3])) / 2;
-                    Console.WriteLine($"{label_day1.Text} 평균 기온 : " + avg1);                 
+                    label_low_text1.Text = strtemp1[2];
+                    label_high_text1.Text = strtemp1[3];
+                    label_weather_text1.Text = "요약 : " + strtemp1[1];                
+                    avg = (int.Parse(strtemp1[2]) + int.Parse(strtemp1[3])) / 2;
+                    Console.WriteLine($"{label_day1.Text} 평균 기온 : " + avg);
+                    //label_avg.Text = avg.ToString();
 
                     string[] strtemp2 = strtemp[2].Split(',');
                     label_day2.Text = strtemp2[0];
-                    label_low_text2.Text = strtemp2[2] + "℃";
-                    label_high_text2.Text = strtemp2[3] + "℃";
-                    label_weather_text2.Text = strtemp2[1];
-                    avg2 = (int.Parse(strtemp2[2]) + int.Parse(strtemp2[3])) / 2;
-                    Console.WriteLine($"{label_day2.Text} 평균 기온 : " + avg2);
+                    label_low_text2.Text = strtemp2[2];
+                    label_high_text2.Text = strtemp2[3];
+                    label_weather_text2.Text = "요약 : " + strtemp2[1];
+                    avg = (int.Parse(strtemp2[2]) + int.Parse(strtemp2[3])) / 2;
+                    Console.WriteLine($"{label_day2.Text} 평균 기온 : " + avg);
+                    //label_avg.Text = avg.ToString();
 
                     string[] strtemp3 = strtemp[3].Split(',');
                     label_day3.Text = strtemp3[0];
-                    label_low_text3.Text = strtemp3[2] + "℃";
-                    label_high_text3.Text = strtemp3[3] + "℃";
-                    label_weather_text3.Text = strtemp3[1];
-                    avg3 = (int.Parse(strtemp3[2]) + int.Parse(strtemp3[3])) / 2;
-                    Console.WriteLine($"{label_day3.Text} 평균 기온 : " + avg3);
+                    label_low_text3.Text = strtemp3[2];
+                    label_high_text3.Text = strtemp3[3];
+                    label_weather_text3.Text = "요약 : " + strtemp3[1];
+                    avg = (int.Parse(strtemp3[2]) + int.Parse(strtemp3[3])) / 2;
+                    Console.WriteLine($"{label_day3.Text} 평균 기온 : " + avg);
+                    //label_avg.Text = avg.ToString();
 
                     string[] strtemp4 = strtemp[4].Split(',');
                     label_day4.Text = strtemp4[0];
-                    label_low_text4.Text = strtemp4[2] + "℃";
-                    label_high_text4.Text = strtemp4[3] + "℃";
-                    label_weather_text4.Text = strtemp4[1];
-                    avg4 = (int.Parse(strtemp4[2]) + int.Parse(strtemp4[3])) / 2;
-                    Console.WriteLine($"{label_day4.Text} 평균 기온 : " + avg4);
+                    label_low_text4.Text = strtemp4[2];
+                    label_high_text4.Text = strtemp4[3];
+                    label_weather_text4.Text = "요약 : " + strtemp4[1];
+                    avg = (int.Parse(strtemp4[2]) + int.Parse(strtemp4[3])) / 2;
+                    Console.WriteLine($"{label_day4.Text} 평균 기온 : " + avg);
+                    //label_avg.Text = avg.ToString();
 
                     string[] strtemp5 = strtemp[5].Split(',');
                     label_day5.Text = strtemp5[0];
-                    label_low_text5.Text = strtemp5[2] + "℃";
-                    label_high_text5.Text = strtemp5[3] + "℃";
-                    label_weather_text5.Text = strtemp5[1];
-                    avg5 = (int.Parse(strtemp5[2]) + int.Parse(strtemp5[3])) / 2;
-                    Console.WriteLine($"{label_day5.Text} 평균 기온 : " + avg5);
+                    label_low_text5.Text = strtemp5[2];
+                    label_high_text5.Text = strtemp5[3];
+                    label_weather_text5.Text = "요약 : " + strtemp5[1];
+                    avg = (int.Parse(strtemp5[2]) + int.Parse(strtemp5[3])) / 2;
+                    Console.WriteLine($"{label_day5.Text} 평균 기온 : " + avg);
+                    //label_avg.Text = avg.ToString();
 
                     string[] strtemp6 = strtemp[6].Split(',');
                     label_day6.Text = strtemp6[0];
-                    label_low_text6.Text = strtemp6[2] + "℃";
-                    label_high_text6.Text = strtemp6[3] + "℃";
-                    label_weather_text6.Text = strtemp6[1];
-                    avg6 = (int.Parse(strtemp6[2]) + int.Parse(strtemp6[3])) / 2;
-                    Console.WriteLine($"{label_day6.Text} 평균 기온 : " + avg6);
-
-                    /*if (panel1.)
-                    {
-                        choice1(label_day1.Text, avg1);
-                    }
-                    else if (panel2.Enabled == true)
-                    {
-                        choice2(label_day2.Text, avg2);
-                    }
-                    else if (panel3.)
-                    {
-                        choice3(label_day3.Text, avg3);
-                    }
-                    else if (panel4)
-                    {
-                        choice4(label_day4.Text, avg4);
-                    }
-                    else if (panel5)
-                    {
-                        choice5(label_day5.Text, avg5);
-                    }
-                    else if (panel6)
-                    {
-                        choice6(label_day6.Text, avg6);
-                    } */                   
-
-                    //choice1(label_day1.Text, avg1);
-                    //choice2(label_day2.Text, avg1);
-                    //choice3(label_day3.Text, avg1);
-                    //choice4(label_day4.Text, avg1);
-                    //choice5(label_day5.Text, avg1);
-                    //choice6(label_day6.Text, avg1);
+                    label_low_text6.Text = strtemp6[2];
+                    label_high_text6.Text = strtemp6[3];
+                    label_weather_text6.Text = "요약 : " + strtemp6[1];
+                    avg = (int.Parse(strtemp6[2]) + int.Parse(strtemp6[3])) / 2;
+                    Console.WriteLine($"{label_day6.Text} 평균 기온 : " + avg);
+                    //label_avg.Text = avg.ToString();
                 }
             }
             catch (Exception ex)
@@ -205,316 +260,106 @@ namespace Weather
                 MessageBox.Show(ex.StackTrace);               
                 //throw;
             }
-        }        
+        }     
 
-        private void choice1(string day1, int avg1)
+        private void calc1()
         {
-            if (avg1 <= 5)
-            {
-                Console.WriteLine($"{day1} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품");
-                label_avg.Text = $"{day1} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778529/460x-");                
-            }
-            else if (6 <= avg1 && avg1 <= 9)
-            {
-                Console.WriteLine($"{day1} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스");
-                label_avg.Text = $"{day1} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778370/460x-");
-            }
-            else if (10 <= avg1 && avg1 <= 11)
-            {
-                Console.WriteLine($"{day1} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹");
-                label_avg.Text = $"{day1} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778318/460x-");
-            }
-            else if (12 <= avg1 && avg1 <= 16)
-            {
-                Console.WriteLine($"{day1} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지");
-                label_avg.Text = $"{day1} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778275/460x-");
-            }
-            else if (17 <= avg1 && avg1 <= 19)
-            {
-                Console.WriteLine($"{day1} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지");
-                label_avg.Text = $"{day1} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778153/460x-");
-            }
-            else if (20 <= avg1 && avg1 <= 22)
-            {
-                Console.WriteLine($"{day1} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지");
-                label_avg.Text = $"{day1} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778003/460x-");
-            }
-            else if (23 <= avg1 && avg1 <= 26)
-            {
-                Console.WriteLine($"{day1} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지");
-                label_avg.Text = $"{day1} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777989/460x-");
-            }
-            else if (27 <= avg1)
-            {
-                Console.WriteLine($"{day1} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스");
-                label_avg.Text = $"{day1} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777949/460x-");
-            }
+            label_avg.Text = "";
+            double result1 = (int.Parse(label_high_text1.Text) + int.Parse(label_low_text1.Text)) / 2;
+            label_avg.Text = result1.ToString();
         }
 
-        private void choice2(string day2, int avg2)
+        private void calc2()
         {
-            if (avg1 <= 5)
-            {
-                Console.WriteLine($"{day2} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품");
-                label_avg.Text = $"{day2} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778529/460x-");
-            }
-            else if (6 <= avg1 && avg1 <= 9)
-            {
-                Console.WriteLine($"{day2} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스");
-                label_avg.Text = $"{day2} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778370/460x-");
-            }
-            else if (10 <= avg1 && avg1 <= 11)
-            {
-                Console.WriteLine($"{day2} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹");
-                label_avg.Text = $"{day2} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778318/460x-");
-            }
-            else if (12 <= avg1 && avg1 <= 16)
-            {
-                Console.WriteLine($"{day2} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지");
-                label_avg.Text = $"{day2} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778275/460x-");
-            }
-            else if (17 <= avg1 && avg1 <= 19)
-            {
-                Console.WriteLine($"{day2} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지");
-                label_avg.Text = $"{day2} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778153/460x-");
-            }
-            else if (20 <= avg1 && avg1 <= 22)
-            {
-                Console.WriteLine($"{day2} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지");
-                label_avg.Text = $"{day2} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778003/460x-");
-            }
-            else if (23 <= avg1 && avg1 <= 26)
-            {
-                Console.WriteLine($"{day2} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지");
-                label_avg.Text = $"{day2} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777989/460x-");
-            }
-            else if (27 <= avg1)
-            {
-                Console.WriteLine($"{day2} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스");
-                label_avg.Text = $"{day2} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777949/460x-");
-            }
+            label_avg.Text = "";
+            double result2 = (int.Parse(label_high_text2.Text) + int.Parse(label_low_text2.Text)) / 2;
+            label_avg.Text = result2.ToString();
         }
 
-        private void choice3(string day3, int avg3)
+        private void calc3()
         {
-            if (avg1 <= 5)
-            {
-                Console.WriteLine($"{day3} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품");
-                label_avg.Text = $"{day3} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778529/460x-");
-            }
-            else if (6 <= avg1 && avg1 <= 9)
-            {
-                Console.WriteLine($"{day3} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스");
-                label_avg.Text = $"{day3} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778370/460x-");
-            }
-            else if (10 <= avg1 && avg1 <= 11)
-            {
-                Console.WriteLine($"{day3} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹");
-                label_avg.Text = $"{day3} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778318/460x-");
-            }
-            else if (12 <= avg1 && avg1 <= 16)
-            {
-                Console.WriteLine($"{day3} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지");
-                label_avg.Text = $"{day3} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778275/460x-");
-            }
-            else if (17 <= avg1 && avg1 <= 19)
-            {
-                Console.WriteLine($"{day3} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지");
-                label_avg.Text = $"{day3} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778153/460x-");
-            }
-            else if (20 <= avg1 && avg1 <= 22)
-            {
-                Console.WriteLine($"{day3} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지");
-                label_avg.Text = $"{day3} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778003/460x-");
-            }
-            else if (23 <= avg1 && avg1 <= 26)
-            {
-                Console.WriteLine($"{day3} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지");
-                label_avg.Text = $"{day3} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777989/460x-");
-            }
-            else if (27 <= avg1)
-            {
-                Console.WriteLine($"{day3} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스");
-                label_avg.Text = $"{day3} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777949/460x-");
-            }
+            label_avg.Text = "";
+            double result3 = (int.Parse(label_high_text3.Text) + int.Parse(label_low_text3.Text)) / 2;
+            label_avg.Text = result3.ToString();
         }
 
-        private void choice4(string day4, int avg4)
+        private void calc4()
         {
-            if (avg1 <= 5)
-            {
-                Console.WriteLine($"{day4} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품");
-                label_avg.Text = $"{day4} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778529/460x-");
-            }
-            else if (6 <= avg1 && avg1 <= 9)
-            {
-                Console.WriteLine($"{day4} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스");
-                label_avg.Text = $"{day4} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778370/460x-");
-            }
-            else if (10 <= avg1 && avg1 <= 11)
-            {
-                Console.WriteLine($"{day4} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹");
-                label_avg.Text = $"{day4} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778318/460x-");
-            }
-            else if (12 <= avg1 && avg1 <= 16)
-            {
-                Console.WriteLine($"{day4} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지");
-                label_avg.Text = $"{day4} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778275/460x-");
-            }
-            else if (17 <= avg1 && avg1 <= 19)
-            {
-                Console.WriteLine($"{day4} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지");
-                label_avg.Text = $"{day4} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778153/460x-");
-            }
-            else if (20 <= avg1 && avg1 <= 22)
-            {
-                Console.WriteLine($"{day4} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지");
-                label_avg.Text = $"{day4} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778003/460x-");
-            }
-            else if (23 <= avg1 && avg1 <= 26)
-            {
-                Console.WriteLine($"{day4} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지");
-                label_avg.Text = $"{day4} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777989/460x-");
-            }
-            else if (27 <= avg1)
-            {
-                Console.WriteLine($"{day4} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스");
-                label_avg.Text = $"{day4} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777949/460x-");
-            }
+            label_avg.Text = "";
+            double result4 = (int.Parse(label_high_text4.Text) + int.Parse(label_low_text4.Text)) / 2;
+            label_avg.Text = result4.ToString();
         }
 
-        private void choice5(string day5, int avg5)
+        private void calc5()
         {
-            if (avg1 <= 5)
-            {
-                Console.WriteLine($"{day5} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품");
-                label_avg.Text = $"{day5} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778529/460x-");
-            }
-            else if (6 <= avg1 && avg1 <= 9)
-            {
-                Console.WriteLine($"{day5} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스");
-                label_avg.Text = $"{day5} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778370/460x-");
-            }
-            else if (10 <= avg1 && avg1 <= 11)
-            {
-                Console.WriteLine($"{day5} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹");
-                label_avg.Text = $"{day5} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778318/460x-");
-            }
-            else if (12 <= avg1 && avg1 <= 16)
-            {
-                Console.WriteLine($"{day5} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지");
-                label_avg.Text = $"{day5} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778275/460x-");
-            }
-            else if (17 <= avg1 && avg1 <= 19)
-            {
-                Console.WriteLine($"{day5} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지");
-                label_avg.Text = $"{day5} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778153/460x-");
-            }
-            else if (20 <= avg1 && avg1 <= 22)
-            {
-                Console.WriteLine($"{day5} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지");
-                label_avg.Text = $"{day5} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778003/460x-");
-            }
-            else if (23 <= avg1 && avg1 <= 26)
-            {
-                Console.WriteLine($"{day5} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지");
-                label_avg.Text = $"{day5} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777989/460x-");
-            }
-            else if (27 <= avg1)
-            {
-                Console.WriteLine($"{day5} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스");
-                label_avg.Text = $"{day5} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777949/460x-");
-            }
+            label_avg.Text = "";
+            double result5 = (int.Parse(label_high_text5.Text) + int.Parse(label_low_text5.Text)) / 2;
+            label_avg.Text = result5.ToString();
         }
 
-        private void choice6(string day6, int avg6)
+        private void calc6()
         {
-            if (avg1 <= 5)
+            label_avg.Text = "";
+            double result6 = (int.Parse(label_high_text6.Text) + int.Parse(label_low_text6.Text)) / 2;
+            label_avg.Text = result6.ToString();
+        }
+
+        private void command()
+        {
+            if (int.Parse(label_avg.Text) <= 5)
             {
-                Console.WriteLine($"{day6} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품");
-                label_avg.Text = $"{day6} 추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품";
+                Console.WriteLine($"추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품");
+                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_comm.Text = $"추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품";
                 pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778529/460x-");
             }
-            else if (6 <= avg1 && avg1 <= 9)
+            else if (6 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 9)
             {
-                Console.WriteLine($"{day6} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스");
-                label_avg.Text = $"{day6} 추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스";
+                Console.WriteLine($"추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스");
+                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_comm.Text = $"추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스";
                 pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778370/460x-");
             }
-            else if (10 <= avg1 && avg1 <= 11)
+            else if (10 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 11)
             {
-                Console.WriteLine($"{day6} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹");
-                label_avg.Text = $"{day6} 추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹";
+                Console.WriteLine($"추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹");
+                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_comm.Text = $"추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹";
                 pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778318/460x-");
             }
-            else if (12 <= avg1 && avg1 <= 16)
+            else if (12 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 16)
             {
-                Console.WriteLine($"{day6} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지");
-                label_avg.Text = $"{day6} 추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지";
+                Console.WriteLine($"추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지");
+                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_comm.Text = $"추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지";
                 pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778275/460x-");
             }
-            else if (17 <= avg1 && avg1 <= 19)
+            else if (17 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 19)
             {
-                Console.WriteLine($"{day6} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지");
-                label_avg.Text = $"{day6} 추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지";
+                Console.WriteLine($"추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지");
+                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_comm.Text = $"추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지";
                 pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778153/460x-");
             }
-            else if (20 <= avg1 && avg1 <= 22)
+            else if (20 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 22)
             {
-                Console.WriteLine($"{day6} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지");
-                label_avg.Text = $"{day6} 추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지";
+                Console.WriteLine($"추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지");
+                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_comm.Text = $"추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지";
                 pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778003/460x-");
             }
-            else if (23 <= avg1 && avg1 <= 26)
+            else if (23 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 26)
             {
-                Console.WriteLine($"{day6} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지");
-                label_avg.Text = $"{day6} 추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지";
+                Console.WriteLine($"추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지");
+                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_comm.Text = $"추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지";
                 pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777989/460x-");
             }
-            else if (27 <= avg1)
+            else if (27 <= int.Parse(label_avg.Text))
             {
-                Console.WriteLine($"{day6} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스");
-                label_avg.Text = $"{day6} 추천 옷차림 : 반팔, 민소매, 반바지, 원피스";
+                Console.WriteLine($"추천 옷차림 : 반팔, 민소매, 반바지, 원피스");
+                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_comm.Text = $"추천 옷차림 : 반팔, 민소매, 반바지, 원피스";
                 pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777949/460x-");
             }
         }
@@ -538,34 +383,208 @@ namespace Weather
             }
         }
 
-        private void panel1_Click(object sender, EventArgs e)
-        {
-            
+        private void button1_Click(object sender, EventArgs e)
+        {           
+            calc1();
+            command();           
         }
 
-        private void panel2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            calc2();
+            command();
         }
 
-        private void panel3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
+            calc3();
+            command();
         }
 
-        private void panel4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
+            calc4();
+            command();
         }
 
-        private void panel5_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-
+            calc5();
+            command();
         }
 
-        private void panel6_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
+            calc6();
+            command();
+        }
 
+        private void button1_MouseMove(object sender, MouseEventArgs e)
+        {            
+            button1.BackColor = Color.FromArgb(110, 163, 168);
+            button1.FlatAppearance.MouseOverBackColor = button1.BackColor;
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {            
+            button1.BackColor = Color.FromArgb(110, 163, 168);
+            label_day1.BackColor = Color.FromArgb(110, 163, 168);            
+            label_high_text1.BackColor = Color.FromArgb(110, 163, 168);           
+            label_low_text1.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text1.BackColor = Color.FromArgb(110, 163, 168);
+            label1.BackColor = Color.FromArgb(110, 163, 168);
+            label2.BackColor = Color.FromArgb(110, 163, 168);
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {           
+            button1.BackColor = Color.White;
+            label_day1.BackColor = Color.White;
+            label_high_text1.BackColor = Color.White;
+            label_low_text1.BackColor = Color.White;
+            label_weather_text1.BackColor = Color.White;
+            label1.BackColor = Color.White;
+            label2.BackColor = Color.White;
+        }
+
+        private void button2_MouseMove(object sender, MouseEventArgs e)
+        {            
+            button2.BackColor = Color.FromArgb(110, 163, 168);
+            button2.FlatAppearance.MouseOverBackColor = button2.BackColor;
+        }
+
+        private void button2_MouseHover(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.FromArgb(110, 163, 168);
+            label_day2.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text2.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text2.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text2.BackColor = Color.FromArgb(110, 163, 168);
+            label3.BackColor = Color.FromArgb(110, 163, 168);
+            label4.BackColor = Color.FromArgb(110, 163, 168);
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.White;
+            label_day2.BackColor = Color.White;
+            label_high_text2.BackColor = Color.White;
+            label_low_text2.BackColor = Color.White;
+            label_weather_text2.BackColor = Color.White;
+            label3.BackColor = Color.White;
+            label4.BackColor = Color.White;
+        }
+
+        private void button3_MouseMove(object sender, MouseEventArgs e)
+        {            
+            button3.BackColor = Color.FromArgb(110, 163, 168);
+            button3.FlatAppearance.MouseOverBackColor = button3.BackColor;
+        }
+
+        private void button3_MouseHover(object sender, EventArgs e)
+        {
+            button3.BackColor = Color.FromArgb(110, 163, 168);
+            label_day3.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text3.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text3.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text3.BackColor = Color.FromArgb(110, 163, 168);
+            label5.BackColor = Color.FromArgb(110, 163, 168);
+            label6.BackColor = Color.FromArgb(110, 163, 168);
+        }
+
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            button3.BackColor = Color.White;
+            label_day3.BackColor = Color.White;
+            label_high_text3.BackColor = Color.White;
+            label_low_text3.BackColor = Color.White;
+            label_weather_text3.BackColor = Color.White;
+            label5.BackColor = Color.White;
+            label6.BackColor = Color.White;
+        }
+
+        private void button4_MouseMove(object sender, MouseEventArgs e)
+        {
+            button4.BackColor = Color.FromArgb(110, 163, 168);
+            button4.FlatAppearance.MouseOverBackColor = button4.BackColor;
+        }
+
+        private void button4_MouseHover(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.FromArgb(110, 163, 168);
+            label_day4.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text4.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text4.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text4.BackColor = Color.FromArgb(110, 163, 168);
+            label7.BackColor = Color.FromArgb(110, 163, 168);
+            label8.BackColor = Color.FromArgb(110, 163, 168);
+        }
+
+        private void button4_MouseLeave(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.White;
+            label_day4.BackColor = Color.White;
+            label_high_text4.BackColor = Color.White;
+            label_low_text4.BackColor = Color.White;
+            label_weather_text4.BackColor = Color.White;
+            label7.BackColor = Color.White;
+            label8.BackColor = Color.White;
+        }
+
+        private void button5_MouseMove(object sender, MouseEventArgs e)
+        {
+            button5.BackColor = Color.FromArgb(110, 163, 168);
+            button5.FlatAppearance.MouseOverBackColor = button5.BackColor;
+        }
+
+        private void button5_MouseHover(object sender, EventArgs e)
+        {
+            button5.BackColor = Color.FromArgb(110, 163, 168);
+            label_day5.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text5.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text5.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text5.BackColor = Color.FromArgb(110, 163, 168);
+            label9.BackColor = Color.FromArgb(110, 163, 168);
+            label10.BackColor = Color.FromArgb(110, 163, 168);
+        }
+
+        private void button5_MouseLeave(object sender, EventArgs e)
+        {
+            button5.BackColor = Color.White;
+            label_day5.BackColor = Color.White; ;
+            label_high_text5.BackColor = Color.White;
+            label_low_text5.BackColor = Color.White;
+            label_weather_text5.BackColor = Color.White;
+            label9.BackColor = Color.White;
+            label10.BackColor = Color.White;
+        }
+
+        private void button6_MouseMove(object sender, MouseEventArgs e)
+        {
+            button6.BackColor = Color.FromArgb(110, 163, 168);
+            button6.FlatAppearance.MouseOverBackColor = button6.BackColor;
+        }
+
+        private void button6_MouseHover(object sender, EventArgs e)
+        {
+            button6.BackColor = Color.FromArgb(110, 163, 168);
+            label_day6.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text6.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text6.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text6.BackColor = Color.FromArgb(110, 163, 168);
+            label11.BackColor = Color.FromArgb(110, 163, 168);
+            label12.BackColor = Color.FromArgb(110, 163, 168);
+        }
+
+        private void button6_MouseLeave(object sender, EventArgs e)
+        {
+            button6.BackColor = Color.White;
+            label_day6.BackColor = Color.White; ;
+            label_high_text6.BackColor = Color.White;
+            label_low_text6.BackColor = Color.White;
+            label_weather_text6.BackColor = Color.White;
+            label11.BackColor = Color.White;
+            label12.BackColor = Color.White;
         }
     }
 }

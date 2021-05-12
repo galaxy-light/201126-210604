@@ -32,7 +32,6 @@ C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프�
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Design.dll
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.dll
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.MainForm.resources
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.Properties.Resources.resources
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.GenerateResource.cache
@@ -40,3 +39,4 @@ C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프�
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.exe
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
