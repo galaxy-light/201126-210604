@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+D:\중요\Desktop\School\포트폴리오\Java-MySQL, JavaScript\MySQL\.metadata\.plugins\org.eclipse.jdt.core
-2296414269.index
-3460880079.index
