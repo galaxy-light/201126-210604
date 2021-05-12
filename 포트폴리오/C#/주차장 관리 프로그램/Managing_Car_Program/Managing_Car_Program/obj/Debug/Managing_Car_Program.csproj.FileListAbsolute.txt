@@ -1,0 +1,223 @@
+C:\Users\KB\Desktop\totototo\201126-210604\210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210416\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210419\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\210419\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210419\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\210419\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210419\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210419\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\210419\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210419\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\210419\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\210419\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MaterialSkin.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Design.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.AdminForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_ma_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.VipCustViewForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.LogForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.MainForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CopyComplete
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe.config
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.pdb
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MaterialSkin.dll
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Design.dll
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.dll
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Fonts.dll
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.Common.dll
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.dll
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.AdminForm.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_cu_add_Form.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_ma_add_Form.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.VipCustViewForm.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.LogForm.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.MainForm.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Properties.Resources.resources
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.GenerateResource.cache
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CopyComplete
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Txt_view_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\MaterialSkin.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Design.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.AdminForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_cu_add_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_ma_add_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Other_view_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Txt_view_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.VipCustViewForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.LogForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.MainForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CopyComplete
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\MySql.Data.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\Google.Protobuf.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\Zstandard.Net.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\Renci.SshNet.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Memory.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Buffers.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램 - DB(MSSQL)\Managing_Car_Program\Managing_Car_Program\bin\Debug\MySql.Data.xml
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MaterialSkin.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Design.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MySql.Data.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Google.Protobuf.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Zstandard.Net.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Renci.SshNet.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Memory.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Buffers.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MySql.Data.xml
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.AdminForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_cu_add_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_ma_add_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.DB_view_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Other_parking_view_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Txt_view_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.VipCustViewForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.LogForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.MainForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CopyComplete
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe.config
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.pdb
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MaterialSkin.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Design.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Fonts.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MySql.Data.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.Common.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Google.Protobuf.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Zstandard.Net.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\BouncyCastle.Crypto.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Ubiety.Dns.Core.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Renci.SshNet.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Memory.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Buffers.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Compression.LZ4.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Hash.xxHash.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Numerics.Vectors.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MySql.Data.xml
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe.config
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.AdminForm.resources
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_cu_add_Form.resources
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_ma_add_Form.resources
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.DB_view_Form.resources
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Other_parking_view_Form.resources
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Txt_view_Form.resources
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.VipCustViewForm.resources
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.LogForm.resources
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.MainForm.resources
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Properties.Resources.resources
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.GenerateResource.cache
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CopyComplete
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
+D:\중요\Desktop\School\포트폴리오\C#\주차 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Managing_Car_Program.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MaterialSkin.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Design.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MySql.Data.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Google.Protobuf.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Zstandard.Net.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\Renci.SshNet.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Memory.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Buffers.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\bin\Debug\MySql.Data.xml
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.AdminForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_cu_add_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Cust_ma_add_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.DB_view_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Other_parking_view_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.Txt_view_Form.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Ui.VipCustViewForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.LogForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.MainForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.csproj.CopyComplete
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\주차장 관리 프로그램\Managing_Car_Program\Managing_Car_Program\obj\Debug\Managing_Car_Program.pdb
