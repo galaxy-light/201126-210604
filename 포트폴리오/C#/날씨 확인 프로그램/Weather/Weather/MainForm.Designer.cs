@@ -1,7 +1,7 @@
 ﻿
 namespace Weather
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -29,9 +29,13 @@ namespace Weather
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox_city = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label_avg = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label_weather_text6 = new System.Windows.Forms.Label();
@@ -75,12 +79,10 @@ namespace Weather
             this.label_low_text1 = new System.Windows.Forms.Label();
             this.label_low1 = new System.Windows.Forms.Label();
             this.label_day1 = new System.Windows.Forms.Label();
-            this.label_nowtime = new System.Windows.Forms.Label();
+            this.label_nowday = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.comboBox_city = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -89,7 +91,6 @@ namespace Weather
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -108,27 +109,102 @@ namespace Weather
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label1);
+            this.groupBox3.Controls.Add(this.comboBox_city);
+            this.groupBox3.Location = new System.Drawing.Point(29, 20);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(542, 72);
+            this.groupBox3.TabIndex = 26;
+            this.groupBox3.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(44, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "지역";
+            // 
+            // comboBox_city
+            // 
+            this.comboBox_city.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBox_city.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox_city.FormattingEnabled = true;
+            this.comboBox_city.Items.AddRange(new object[] {
+            "서울",
+            "인천",
+            "원주",
+            "강릉",
+            "대전",
+            "세종",
+            "홍성",
+            "청주",
+            "충주",
+            "광주",
+            "목포",
+            "여수",
+            "순천",
+            "광양",
+            "전주",
+            "군산",
+            "정읍",
+            "남원",
+            "고창",
+            "부산",
+            "울산",
+            "창원",
+            "진주",
+            "거창",
+            "통영",
+            "대구",
+            "안동",
+            "포항",
+            "경주",
+            "울진",
+            "울릉도",
+            "제주",
+            "서귀포"});
+            this.comboBox_city.Location = new System.Drawing.Point(79, 29);
+            this.comboBox_city.Name = "comboBox_city";
+            this.comboBox_city.Size = new System.Drawing.Size(121, 20);
+            this.comboBox_city.TabIndex = 13;
+            this.comboBox_city.SelectedIndexChanged += new System.EventHandler(this.comboBox_city_SelectedIndexChanged);
+            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label_avg);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Location = new System.Drawing.Point(29, 98);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(542, 153);
+            this.groupBox2.Size = new System.Drawing.Size(542, 166);
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "오늘 날씨 정리";
+            this.groupBox2.Text = "날씨 정리";
+            // 
+            // label_avg
+            // 
+            this.label_avg.AutoSize = true;
+            this.label_avg.Location = new System.Drawing.Point(99, 141);
+            this.label_avg.Name = "label_avg";
+            this.label_avg.Size = new System.Drawing.Size(11, 12);
+            this.label_avg.TabIndex = 15;
+            this.label_avg.Text = "-";
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(6, 20);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(530, 129);
+            this.textBox1.Size = new System.Drawing.Size(530, 107);
             this.textBox1.TabIndex = 0;
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.label_weather_text6);
             this.panel6.Controls.Add(this.label_high_text6);
             this.panel6.Controls.Add(this.label_high6);
@@ -139,6 +215,7 @@ namespace Weather
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(150, 100);
             this.panel6.TabIndex = 23;
+            this.panel6.Click += new System.EventHandler(this.panel6_Click);
             // 
             // label_weather_text6
             // 
@@ -197,6 +274,7 @@ namespace Weather
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.label_weather_text5);
             this.panel5.Controls.Add(this.label_high_text5);
             this.panel5.Controls.Add(this.label_high5);
@@ -207,6 +285,7 @@ namespace Weather
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(150, 100);
             this.panel5.TabIndex = 22;
+            this.panel5.Click += new System.EventHandler(this.panel5_Click);
             // 
             // label_weather_text5
             // 
@@ -265,6 +344,7 @@ namespace Weather
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.label_weather_text4);
             this.panel4.Controls.Add(this.label_high_text4);
             this.panel4.Controls.Add(this.label_high4);
@@ -275,6 +355,7 @@ namespace Weather
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(150, 100);
             this.panel4.TabIndex = 21;
+            this.panel4.Click += new System.EventHandler(this.panel4_Click);
             // 
             // label_weather_text4
             // 
@@ -333,6 +414,7 @@ namespace Weather
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label_weather_text3);
             this.panel3.Controls.Add(this.label_high_text3);
             this.panel3.Controls.Add(this.label_high3);
@@ -343,6 +425,7 @@ namespace Weather
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(150, 100);
             this.panel3.TabIndex = 20;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
             // label_weather_text3
             // 
@@ -401,6 +484,7 @@ namespace Weather
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label_weather_text2);
             this.panel2.Controls.Add(this.label_high_text2);
             this.panel2.Controls.Add(this.label_high2);
@@ -411,6 +495,7 @@ namespace Weather
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(150, 100);
             this.panel2.TabIndex = 19;
+            this.panel2.Click += new System.EventHandler(this.panel2_Click);
             // 
             // label_weather_text2
             // 
@@ -469,6 +554,7 @@ namespace Weather
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label_weather_text1);
             this.panel1.Controls.Add(this.label_high_text1);
             this.panel1.Controls.Add(this.label_high1);
@@ -480,6 +566,7 @@ namespace Weather
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(150, 100);
             this.panel1.TabIndex = 18;
+            this.panel1.Click += new System.EventHandler(this.panel1_Click);
             // 
             // label_weather_text1
             // 
@@ -535,14 +622,14 @@ namespace Weather
             this.label_day1.TabIndex = 0;
             this.label_day1.Text = "-";
             // 
-            // label_nowtime
+            // label_nowday
             // 
-            this.label_nowtime.AutoSize = true;
-            this.label_nowtime.Location = new System.Drawing.Point(534, 30);
-            this.label_nowtime.Name = "label_nowtime";
-            this.label_nowtime.Size = new System.Drawing.Size(11, 12);
-            this.label_nowtime.TabIndex = 16;
-            this.label_nowtime.Text = "-";
+            this.label_nowday.AutoSize = true;
+            this.label_nowday.Location = new System.Drawing.Point(519, 38);
+            this.label_nowday.Name = "label_nowday";
+            this.label_nowday.Size = new System.Drawing.Size(11, 12);
+            this.label_nowday.TabIndex = 16;
+            this.label_nowday.Text = "-";
             // 
             // pictureBox1
             // 
@@ -554,79 +641,19 @@ namespace Weather
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Controls.Add(this.comboBox_city);
-            this.groupBox3.Location = new System.Drawing.Point(29, 20);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(542, 72);
-            this.groupBox3.TabIndex = 26;
-            this.groupBox3.TabStop = false;
-            // 
-            // comboBox_city
-            // 
-            this.comboBox_city.FormattingEnabled = true;
-            this.comboBox_city.Items.AddRange(new object[] {
-            "서울",
-            "인천",
-            "원주",
-            "강릉",
-            "대전",
-            "세종",
-            "홍성",
-            "청주",
-            "충주",
-            "광주",
-            "목포",
-            "여수",
-            "순천",
-            "광양",
-            "전주",
-            "군산",
-            "정읍",
-            "남원",
-            "고창",
-            "부산",
-            "울산",
-            "창원",
-            "진주",
-            "거창",
-            "통영",
-            "대구",
-            "안동",
-            "포항",
-            "경주",
-            "울진",
-            "울릉도",
-            "제주",
-            "서귀포"});
-            this.comboBox_city.Location = new System.Drawing.Point(79, 29);
-            this.comboBox_city.Name = "comboBox_city";
-            this.comboBox_city.Size = new System.Drawing.Size(121, 20);
-            this.comboBox_city.TabIndex = 13;
-            this.comboBox_city.SelectedIndexChanged += new System.EventHandler(this.comboBox_city_SelectedIndexChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 12);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "지역";
-            // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(999, 625);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label_nowtime);
-            this.Name = "Form1";
-            this.Text = "Today\'s";
+            this.Controls.Add(this.label_nowday);
+            this.Name = "MainForm";
+            this.Text = "이틀 뒤 날씨는 어떨까";
             this.groupBox1.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -642,8 +669,6 @@ namespace Weather
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -694,13 +719,14 @@ namespace Weather
         private System.Windows.Forms.Label label_low_text1;
         private System.Windows.Forms.Label label_low1;
         private System.Windows.Forms.Label label_day1;
-        private System.Windows.Forms.Label label_nowtime;
+        private System.Windows.Forms.Label label_nowday;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox_city;
+        private System.Windows.Forms.Label label_avg;
     }
 }
 
