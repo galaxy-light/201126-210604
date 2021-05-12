@@ -1,4 +1,5 @@
-﻿using MetroFramework.Forms;
+﻿using MaterialSkin.Controls;
+using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,7 +32,8 @@ namespace Weather
             label_nowday.Text = "오늘은 "+ DateTime.Now.ToString("yyyy-MM-dd") + " 입니다.";
 
             Initializelabel();
-            Initializelabelcolor();
+
+            comboBox_city.Focus();
 
             // 라벨을 클릭해도 버튼 클릭 이벤트와 동일하게 동작하기 위해서 일단 2차원 배열을 만듦
             labelArray = new Label[,] {
@@ -100,18 +102,7 @@ namespace Weather
             label11.Text = "℃";
             label12.Text = "℃";
             label13.Text = "℃";
-        }
-
-        public void Initializelabelcolor()
-        {
-            Button button = new Button();
-            button.Parent = this;        
-
-            Label label = new Label();
-            label.Parent = button; 
-            label.AutoSize = true; 
-            label.BackColor = Color.Transparent;        
-        }
+        }        
 
         private void comboBox_city_SelectedIndexChanged(object sender, EventArgs e)
         {
