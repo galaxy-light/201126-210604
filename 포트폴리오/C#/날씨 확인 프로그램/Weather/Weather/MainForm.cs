@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
@@ -31,9 +32,7 @@ namespace Weather
             comboBox_city.SelectedIndex = 0;            
             label_nowday.Text = "오늘은 "+ DateTime.Now.ToString("yyyy-MM-dd") + " 입니다.";
 
-            Initializelabel();
-
-            comboBox_city.Focus();
+            Initializelabel();            
 
             // 라벨을 클릭해도 버튼 클릭 이벤트와 동일하게 동작하기 위해서 일단 2차원 배열을 만듦
             labelArray = new Label[,] {
@@ -52,26 +51,45 @@ namespace Weather
                     switch (i + 1)
                     {
                         case 1:
-                            labelArray[i, j].Click += button1_Click; // button1_Click 이벤트
+                            labelArray[i, j].Click += panel1_Click; // button1_Click 이벤트
+                            labelArray[i, j].MouseHover += panel1_MouseHover;
+                            labelArray[i, j].MouseMove += panel1_MouseMove;
+                            labelArray[i, j].MouseLeave += panel1_MouseLeave;
                             break;
 
                         case 2:
-                            labelArray[i, j].Click += button2_Click;
-                            break;
-
-                        case 3:
-                            labelArray[i, j].Click += button3_Click;
-                            break;
-
-                        case 4:
-                            labelArray[i, j].Click += button4_Click;
-                            break;
-
-                        case 5:
-                            labelArray[i, j].Click += button5_Click;
-                            break;
-                        case 6:
-                            labelArray[i, j].Click += button6_Click;
+                            labelArray[i, j].Click += panel2_Click;
+                            labelArray[i, j].MouseHover += panel2_MouseHover;
+                            labelArray[i, j].MouseMove += panel2_MouseMove;
+                            labelArray[i, j].MouseLeave += panel2_MouseLeave;
+                            break;                    
+                                                      
+                        case 3:                       
+                            labelArray[i, j].Click += panel3_Click;
+                            labelArray[i, j].MouseHover += panel3_MouseHover;
+                            labelArray[i, j].MouseMove += panel3_MouseMove;
+                            labelArray[i, j].MouseLeave += panel3_MouseLeave;
+                            break;                    
+                                                      
+                        case 4:                       
+                            labelArray[i, j].Click += panel4_Click;
+                            labelArray[i, j].MouseHover += panel4_MouseHover;
+                            labelArray[i, j].MouseMove += panel4_MouseMove;
+                            labelArray[i, j].MouseLeave += panel4_MouseLeave;
+                            break;                    
+                                                      
+                        case 5:                       
+                            labelArray[i, j].Click += panel5_Click;
+                            labelArray[i, j].MouseHover += panel5_MouseHover;
+                            labelArray[i, j].MouseMove += panel5_MouseMove;
+                            labelArray[i, j].MouseLeave += panel5_MouseLeave;
+                            break; 
+                            
+                        case 6:                       
+                            labelArray[i, j].Click += panel6_Click;
+                            labelArray[i, j].MouseHover += panel6_MouseHover;
+                            labelArray[i, j].MouseMove += panel6_MouseMove;
+                            labelArray[i, j].MouseLeave += panel6_MouseLeave;
                             break;
 
                         default:
@@ -81,10 +99,18 @@ namespace Weather
             }
         }
 
+        private void resetpic()
+        {
+            Thread.Sleep(50); // Thread 없으면 너무 버벅거림
+
+            // 콤보 박스를 리셋했을 때 이미지 초기화
+            pictureBox1.Load("../../../../sea-2755908_19203.jpg");
+        }
+
         // 참고
         private void label_click(object sender, EventArgs e)
         {            
-            button1.PerformClick(); //버튼1을 강제로 클릭하게 하는 함수
+            //button1.PerformClick(); //버튼1을 강제로 클릭하게 하는 함수
         }
 
         public void Initializelabel()
@@ -107,6 +133,9 @@ namespace Weather
         private void comboBox_city_SelectedIndexChanged(object sender, EventArgs e)
         {
             Console.WriteLine(comboBox_city.Text);
+                        
+            resetpic();
+
             try
             {
                 using (XmlReader xr = XmlReader.Create(url))
@@ -374,62 +403,56 @@ namespace Weather
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {           
+        private void panel1_Click(object sender, EventArgs e)
+        {
             calc1();
-            command();           
+            command();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void panel2_Click(object sender, EventArgs e)
         {
             calc2();
             command();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void panel3_Click(object sender, EventArgs e)
         {
             calc3();
             command();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void panel4_Click(object sender, EventArgs e)
         {
             calc4();
             command();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void panel5_Click(object sender, EventArgs e)
         {
             calc5();
             command();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void panel6_Click(object sender, EventArgs e)
         {
             calc6();
             command();
         }
 
-        private void button1_MouseMove(object sender, MouseEventArgs e)
-        {            
-            button1.BackColor = Color.FromArgb(110, 163, 168);
-            button1.FlatAppearance.MouseOverBackColor = button1.BackColor;
-        }
-
-        private void button1_MouseHover(object sender, EventArgs e)
-        {            
-            button1.BackColor = Color.FromArgb(110, 163, 168);
-            label_day1.BackColor = Color.FromArgb(110, 163, 168);            
-            label_high_text1.BackColor = Color.FromArgb(110, 163, 168);           
+        private void panel1_MouseHover(object sender, EventArgs e)
+        {
+            panel1.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text1.BackColor = Color.FromArgb(110, 163, 168);
+            label_day1.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text1.BackColor = Color.FromArgb(110, 163, 168);
             label_weather_text1.BackColor = Color.FromArgb(110, 163, 168);
             label1.BackColor = Color.FromArgb(110, 163, 168);
             label2.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button1_MouseLeave(object sender, EventArgs e)
-        {           
-            button1.BackColor = Color.White;
+        private void panel1_MouseLeave(object sender, EventArgs e)
+        {
+            panel1.BackColor = Color.White;
             label_day1.BackColor = Color.White;
             label_high_text1.BackColor = Color.White;
             label_low_text1.BackColor = Color.White;
@@ -438,26 +461,32 @@ namespace Weather
             label2.BackColor = Color.White;
         }
 
-        private void button2_MouseMove(object sender, MouseEventArgs e)
-        {            
-            button2.BackColor = Color.FromArgb(110, 163, 168);
-            button2.FlatAppearance.MouseOverBackColor = button2.BackColor;
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            panel1.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text1.BackColor = Color.FromArgb(110, 163, 168);
+            label_day1.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text1.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text1.BackColor = Color.FromArgb(110, 163, 168);
+            label1.BackColor = Color.FromArgb(110, 163, 168);
+            label2.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button2_MouseHover(object sender, EventArgs e)
+        private void panel2_MouseHover(object sender, EventArgs e)
         {
-            button2.BackColor = Color.FromArgb(110, 163, 168);
-            label_day2.BackColor = Color.FromArgb(110, 163, 168);
+
+            panel2.BackColor = Color.FromArgb(110, 163, 168);
             label_high_text2.BackColor = Color.FromArgb(110, 163, 168);
+            label_day2.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text2.BackColor = Color.FromArgb(110, 163, 168);
             label_weather_text2.BackColor = Color.FromArgb(110, 163, 168);
             label3.BackColor = Color.FromArgb(110, 163, 168);
             label4.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button2_MouseLeave(object sender, EventArgs e)
+        private void panel2_MouseLeave(object sender, EventArgs e)
         {
-            button2.BackColor = Color.White;
+            panel2.BackColor = Color.White;
             label_day2.BackColor = Color.White;
             label_high_text2.BackColor = Color.White;
             label_low_text2.BackColor = Color.White;
@@ -466,26 +495,31 @@ namespace Weather
             label4.BackColor = Color.White;
         }
 
-        private void button3_MouseMove(object sender, MouseEventArgs e)
-        {            
-            button3.BackColor = Color.FromArgb(110, 163, 168);
-            button3.FlatAppearance.MouseOverBackColor = button3.BackColor;
+        private void panel2_MouseMove(object sender, MouseEventArgs e)
+        {
+            panel2.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text2.BackColor = Color.FromArgb(110, 163, 168);
+            label_day2.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text2.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text2.BackColor = Color.FromArgb(110, 163, 168);
+            label3.BackColor = Color.FromArgb(110, 163, 168);
+            label4.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button3_MouseHover(object sender, EventArgs e)
+        private void panel3_MouseHover(object sender, EventArgs e)
         {
-            button3.BackColor = Color.FromArgb(110, 163, 168);
-            label_day3.BackColor = Color.FromArgb(110, 163, 168);
+            panel3.BackColor = Color.FromArgb(110, 163, 168);
             label_high_text3.BackColor = Color.FromArgb(110, 163, 168);
+            label_day3.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text3.BackColor = Color.FromArgb(110, 163, 168);
             label_weather_text3.BackColor = Color.FromArgb(110, 163, 168);
             label5.BackColor = Color.FromArgb(110, 163, 168);
             label6.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button3_MouseLeave(object sender, EventArgs e)
+        private void panel3_MouseLeave(object sender, EventArgs e)
         {
-            button3.BackColor = Color.White;
+            panel3.BackColor = Color.White;
             label_day3.BackColor = Color.White;
             label_high_text3.BackColor = Color.White;
             label_low_text3.BackColor = Color.White;
@@ -494,26 +528,31 @@ namespace Weather
             label6.BackColor = Color.White;
         }
 
-        private void button4_MouseMove(object sender, MouseEventArgs e)
+        private void panel3_MouseMove(object sender, MouseEventArgs e)
         {
-            button4.BackColor = Color.FromArgb(110, 163, 168);
-            button4.FlatAppearance.MouseOverBackColor = button4.BackColor;
+            panel3.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text3.BackColor = Color.FromArgb(110, 163, 168);
+            label_day3.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text3.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text3.BackColor = Color.FromArgb(110, 163, 168);
+            label5.BackColor = Color.FromArgb(110, 163, 168);
+            label6.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button4_MouseHover(object sender, EventArgs e)
+        private void panel4_MouseHover(object sender, EventArgs e)
         {
-            button4.BackColor = Color.FromArgb(110, 163, 168);
-            label_day4.BackColor = Color.FromArgb(110, 163, 168);
+            panel4.BackColor = Color.FromArgb(110, 163, 168);
             label_high_text4.BackColor = Color.FromArgb(110, 163, 168);
+            label_day4.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text4.BackColor = Color.FromArgb(110, 163, 168);
             label_weather_text4.BackColor = Color.FromArgb(110, 163, 168);
             label7.BackColor = Color.FromArgb(110, 163, 168);
             label8.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button4_MouseLeave(object sender, EventArgs e)
+        private void panel4_MouseLeave(object sender, EventArgs e)
         {
-            button4.BackColor = Color.White;
+            panel4.BackColor = Color.White;
             label_day4.BackColor = Color.White;
             label_high_text4.BackColor = Color.White;
             label_low_text4.BackColor = Color.White;
@@ -522,27 +561,32 @@ namespace Weather
             label8.BackColor = Color.White;
         }
 
-        private void button5_MouseMove(object sender, MouseEventArgs e)
+        private void panel4_MouseMove(object sender, MouseEventArgs e)
         {
-            button5.BackColor = Color.FromArgb(110, 163, 168);
-            button5.FlatAppearance.MouseOverBackColor = button5.BackColor;
+            panel4.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text4.BackColor = Color.FromArgb(110, 163, 168);
+            label_day4.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text4.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text4.BackColor = Color.FromArgb(110, 163, 168);
+            label7.BackColor = Color.FromArgb(110, 163, 168);
+            label8.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button5_MouseHover(object sender, EventArgs e)
+        private void panel5_MouseHover(object sender, EventArgs e)
         {
-            button5.BackColor = Color.FromArgb(110, 163, 168);
-            label_day5.BackColor = Color.FromArgb(110, 163, 168);
+            panel5.BackColor = Color.FromArgb(110, 163, 168);
             label_high_text5.BackColor = Color.FromArgb(110, 163, 168);
+            label_day5.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text5.BackColor = Color.FromArgb(110, 163, 168);
             label_weather_text5.BackColor = Color.FromArgb(110, 163, 168);
             label9.BackColor = Color.FromArgb(110, 163, 168);
             label10.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button5_MouseLeave(object sender, EventArgs e)
+        private void panel5_MouseLeave(object sender, EventArgs e)
         {
-            button5.BackColor = Color.White;
-            label_day5.BackColor = Color.White; ;
+            panel5.BackColor = Color.White;
+            label_day5.BackColor = Color.White;
             label_high_text5.BackColor = Color.White;
             label_low_text5.BackColor = Color.White;
             label_weather_text5.BackColor = Color.White;
@@ -550,32 +594,48 @@ namespace Weather
             label10.BackColor = Color.White;
         }
 
-        private void button6_MouseMove(object sender, MouseEventArgs e)
+        private void panel5_MouseMove(object sender, MouseEventArgs e)
         {
-            button6.BackColor = Color.FromArgb(110, 163, 168);
-            button6.FlatAppearance.MouseOverBackColor = button6.BackColor;
+            panel5.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text5.BackColor = Color.FromArgb(110, 163, 168);
+            label_day5.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text5.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text5.BackColor = Color.FromArgb(110, 163, 168);
+            label9.BackColor = Color.FromArgb(110, 163, 168);
+            label10.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button6_MouseHover(object sender, EventArgs e)
+        private void panel6_MouseHover(object sender, EventArgs e)
         {
-            button6.BackColor = Color.FromArgb(110, 163, 168);
-            label_day6.BackColor = Color.FromArgb(110, 163, 168);
+            panel6.BackColor = Color.FromArgb(110, 163, 168);
             label_high_text6.BackColor = Color.FromArgb(110, 163, 168);
+            label_day6.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text6.BackColor = Color.FromArgb(110, 163, 168);
             label_weather_text6.BackColor = Color.FromArgb(110, 163, 168);
             label11.BackColor = Color.FromArgb(110, 163, 168);
             label12.BackColor = Color.FromArgb(110, 163, 168);
         }
 
-        private void button6_MouseLeave(object sender, EventArgs e)
+        private void panel6_MouseLeave(object sender, EventArgs e)
         {
-            button6.BackColor = Color.White;
-            label_day6.BackColor = Color.White; ;
+            panel6.BackColor = Color.White;
+            label_day6.BackColor = Color.White;
             label_high_text6.BackColor = Color.White;
             label_low_text6.BackColor = Color.White;
             label_weather_text6.BackColor = Color.White;
             label11.BackColor = Color.White;
             label12.BackColor = Color.White;
+        }
+
+        private void panel6_MouseMove(object sender, MouseEventArgs e)
+        {
+            panel6.BackColor = Color.FromArgb(110, 163, 168);
+            label_high_text6.BackColor = Color.FromArgb(110, 163, 168);
+            label_day6.BackColor = Color.FromArgb(110, 163, 168);
+            label_low_text6.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text6.BackColor = Color.FromArgb(110, 163, 168);
+            label11.BackColor = Color.FromArgb(110, 163, 168);
+            label12.BackColor = Color.FromArgb(110, 163, 168);
         }
     }
 }

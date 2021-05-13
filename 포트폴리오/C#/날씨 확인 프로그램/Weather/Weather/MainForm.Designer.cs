@@ -55,21 +55,18 @@ namespace Weather
             this.label_high5 = new System.Windows.Forms.Label();
             this.label_day6 = new System.Windows.Forms.Label();
             this.label_high_text4 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
             this.label_low_text5 = new System.Windows.Forms.Label();
             this.label_weather_text2 = new System.Windows.Forms.Label();
             this.label_low5 = new System.Windows.Forms.Label();
             this.label_high4 = new System.Windows.Forms.Label();
             this.label_day5 = new System.Windows.Forms.Label();
             this.label_high_text3 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             this.label_low_text4 = new System.Windows.Forms.Label();
             this.label_weather_text1 = new System.Windows.Forms.Label();
             this.label_low4 = new System.Windows.Forms.Label();
             this.label_high3 = new System.Windows.Forms.Label();
             this.label_day4 = new System.Windows.Forms.Label();
             this.label_high_text2 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.label_low_text3 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label_city = new System.Windows.Forms.Label();
@@ -79,7 +76,6 @@ namespace Weather
             this.label_high2 = new System.Windows.Forms.Label();
             this.label_day3 = new System.Windows.Forms.Label();
             this.label_high_text1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.label_low_text2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -90,10 +86,14 @@ namespace Weather
             this.label_high1 = new System.Windows.Forms.Label();
             this.label_day2 = new System.Windows.Forms.Label();
             this.label_low_text1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.label_low1 = new System.Windows.Forms.Label();
             this.label_day1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -127,38 +127,38 @@ namespace Weather
             this.groupBox1.Controls.Add(this.label_high5);
             this.groupBox1.Controls.Add(this.label_day6);
             this.groupBox1.Controls.Add(this.label_high_text4);
-            this.groupBox1.Controls.Add(this.button6);
             this.groupBox1.Controls.Add(this.label_low_text5);
             this.groupBox1.Controls.Add(this.label_weather_text2);
             this.groupBox1.Controls.Add(this.label_low5);
             this.groupBox1.Controls.Add(this.label_high4);
             this.groupBox1.Controls.Add(this.label_day5);
             this.groupBox1.Controls.Add(this.label_high_text3);
-            this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Controls.Add(this.label_low_text4);
             this.groupBox1.Controls.Add(this.label_weather_text1);
             this.groupBox1.Controls.Add(this.label_low4);
             this.groupBox1.Controls.Add(this.label_high3);
             this.groupBox1.Controls.Add(this.label_day4);
             this.groupBox1.Controls.Add(this.label_high_text2);
-            this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.label_low_text3);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.label_low3);
             this.groupBox1.Controls.Add(this.label_high2);
             this.groupBox1.Controls.Add(this.label_day3);
             this.groupBox1.Controls.Add(this.label_high_text1);
-            this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.label_low_text2);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.label_low2);
             this.groupBox1.Controls.Add(this.label_high1);
             this.groupBox1.Controls.Add(this.label_day2);
             this.groupBox1.Controls.Add(this.label_low_text1);
-            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label_low1);
             this.groupBox1.Controls.Add(this.label_day1);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.panel6);
+            this.groupBox1.Controls.Add(this.panel5);
+            this.groupBox1.Controls.Add(this.panel4);
+            this.groupBox1.Controls.Add(this.panel3);
+            this.groupBox1.Controls.Add(this.panel2);
+            this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Location = new System.Drawing.Point(23, 63);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(599, 548);
@@ -258,7 +258,7 @@ namespace Weather
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(126, 364);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(11, 12);
@@ -268,7 +268,7 @@ namespace Weather
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(126, 340);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(11, 12);
@@ -396,20 +396,6 @@ namespace Weather
             this.label_high_text4.TabIndex = 21;
             this.label_high_text4.Text = "-";
             // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(421, 422);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(150, 103);
-            this.button6.TabIndex = 16;
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            this.button6.MouseLeave += new System.EventHandler(this.button6_MouseLeave);
-            this.button6.MouseHover += new System.EventHandler(this.button6_MouseHover);
-            this.button6.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button6_MouseMove);
-            // 
             // label_low_text5
             // 
             this.label_low_text5.AutoSize = true;
@@ -471,20 +457,6 @@ namespace Weather
             this.label_high_text3.TabIndex = 20;
             this.label_high_text3.Text = "-";
             // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(226, 422);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(150, 103);
-            this.button5.TabIndex = 16;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            this.button5.MouseLeave += new System.EventHandler(this.button5_MouseLeave);
-            this.button5.MouseHover += new System.EventHandler(this.button5_MouseHover);
-            this.button5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button5_MouseMove);
-            // 
             // label_low_text4
             // 
             this.label_low_text4.AutoSize = true;
@@ -498,7 +470,7 @@ namespace Weather
             // label_weather_text1
             // 
             this.label_weather_text1.AutoSize = true;
-            this.label_weather_text1.BackColor = System.Drawing.Color.Transparent;
+            this.label_weather_text1.BackColor = System.Drawing.Color.White;
             this.label_weather_text1.Location = new System.Drawing.Point(61, 386);
             this.label_weather_text1.Name = "label_weather_text1";
             this.label_weather_text1.Size = new System.Drawing.Size(11, 12);
@@ -545,20 +517,6 @@ namespace Weather
             this.label_high_text2.Size = new System.Drawing.Size(11, 12);
             this.label_high_text2.TabIndex = 27;
             this.label_high_text2.Text = "-";
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(31, 422);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(150, 100);
-            this.button4.TabIndex = 16;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            this.button4.MouseLeave += new System.EventHandler(this.button4_MouseLeave);
-            this.button4.MouseHover += new System.EventHandler(this.button4_MouseHover);
-            this.button4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button4_MouseMove);
             // 
             // label_low_text3
             // 
@@ -678,26 +636,12 @@ namespace Weather
             // label_high_text1
             // 
             this.label_high_text1.AutoSize = true;
-            this.label_high_text1.BackColor = System.Drawing.Color.Transparent;
+            this.label_high_text1.BackColor = System.Drawing.Color.White;
             this.label_high_text1.Location = new System.Drawing.Point(109, 364);
             this.label_high_text1.Name = "label_high_text1";
             this.label_high_text1.Size = new System.Drawing.Size(11, 12);
             this.label_high_text1.TabIndex = 21;
             this.label_high_text1.Text = "-";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(421, 305);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(150, 103);
-            this.button3.TabIndex = 15;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            this.button3.MouseLeave += new System.EventHandler(this.button3_MouseLeave);
-            this.button3.MouseHover += new System.EventHandler(this.button3_MouseHover);
-            this.button3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button3_MouseMove);
             // 
             // label_low_text2
             // 
@@ -791,26 +735,12 @@ namespace Weather
             // label_low_text1
             // 
             this.label_low_text1.AutoSize = true;
-            this.label_low_text1.BackColor = System.Drawing.Color.Transparent;
+            this.label_low_text1.BackColor = System.Drawing.Color.White;
             this.label_low_text1.Location = new System.Drawing.Point(109, 340);
             this.label_low_text1.Name = "label_low_text1";
             this.label_low_text1.Size = new System.Drawing.Size(11, 12);
             this.label_low_text1.TabIndex = 19;
             this.label_low_text1.Text = "-";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(226, 305);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 99);
-            this.button2.TabIndex = 16;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            this.button2.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
-            this.button2.MouseHover += new System.EventHandler(this.button2_MouseHover);
-            this.button2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button2_MouseMove);
             // 
             // label_low1
             // 
@@ -825,7 +755,7 @@ namespace Weather
             // label_day1
             // 
             this.label_day1.AutoSize = true;
-            this.label_day1.BackColor = System.Drawing.Color.Transparent;
+            this.label_day1.BackColor = System.Drawing.Color.White;
             this.label_day1.ForeColor = System.Drawing.Color.Black;
             this.label_day1.Location = new System.Drawing.Point(73, 318);
             this.label_day1.Name = "label_day1";
@@ -834,20 +764,77 @@ namespace Weather
             this.label_day1.Text = "-";
             this.label_day1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // panel6
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(29, 305);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 100);
-            this.button1.TabIndex = 16;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
-            this.button1.MouseHover += new System.EventHandler(this.button1_MouseHover);
-            this.button1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button1_MouseMove);
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Location = new System.Drawing.Point(421, 422);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(150, 100);
+            this.panel6.TabIndex = 44;
+            this.panel6.Click += new System.EventHandler(this.panel6_Click);
+            this.panel6.MouseLeave += new System.EventHandler(this.panel6_MouseLeave);
+            this.panel6.MouseHover += new System.EventHandler(this.panel6_MouseHover);
+            this.panel6.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel6_MouseMove);
+            // 
+            // panel5
+            // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Location = new System.Drawing.Point(226, 422);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(150, 100);
+            this.panel5.TabIndex = 43;
+            this.panel5.Click += new System.EventHandler(this.panel5_Click);
+            this.panel5.MouseLeave += new System.EventHandler(this.panel5_MouseLeave);
+            this.panel5.MouseHover += new System.EventHandler(this.panel5_MouseHover);
+            this.panel5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel5_MouseMove);
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Location = new System.Drawing.Point(29, 422);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(150, 100);
+            this.panel4.TabIndex = 42;
+            this.panel4.Click += new System.EventHandler(this.panel4_Click);
+            this.panel4.MouseLeave += new System.EventHandler(this.panel4_MouseLeave);
+            this.panel4.MouseHover += new System.EventHandler(this.panel4_MouseHover);
+            this.panel4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseMove);
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Location = new System.Drawing.Point(421, 305);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(150, 100);
+            this.panel3.TabIndex = 43;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
+            this.panel3.MouseLeave += new System.EventHandler(this.panel3_MouseLeave);
+            this.panel3.MouseHover += new System.EventHandler(this.panel3_MouseHover);
+            this.panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseMove);
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Location = new System.Drawing.Point(226, 305);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(150, 100);
+            this.panel2.TabIndex = 42;
+            this.panel2.Click += new System.EventHandler(this.panel2_Click);
+            this.panel2.MouseLeave += new System.EventHandler(this.panel2_MouseLeave);
+            this.panel2.MouseHover += new System.EventHandler(this.panel2_MouseHover);
+            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Location = new System.Drawing.Point(29, 305);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(150, 100);
+            this.panel1.TabIndex = 41;
+            this.panel1.Click += new System.EventHandler(this.panel1_Click);
+            this.panel1.MouseLeave += new System.EventHandler(this.panel1_MouseLeave);
+            this.panel1.MouseHover += new System.EventHandler(this.panel1_MouseHover);
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             // 
             // pictureBox1
             // 
@@ -867,7 +854,7 @@ namespace Weather
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
             this.Name = "MainForm";
-            this.Text = "이틀 뒤 날씨는 어떨까";
+            this.Text = "잘 챙겨입고 나가세요~";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -896,15 +883,12 @@ namespace Weather
         private System.Windows.Forms.Label label_low_text1;
         private System.Windows.Forms.Label label_low1;
         private System.Windows.Forms.Label label_day1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label_weather_text2;
         private System.Windows.Forms.Label label_high_text2;
         private System.Windows.Forms.Label label_high2;
         private System.Windows.Forms.Label label_low_text2;
         private System.Windows.Forms.Label label_low2;
         private System.Windows.Forms.Label label_day2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label_weather_text6;
         private System.Windows.Forms.Label label_weather_text5;
         private System.Windows.Forms.Label label_high_text6;
@@ -917,18 +901,15 @@ namespace Weather
         private System.Windows.Forms.Label label_high5;
         private System.Windows.Forms.Label label_day6;
         private System.Windows.Forms.Label label_high_text4;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label_low_text5;
         private System.Windows.Forms.Label label_low5;
         private System.Windows.Forms.Label label_high4;
         private System.Windows.Forms.Label label_day5;
         private System.Windows.Forms.Label label_high_text3;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label_low_text4;
         private System.Windows.Forms.Label label_low4;
         private System.Windows.Forms.Label label_high3;
         private System.Windows.Forms.Label label_day4;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label_low_text3;
         private System.Windows.Forms.Label label_low3;
         private System.Windows.Forms.Label label_day3;
@@ -946,6 +927,12 @@ namespace Weather
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

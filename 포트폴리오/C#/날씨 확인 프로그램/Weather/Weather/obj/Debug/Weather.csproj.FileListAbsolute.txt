@@ -41,3 +41,4 @@ C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프�
 C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
 D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MaterialSkin.dll
 D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.MainForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MaterialSkin.dll
