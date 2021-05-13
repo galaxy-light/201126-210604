@@ -22,6 +22,13 @@ namespace Weather
         string city = "";
         static double avg;
 
+        WhAttri a1;
+        WhAttri a2;
+        WhAttri a3;
+        WhAttri a4;
+        WhAttri a5;
+        WhAttri a6;
+
         Label[,] labelArray;
 
         public MainForm()
@@ -31,18 +38,16 @@ namespace Weather
             comboBox_city.SelectedIndex = 0;            
             label_nowday.Text = "오늘은 "+ DateTime.Now.ToString("yyyy-MM-dd") + " 입니다.";
 
-            Initializelabel();
-
             strtext();
 
             // 라벨을 클릭해도 버튼 클릭 이벤트와 동일하게 동작하기 위해서 일단 2차원 배열을 만듦
             labelArray = new Label[,] {
-                { label_day1, label_low1, label_high1, label_weather_text1, label_low_text1, label_high_text1, label1, label2 },
-                { label_day2, label_low2, label_high2, label_weather_text2, label_low_text2, label_high_text2, label3, label4},
-                { label_day3, label_low3, label_high3, label_weather_text3, label_low_text3, label_high_text3, label5, label6},
-                { label_day4, label_low4, label_high4, label_weather_text4, label_low_text4, label_high_text4, label7, label8 },
-                { label_day5, label_low5, label_high5, label_weather_text5, label_low_text5, label_high_text5, label9, label10 },
-                { label_day6, label_low6, label_high6, label_weather_text6, label_low_text6, label_high_text6, label11, label12 }
+                { label_day1, label_low1, label_high1, label_weather_text1, label_low_text1, label_high_text1 },
+                { label_day2, label_low2, label_high2, label_weather_text2, label_low_text2, label_high_text2 },
+                { label_day3, label_low3, label_high3, label_weather_text3, label_low_text3, label_high_text3 },
+                { label_day4, label_low4, label_high4, label_weather_text4, label_low_text4, label_high_text4 },
+                { label_day5, label_low5, label_high5, label_weather_text5, label_low_text5, label_high_text5 },
+                { label_day6, label_low6, label_high6, label_weather_text6, label_low_text6, label_high_text6 }
             };
 
             for (int i = 0; i < labelArray.GetLength(0); i++) // 행
@@ -100,6 +105,7 @@ namespace Weather
             }
         }
 
+        // 픽쳐박스 초기화
         private void resetpic()
         {
             Thread.Sleep(50); // Thread 없으면 너무 버벅거림
@@ -108,29 +114,13 @@ namespace Weather
             pictureBox1.Load("../../../../sea-2755908_19203.jpg");
         }
 
-        // 참고
+        // 참고(사용X)
         private void label_click(object sender, EventArgs e)
         {            
             //button1.PerformClick(); //버튼1을 강제로 클릭하게 하는 함수
         }
-
-        public void Initializelabel()
-        {
-            label1.Text = "℃";
-            label2.Text = "℃";
-            label3.Text = "℃";
-            label4.Text = "℃";
-            label5.Text = "℃";
-            label6.Text = "℃";
-            label7.Text = "℃";
-            label8.Text = "℃";
-            label9.Text = "℃";
-            label10.Text = "℃";
-            label11.Text = "℃";
-            label12.Text = "℃";
-            label13.Text = "℃";
-        }
-
+        
+        // Textbox 조건 체크
         private void strtext()
         {
             string str = textBox1.Text;
@@ -197,15 +187,9 @@ namespace Weather
                         {
                             case XmlNodeType.CDATA:
                                 {
-                                    textBox1.Text = xr.Value.ToString().Replace("<br />", "");
+                                    textBox1.Text = xr.Value.ToString().Replace("<br />", " ");
                                     break;
-                                }
-                            /*case XmlNodeType.None:                                
-                                break;*/
-                            case XmlNodeType.Element:
-                                break;
-                            /*case XmlNodeType.Attribute:
-                                break;*/
+                                }                                                                            
                             case XmlNodeType.Text:
                                 {
                                     if (xr.Value.Equals(city))
@@ -228,201 +212,123 @@ namespace Weather
                                         }
                                     }
                                     break;
-                                }                                                                   
-                            /*case XmlNodeType.EntityReference:
-                                break;*/
-                            /*case XmlNodeType.Entity:
-                                break;*/
-                            case XmlNodeType.ProcessingInstruction:
-                                break;
-                            case XmlNodeType.Comment:
-                                break;
-                            /*case XmlNodeType.Document:
-                                break;*/
-                            /*case XmlNodeType.DocumentType:
-                                break;*/
-                            /*case XmlNodeType.DocumentFragment:
-                                break;*/
-                            /*case XmlNodeType.Notation:
-                                break;*/
-                            /*case XmlNodeType.Whitespace:
-                                break;*/
-                           /* case XmlNodeType.SignificantWhitespace:
-                                break;*/
-                            case XmlNodeType.EndElement:
-                                break;
-                            case XmlNodeType.EndEntity:
-                                break;
-                            case XmlNodeType.XmlDeclaration:
-                                break;
+                                }
                             default:
                                 break;
                         }
                     }
-                    // 요일별
-                    string[] strtemp = msg.Split('/');
-
-                    //요일별 데이터
-                    string[] strtemp1 = strtemp[1].Split(',');
-                    label_day1.Text = strtemp1[0];
-                    label_low_text1.Text = strtemp1[2];
-                    label_high_text1.Text = strtemp1[3];
-                    label_weather_text1.Text = "요약 : " + strtemp1[1];                
-                    avg = (int.Parse(strtemp1[2]) + int.Parse(strtemp1[3])) / 2;
-                    Console.WriteLine($"{label_day1.Text} 평균 기온 : " + avg);
-                    //label_avg.Text = avg.ToString();
-
-                    string[] strtemp2 = strtemp[2].Split(',');
-                    label_day2.Text = strtemp2[0];
-                    label_low_text2.Text = strtemp2[2];
-                    label_high_text2.Text = strtemp2[3];
-                    label_weather_text2.Text = "요약 : " + strtemp2[1];
-                    avg = (int.Parse(strtemp2[2]) + int.Parse(strtemp2[3])) / 2;
-                    Console.WriteLine($"{label_day2.Text} 평균 기온 : " + avg);
-                    //label_avg.Text = avg.ToString();
-
-                    string[] strtemp3 = strtemp[3].Split(',');
-                    label_day3.Text = strtemp3[0];
-                    label_low_text3.Text = strtemp3[2];
-                    label_high_text3.Text = strtemp3[3];
-                    label_weather_text3.Text = "요약 : " + strtemp3[1];
-                    avg = (int.Parse(strtemp3[2]) + int.Parse(strtemp3[3])) / 2;
-                    Console.WriteLine($"{label_day3.Text} 평균 기온 : " + avg);
-                    //label_avg.Text = avg.ToString();
-
-                    string[] strtemp4 = strtemp[4].Split(',');
-                    label_day4.Text = strtemp4[0];
-                    label_low_text4.Text = strtemp4[2];
-                    label_high_text4.Text = strtemp4[3];
-                    label_weather_text4.Text = "요약 : " + strtemp4[1];
-                    avg = (int.Parse(strtemp4[2]) + int.Parse(strtemp4[3])) / 2;
-                    Console.WriteLine($"{label_day4.Text} 평균 기온 : " + avg);
-                    //label_avg.Text = avg.ToString();
-
-                    string[] strtemp5 = strtemp[5].Split(',');
-                    label_day5.Text = strtemp5[0];
-                    label_low_text5.Text = strtemp5[2];
-                    label_high_text5.Text = strtemp5[3];
-                    label_weather_text5.Text = "요약 : " + strtemp5[1];
-                    avg = (int.Parse(strtemp5[2]) + int.Parse(strtemp5[3])) / 2;
-                    Console.WriteLine($"{label_day5.Text} 평균 기온 : " + avg);
-                    //label_avg.Text = avg.ToString();
-
-                    string[] strtemp6 = strtemp[6].Split(',');
-                    label_day6.Text = strtemp6[0];
-                    label_low_text6.Text = strtemp6[2];
-                    label_high_text6.Text = strtemp6[3];
-                    label_weather_text6.Text = "요약 : " + strtemp6[1];
-                    avg = (int.Parse(strtemp6[2]) + int.Parse(strtemp6[3])) / 2;
-                    Console.WriteLine($"{label_day6.Text} 평균 기온 : " + avg);
-                    //label_avg.Text = avg.ToString();
+                    string[] tempstr = msg.Split('/');
+                    settext(tempstr);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
-                MessageBox.Show(ex.StackTrace);               
+                MessageBox.Show(ex.Message + "\n" + ex.StackTrace);            
                 //throw;
             }
-        }     
-
-        private void calc1()
-        {
-            label_avg.Text = "";
-            double result1 = (int.Parse(label_high_text1.Text) + int.Parse(label_low_text1.Text)) / 2;
-            label_avg.Text = result1.ToString();
         }
 
-        private void calc2()
+        public void settext(string[] tempstr)
         {
-            label_avg.Text = "";
-            double result2 = (int.Parse(label_high_text2.Text) + int.Parse(label_low_text2.Text)) / 2;
-            label_avg.Text = result2.ToString();
+            string[] wh1 = tempstr[1].Split(',');
+            a1 = new WhAttri(wh1[0], int.Parse(wh1[2]), int.Parse(wh1[3]), wh1[1]);
+            label_day1.Text = a1.Date;
+            label_low_text1.Text = a1.Lowtem + "℃";
+            label_high_text1.Text = a1.Hightem + "℃";
+            label_weather_text1.Text = a1.Strsummary;
+
+            string[] wh2 = tempstr[2].Split(',');
+            a2 = new WhAttri(wh2[0], int.Parse(wh2[2]), int.Parse(wh2[3]), wh2[1]);
+            label_day2.Text = a2.Date;
+            label_low_text2.Text = a2.Lowtem + "℃";
+            label_high_text2.Text = a2.Hightem + "℃";
+            label_weather_text2.Text = a2.Strsummary;
+
+            string[] wh3 = tempstr[3].Split(',');
+            a3 = new WhAttri(wh3[0], int.Parse(wh3[2]), int.Parse(wh3[3]), wh3[1]);
+            label_day3.Text = a3.Date;
+            label_low_text3.Text = a3.Lowtem + "℃";
+            label_high_text3.Text = a3.Hightem + "℃";
+            label_weather_text3.Text = a3.Strsummary;
+
+            string[] wh4 = tempstr[4].Split(',');
+            a4 = new WhAttri(wh4[0], int.Parse(wh4[2]), int.Parse(wh4[3]), wh4[1]);
+            label_day4.Text = a4.Date;
+            label_low_text4.Text = a4.Lowtem + "℃";
+            label_high_text4.Text = a4.Hightem + "℃";
+            label_weather_text4.Text = a4.Strsummary;
+
+            string[] wh5 = tempstr[5].Split(',');
+            a5 = new WhAttri(wh5[0], int.Parse(wh5[2]), int.Parse(wh5[3]), wh5[1]);
+            label_day5.Text = a5.Date;
+            label_low_text5.Text = a5.Lowtem + "℃";
+            label_high_text5.Text = a5.Hightem + "℃";
+            label_weather_text5.Text = a5.Strsummary;
+
+            string[] wh6 = tempstr[6].Split(',');
+            a6 = new WhAttri(wh6[0], int.Parse(wh6[2]), int.Parse(wh6[3]), wh6[1]);
+            label_day6.Text = a6.Date;
+            label_low_text6.Text = a6.Lowtem + "℃";
+            label_high_text6.Text = a6.Hightem + "℃";
+            label_weather_text6.Text = a6.Strsummary;
         }
 
-        private void calc3()
+        private void whcommand(WhAttri ag)
         {
-            label_avg.Text = "";
-            double result3 = (int.Parse(label_high_text3.Text) + int.Parse(label_low_text3.Text)) / 2;
-            label_avg.Text = result3.ToString();
-        }
-
-        private void calc4()
-        {
-            label_avg.Text = "";
-            double result4 = (int.Parse(label_high_text4.Text) + int.Parse(label_low_text4.Text)) / 2;
-            label_avg.Text = result4.ToString();
-        }
-
-        private void calc5()
-        {
-            label_avg.Text = "";
-            double result5 = (int.Parse(label_high_text5.Text) + int.Parse(label_low_text5.Text)) / 2;
-            label_avg.Text = result5.ToString();
-        }
-
-        private void calc6()
-        {
-            label_avg.Text = "";
-            double result6 = (int.Parse(label_high_text6.Text) + int.Parse(label_low_text6.Text)) / 2;
-            label_avg.Text = result6.ToString();
-        }
-
-        private void command()
-        {
-            if (int.Parse(label_avg.Text) <= 5)
+            int tempavg = (ag.Lowtem + ag.Hightem) / 2;
+            if (tempavg <= 5)
             {
                 Console.WriteLine($"추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품");
-                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_avg.Text = $"평균 기온 : {tempavg}" + "℃";
                 label_comm.Text = $"추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품";
                 pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/402/detail_402_1_500.jpg?202105131105");
             }
-            else if (6 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 9)
+            else if (6 <= tempavg && tempavg <= 9)
             {
                 Console.WriteLine($"추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스");
-                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_avg.Text = $"평균 기온 : {tempavg}" + "℃";
                 label_comm.Text = $"추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스";
                 pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/421/detail_421_1_500.jpg?202105131105");
             }
-            else if (10 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 11)
+            else if (10 <= tempavg && tempavg <= 11)
             {
                 Console.WriteLine($"추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹");
-                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_avg.Text = $"평균 기온 : {tempavg}" + "℃";
                 label_comm.Text = $"추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹";
                 pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/569/detail_569_1_500.jpg?202105131105");
             }
-            else if (12 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 16)
+            else if (12 <= tempavg && tempavg <= 16)
             {
                 Console.WriteLine($"추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지");
-                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_avg.Text = $"평균 기온 : {tempavg}" + "℃";
                 label_comm.Text = $"추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지";
                 pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/2161/detail_2161_1_500.jpg?202105131105");
             }
-            else if (17 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 19)
+            else if (17 <= tempavg && tempavg <= 19)
             {
                 Console.WriteLine($"추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지");
-                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_avg.Text = $"평균 기온 : {tempavg}" + "℃";
                 label_comm.Text = $"추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지";
                 pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/232/detail_232_1_500.jpg?202105131105");
             }
-            else if (20 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 22)
+            else if (20 <= tempavg && tempavg <= 22)
             {
                 Console.WriteLine($"추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지");
-                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_avg.Text = $"평균 기온 : {tempavg}" + "℃";
                 label_comm.Text = $"추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지";
                 pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/2546/detail_2546_1_500.jpg?202105131105");
             }
-            else if (23 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 26)
+            else if (23 <= tempavg && tempavg <= 26)
             {
                 Console.WriteLine($"추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지");
-                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_avg.Text = $"평균 기온 : {tempavg}" + "℃";
                 label_comm.Text = $"추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지";
                 pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/2688/detail_2688_1_500.jpg?202105131105");
             }
-            else if (27 <= int.Parse(label_avg.Text))
+            else if (27 <= tempavg)
             {
                 Console.WriteLine($"추천 옷차림 : 반팔, 민소매, 반바지, 원피스");
-                label_avg.Text = $"평균 기온 : {label_avg.Text}";
+                label_avg.Text = $"평균 기온 : {tempavg}" + "℃";
                 label_comm.Text = $"추천 옷차림 : 반팔, 민소매, 반바지, 원피스";
                 pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/3008/detail_3008_1_500.jpg?202105131105");
             }
@@ -447,40 +353,46 @@ namespace Weather
             }
         }
 
+        private void resettext()
+        {
+            label_avg.Text = "";
+            label_comm.Text = "";
+        }
+
         private void panel1_Click(object sender, EventArgs e)
         {
-            calc1();
-            command();
+            resettext();
+            whcommand(a1);           
         }
 
         private void panel2_Click(object sender, EventArgs e)
         {
-            calc2();
-            command();
+            resettext();
+            whcommand(a2);
         }
 
         private void panel3_Click(object sender, EventArgs e)
         {
-            calc3();
-            command();
+            resettext();
+            whcommand(a3);
         }
 
         private void panel4_Click(object sender, EventArgs e)
         {
-            calc4();
-            command();
+            resettext();
+            whcommand(a4);
         }
 
         private void panel5_Click(object sender, EventArgs e)
         {
-            calc5();
-            command();
+            resettext();
+            whcommand(a5);
         }
 
         private void panel6_Click(object sender, EventArgs e)
         {
-            calc6();
-            command();
+            resettext();
+            whcommand(a6);
         }
 
         private void panel1_MouseHover(object sender, EventArgs e)
@@ -489,9 +401,7 @@ namespace Weather
             label_high_text1.BackColor = Color.FromArgb(110, 163, 168);
             label_day1.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text1.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text1.BackColor = Color.FromArgb(110, 163, 168);
-            label1.BackColor = Color.FromArgb(110, 163, 168);
-            label2.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text1.BackColor = Color.FromArgb(110, 163, 168);            
         }
 
         private void panel1_MouseLeave(object sender, EventArgs e)
@@ -500,9 +410,7 @@ namespace Weather
             label_day1.BackColor = Color.White;
             label_high_text1.BackColor = Color.White;
             label_low_text1.BackColor = Color.White;
-            label_weather_text1.BackColor = Color.White;
-            label1.BackColor = Color.White;
-            label2.BackColor = Color.White;
+            label_weather_text1.BackColor = Color.White;           
         }
 
         private void panel1_MouseMove(object sender, MouseEventArgs e)
@@ -511,9 +419,7 @@ namespace Weather
             label_high_text1.BackColor = Color.FromArgb(110, 163, 168);
             label_day1.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text1.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text1.BackColor = Color.FromArgb(110, 163, 168);
-            label1.BackColor = Color.FromArgb(110, 163, 168);
-            label2.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text1.BackColor = Color.FromArgb(110, 163, 168);           
         }
 
         private void panel2_MouseHover(object sender, EventArgs e)
@@ -523,9 +429,7 @@ namespace Weather
             label_high_text2.BackColor = Color.FromArgb(110, 163, 168);
             label_day2.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text2.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text2.BackColor = Color.FromArgb(110, 163, 168);
-            label3.BackColor = Color.FromArgb(110, 163, 168);
-            label4.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text2.BackColor = Color.FromArgb(110, 163, 168);           
         }
 
         private void panel2_MouseLeave(object sender, EventArgs e)
@@ -534,9 +438,7 @@ namespace Weather
             label_day2.BackColor = Color.White;
             label_high_text2.BackColor = Color.White;
             label_low_text2.BackColor = Color.White;
-            label_weather_text2.BackColor = Color.White;
-            label3.BackColor = Color.White;
-            label4.BackColor = Color.White;
+            label_weather_text2.BackColor = Color.White;           
         }
 
         private void panel2_MouseMove(object sender, MouseEventArgs e)
@@ -545,9 +447,7 @@ namespace Weather
             label_high_text2.BackColor = Color.FromArgb(110, 163, 168);
             label_day2.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text2.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text2.BackColor = Color.FromArgb(110, 163, 168);
-            label3.BackColor = Color.FromArgb(110, 163, 168);
-            label4.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text2.BackColor = Color.FromArgb(110, 163, 168);            
         }
 
         private void panel3_MouseHover(object sender, EventArgs e)
@@ -556,9 +456,7 @@ namespace Weather
             label_high_text3.BackColor = Color.FromArgb(110, 163, 168);
             label_day3.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text3.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text3.BackColor = Color.FromArgb(110, 163, 168);
-            label5.BackColor = Color.FromArgb(110, 163, 168);
-            label6.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text3.BackColor = Color.FromArgb(110, 163, 168);           
         }
 
         private void panel3_MouseLeave(object sender, EventArgs e)
@@ -567,9 +465,7 @@ namespace Weather
             label_day3.BackColor = Color.White;
             label_high_text3.BackColor = Color.White;
             label_low_text3.BackColor = Color.White;
-            label_weather_text3.BackColor = Color.White;
-            label5.BackColor = Color.White;
-            label6.BackColor = Color.White;
+            label_weather_text3.BackColor = Color.White;            
         }
 
         private void panel3_MouseMove(object sender, MouseEventArgs e)
@@ -578,9 +474,7 @@ namespace Weather
             label_high_text3.BackColor = Color.FromArgb(110, 163, 168);
             label_day3.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text3.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text3.BackColor = Color.FromArgb(110, 163, 168);
-            label5.BackColor = Color.FromArgb(110, 163, 168);
-            label6.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text3.BackColor = Color.FromArgb(110, 163, 168);            
         }
 
         private void panel4_MouseHover(object sender, EventArgs e)
@@ -589,9 +483,7 @@ namespace Weather
             label_high_text4.BackColor = Color.FromArgb(110, 163, 168);
             label_day4.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text4.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text4.BackColor = Color.FromArgb(110, 163, 168);
-            label7.BackColor = Color.FromArgb(110, 163, 168);
-            label8.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text4.BackColor = Color.FromArgb(110, 163, 168);            
         }
 
         private void panel4_MouseLeave(object sender, EventArgs e)
@@ -600,9 +492,7 @@ namespace Weather
             label_day4.BackColor = Color.White;
             label_high_text4.BackColor = Color.White;
             label_low_text4.BackColor = Color.White;
-            label_weather_text4.BackColor = Color.White;
-            label7.BackColor = Color.White;
-            label8.BackColor = Color.White;
+            label_weather_text4.BackColor = Color.White;            
         }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)
@@ -611,9 +501,7 @@ namespace Weather
             label_high_text4.BackColor = Color.FromArgb(110, 163, 168);
             label_day4.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text4.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text4.BackColor = Color.FromArgb(110, 163, 168);
-            label7.BackColor = Color.FromArgb(110, 163, 168);
-            label8.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text4.BackColor = Color.FromArgb(110, 163, 168);           
         }
 
         private void panel5_MouseHover(object sender, EventArgs e)
@@ -622,9 +510,7 @@ namespace Weather
             label_high_text5.BackColor = Color.FromArgb(110, 163, 168);
             label_day5.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text5.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text5.BackColor = Color.FromArgb(110, 163, 168);
-            label9.BackColor = Color.FromArgb(110, 163, 168);
-            label10.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text5.BackColor = Color.FromArgb(110, 163, 168);           
         }
 
         private void panel5_MouseLeave(object sender, EventArgs e)
@@ -633,9 +519,7 @@ namespace Weather
             label_day5.BackColor = Color.White;
             label_high_text5.BackColor = Color.White;
             label_low_text5.BackColor = Color.White;
-            label_weather_text5.BackColor = Color.White;
-            label9.BackColor = Color.White;
-            label10.BackColor = Color.White;
+            label_weather_text5.BackColor = Color.White;           
         }
 
         private void panel5_MouseMove(object sender, MouseEventArgs e)
@@ -644,9 +528,7 @@ namespace Weather
             label_high_text5.BackColor = Color.FromArgb(110, 163, 168);
             label_day5.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text5.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text5.BackColor = Color.FromArgb(110, 163, 168);
-            label9.BackColor = Color.FromArgb(110, 163, 168);
-            label10.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text5.BackColor = Color.FromArgb(110, 163, 168);           
         }
 
         private void panel6_MouseHover(object sender, EventArgs e)
@@ -655,9 +537,7 @@ namespace Weather
             label_high_text6.BackColor = Color.FromArgb(110, 163, 168);
             label_day6.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text6.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text6.BackColor = Color.FromArgb(110, 163, 168);
-            label11.BackColor = Color.FromArgb(110, 163, 168);
-            label12.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text6.BackColor = Color.FromArgb(110, 163, 168);            
         }
 
         private void panel6_MouseLeave(object sender, EventArgs e)
@@ -666,9 +546,7 @@ namespace Weather
             label_day6.BackColor = Color.White;
             label_high_text6.BackColor = Color.White;
             label_low_text6.BackColor = Color.White;
-            label_weather_text6.BackColor = Color.White;
-            label11.BackColor = Color.White;
-            label12.BackColor = Color.White;
+            label_weather_text6.BackColor = Color.White;            
         }
 
         private void panel6_MouseMove(object sender, MouseEventArgs e)
@@ -677,9 +555,7 @@ namespace Weather
             label_high_text6.BackColor = Color.FromArgb(110, 163, 168);
             label_day6.BackColor = Color.FromArgb(110, 163, 168);
             label_low_text6.BackColor = Color.FromArgb(110, 163, 168);
-            label_weather_text6.BackColor = Color.FromArgb(110, 163, 168);
-            label11.BackColor = Color.FromArgb(110, 163, 168);
-            label12.BackColor = Color.FromArgb(110, 163, 168);
+            label_weather_text6.BackColor = Color.FromArgb(110, 163, 168);            
         }
     }
 }
