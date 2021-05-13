@@ -24,7 +24,6 @@ namespace Weather
 
         Label[,] labelArray;
 
-
         public MainForm()
         {
             InitializeComponent();
@@ -32,7 +31,9 @@ namespace Weather
             comboBox_city.SelectedIndex = 0;            
             label_nowday.Text = "오늘은 "+ DateTime.Now.ToString("yyyy-MM-dd") + " 입니다.";
 
-            Initializelabel();            
+            Initializelabel();
+
+            strtext();
 
             // 라벨을 클릭해도 버튼 클릭 이벤트와 동일하게 동작하기 위해서 일단 2차원 배열을 만듦
             labelArray = new Label[,] {
@@ -128,7 +129,26 @@ namespace Weather
             label11.Text = "℃";
             label12.Text = "℃";
             label13.Text = "℃";
-        }        
+        }
+
+        private void strtext()
+        {
+            string str = textBox1.Text;
+            string check = "비";
+
+            Console.WriteLine(textBox1.Text);
+
+            if (str.Contains(check))
+            {
+                Console.WriteLine("있음");
+                label14.Text = "비가 내리니 우산을 챙기세요!";
+            }
+            else
+            {                
+                Console.WriteLine("없음");
+                label14.Text = "";
+            }
+        }
 
         private void comboBox_city_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -331,56 +351,56 @@ namespace Weather
                 Console.WriteLine($"추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품");
                 label_avg.Text = $"평균 기온 : {label_avg.Text}";
                 label_comm.Text = $"추천 옷차림 : 패딩, 두꺼운 코트, 목도리, 기모제품";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778529/460x-");
+                pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/402/detail_402_1_500.jpg?202105131105");
             }
             else if (6 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 9)
             {
                 Console.WriteLine($"추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스");
                 label_avg.Text = $"평균 기온 : {label_avg.Text}";
                 label_comm.Text = $"추천 옷차림 : 코트, 가죽자켓, 니트, 레깅스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778370/460x-");
+                pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/421/detail_421_1_500.jpg?202105131105");
             }
             else if (10 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 11)
             {
                 Console.WriteLine($"추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹");
                 label_avg.Text = $"평균 기온 : {label_avg.Text}";
                 label_comm.Text = $"추천 옷차림 : 자켓, 트렌치코트, 야상, 니트, 청바지, 스타킹";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778318/460x-");
+                pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/569/detail_569_1_500.jpg?202105131105");
             }
             else if (12 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 16)
             {
                 Console.WriteLine($"추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지");
                 label_avg.Text = $"평균 기온 : {label_avg.Text}";
                 label_comm.Text = $"추천 옷차림 : 가디건, 자켓, 야상, 스타킹, 청바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778275/460x-");
+                pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/2161/detail_2161_1_500.jpg?202105131105");
             }
             else if (17 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 19)
             {
                 Console.WriteLine($"추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지");
                 label_avg.Text = $"평균 기온 : {label_avg.Text}";
                 label_comm.Text = $"추천 옷차림 : 맨투맨, 얇은 니트, 가디건, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778153/460x-");
+                pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/232/detail_232_1_500.jpg?202105131105");
             }
             else if (20 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 22)
             {
                 Console.WriteLine($"추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지");
                 label_avg.Text = $"평균 기온 : {label_avg.Text}";
                 label_comm.Text = $"추천 옷차림 : 긴팔, 얇은 가디건, 면바지, 청바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19778003/460x-");
+                pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/2546/detail_2546_1_500.jpg?202105131105");
             }
             else if (23 <= int.Parse(label_avg.Text) && int.Parse(label_avg.Text) <= 26)
             {
                 Console.WriteLine($"추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지");
                 label_avg.Text = $"평균 기온 : {label_avg.Text}";
                 label_comm.Text = $"추천 옷차림 : 얇은 셔츠, 반팔, 반바지, 면바지";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777989/460x-");
+                pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/2688/detail_2688_1_500.jpg?202105131105");
             }
             else if (27 <= int.Parse(label_avg.Text))
             {
                 Console.WriteLine($"추천 옷차림 : 반팔, 민소매, 반바지, 원피스");
                 label_avg.Text = $"평균 기온 : {label_avg.Text}";
                 label_comm.Text = $"추천 옷차림 : 반팔, 민소매, 반바지, 원피스";
-                pictureBox1.Image = Webimage("https://usercontents-d.styleshare.io/images/19777949/460x-");
+                pictureBox1.Image = Webimage("https://image.msscdn.net/images/codimap/detail/3008/detail_3008_1_500.jpg?202105131105");
             }
         }
 

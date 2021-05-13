@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{22A05782-6A38-461B-A948-9D31A5D7C625}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>Weather</RootNamespace>
     <AssemblyName>Weather</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
