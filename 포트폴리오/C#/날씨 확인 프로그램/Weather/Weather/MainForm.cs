@@ -57,7 +57,7 @@ namespace Weather
                     switch (i + 1)
                     {
                         case 1:
-                            labelArray[i, j].Click += panel1_Click; // button1_Click 이벤트
+                            labelArray[i, j].Click += panel1_Click; // panel1_Click 이벤트
                             labelArray[i, j].MouseHover += panel1_MouseHover;
                             labelArray[i, j].MouseMove += panel1_MouseMove;
                             labelArray[i, j].MouseLeave += panel1_MouseLeave;
