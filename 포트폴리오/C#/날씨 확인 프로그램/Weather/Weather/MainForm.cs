@@ -187,7 +187,7 @@ namespace Weather
                         {
                             case XmlNodeType.CDATA:
                                 {
-                                    textBox1.Text = xr.Value.ToString().Replace("<br />", " ");
+                                    textBox1.Text = xr.Value.ToString().Replace("<br />", " "); // 문자 대체해서 반환
                                     break;
                                 }                                                                            
                             case XmlNodeType.Text:
@@ -200,6 +200,9 @@ namespace Weather
                                     {
                                         DateTime ti;
                                         bool b = DateTime.TryParse(xr.Value.ToString(), out ti);
+                                        // TryParse : 변환되면 true -> ti값으로 내보냄, 안되면 false
+                                        // 변환이 성공할 경우 xr.Value.ToString()을 ti로 반환
+                                        // out ti : 결과값을 ti에 저장하라는 의미
                                         if (b)
                                         {
                                             msg += "/";
@@ -217,7 +220,7 @@ namespace Weather
                                 break;
                         }
                     }
-                    string[] tempstr = msg.Split('/');
+                    string[] tempstr = msg.Split('/'); // 문자 자르기
                     settext(tempstr);
                 }
             }
@@ -232,6 +235,7 @@ namespace Weather
         {
             string[] wh1 = tempstr[1].Split(',');
             a1 = new WhAttri(wh1[0], int.Parse(wh1[2]), int.Parse(wh1[3]), wh1[1]);
+            // 0, 2, 3, 1 => api에 있는 정보를 form형식에 맞게 순서 배치
             label_day1.Text = a1.Date;
             label_low_text1.Text = a1.Lowtem + "℃";
             label_high_text1.Text = a1.Hightem + "℃";
@@ -273,6 +277,7 @@ namespace Weather
             label_weather_text6.Text = a6.Strsummary;
         }
 
+        // 평균기온을 구하여 옷차림 이미지를 보여주는 메서드
         private void whcommand(WhAttri ag)
         {
             int tempavg = (ag.Lowtem + ag.Hightem) / 2;
@@ -334,6 +339,7 @@ namespace Weather
             }
         }
 
+        // 이미지를 가져오는 메서드
         private Bitmap Webimage(string link)
         {
             try

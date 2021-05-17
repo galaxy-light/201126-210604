@@ -38,6 +38,7 @@ namespace WindowsFormsApp0408
             toolTip1.SetToolTip(linkbutton, "동행복권");
         }
 
+        // 사용 안함
         private void button_test_Click(object sender, EventArgs e)
         {
             /*MessageBox.Show("Hello World"); // 자동완성 : mbox + tab + tab
@@ -80,11 +81,11 @@ namespace WindowsFormsApp0408
         private void randombutton_Click(object sender, EventArgs e)
         {
             new ViewForm().ShowDialog();
-        }              
+        }
 
+        // 동행복권 홈페이지 연결
         private void linkbutton_Click(object sender, EventArgs e)
-        {
-            
+        {            
             System.Diagnostics.Process.Start("https://www.dhlottery.co.kr/common.do?method=main");
         }
 

@@ -49,12 +49,13 @@ namespace WindowsFormsApp0409
                     if (dlg.ShowDialog() == DialogResult.OK)
                     {
                         ImportExcelData_Read(dlg.FileName, dataGridView); // 메서드를 호출
+                        // dataGridView에 엑셀 파일 내용을 띄워줌
                     }
                 }
             }
             catch (Exception ex)  // 엑셀파일이 다른 프로그렘에서 이미 열었거나 에러가 발생하면 에러를 출력
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message + "\n" + ex.StackTrace);
             }
         }
 

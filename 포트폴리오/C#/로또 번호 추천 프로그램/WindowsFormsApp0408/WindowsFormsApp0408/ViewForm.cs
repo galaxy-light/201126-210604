@@ -30,13 +30,13 @@ namespace WindowsFormsApp0408
 
         private void randctrl()
         {
-            lottomix:
+            lottomix: // goto문
             int rand;
             int sum = 0;            
-            int[] lotto = new int[7];                     
+            int[] lotto = new int[7]; // 비어있는 7개의 배열 생성                     
             for (int i = 0; i < lotto.Length; i++)
             {
-                rand = r.Next(1, 46);
+                rand = r.Next(1, 46); // 1 ~ 45 사이의 랜덤 값
                 lotto[i] = rand; // 배열에 랜덤값 넣기
                 //Console.WriteLine(lotto[i]);                
                 sum += lotto[i];
@@ -45,7 +45,7 @@ namespace WindowsFormsApp0408
                     // 중복 처리
                     if (lotto[i] == lotto[j])
                     {
-                        i--;
+                        i--; // 있다면 인덱스를 살려야 되므로 i값에 --를 줌 
                         sum -= lotto[i];
                     }                    
                     // 확률1
@@ -121,7 +121,7 @@ namespace WindowsFormsApp0408
             // 번호 정렬
             //Array.Sort(lotto);
             int temp = 0;
-            for (int i = 0; i < lotto.Length; i++) // 버블 정렬
+            for (int i = 0; i < lotto.Length; i++) // 버블 정렬 사용
             {
                 for (int j = i + 1; j < lotto.Length-1; j++) // 마지막 자리는 없기 때문에 -1을 해줌
                 {
@@ -136,7 +136,7 @@ namespace WindowsFormsApp0408
                     {
                         sum = 0;
                         i = 0;
-                        goto lottomix;
+                        goto lottomix; // 맞다면 goto문을 통하여 다시 시작
                     }                    
                 }
             }
