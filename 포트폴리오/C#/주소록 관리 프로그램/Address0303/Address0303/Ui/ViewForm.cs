@@ -159,9 +159,7 @@ namespace Address0303.Ui
         //    int count = gridView.Rows.Count - 1;
         //    gridView.FirstDisplayedScrollingRowIndex = count;
         //    gridView.CurrentCell = gridView.Rows[count - 1].Cells[0];
-        //}
-
-        
+        //}              
 
         private void viewExit_Click(object sender, EventArgs e)
         {

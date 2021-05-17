@@ -44,7 +44,7 @@ namespace Managing_Car_Program
             textBox_cust_end.Text = DataManager.Cars[0].phoneNumber.ToString();*/
 
             // datagridview 셀클릭입력편집 방지
-            dataGridView_main.ReadOnly = true;            
+            dataGridView_main.ReadOnly = true; // ReadOnly : 읽기 전용       
         }
 
         ~MainForm() // 소멸자(프로그램의 안정성을 위해 사용)
@@ -424,6 +424,7 @@ namespace Managing_Car_Program
                     {
                         String[] YMD = VipData.vips[i].custend.Split('-'); //2021-04-29에서 - 삭제
                         DateTime expireDate = new DateTime(int.Parse(YMD[0]), int.Parse(YMD[1]), int.Parse(YMD[2]));
+                        // 0 : 2021 / 1 : 04 / 2 : 29
                         TimeSpan diff = expireDate - outDate;
                         TimeSpan diff_already_expired = expireDate - inDate; //너무 옛날꺼라서 주차할 때부터 이미 만기된 상태
                         int already_total = (int)diff_already_expired.TotalSeconds;
@@ -457,7 +458,7 @@ namespace Managing_Car_Program
             {
                 writeLog(ex.Message);
                 writeLog(ex.StackTrace);
-                throw new Exception("정기권 만료 체크 실패 예외 메시지 확인해주세요.");
+                throw new Exception("정기권 만료 체크 실패 예외 메시지 확인해주세요."); // 강제 예외 처리
             }
         }
         #endregion
@@ -484,7 +485,7 @@ namespace Managing_Car_Program
             //string timeresult = string.Format("{0:hh:mm:ss}", timeDiff.ToString());
             string timeresult = timeDiff.Hours + ":" + timeDiff.Minutes + ":" + timeDiff.Seconds;
 
-            //잘 안 됨! (10시에 주차하고 14시 출차시... 다음날14시인지 당일14시인지 모름)
+            //잘 안 됨! (10시에 주차하고 14시 출차시... 다음날 14시인지 당일 14시인지 모름)
             //if (dataresult.Equals("24:00:00"))
             //{
             //    label_in_out_result.Text = "24:00:00";

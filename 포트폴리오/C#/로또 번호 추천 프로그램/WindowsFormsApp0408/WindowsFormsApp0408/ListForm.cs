@@ -55,7 +55,7 @@ namespace WindowsFormsApp0409
             }
             catch (Exception ex)  // 엑셀파일이 다른 프로그렘에서 이미 열었거나 에러가 발생하면 에러를 출력
             {
-                MessageBox.Show(ex.Message + "\n" + ex.StackTrace);
+                MessageBox.Show(ex.Message + "\r" + ex.StackTrace);
             }
         }
 
@@ -64,10 +64,10 @@ namespace WindowsFormsApp0409
             // 엑셀 문서 내용 추출
             string connectionString = string.Empty;
 
-            if (File.Exists(fileName))  // 파일 확장자 검사
+            if (File.Exists(fileName)) // 파일 확장자 검사
             {
                 if (Path.GetExtension(fileName).ToLower() == ".xls")
-                {   // Microsoft.Jet.OLEDB.4.0 은 32 bit에서만 동작되므로 빌드할 때 64비트로 하면 에러가 발생
+                {   // Microsoft.Jet.OLEDB.4.0 은 32bit에서만 동작되므로 빌드할 때 64비트로 하면 에러가 발생
                     connectionString = string.Format("Provider=Microsoft.Jet.OLEDB.4.0; Data Source={0};Extended Properties=Excel 8.0;", fileName);
                 }
                 else if (Path.GetExtension(fileName).ToLower() == ".xlsx")
@@ -76,20 +76,20 @@ namespace WindowsFormsApp0409
                 }
             }
 
-            DataSet data = new DataSet();
+            DataSet data = new DataSet(); // DB의 데이터베이스 // DataSet 안에는 여러 개의 DataTable이 들어갈 수 있음
 
             string strQuery = "SELECT * FROM [Sheet1$]"; // 엑셀 시트명 sheet1의 모든 데이터를 가져오기
-            OleDbConnection oleConn = new OleDbConnection(connectionString);
+            OleDbConnection oleConn = new OleDbConnection(connectionString); // OleDbConnection : 범용으로 MsSql을 제외한 모든 DB의 연결을 지원
             oleConn.Open();
 
-            OleDbCommand oleCmd = new OleDbCommand(strQuery, oleConn);
-            OleDbDataAdapter dataAdapter = new OleDbDataAdapter(oleCmd);
+            OleDbCommand oleCmd = new OleDbCommand(strQuery, oleConn); // 쿼리문과 DB연결 전송
+            OleDbDataAdapter dataAdapter = new OleDbDataAdapter(oleCmd); // OleDbDataAdapter : DataSet의 행을 추가하거나 새로고침
 
-            DataTable dataTable = new DataTable();
-            dataAdapter.Fill(dataTable);
+            DataTable dataTable = new DataTable(); // DB의 테이블
+            dataAdapter.Fill(dataTable); // Fill : DataTable을 채움
             data.Tables.Add(dataTable);
 
-            dgv.DataSource = data.Tables[0].DefaultView;
+            dgv.DataSource = data.Tables[0].DefaultView; // DefaultView : DataTable에서 필요한 컬럼을 추출
 
             // 데이터에 맞게 칼럼 사이즈 조정하기
             for (int i = 0; i < dgv.Columns.Count; i++)
@@ -100,6 +100,7 @@ namespace WindowsFormsApp0409
             dgv.AlternatingRowsDefaultCellStyle.BackColor = Color.AliceBlue;
             //dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill; // 화면 크기에 맞춰 채우기
 
+            // 해제해주지 않으면 자원 누수 현상이 발생함            
             dataTable.Dispose();
             dataAdapter.Dispose();
             oleCmd.Dispose();

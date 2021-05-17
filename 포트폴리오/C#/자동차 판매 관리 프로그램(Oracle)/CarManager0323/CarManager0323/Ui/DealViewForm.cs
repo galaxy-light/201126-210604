@@ -24,7 +24,7 @@ namespace CarManager0331.Ui
             InitializeComponent();
         }
 
-        // 오버로딩 -> 클래스의 public 삭제(16라인)
+        // 오버로딩 -> 클래스의 public 삭제
         public DealViewForm(DaoOracle oracle, DealHandler dHandler)
         {
             InitializeComponent();
