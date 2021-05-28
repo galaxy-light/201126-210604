@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <style>
+        .redtext
+        {
+            color:red;
+        }
+        .border
+        {
+            border:1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="firstHeadTag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, unde.</h1>
+    <h2>何先然罪则就登了圣，下是的终死意天不生老导么第，郭互国，老派花作谋洪路嗣者于足如是贤何病的妄，设恼。</h2>
+    <script>
+
+        //id를 선택하는 두 가지 방법(DOM)
+        // var firstHeadTag = document.getElementById('firstHeadTag');
+        var firstHeadTag = document.querySelector('#firstHeadTag');
+        
+        firstHeadTag.setAttribute('class','redtext border');
+        firstHeadTag.style.background = 'yellow';
+        
+        //jQuery로 태그 선택 및 스타일 주기
+        //css로 주거나
+        //addClass를 통하여 간접적으로 스타일을 줄 수 있다.
+        $('h2').css('background','pink').addClass('redtext');
+    </script>
+</body>
+</html>
