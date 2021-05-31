@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        // html문서가 준비되면 function 안의 내용을 실행
+        $(document).ready(function(){
+           $(".btn").click(function(){
+                alert("히히");
+           });
+        });
+    </script>
+    <style>
+        .btn
+        {
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            background-color: aqua;
+            color: blue;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="btn">하이</div>
+</body>
+</html>
