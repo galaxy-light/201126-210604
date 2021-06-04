@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="one" type="text"> <span>+</span> 
+    <input id="two" type="text"><span>=</span>
+    <span id="result">결과가 여기에 나옴</span>
+    <div>
+        <input value="합" type="button" onclick="sum()">
+    </div>
+    <script>
+        function sum() {
+            var one = document.getElementById('one').value;
+            var two = document.getElementById('two').value;
+            alert(Number(one)+Number(two));
+            document.getElementById('result').innerText
+            = Number(one)+Number(two);
+        }
+        
+    </script>
+</body>
+</html>

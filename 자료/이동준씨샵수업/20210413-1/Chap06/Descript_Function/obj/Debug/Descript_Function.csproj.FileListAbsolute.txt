@@ -1,0 +1,10 @@
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\bin\Debug\Descript_Function.exe.config
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\bin\Debug\Descript_Function.exe
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\bin\Debug\Descript_Function.pdb
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\obj\Debug\Descript_Function.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\obj\Debug\Descript_Function.Form1.resources
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\obj\Debug\Descript_Function.Properties.Resources.resources
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\obj\Debug\Descript_Function.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\obj\Debug\Descript_Function.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\obj\Debug\Descript_Function.exe
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\obj\Debug\Descript_Function.pdb

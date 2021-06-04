@@ -1,0 +1,10 @@
+D:\Study_DJ\20201126_all\Csharp_djlee\modern_signup_bunifu\modern_signup\bin\Release\modern_signup.exe.config
+D:\Study_DJ\20201126_all\Csharp_djlee\modern_signup_bunifu\modern_signup\bin\Release\modern_signup.exe
+D:\Study_DJ\20201126_all\Csharp_djlee\modern_signup_bunifu\modern_signup\bin\Release\modern_signup.pdb
+D:\Study_DJ\20201126_all\Csharp_djlee\modern_signup_bunifu\modern_signup\obj\Release\modern_signup.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\Csharp_djlee\modern_signup_bunifu\modern_signup\obj\Release\modern_signup.Form1.resources
+D:\Study_DJ\20201126_all\Csharp_djlee\modern_signup_bunifu\modern_signup\obj\Release\modern_signup.Properties.Resources.resources
+D:\Study_DJ\20201126_all\Csharp_djlee\modern_signup_bunifu\modern_signup\obj\Release\modern_signup.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\Csharp_djlee\modern_signup_bunifu\modern_signup\obj\Release\modern_signup.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\Csharp_djlee\modern_signup_bunifu\modern_signup\obj\Release\modern_signup.exe
+D:\Study_DJ\20201126_all\Csharp_djlee\modern_signup_bunifu\modern_signup\obj\Release\modern_signup.pdb

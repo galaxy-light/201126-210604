@@ -1,0 +1,10 @@
+C:\Users\KB\source\repos\Chap06\Chap06MiddleQue1\bin\Debug\Chap06MiddleQue1.exe.config
+C:\Users\KB\source\repos\Chap06\Chap06MiddleQue1\bin\Debug\Chap06MiddleQue1.exe
+C:\Users\KB\source\repos\Chap06\Chap06MiddleQue1\bin\Debug\Chap06MiddleQue1.pdb
+C:\Users\KB\source\repos\Chap06\Chap06MiddleQue1\obj\Debug\Chap06MiddleQue1.Form1.resources
+C:\Users\KB\source\repos\Chap06\Chap06MiddleQue1\obj\Debug\Chap06MiddleQue1.Properties.Resources.resources
+C:\Users\KB\source\repos\Chap06\Chap06MiddleQue1\obj\Debug\Chap06MiddleQue1.csproj.GenerateResource.cache
+C:\Users\KB\source\repos\Chap06\Chap06MiddleQue1\obj\Debug\Chap06MiddleQue1.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\Chap06\Chap06MiddleQue1\obj\Debug\Chap06MiddleQue1.exe
+C:\Users\KB\source\repos\Chap06\Chap06MiddleQue1\obj\Debug\Chap06MiddleQue1.pdb
+C:\Users\KB\source\repos\Chap06\Chap06MiddleQue1\obj\Debug\Chap06MiddleQue1.csprojAssemblyReference.cache

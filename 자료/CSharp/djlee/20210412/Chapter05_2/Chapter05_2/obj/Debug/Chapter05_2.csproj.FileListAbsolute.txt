@@ -1,0 +1,10 @@
+D:\Study_DJ\20201126_all\djlee\20210412\Chapter05_2\Chapter05_2\bin\Debug\Chapter05_2.exe.config
+D:\Study_DJ\20201126_all\djlee\20210412\Chapter05_2\Chapter05_2\bin\Debug\Chapter05_2.exe
+D:\Study_DJ\20201126_all\djlee\20210412\Chapter05_2\Chapter05_2\bin\Debug\Chapter05_2.pdb
+D:\Study_DJ\20201126_all\djlee\20210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\djlee\20210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.Form1.resources
+D:\Study_DJ\20201126_all\djlee\20210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.Properties.Resources.resources
+D:\Study_DJ\20201126_all\djlee\20210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\djlee\20210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djlee\20210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.exe
+D:\Study_DJ\20201126_all\djlee\20210412\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.pdb

@@ -1,0 +1,7 @@
+D:\GitHub\20201126_all\djlee\20210407\Chapter04\answer\bin\Debug\answer.exe.config
+D:\GitHub\20201126_all\djlee\20210407\Chapter04\answer\bin\Debug\answer.exe
+D:\GitHub\20201126_all\djlee\20210407\Chapter04\answer\bin\Debug\answer.pdb
+D:\GitHub\20201126_all\djlee\20210407\Chapter04\answer\obj\Debug\answer.csprojAssemblyReference.cache
+D:\GitHub\20201126_all\djlee\20210407\Chapter04\answer\obj\Debug\answer.csproj.CoreCompileInputs.cache
+D:\GitHub\20201126_all\djlee\20210407\Chapter04\answer\obj\Debug\answer.exe
+D:\GitHub\20201126_all\djlee\20210407\Chapter04\answer\obj\Debug\answer.pdb

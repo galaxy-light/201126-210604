@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            /* rint : p태그가 늘어날 때 마다 증가하는 변수 */
+            /* leedongjoon같은 것도 됨 */
+            counter-increment: leedongjoon;
+        }
+        /* p태그 시작 전에 카운터 변수 삽입 */
+        p::before
+        {
+            content : counter(leedongjoon) "."
+        }
+        /* p태그 끝에다가 page 번호 삽입 */
+        p::after
+        {
+            content : " - " attr(data-page) " page "
+        }
+        p::first-letter
+        {
+            font-size:3em
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <p data-page="52">Lorem ipsum dolor sit.</p>
+    <p data-page="273">Lorem, ipsum dolor sit amet 
+        consectetur adipisicing.</p>
+    <p data-page="12">이렇게 적으면 사람들이 명언인 줄 알더라</p>
+</body>
+</html>

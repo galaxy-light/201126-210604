@@ -17,17 +17,24 @@ namespace StudentManager
             InitializeComponent();
             //https://sosobaba.tistory.com/265   //C# 탭
             DataManager.Load_Students();
-            dataGridView_Students.DataSource = DataManager.Students;
             DataManager.Load_Majors();
-            dataGridView_major.DataSource = DataManager.Majors;
 
-            textBox_name.Text = DataManager.Students[0].mName;
-            textBox_id.Text = DataManager.Students[0].mId;
-            textBox_score.Text = DataManager.Students[0].mScore.ToString();
-            textBox_grade.Text = DataManager.Students[0].mGrade.ToString();
+            if(DataManager.Majors.Count > 0 )
+            {
+                dataGridView_major.DataSource = DataManager.Majors;
+                textBox_major_name.Text = DataManager.Majors[0].mMajorName;
+                textBox_major_code.Text = DataManager.Majors[0].mMajorCode;
+            }
 
-            textBox_major_name.Text = DataManager.Majors[0].mMajorName;
-            textBox_major_code.Text = DataManager.Majors[0].mMajorCode;
+            if (DataManager.Students.Count >0)
+            {
+                dataGridView_Students.DataSource = DataManager.Students;
+                textBox_name.Text = DataManager.Students[0].mName;
+                textBox_id.Text = DataManager.Students[0].mId;
+                textBox_score.Text = DataManager.Students[0].mScore.ToString();
+                textBox_grade.Text = DataManager.Students[0].mGrade.ToString();
+            }
+
         }
 
         private void dataGridView_Students_CurrentCellChanged(object sender, EventArgs e)

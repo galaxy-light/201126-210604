@@ -1,0 +1,186 @@
+<students>
+<student>
+  <number>1</number>
+  <name>안재혁</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>True</fixed>
+</student>
+<student>
+  <number>2</number>
+  <name>이재문</name>
+  <gender>남</gender>
+  <mustFront>True</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>3</number>
+  <name>배지왕</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>4</number>
+  <name>김두희</name>
+  <gender>여</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>5</number>
+  <name>신용원</name>
+  <gender>남</gender>
+  <mustFront>True</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>6</number>
+  <name>최시영</name>
+  <gender>남</gender>
+  <mustFront>True</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>7</number>
+  <name>한이진</name>
+  <gender>여</gender>
+  <mustFront>True</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>8</number>
+  <name>최수련</name>
+  <gender>여</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>9</number>
+  <name>도현우</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>10</number>
+  <name>박상준</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>11</number>
+  <name>홍성인</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>12</number>
+  <name>이한글</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>13</number>
+  <name>김준석</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>14</number>
+  <name>이기정</name>
+  <gender>여</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>15</number>
+  <name>김지연</name>
+  <gender>여</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>16</number>
+  <name>이승직</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>17</number>
+  <name>김동욱</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>True</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>18</number>
+  <name>양수빈</name>
+  <gender>여</gender>
+  <mustFront>False</mustFront>
+  <mustBack>True</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>19</number>
+  <name>박소윤</name>
+  <gender>여</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>True</fixed>
+</student>
+<student>
+  <number>20</number>
+  <name>이시형</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>True</fixed>
+</student>
+<student>
+  <number>21</number>
+  <name>김관덕</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>22</number>
+  <name>안준모</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>False</fixed>
+</student>
+<student>
+  <number>23</number>
+  <name>김민성</name>
+  <gender>남</gender>
+  <mustFront>False</mustFront>
+  <mustBack>False</mustBack>
+  <fixed>True</fixed>
+</student>
+</students>

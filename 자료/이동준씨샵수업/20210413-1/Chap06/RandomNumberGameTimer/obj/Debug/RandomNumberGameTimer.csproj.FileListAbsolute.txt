@@ -1,0 +1,9 @@
+C:\Users\KB\source\repos\Chap06\RandomNumberGameTimer\bin\Debug\RandomNumberGameTimer.exe.config
+C:\Users\KB\source\repos\Chap06\RandomNumberGameTimer\bin\Debug\RandomNumberGameTimer.exe
+C:\Users\KB\source\repos\Chap06\RandomNumberGameTimer\bin\Debug\RandomNumberGameTimer.pdb
+C:\Users\KB\source\repos\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.Form1.resources
+C:\Users\KB\source\repos\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.Properties.Resources.resources
+C:\Users\KB\source\repos\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.csproj.GenerateResource.cache
+C:\Users\KB\source\repos\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.exe
+C:\Users\KB\source\repos\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.pdb

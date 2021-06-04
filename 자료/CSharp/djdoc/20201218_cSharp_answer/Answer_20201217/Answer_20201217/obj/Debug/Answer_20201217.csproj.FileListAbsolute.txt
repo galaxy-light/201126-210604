@@ -1,0 +1,7 @@
+D:\Study_DJ\20201126_all\djdoc\20201218_cSharp_answer\Answer_20201217\Answer_20201217\bin\Debug\Answer_20201217.exe.config
+D:\Study_DJ\20201126_all\djdoc\20201218_cSharp_answer\Answer_20201217\Answer_20201217\bin\Debug\Answer_20201217.exe
+D:\Study_DJ\20201126_all\djdoc\20201218_cSharp_answer\Answer_20201217\Answer_20201217\bin\Debug\Answer_20201217.pdb
+D:\Study_DJ\20201126_all\djdoc\20201218_cSharp_answer\Answer_20201217\Answer_20201217\obj\Debug\Answer_20201217.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\djdoc\20201218_cSharp_answer\Answer_20201217\Answer_20201217\obj\Debug\Answer_20201217.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djdoc\20201218_cSharp_answer\Answer_20201217\Answer_20201217\obj\Debug\Answer_20201217.exe
+D:\Study_DJ\20201126_all\djdoc\20201218_cSharp_answer\Answer_20201217\Answer_20201217\obj\Debug\Answer_20201217.pdb

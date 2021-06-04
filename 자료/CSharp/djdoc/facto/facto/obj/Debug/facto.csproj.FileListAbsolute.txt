@@ -1,0 +1,14 @@
+D:\Study_DJ\20201126_all\djdoc\facto\facto\bin\Debug\facto.exe.config
+D:\Study_DJ\20201126_all\djdoc\facto\facto\bin\Debug\facto.exe
+D:\Study_DJ\20201126_all\djdoc\facto\facto\bin\Debug\facto.pdb
+D:\Study_DJ\20201126_all\djdoc\facto\facto\obj\Debug\facto.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\djdoc\facto\facto\obj\Debug\facto.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djdoc\facto\facto\obj\Debug\facto.exe
+D:\Study_DJ\20201126_all\djdoc\facto\facto\obj\Debug\facto.pdb
+E:\KB\xenoint2\20201126_all\djdoc\facto\facto\bin\Debug\facto.exe.config
+E:\KB\xenoint2\20201126_all\djdoc\facto\facto\bin\Debug\facto.exe
+E:\KB\xenoint2\20201126_all\djdoc\facto\facto\bin\Debug\facto.pdb
+E:\KB\xenoint2\20201126_all\djdoc\facto\facto\obj\Debug\facto.csprojAssemblyReference.cache
+E:\KB\xenoint2\20201126_all\djdoc\facto\facto\obj\Debug\facto.csproj.CoreCompileInputs.cache
+E:\KB\xenoint2\20201126_all\djdoc\facto\facto\obj\Debug\facto.exe
+E:\KB\xenoint2\20201126_all\djdoc\facto\facto\obj\Debug\facto.pdb

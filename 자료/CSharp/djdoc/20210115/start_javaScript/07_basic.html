@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var one = 1;
+        var two = "2";
+        let three = 3;
+        var one = 111;
+        // alert("ㅎㅇ");
+        console.log("ㅎㅇ");
+        // let three = 333;
+        // alert("ㅎㅇ111"); 
+        console.log("ㅎㅇ111"); 
+
+        var array = [1,2,3, "헐", '이게 되냐', '응', 5];
+        for(var i = 0 ; i < array.length; i++)
+        {
+            //alert(array[i]);
+            console.log(array[i]);
+        }
+
+        array = 100
+        console.log(array);
+        // alert(array);
+
+        var obj = {
+                    name : "김우진",
+                    age : 300,
+                    master : "이동준",
+                    123 : "이건 뭐지",
+                    _ : "언더바는허용됨"            
+                    }
+        
+        //alert(obj['name']);
+        //alert(obj['age']);
+        //alert(obj['master']);
+        //alert(obj.name);
+        //alert(obj.age);
+        //alert(obj.master);
+        console.log(obj['name'])
+        console.log(obj['age'])
+        console.log(obj['master'])
+        console.log(obj['123'])
+        console.log(obj.name)
+        console.log(obj.age)
+        console.log(obj.master)
+        // console.log(obj.123)
+        
+
+        console.log("자바스크립트 첫날부터 미치네");
+        var wow = function()
+        {
+            // alert("대에박");
+            console.log("대에박");
+        };
+        // function wow()
+        // {
+        //     console.log("대에박");
+        // }
+        wow();
+
+        console.log(wow);
+        /*
+        ƒ ()
+        {
+            // alert("대에박");
+            console.log("대에박");
+        }
+        */
+        console.log("!!!!!");
+        
+        console.log(wow()); //이건 undefined가 뜸 //wow()자체가 리턴하는 값이 없음
+        
+        console.log('!?!?!?!?!?!?!?');
+        console.log(console.log("대에박"));
+        console.log('!?!?!?!?!?!?!?');
+
+        console.log("!!!!!");
+        wow = function () {
+            return "하이안";
+        }
+        console.log(wow());
+
+        //wow();
+        //wow();
+
+        var devilArray = 
+        [
+            1,2,"3", { master : "이동준", name : "김우진" }, [1,2,3]
+        ]
+        console.log(devilArray[0]);
+        console.log(devilArray[1]);
+        console.log(devilArray[2]);
+        console.log(devilArray[3]);
+        console.log(devilArray[4]);
+
+        var devilJson = 
+        {
+            one : [1,2,3,4,5],
+            two : {two_one : "2",
+                    two_two : "twotwo"},
+            three : 5
+        }
+        console.log(devilJson['one']);
+        console.log(devilJson.two);
+        console.log(devilJson.three);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

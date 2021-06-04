@@ -1,0 +1,10 @@
+\\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\mssql 연동 참고\sql쿼리문들\WindowsFormsApp1_Update_Delete\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+\\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\mssql 연동 참고\sql쿼리문들\WindowsFormsApp1_Update_Delete\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+\\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\mssql 연동 참고\sql쿼리문들\WindowsFormsApp1_Update_Delete\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+\\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\mssql 연동 참고\sql쿼리문들\WindowsFormsApp1_Update_Delete\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+\\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\mssql 연동 참고\sql쿼리문들\WindowsFormsApp1_Update_Delete\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+\\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\mssql 연동 참고\sql쿼리문들\WindowsFormsApp1_Update_Delete\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+\\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\mssql 연동 참고\sql쿼리문들\WindowsFormsApp1_Update_Delete\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+\\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\mssql 연동 참고\sql쿼리문들\WindowsFormsApp1_Update_Delete\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+\\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\mssql 연동 참고\sql쿼리문들\WindowsFormsApp1_Update_Delete\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+\\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\mssql 연동 참고\sql쿼리문들\WindowsFormsApp1_Update_Delete\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

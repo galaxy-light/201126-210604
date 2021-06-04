@@ -1,0 +1,7 @@
+D:\Study_DJ\20201126_all\djlee\20210405\ConsoleApp1\20210405\bin\Debug\20210405.exe.config
+D:\Study_DJ\20201126_all\djlee\20210405\ConsoleApp1\20210405\bin\Debug\20210405.exe
+D:\Study_DJ\20201126_all\djlee\20210405\ConsoleApp1\20210405\bin\Debug\20210405.pdb
+D:\Study_DJ\20201126_all\djlee\20210405\ConsoleApp1\20210405\obj\Debug\20210405.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\djlee\20210405\ConsoleApp1\20210405\obj\Debug\20210405.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djlee\20210405\ConsoleApp1\20210405\obj\Debug\20210405.exe
+D:\Study_DJ\20201126_all\djlee\20210405\ConsoleApp1\20210405\obj\Debug\20210405.pdb

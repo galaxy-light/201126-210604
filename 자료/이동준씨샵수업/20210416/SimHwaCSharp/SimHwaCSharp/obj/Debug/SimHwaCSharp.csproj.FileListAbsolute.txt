@@ -1,0 +1,11 @@
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\bin\Debug\SimHwaCSharp.exe.config
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\bin\Debug\SimHwaCSharp.exe
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\bin\Debug\SimHwaCSharp.pdb
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.Form1.resources
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.Form2.resources
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.Properties.Resources.resources
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.exe
+D:\Study_DJ\20201126_all\djlee\20210416\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.pdb

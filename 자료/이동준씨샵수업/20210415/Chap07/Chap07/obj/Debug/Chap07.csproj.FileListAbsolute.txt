@@ -1,0 +1,10 @@
+D:\Study_DJ\20201126_all\djlee\20210415\Chap07\Chap07\bin\Debug\Chap07.exe.config
+D:\Study_DJ\20201126_all\djlee\20210415\Chap07\Chap07\bin\Debug\Chap07.exe
+D:\Study_DJ\20201126_all\djlee\20210415\Chap07\Chap07\bin\Debug\Chap07.pdb
+D:\Study_DJ\20201126_all\djlee\20210415\Chap07\Chap07\obj\Debug\Chap07.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\djlee\20210415\Chap07\Chap07\obj\Debug\Chap07.Form1.resources
+D:\Study_DJ\20201126_all\djlee\20210415\Chap07\Chap07\obj\Debug\Chap07.Properties.Resources.resources
+D:\Study_DJ\20201126_all\djlee\20210415\Chap07\Chap07\obj\Debug\Chap07.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\djlee\20210415\Chap07\Chap07\obj\Debug\Chap07.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djlee\20210415\Chap07\Chap07\obj\Debug\Chap07.exe
+D:\Study_DJ\20201126_all\djlee\20210415\Chap07\Chap07\obj\Debug\Chap07.pdb

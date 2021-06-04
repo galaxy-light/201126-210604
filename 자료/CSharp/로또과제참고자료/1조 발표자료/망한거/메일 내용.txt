@@ -1,0 +1,14 @@
+lotto.xlsx <- 회차별 로또당첨번호
+lotto.txt <- 회차별 로또당첨번호
+example_filter : 조건값 산출용
+req.txt <- 조건값이 저장된 파일
+case1.txt : 조건1의 조건값
+case2.txt : 조건2의 조건값
+case3.txt : 조건3의 조건값
+
+참고용.xlsx <- ppt삽입용 스크린샷
+참고용.pptx <- ppt삽입용 스크린샷
+
+example_lotto.c : 조건1만 완료 결과값 출력가능
+example_lotto2.c : 조건1,3 완료 결과값 출력가능  
+제출용.pptx <- 최종 발표본

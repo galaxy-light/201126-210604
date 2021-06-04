@@ -1,0 +1,10 @@
+C:\Users\KB\source\repos\Chap06\Chap06\bin\Debug\Chap06.exe.config
+C:\Users\KB\source\repos\Chap06\Chap06\bin\Debug\Chap06.exe
+C:\Users\KB\source\repos\Chap06\Chap06\bin\Debug\Chap06.pdb
+C:\Users\KB\source\repos\Chap06\Chap06\obj\Debug\Chap06.csprojAssemblyReference.cache
+C:\Users\KB\source\repos\Chap06\Chap06\obj\Debug\Chap06.Form1.resources
+C:\Users\KB\source\repos\Chap06\Chap06\obj\Debug\Chap06.Properties.Resources.resources
+C:\Users\KB\source\repos\Chap06\Chap06\obj\Debug\Chap06.csproj.GenerateResource.cache
+C:\Users\KB\source\repos\Chap06\Chap06\obj\Debug\Chap06.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\Chap06\Chap06\obj\Debug\Chap06.exe
+C:\Users\KB\source\repos\Chap06\Chap06\obj\Debug\Chap06.pdb

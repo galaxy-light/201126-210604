@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* check박스를 체크하면, 그 바로 뒤에 있는 태그가 사라짐 */
+        input[type=checkbox]:checked+div
+        {
+            height:300px
+        }
+        /* 아직 안 배운거긴 하지만... */
+        div
+        {
+            overflow:hidden;
+            width: 650px;
+            height:0px;
+            -ms-transition-duration : 1s;
+            -webkit-transition-duration: 1s;
+            -moz-transition-duration: 1s;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox">
+    <div>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur autem dicta quaerat odit, obcaecati quasi voluptates accusamus ex sit facilis, soluta velit quas expedita illo minima? Mollitia perspiciatis nihil aspernatur reiciendis amet veniam ut, consectetur ea ullam eligendi error eos reprehenderit sit dolores eius quo ipsam, rem odit quam! Ducimus, ab dignissimos recusandae accusamus numquam suscipit quidem labore veniam rem accusantium deleniti laborum inventore amet hic earum ipsa provident repellat. Ipsum eveniet animi aspernatur! Officiis sed exercitationem, amet fuga repellat, quaerat doloribus pariatur quidem et praesentium, illum nostrum quisquam mollitia laudantium laboriosam earum. Labore repellat iure provident maxime quia cumque.</p>
+    </div>
+</body>
+</html>

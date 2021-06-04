@@ -1,0 +1,10 @@
+D:\Study_DJ\20201126_all\djlee\20210413\Chap05Answer\Chap05Answer\bin\Debug\Chap05Answer.exe.config
+D:\Study_DJ\20201126_all\djlee\20210413\Chap05Answer\Chap05Answer\bin\Debug\Chap05Answer.exe
+D:\Study_DJ\20201126_all\djlee\20210413\Chap05Answer\Chap05Answer\bin\Debug\Chap05Answer.pdb
+D:\Study_DJ\20201126_all\djlee\20210413\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\djlee\20210413\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.Form1.resources
+D:\Study_DJ\20201126_all\djlee\20210413\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.Properties.Resources.resources
+D:\Study_DJ\20201126_all\djlee\20210413\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\djlee\20210413\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djlee\20210413\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.exe
+D:\Study_DJ\20201126_all\djlee\20210413\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.pdb

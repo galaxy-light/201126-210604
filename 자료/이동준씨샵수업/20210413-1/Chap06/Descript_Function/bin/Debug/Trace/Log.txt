@@ -1,0 +1,4 @@
+[2021-04-14 10:29:41]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Int32.Parse(String s)
+   위치: Descript_Function.Form1.button5_Click(Object sender, EventArgs e) 파일 D:\Study_DJ\20201126_all\djlee\20210413\Chap06\Descript_Function\Form1.cs:줄 68.txt

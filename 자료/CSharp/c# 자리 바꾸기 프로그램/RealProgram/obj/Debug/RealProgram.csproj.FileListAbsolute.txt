@@ -1,0 +1,20 @@
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\bin\Debug\RealProgram.exe.config
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\bin\Debug\RealProgram.exe
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\bin\Debug\RealProgram.pdb
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.csprojAssemblyReference.cache
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.Form1.resources
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.Properties.Resources.resources
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.csproj.GenerateResource.cache
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.csproj.CoreCompileInputs.cache
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.exe
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.pdb
+D:\GitHub\20201126_all\c# 자리 바꾸기 프로그램\RealProgram\bin\Debug\RealProgram.exe.config
+D:\GitHub\20201126_all\c# 자리 바꾸기 프로그램\RealProgram\bin\Debug\RealProgram.exe
+D:\GitHub\20201126_all\c# 자리 바꾸기 프로그램\RealProgram\bin\Debug\RealProgram.pdb
+D:\GitHub\20201126_all\c# 자리 바꾸기 프로그램\RealProgram\obj\Debug\RealProgram.csprojAssemblyReference.cache
+D:\GitHub\20201126_all\c# 자리 바꾸기 프로그램\RealProgram\obj\Debug\RealProgram.Form1.resources
+D:\GitHub\20201126_all\c# 자리 바꾸기 프로그램\RealProgram\obj\Debug\RealProgram.Properties.Resources.resources
+D:\GitHub\20201126_all\c# 자리 바꾸기 프로그램\RealProgram\obj\Debug\RealProgram.csproj.GenerateResource.cache
+D:\GitHub\20201126_all\c# 자리 바꾸기 프로그램\RealProgram\obj\Debug\RealProgram.csproj.CoreCompileInputs.cache
+D:\GitHub\20201126_all\c# 자리 바꾸기 프로그램\RealProgram\obj\Debug\RealProgram.exe
+D:\GitHub\20201126_all\c# 자리 바꾸기 프로그램\RealProgram\obj\Debug\RealProgram.pdb

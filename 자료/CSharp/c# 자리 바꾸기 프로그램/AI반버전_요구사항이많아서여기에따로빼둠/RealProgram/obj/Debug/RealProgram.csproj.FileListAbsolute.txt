@@ -1,0 +1,20 @@
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\bin\Debug\RealProgram.exe.config
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\bin\Debug\RealProgram.exe
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\bin\Debug\RealProgram.pdb
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.csprojAssemblyReference.cache
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.Form1.resources
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.Properties.Resources.resources
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.csproj.GenerateResource.cache
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.csproj.CoreCompileInputs.cache
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.exe
+D:\GitHub\Xenoint\AI반_20210111개강\ClassRoomPosition\ClassRoom501\RealProgram\obj\Debug\RealProgram.pdb
+D:\Study_DJ\20201126_all\c# 자리 바꾸기 프로그램\AI반버전_요구사항이많아서여기에따로빼둠\RealProgram\bin\Debug\RealProgram.exe.config
+D:\Study_DJ\20201126_all\c# 자리 바꾸기 프로그램\AI반버전_요구사항이많아서여기에따로빼둠\RealProgram\bin\Debug\RealProgram.exe
+D:\Study_DJ\20201126_all\c# 자리 바꾸기 프로그램\AI반버전_요구사항이많아서여기에따로빼둠\RealProgram\bin\Debug\RealProgram.pdb
+D:\Study_DJ\20201126_all\c# 자리 바꾸기 프로그램\AI반버전_요구사항이많아서여기에따로빼둠\RealProgram\obj\Debug\RealProgram.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\c# 자리 바꾸기 프로그램\AI반버전_요구사항이많아서여기에따로빼둠\RealProgram\obj\Debug\RealProgram.Form1.resources
+D:\Study_DJ\20201126_all\c# 자리 바꾸기 프로그램\AI반버전_요구사항이많아서여기에따로빼둠\RealProgram\obj\Debug\RealProgram.Properties.Resources.resources
+D:\Study_DJ\20201126_all\c# 자리 바꾸기 프로그램\AI반버전_요구사항이많아서여기에따로빼둠\RealProgram\obj\Debug\RealProgram.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\c# 자리 바꾸기 프로그램\AI반버전_요구사항이많아서여기에따로빼둠\RealProgram\obj\Debug\RealProgram.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\c# 자리 바꾸기 프로그램\AI반버전_요구사항이많아서여기에따로빼둠\RealProgram\obj\Debug\RealProgram.exe
+D:\Study_DJ\20201126_all\c# 자리 바꾸기 프로그램\AI반버전_요구사항이많아서여기에따로빼둠\RealProgram\obj\Debug\RealProgram.pdb

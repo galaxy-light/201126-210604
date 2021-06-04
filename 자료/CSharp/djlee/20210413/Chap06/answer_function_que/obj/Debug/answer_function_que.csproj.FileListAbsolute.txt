@@ -1,0 +1,10 @@
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\answer_function_que\bin\Debug\answer_function_que.exe.config
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\answer_function_que\bin\Debug\answer_function_que.exe
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\answer_function_que\bin\Debug\answer_function_que.pdb
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\answer_function_que\obj\Debug\answer_function_que.Form1.resources
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\answer_function_que\obj\Debug\answer_function_que.Properties.Resources.resources
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\answer_function_que\obj\Debug\answer_function_que.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\answer_function_que\obj\Debug\answer_function_que.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\answer_function_que\obj\Debug\answer_function_que.exe
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\answer_function_que\obj\Debug\answer_function_que.pdb
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\answer_function_que\obj\Debug\answer_function_que.csprojAssemblyReference.cache

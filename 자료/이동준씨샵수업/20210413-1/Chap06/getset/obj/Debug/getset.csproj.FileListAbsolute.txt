@@ -1,0 +1,10 @@
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\getset\bin\Debug\getset.exe.config
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\getset\bin\Debug\getset.exe
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\getset\bin\Debug\getset.pdb
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\getset\obj\Debug\getset.Form1.resources
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\getset\obj\Debug\getset.Properties.Resources.resources
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\getset\obj\Debug\getset.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\getset\obj\Debug\getset.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\getset\obj\Debug\getset.exe
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\getset\obj\Debug\getset.pdb
+D:\Study_DJ\20201126_all\djlee\20210413\Chap06\getset\obj\Debug\getset.csprojAssemblyReference.cache

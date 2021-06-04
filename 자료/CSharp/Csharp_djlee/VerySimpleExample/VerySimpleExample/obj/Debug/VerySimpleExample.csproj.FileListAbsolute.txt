@@ -1,0 +1,10 @@
+D:\Study_DJ\20201126_all\Csharp_djlee\VerySimpleExample\VerySimpleExample\bin\Debug\VerySimpleExample.exe.config
+D:\Study_DJ\20201126_all\Csharp_djlee\VerySimpleExample\VerySimpleExample\bin\Debug\VerySimpleExample.exe
+D:\Study_DJ\20201126_all\Csharp_djlee\VerySimpleExample\VerySimpleExample\bin\Debug\VerySimpleExample.pdb
+D:\Study_DJ\20201126_all\Csharp_djlee\VerySimpleExample\VerySimpleExample\obj\Debug\VerySimpleExample.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\Csharp_djlee\VerySimpleExample\VerySimpleExample\obj\Debug\VerySimpleExample.Form1.resources
+D:\Study_DJ\20201126_all\Csharp_djlee\VerySimpleExample\VerySimpleExample\obj\Debug\VerySimpleExample.Properties.Resources.resources
+D:\Study_DJ\20201126_all\Csharp_djlee\VerySimpleExample\VerySimpleExample\obj\Debug\VerySimpleExample.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\Csharp_djlee\VerySimpleExample\VerySimpleExample\obj\Debug\VerySimpleExample.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\Csharp_djlee\VerySimpleExample\VerySimpleExample\obj\Debug\VerySimpleExample.exe
+D:\Study_DJ\20201126_all\Csharp_djlee\VerySimpleExample\VerySimpleExample\obj\Debug\VerySimpleExample.pdb

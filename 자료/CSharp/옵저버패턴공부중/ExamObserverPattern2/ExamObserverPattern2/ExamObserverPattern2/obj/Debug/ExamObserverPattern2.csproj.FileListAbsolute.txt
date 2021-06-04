@@ -1,0 +1,12 @@
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\bin\Debug\ExamObserverPattern2.exe.config
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\bin\Debug\ExamObserverPattern2.exe
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\bin\Debug\ExamObserverPattern2.pdb
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\obj\Debug\ExamObserverPattern2.MainForm.resources
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\obj\Debug\ExamObserverPattern2.Properties.Resources.resources
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\obj\Debug\ExamObserverPattern2.SubForm1.resources
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\obj\Debug\ExamObserverPattern2.SubForm2.resources
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\obj\Debug\ExamObserverPattern2.csproj.GenerateResource.cache
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\obj\Debug\ExamObserverPattern2.csproj.CoreCompileInputs.cache
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\obj\Debug\ExamObserverPattern2.exe
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\obj\Debug\ExamObserverPattern2.pdb
+D:\GitHub\20201126_all\옵저버패턴공부중\ExamObserverPattern2\ExamObserverPattern2\ExamObserverPattern2\obj\Debug\ExamObserverPattern2.RemoveTest.resources

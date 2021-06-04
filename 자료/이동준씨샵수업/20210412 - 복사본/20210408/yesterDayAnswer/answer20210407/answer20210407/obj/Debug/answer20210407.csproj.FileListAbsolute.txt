@@ -1,0 +1,7 @@
+D:\Study_DJ\20201126_all\djlee\20210408\yesterDayAnswer\answer20210407\answer20210407\bin\Debug\answer20210407.exe.config
+D:\Study_DJ\20201126_all\djlee\20210408\yesterDayAnswer\answer20210407\answer20210407\bin\Debug\answer20210407.exe
+D:\Study_DJ\20201126_all\djlee\20210408\yesterDayAnswer\answer20210407\answer20210407\bin\Debug\answer20210407.pdb
+D:\Study_DJ\20201126_all\djlee\20210408\yesterDayAnswer\answer20210407\answer20210407\obj\Debug\answer20210407.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\djlee\20210408\yesterDayAnswer\answer20210407\answer20210407\obj\Debug\answer20210407.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djlee\20210408\yesterDayAnswer\answer20210407\answer20210407\obj\Debug\answer20210407.exe
+D:\Study_DJ\20201126_all\djlee\20210408\yesterDayAnswer\answer20210407\answer20210407\obj\Debug\answer20210407.pdb
