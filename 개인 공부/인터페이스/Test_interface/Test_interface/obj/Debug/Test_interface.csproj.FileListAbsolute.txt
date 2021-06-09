@@ -1,0 +1,7 @@
+D:\중요\Desktop\School\개인 공부\인터페이스\Test_interface\Test_interface\bin\Debug\Test_interface.exe.config
+D:\중요\Desktop\School\개인 공부\인터페이스\Test_interface\Test_interface\bin\Debug\Test_interface.exe
+D:\중요\Desktop\School\개인 공부\인터페이스\Test_interface\Test_interface\bin\Debug\Test_interface.pdb
+D:\중요\Desktop\School\개인 공부\인터페이스\Test_interface\Test_interface\obj\Debug\Test_interface.csprojAssemblyReference.cache
+D:\중요\Desktop\School\개인 공부\인터페이스\Test_interface\Test_interface\obj\Debug\Test_interface.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\개인 공부\인터페이스\Test_interface\Test_interface\obj\Debug\Test_interface.exe
+D:\중요\Desktop\School\개인 공부\인터페이스\Test_interface\Test_interface\obj\Debug\Test_interface.pdb
