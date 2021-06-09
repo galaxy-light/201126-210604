@@ -19,15 +19,10 @@
         //});
 
         $(document).ready(function(){
-            $(".btn").hover(function(){
-                $(this).css({
-                    "background" : "skyblue",
-                    "transition" : "0.7s"})
-            },function(){
-                $(this).css({
-                    "background" : "pink",
-                    "transition" : "0.5s"})
-            });
+            // 이미지를 클릭하면 이미지가 변경됨
+           $(".cooking > img").click(function(){
+               $(this).attr("src","img/0 (2).jpg")
+           })
         });
     </script>
     <style>
