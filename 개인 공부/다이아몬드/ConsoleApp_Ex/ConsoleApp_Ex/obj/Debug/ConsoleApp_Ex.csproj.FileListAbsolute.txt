@@ -1,0 +1,7 @@
+D:\중요\Desktop\School\개인 공부\다이아몬드\ConsoleApp_Ex\ConsoleApp_Ex\bin\Debug\ConsoleApp_Ex.exe.config
+D:\중요\Desktop\School\개인 공부\다이아몬드\ConsoleApp_Ex\ConsoleApp_Ex\bin\Debug\ConsoleApp_Ex.exe
+D:\중요\Desktop\School\개인 공부\다이아몬드\ConsoleApp_Ex\ConsoleApp_Ex\bin\Debug\ConsoleApp_Ex.pdb
+D:\중요\Desktop\School\개인 공부\다이아몬드\ConsoleApp_Ex\ConsoleApp_Ex\obj\Debug\ConsoleApp_Ex.csprojAssemblyReference.cache
+D:\중요\Desktop\School\개인 공부\다이아몬드\ConsoleApp_Ex\ConsoleApp_Ex\obj\Debug\ConsoleApp_Ex.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\개인 공부\다이아몬드\ConsoleApp_Ex\ConsoleApp_Ex\obj\Debug\ConsoleApp_Ex.exe
+D:\중요\Desktop\School\개인 공부\다이아몬드\ConsoleApp_Ex\ConsoleApp_Ex\obj\Debug\ConsoleApp_Ex.pdb
