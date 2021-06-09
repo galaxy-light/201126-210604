@@ -5,3 +5,10 @@ C:\Users\KB\Desktop\totototo\201126-210604\210408\ConsoleApp0408\ConsoleApp0408\
 C:\Users\KB\Desktop\totototo\201126-210604\210408\ConsoleApp0408\ConsoleApp0408\obj\Debug\ConsoleApp0408.csproj.CoreCompileInputs.cache
 C:\Users\KB\Desktop\totototo\201126-210604\210408\ConsoleApp0408\ConsoleApp0408\obj\Debug\ConsoleApp0408.exe
 C:\Users\KB\Desktop\totototo\201126-210604\210408\ConsoleApp0408\ConsoleApp0408\obj\Debug\ConsoleApp0408.pdb
+D:\중요\Desktop\School\210408\ConsoleApp0408\ConsoleApp0408\bin\Debug\ConsoleApp0408.exe.config
+D:\중요\Desktop\School\210408\ConsoleApp0408\ConsoleApp0408\bin\Debug\ConsoleApp0408.exe
+D:\중요\Desktop\School\210408\ConsoleApp0408\ConsoleApp0408\bin\Debug\ConsoleApp0408.pdb
+D:\중요\Desktop\School\210408\ConsoleApp0408\ConsoleApp0408\obj\Debug\ConsoleApp0408.csprojAssemblyReference.cache
+D:\중요\Desktop\School\210408\ConsoleApp0408\ConsoleApp0408\obj\Debug\ConsoleApp0408.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\210408\ConsoleApp0408\ConsoleApp0408\obj\Debug\ConsoleApp0408.exe
+D:\중요\Desktop\School\210408\ConsoleApp0408\ConsoleApp0408\obj\Debug\ConsoleApp0408.pdb
