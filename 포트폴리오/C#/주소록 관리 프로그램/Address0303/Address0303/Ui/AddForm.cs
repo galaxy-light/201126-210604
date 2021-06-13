@@ -59,7 +59,7 @@ namespace Address0303.Ui
 
             if (AddName.Text != "" && AddTel.Text != "" && AddAddress.Text != "" && AddEmail.Text != "")
             {                
-                Address0324.DB.MYSQL.InsertDB(AddName.Text, AddTel.Text, AddAddress.Text, AddEmail.Text);
+                Address0324.DB.MSSQL.InsertDB(AddName.Text, AddTel.Text, AddAddress.Text, AddEmail.Text);
                 MessageBox.Show("정보 등록에 성공했습니다.");
             }
             else

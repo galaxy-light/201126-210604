@@ -75,7 +75,6 @@ D:\중요\Desktop\School\포트폴리오\C#\주소록 관리 프로그램\Addres
 D:\중요\Desktop\School\포트폴리오\C#\주소록 관리 프로그램\Address0303\Address0303\bin\Release\SunnyUI.dll
 D:\중요\Desktop\School\포트폴리오\C#\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0324.csprojAssemblyReference.cache
 D:\중요\Desktop\School\포트폴리오\C#\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0303.Ui.AddForm.resources
-D:\중요\Desktop\School\포트폴리오\C#\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0308.Ui.DelForm.resources
 D:\중요\Desktop\School\포트폴리오\C#\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0303.Ui.UpdateForm.resources
 D:\중요\Desktop\School\포트폴리오\C#\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0303.MainForm.resources
 D:\중요\Desktop\School\포트폴리오\C#\주소록 관리 프로그램\Address0303\Address0303\obj\Release\Address0324.Properties.Resources.resources

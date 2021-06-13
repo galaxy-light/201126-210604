@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 
 namespace Address0324.DB
 {
-    internal class MYSQL
+    internal class MSSQL
     {
         public static SqlConnection conn = new SqlConnection();
 

@@ -65,7 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\AdderessCtrl.cs" />
-    <Compile Include="DB\MYSQL.cs" />
+    <Compile Include="DB\MSSQL.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Ui\AddForm.cs">
       <SubType>Form</SubType>

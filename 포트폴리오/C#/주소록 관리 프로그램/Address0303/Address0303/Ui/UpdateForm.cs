@@ -37,7 +37,7 @@ namespace Address0303.Ui
 
         private void datarefresh()
         {
-            ds = Address0324.DB.MYSQL.Query_Select("My_Address");
+            ds = Address0324.DB.MSSQL.Query_Select("My_Address");
             dataGridView1.DataSource = ds;
             dataGridView1.DataMember = "My_Address";
         }        
@@ -56,7 +56,7 @@ namespace Address0303.Ui
         {
             if (exnameBox.Text != "" && extelBox.Text != "" && exaddressBox.Text != "" && extelBox.Text != "")
             {
-                Address0324.DB.MYSQL.UpdateDB(exnameBox.Text, extelBox.Text, exaddressBox.Text, exemailBox.Text);
+                Address0324.DB.MSSQL.UpdateDB(exnameBox.Text, extelBox.Text, exaddressBox.Text, exemailBox.Text);
                 MessageBox.Show("정보가 수정되었습니다.");
                 datarefresh();
                 cleartext();
@@ -90,7 +90,7 @@ namespace Address0303.Ui
         {
             if (exnameBox.Text != "" && extelBox.Text != "" && exaddressBox.Text != "" && extelBox.Text != "")
             {
-                Address0324.DB.MYSQL.DeleteDB(exnameBox.Text);
+                Address0324.DB.MSSQL.DeleteDB(exnameBox.Text);
                 MessageBox.Show("정보가 삭제되었습니다.");
                 datarefresh();
                 cleartext();

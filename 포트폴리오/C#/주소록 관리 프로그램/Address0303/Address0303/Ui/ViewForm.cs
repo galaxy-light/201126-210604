@@ -88,7 +88,7 @@ namespace Address0303.Ui
 
         private void showGridView()
         {
-            ds = Address0324.DB.MYSQL.Query_Select("My_Address");
+            ds = Address0324.DB.MSSQL.Query_Select("My_Address");
             dataGridView1.DataSource = ds;
             dataGridView1.DataMember = "My_Address";
         }
