@@ -11,7 +11,7 @@
 <style>
 	div.jumbotron{
 		background-color: white;
-		background-image: url(./img/back.jpg);
+		background-image: url(./img/back1.jpg);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
